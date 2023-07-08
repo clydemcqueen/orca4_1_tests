@@ -1,0 +1,7 @@
+===================
+Reading ./2023_05_21_2nd/2023-05-21 11-45-24.tlog
+Parsing messages
+8767 messages
+DISTANCE_SENSOR.rate summary: 8767 messages in 1068.04 seconds for 8.21 mps, without gaps 8.21 mps
+Writing csv files
+Writing 8767 rows to ./2023_05_21_2nd/2023-05-21 11-45-24_DISTANCE_SENSOR.csv

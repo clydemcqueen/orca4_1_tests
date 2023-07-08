@@ -1,0 +1,12 @@
+===================
+Reading ./2023_04_23_surftrak4/2023-04-23 14-46-51.tlog
+Parsing messages
+12947 messages
+NOTE: 8.05s gap detected while generating DISTANCE_SENSOR.rate
+NOTE: 8.89s gap detected while generating DISTANCE_SENSOR.rate
+NOTE: 5.46s gap detected while generating DISTANCE_SENSOR.rate
+NOTE: 10.85s gap detected while generating DISTANCE_SENSOR.rate
+NOTE: 4.07s gap detected while generating DISTANCE_SENSOR.rate
+DISTANCE_SENSOR.rate summary: 12947 messages in 1746.53 seconds for 7.41 mps, without gaps 7.57 mps
+Writing csv files
+Writing 12947 rows to ./2023_04_23_surftrak4/2023-04-23 14-46-51_DISTANCE_SENSOR.csv

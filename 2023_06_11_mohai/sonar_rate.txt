@@ -1,0 +1,8 @@
+===================
+Reading ./2023_06_11_mohai/2023-06-11 07-22-09.tlog
+Parsing messages
+4530 messages
+NOTE: 4.42s gap detected while generating DISTANCE_SENSOR.rate
+DISTANCE_SENSOR.rate summary: 4530 messages in 556.43 seconds for 8.14 mps, without gaps 8.21 mps
+Writing csv files
+Writing 4530 rows to ./2023_06_11_mohai/2023-06-11 07-22-09_DISTANCE_SENSOR.csv

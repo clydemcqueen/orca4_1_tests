@@ -1,0 +1,30 @@
+===================
+Reading ./2023_06_20_beckett/2023-06-20 07-48-02.tlog
+Parsing messages
+3230 messages
+NOTE: 8.17s gap detected while generating DISTANCE_SENSOR.rate
+DISTANCE_SENSOR.rate summary: 3230 messages in 1083.49 seconds for 2.98 mps, without gaps 3.00 mps
+Writing csv files
+Writing 3230 rows to ./2023_06_20_beckett/2023-06-20 07-48-02_DISTANCE_SENSOR.csv
+===================
+Reading ./2023_06_20_beckett/2023-06-20 08-30-23.tlog
+Parsing messages
+3346 messages
+DISTANCE_SENSOR.rate summary: 3346 messages in 1067.84 seconds for 3.13 mps, without gaps 3.13 mps
+Writing csv files
+Writing 3346 rows to ./2023_06_20_beckett/2023-06-20 08-30-23_DISTANCE_SENSOR.csv
+===================
+Reading ./2023_06_20_beckett/2023-06-20 08-40-04.tlog
+Parsing messages
+363 messages
+NOTE: 5.34s gap detected while generating DISTANCE_SENSOR.rate
+NOTE: 4.08s gap detected while generating DISTANCE_SENSOR.rate
+NOTE: 5.47s gap detected while generating DISTANCE_SENSOR.rate
+NOTE: 5.07s gap detected while generating DISTANCE_SENSOR.rate
+NOTE: 6.44s gap detected while generating DISTANCE_SENSOR.rate
+NOTE: 7.66s gap detected while generating DISTANCE_SENSOR.rate
+NOTE: 4.05s gap detected while generating DISTANCE_SENSOR.rate
+NOTE: 12.95s gap detected while generating DISTANCE_SENSOR.rate
+DISTANCE_SENSOR.rate summary: 363 messages in 304.77 seconds for 1.19 mps, without gaps 1.43 mps
+Writing csv files
+Writing 363 rows to ./2023_06_20_beckett/2023-06-20 08-40-04_DISTANCE_SENSOR.csv

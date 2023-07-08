@@ -1,0 +1,14 @@
+===================
+Reading ./2023_05_21_beckett/2023-05-21 07-45-29.tlog
+Parsing messages
+181 messages
+DISTANCE_SENSOR.rate summary: 181 messages in 87.30 seconds for 2.07 mps, without gaps 2.07 mps
+Writing csv files
+Writing 181 rows to ./2023_05_21_beckett/2023-05-21 07-45-29_DISTANCE_SENSOR.csv
+===================
+Reading ./2023_05_21_beckett/2023-05-21 08-12-47.tlog
+Parsing messages
+8402 messages
+DISTANCE_SENSOR.rate summary: 8402 messages in 929.35 seconds for 9.04 mps, without gaps 9.04 mps
+Writing csv files
+Writing 8402 rows to ./2023_05_21_beckett/2023-05-21 08-12-47_DISTANCE_SENSOR.csv

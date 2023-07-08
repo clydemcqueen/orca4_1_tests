@@ -1,0 +1,25 @@
+===================
+Reading ./2023_06_11_fremont/2023-06-11 11-18-41.tlog
+Parsing messages
+8288 messages
+NOTE: 4.01s gap detected while generating DISTANCE_SENSOR.rate
+NOTE: 6.17s gap detected while generating DISTANCE_SENSOR.rate
+NOTE: 6.35s gap detected while generating DISTANCE_SENSOR.rate
+NOTE: 7.87s gap detected while generating DISTANCE_SENSOR.rate
+NOTE: 10.49s gap detected while generating DISTANCE_SENSOR.rate
+NOTE: 5.50s gap detected while generating DISTANCE_SENSOR.rate
+NOTE: 4.24s gap detected while generating DISTANCE_SENSOR.rate
+DISTANCE_SENSOR.rate summary: 8288 messages in 1045.26 seconds for 7.93 mps, without gaps 8.28 mps
+Writing csv files
+Writing 8288 rows to ./2023_06_11_fremont/2023-06-11 11-18-41_DISTANCE_SENSOR.csv
+===================
+Reading ./2023_06_11_fremont/2023-06-11 11-46-38.tlog
+Parsing messages
+12078 messages
+NOTE: 5.65s gap detected while generating DISTANCE_SENSOR.rate
+NOTE: 4.04s gap detected while generating DISTANCE_SENSOR.rate
+NOTE: 4.04s gap detected while generating DISTANCE_SENSOR.rate
+NOTE: 25.18s gap detected while generating DISTANCE_SENSOR.rate
+DISTANCE_SENSOR.rate summary: 12078 messages in 1472.77 seconds for 8.20 mps, without gaps 8.42 mps
+Writing csv files
+Writing 12078 rows to ./2023_06_11_fremont/2023-06-11 11-46-38_DISTANCE_SENSOR.csv
