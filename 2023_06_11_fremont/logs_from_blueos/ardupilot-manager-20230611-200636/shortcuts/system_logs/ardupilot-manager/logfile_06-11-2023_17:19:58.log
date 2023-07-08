@@ -1,0 +1,354 @@
+2023-06-11 18:42:16.407 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:37990 - "GET /v1.0/vehicle_type HTTP/1.0" 200
+2023-06-11 18:42:19.202 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:50 - Trying to detect Linux board.
+2023-06-11 18:42:19.207 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:38160 - "GET /v1.0/board HTTP/1.0" 200
+2023-06-11 18:42:19.215 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:52 - Navigator R5 detected.
+2023-06-11 18:42:19.234 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:38162 - "GET /v1.0/firmware_info HTTP/1.0" 200
+2023-06-11 18:42:19.255 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:38164 - "GET /v1.0/available_boards HTTP/1.0" 200
+2023-06-11 18:42:22.506 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:38276 - "GET /v1.0/vehicle_type HTTP/1.0" 200
+2023-06-11 18:42:24.310 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:50 - Trying to detect Linux board.
+2023-06-11 18:42:24.317 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:52 - Navigator R5 detected.
+2023-06-11 18:42:24.321 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:38414 - "GET /v1.0/board HTTP/1.0" 200
+2023-06-11 18:42:24.341 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:38416 - "GET /v1.0/firmware_info HTTP/1.0" 200
+2023-06-11 18:42:24.358 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:38418 - "GET /v1.0/available_boards HTTP/1.0" 200
+2023-06-11 18:42:28.562 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:38576 - "GET /v1.0/vehicle_type HTTP/1.0" 200
+2023-06-11 18:42:29.416 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:50 - Trying to detect Linux board.
+2023-06-11 18:42:29.422 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:38658 - "GET /v1.0/board HTTP/1.0" 200
+2023-06-11 18:42:29.426 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:52 - Navigator R5 detected.
+2023-06-11 18:42:29.445 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:38664 - "GET /v1.0/firmware_info HTTP/1.0" 200
+2023-06-11 18:42:29.462 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:38666 - "GET /v1.0/available_boards HTTP/1.0" 200
+2023-06-11 18:42:34.558 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:50 - Trying to detect Linux board.
+2023-06-11 18:42:34.563 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:38912 - "GET /v1.0/board HTTP/1.0" 200
+2023-06-11 18:42:34.571 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:52 - Navigator R5 detected.
+2023-06-11 18:42:34.602 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:38914 - "GET /v1.0/firmware_info HTTP/1.0" 200
+2023-06-11 18:42:34.623 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:38916 - "GET /v1.0/available_boards HTTP/1.0" 200
+2023-06-11 18:42:34.627 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:38864 - "GET /v1.0/vehicle_type HTTP/1.0" 200
+2023-06-11 18:42:39.718 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:50 - Trying to detect Linux board.
+2023-06-11 18:42:39.722 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:52 - Navigator R5 detected.
+2023-06-11 18:42:39.727 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:39150 - "GET /v1.0/board HTTP/1.0" 200
+2023-06-11 18:42:39.777 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:39156 - "GET /v1.0/firmware_info HTTP/1.0" 200
+2023-06-11 18:42:39.788 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:39158 - "GET /v1.0/available_boards HTTP/1.0" 200
+2023-06-11 18:42:40.803 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:39160 - "GET /v1.0/vehicle_type HTTP/1.0" 200
+2023-06-11 18:42:44.843 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:50 - Trying to detect Linux board.
+2023-06-11 18:42:44.847 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:52 - Navigator R5 detected.
+2023-06-11 18:42:44.918 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:39548 - "GET /v1.0/board HTTP/1.0" 200
+2023-06-11 18:42:44.934 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:39552 - "GET /v1.0/available_boards HTTP/1.0" 200
+2023-06-11 18:42:44.965 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:39550 - "GET /v1.0/firmware_info HTTP/1.0" 200
+2023-06-11 18:42:45.990 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:39760 - "GET / HTTP/1.1" 200
+2023-06-11 18:42:46.024 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:39762 - "GET /register_service HTTP/1.1" 404
+2023-06-11 18:42:46.035 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:39764 - "GET /docs HTTP/1.1" 200
+2023-06-11 18:42:46.047 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:39766 - "GET /docs.json HTTP/1.1" 404
+2023-06-11 18:42:46.061 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:39768 - "GET /openapi.json HTTP/1.1" 200
+2023-06-11 18:42:46.074 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:39770 - "GET /v1.0/docs HTTP/1.1" 200
+2023-06-11 18:42:46.092 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:39772 - "GET /v1.0/openapi.json HTTP/1.1" 200
+2023-06-11 18:42:46.104 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:39778 - "GET /swagger.json HTTP/1.1" 404
+2023-06-11 18:42:46.875 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:39716 - "GET /v1.0/vehicle_type HTTP/1.0" 200
+2023-06-11 18:42:49.954 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:50 - Trying to detect Linux board.
+2023-06-11 18:42:49.958 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:39996 - "GET /v1.0/board HTTP/1.0" 200
+2023-06-11 18:42:49.960 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:52 - Navigator R5 detected.
+2023-06-11 18:42:49.982 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:39998 - "GET /v1.0/available_boards HTTP/1.0" 200
+2023-06-11 18:42:50.027 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:40004 - "GET /v1.0/firmware_info HTTP/1.0" 200
+2023-06-11 18:42:52.939 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:40090 - "GET /v1.0/vehicle_type HTTP/1.0" 200
+2023-06-11 18:42:55.076 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:50 - Trying to detect Linux board.
+2023-06-11 18:42:55.080 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:40242 - "GET /v1.0/board HTTP/1.0" 200
+2023-06-11 18:42:55.086 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:52 - Navigator R5 detected.
+2023-06-11 18:42:55.125 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:40250 - "GET /v1.0/firmware_info HTTP/1.0" 200
+2023-06-11 18:42:55.166 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:40244 - "GET /v1.0/available_boards HTTP/1.0" 200
+2023-06-11 18:42:58.992 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:40386 - "GET /v1.0/vehicle_type HTTP/1.0" 200
+2023-06-11 18:43:00.186 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:40486 - "GET /v1.0/board HTTP/1.0" 200
+2023-06-11 18:43:00.196 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:50 - Trying to detect Linux board.
+2023-06-11 18:43:00.200 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:52 - Navigator R5 detected.
+2023-06-11 18:43:00.220 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:40488 - "GET /v1.0/firmware_info HTTP/1.0" 200
+2023-06-11 18:43:00.232 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:40494 - "GET /v1.0/available_boards HTTP/1.0" 200
+2023-06-11 18:43:05.060 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:40666 - "GET /v1.0/vehicle_type HTTP/1.0" 200
+2023-06-11 18:43:05.297 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:50 - Trying to detect Linux board.
+2023-06-11 18:43:05.301 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:40732 - "GET /v1.0/board HTTP/1.0" 200
+2023-06-11 18:43:05.307 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:52 - Navigator R5 detected.
+2023-06-11 18:43:05.331 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:40734 - "GET /v1.0/firmware_info HTTP/1.0" 200
+2023-06-11 18:43:05.352 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:40736 - "GET /v1.0/available_boards HTTP/1.0" 200
+2023-06-11 18:43:10.434 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:50 - Trying to detect Linux board.
+2023-06-11 18:43:10.439 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:40978 - "GET /v1.0/board HTTP/1.0" 200
+2023-06-11 18:43:10.441 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:52 - Navigator R5 detected.
+2023-06-11 18:43:10.467 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:40980 - "GET /v1.0/firmware_info HTTP/1.0" 200
+2023-06-11 18:43:10.484 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:40982 - "GET /v1.0/available_boards HTTP/1.0" 200
+2023-06-11 18:43:11.142 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:40952 - "GET /v1.0/vehicle_type HTTP/1.0" 200
+2023-06-11 18:43:15.580 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:50 - Trying to detect Linux board.
+2023-06-11 18:43:15.588 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:41218 - "GET /v1.0/board HTTP/1.0" 200
+2023-06-11 18:43:15.590 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:52 - Navigator R5 detected.
+2023-06-11 18:43:15.615 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:41220 - "GET /v1.0/firmware_info HTTP/1.0" 200
+2023-06-11 18:43:15.632 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:41222 - "GET /v1.0/available_boards HTTP/1.0" 200
+2023-06-11 18:43:17.239 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:41254 - "GET /v1.0/vehicle_type HTTP/1.0" 200
+2023-06-11 18:43:20.735 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:50 - Trying to detect Linux board.
+2023-06-11 18:43:20.739 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:41460 - "GET /v1.0/board HTTP/1.0" 200
+2023-06-11 18:43:20.744 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:52 - Navigator R5 detected.
+2023-06-11 18:43:20.762 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:41462 - "GET /v1.0/firmware_info HTTP/1.0" 200
+2023-06-11 18:43:20.786 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:41468 - "GET /v1.0/available_boards HTTP/1.0" 200
+2023-06-11 18:43:23.301 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:41546 - "GET /v1.0/vehicle_type HTTP/1.0" 200
+2023-06-11 18:43:25.908 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:50 - Trying to detect Linux board.
+2023-06-11 18:43:25.913 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:41720 - "GET /v1.0/board HTTP/1.0" 200
+2023-06-11 18:43:25.914 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:52 - Navigator R5 detected.
+2023-06-11 18:43:25.953 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:41724 - "GET /v1.0/firmware_info HTTP/1.0" 200
+2023-06-11 18:43:25.962 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:41726 - "GET /v1.0/available_boards HTTP/1.0" 200
+2023-06-11 18:43:29.388 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:41848 - "GET /v1.0/vehicle_type HTTP/1.0" 200
+2023-06-11 18:43:31.069 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:50 - Trying to detect Linux board.
+2023-06-11 18:43:31.082 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:41974 - "GET /v1.0/board HTTP/1.0" 200
+2023-06-11 18:43:31.084 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:52 - Navigator R5 detected.
+2023-06-11 18:43:31.117 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:41976 - "GET /v1.0/firmware_info HTTP/1.0" 200
+2023-06-11 18:43:31.129 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:41978 - "GET /v1.0/available_boards HTTP/1.0" 200
+2023-06-11 18:43:35.459 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:42142 - "GET /v1.0/vehicle_type HTTP/1.0" 200
+2023-06-11 18:43:36.216 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:50 - Trying to detect Linux board.
+2023-06-11 18:43:36.222 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:52 - Navigator R5 detected.
+2023-06-11 18:43:36.227 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:42234 - "GET /v1.0/board HTTP/1.0" 200
+2023-06-11 18:43:36.258 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:42236 - "GET /v1.0/firmware_info HTTP/1.0" 200
+2023-06-11 18:43:36.274 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:42238 - "GET /v1.0/available_boards HTTP/1.0" 200
+2023-06-11 18:43:41.396 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:50 - Trying to detect Linux board.
+2023-06-11 18:43:41.405 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:42480 - "GET /v1.0/board HTTP/1.0" 200
+2023-06-11 18:43:41.413 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:52 - Navigator R5 detected.
+2023-06-11 18:43:41.439 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:42482 - "GET /v1.0/firmware_info HTTP/1.0" 200
+2023-06-11 18:43:41.458 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:42484 - "GET /v1.0/available_boards HTTP/1.0" 200
+2023-06-11 18:43:41.536 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:42432 - "GET /v1.0/vehicle_type HTTP/1.0" 200
+2023-06-11 18:43:46.537 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:50 - Trying to detect Linux board.
+2023-06-11 18:43:46.542 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:42728 - "GET /v1.0/board HTTP/1.0" 200
+2023-06-11 18:43:46.547 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:52 - Navigator R5 detected.
+2023-06-11 18:43:46.573 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:42734 - "GET /v1.0/firmware_info HTTP/1.0" 200
+2023-06-11 18:43:46.607 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:42736 - "GET /v1.0/available_boards HTTP/1.0" 200
+2023-06-11 18:43:47.620 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:42750 - "GET /v1.0/vehicle_type HTTP/1.0" 200
+2023-06-11 18:43:51.706 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:50 - Trying to detect Linux board.
+2023-06-11 18:43:51.710 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:42982 - "GET /v1.0/board HTTP/1.0" 200
+2023-06-11 18:43:51.712 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:52 - Navigator R5 detected.
+2023-06-11 18:43:51.740 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:42984 - "GET /v1.0/firmware_info HTTP/1.0" 200
+2023-06-11 18:43:51.755 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:42986 - "GET /v1.0/available_boards HTTP/1.0" 200
+2023-06-11 18:43:54.395 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:43032 - "GET /v1.0/vehicle_type HTTP/1.0" 200
+2023-06-11 18:43:56.868 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:50 - Trying to detect Linux board.
+2023-06-11 18:43:56.873 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:52 - Navigator R5 detected.
+2023-06-11 18:43:56.876 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:43346 - "GET /v1.0/board HTTP/1.0" 200
+2023-06-11 18:43:56.914 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:43358 - "GET /v1.0/firmware_info HTTP/1.0" 200
+2023-06-11 18:43:56.942 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:43360 - "GET /v1.0/available_boards HTTP/1.0" 200
+2023-06-11 18:43:57.628 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:43490 - "GET / HTTP/1.1" 200
+2023-06-11 18:43:57.666 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:43492 - "GET /register_service HTTP/1.1" 404
+2023-06-11 18:43:57.678 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:43494 - "GET /docs HTTP/1.1" 200
+2023-06-11 18:43:57.693 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:43496 - "GET /docs.json HTTP/1.1" 404
+2023-06-11 18:43:57.704 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:43498 - "GET /openapi.json HTTP/1.1" 200
+2023-06-11 18:43:57.714 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:43500 - "GET /v1.0/docs HTTP/1.1" 200
+2023-06-11 18:43:57.730 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:43506 - "GET /v1.0/openapi.json HTTP/1.1" 200
+2023-06-11 18:43:57.744 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:43508 - "GET /swagger.json HTTP/1.1" 404
+2023-06-11 18:44:00.475 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:43628 - "GET /v1.0/vehicle_type HTTP/1.0" 200
+2023-06-11 18:44:01.985 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:43746 - "GET /v1.0/board HTTP/1.0" 200
+2023-06-11 18:44:01.993 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:50 - Trying to detect Linux board.
+2023-06-11 18:44:02.000 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:52 - Navigator R5 detected.
+2023-06-11 18:44:02.020 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:43752 - "GET /v1.0/firmware_info HTTP/1.0" 200
+2023-06-11 18:44:02.038 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:43756 - "GET /v1.0/available_boards HTTP/1.0" 200
+2023-06-11 18:44:06.557 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:43922 - "GET /v1.0/vehicle_type HTTP/1.0" 200
+2023-06-11 18:44:07.168 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:50 - Trying to detect Linux board.
+2023-06-11 18:44:07.176 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:44002 - "GET /v1.0/board HTTP/1.0" 200
+2023-06-11 18:44:07.177 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:52 - Navigator R5 detected.
+2023-06-11 18:44:07.217 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:44006 - "GET /v1.0/firmware_info HTTP/1.0" 200
+2023-06-11 18:44:07.232 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:44008 - "GET /v1.0/available_boards HTTP/1.0" 200
+2023-06-11 18:44:12.290 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:50 - Trying to detect Linux board.
+2023-06-11 18:44:12.297 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:44254 - "GET /v1.0/board HTTP/1.0" 200
+2023-06-11 18:44:12.299 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:52 - Navigator R5 detected.
+2023-06-11 18:44:12.321 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:44256 - "GET /v1.0/firmware_info HTTP/1.0" 200
+2023-06-11 18:44:12.339 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:44258 - "GET /v1.0/available_boards HTTP/1.0" 200
+2023-06-11 18:44:12.627 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:44218 - "GET /v1.0/vehicle_type HTTP/1.0" 200
+2023-06-11 18:44:17.416 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:50 - Trying to detect Linux board.
+2023-06-11 18:44:17.420 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:44498 - "GET /v1.0/board HTTP/1.0" 200
+2023-06-11 18:44:17.425 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:52 - Navigator R5 detected.
+2023-06-11 18:44:17.448 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:44500 - "GET /v1.0/firmware_info HTTP/1.0" 200
+2023-06-11 18:44:17.468 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:44502 - "GET /v1.0/available_boards HTTP/1.0" 200
+2023-06-11 18:44:18.678 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:44530 - "GET /v1.0/vehicle_type HTTP/1.0" 200
+2023-06-11 18:44:22.560 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:50 - Trying to detect Linux board.
+2023-06-11 18:44:22.566 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:44736 - "GET /v1.0/board HTTP/1.0" 200
+2023-06-11 18:44:22.570 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:52 - Navigator R5 detected.
+2023-06-11 18:44:22.596 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:44742 - "GET /v1.0/firmware_info HTTP/1.0" 200
+2023-06-11 18:44:22.610 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:44744 - "GET /v1.0/available_boards HTTP/1.0" 200
+2023-06-11 18:44:24.769 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:44808 - "GET /v1.0/vehicle_type HTTP/1.0" 200
+2023-06-11 18:44:27.688 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:50 - Trying to detect Linux board.
+2023-06-11 18:44:27.692 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:52 - Navigator R5 detected.
+2023-06-11 18:44:27.702 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:44982 - "GET /v1.0/board HTTP/1.0" 200
+2023-06-11 18:44:27.727 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:44984 - "GET /v1.0/firmware_info HTTP/1.0" 200
+2023-06-11 18:44:27.738 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:44986 - "GET /v1.0/available_boards HTTP/1.0" 200
+2023-06-11 18:44:30.837 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:45092 - "GET /v1.0/vehicle_type HTTP/1.0" 200
+2023-06-11 18:44:32.802 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:50 - Trying to detect Linux board.
+2023-06-11 18:44:32.807 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:52 - Navigator R5 detected.
+2023-06-11 18:44:32.816 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:45234 - "GET /v1.0/board HTTP/1.0" 200
+2023-06-11 18:44:32.847 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:45236 - "GET /v1.0/firmware_info HTTP/1.0" 200
+2023-06-11 18:44:32.863 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:45238 - "GET /v1.0/available_boards HTTP/1.0" 200
+2023-06-11 18:44:36.920 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:45388 - "GET /v1.0/vehicle_type HTTP/1.0" 200
+2023-06-11 18:44:37.950 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:50 - Trying to detect Linux board.
+2023-06-11 18:44:37.958 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:45484 - "GET /v1.0/board HTTP/1.0" 200
+2023-06-11 18:44:37.958 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:52 - Navigator R5 detected.
+2023-06-11 18:44:38.006 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:45486 - "GET /v1.0/firmware_info HTTP/1.0" 200
+2023-06-11 18:44:38.023 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:45488 - "GET /v1.0/available_boards HTTP/1.0" 200
+2023-06-11 18:44:41.983 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:45676 - "GET /v1.0/vehicle_type HTTP/1.0" 200
+2023-06-11 18:44:43.083 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:50 - Trying to detect Linux board.
+2023-06-11 18:44:43.088 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:45730 - "GET /v1.0/board HTTP/1.0" 200
+2023-06-11 18:44:43.089 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:52 - Navigator R5 detected.
+2023-06-11 18:44:43.112 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:45732 - "GET /v1.0/firmware_info HTTP/1.0" 200
+2023-06-11 18:44:43.138 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:45738 - "GET /v1.0/available_boards HTTP/1.0" 200
+2023-06-11 18:44:48.046 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:45926 - "GET /v1.0/vehicle_type HTTP/1.0" 200
+2023-06-11 18:44:48.173 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:50 - Trying to detect Linux board.
+2023-06-11 18:44:48.177 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:45992 - "GET /v1.0/board HTTP/1.0" 200
+2023-06-11 18:44:48.178 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:52 - Navigator R5 detected.
+2023-06-11 18:44:48.203 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:45994 - "GET /v1.0/firmware_info HTTP/1.0" 200
+2023-06-11 18:44:48.216 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:45996 - "GET /v1.0/available_boards HTTP/1.0" 200
+2023-06-11 18:44:53.322 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:50 - Trying to detect Linux board.
+2023-06-11 18:44:53.327 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:46232 - "GET /v1.0/board HTTP/1.0" 200
+2023-06-11 18:44:53.331 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:52 - Navigator R5 detected.
+2023-06-11 18:44:53.362 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:46234 - "GET /v1.0/firmware_info HTTP/1.0" 200
+2023-06-11 18:44:53.369 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:46242 - "GET /v1.0/available_boards HTTP/1.0" 200
+2023-06-11 18:44:54.117 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:46218 - "GET /v1.0/vehicle_type HTTP/1.0" 200
+2023-06-11 18:44:58.446 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:50 - Trying to detect Linux board.
+2023-06-11 18:44:58.450 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:46466 - "GET /v1.0/board HTTP/1.0" 200
+2023-06-11 18:44:58.454 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:52 - Navigator R5 detected.
+2023-06-11 18:44:58.474 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:46470 - "GET /v1.0/firmware_info HTTP/1.0" 200
+2023-06-11 18:44:58.487 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:46468 - "GET /v1.0/available_boards HTTP/1.0" 200
+2023-06-11 18:45:00.199 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:46516 - "GET /v1.0/vehicle_type HTTP/1.0" 200
+2023-06-11 18:45:03.668 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:50 - Trying to detect Linux board.
+2023-06-11 18:45:03.675 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:46816 - "GET /v1.0/board HTTP/1.0" 200
+2023-06-11 18:45:03.681 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:52 - Navigator R5 detected.
+2023-06-11 18:45:03.723 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:46818 - "GET /v1.0/firmware_info HTTP/1.0" 200
+2023-06-11 18:45:03.751 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:46820 - "GET /v1.0/available_boards HTTP/1.0" 200
+2023-06-11 18:45:05.774 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:47122 - "GET / HTTP/1.1" 200
+2023-06-11 18:45:05.822 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:47128 - "GET /register_service HTTP/1.1" 404
+2023-06-11 18:45:05.842 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:47130 - "GET /docs HTTP/1.1" 200
+2023-06-11 18:45:05.866 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:47132 - "GET /docs.json HTTP/1.1" 404
+2023-06-11 18:45:05.899 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:47134 - "GET /openapi.json HTTP/1.1" 200
+2023-06-11 18:45:05.929 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:47142 - "GET /v1.0/docs HTTP/1.1" 200
+2023-06-11 18:45:05.946 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:47144 - "GET /v1.0/openapi.json HTTP/1.1" 200
+2023-06-11 18:45:05.963 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:47146 - "GET /swagger.json HTTP/1.1" 404
+2023-06-11 18:45:06.273 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:47014 - "GET /v1.0/vehicle_type HTTP/1.0" 200
+2023-06-11 18:45:08.844 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:50 - Trying to detect Linux board.
+2023-06-11 18:45:08.849 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:47306 - "GET /v1.0/board HTTP/1.0" 200
+2023-06-11 18:45:08.854 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:52 - Navigator R5 detected.
+2023-06-11 18:45:08.880 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:47312 - "GET /v1.0/firmware_info HTTP/1.0" 200
+2023-06-11 18:45:08.897 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:47314 - "GET /v1.0/available_boards HTTP/1.0" 200
+2023-06-11 18:45:12.349 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:47438 - "GET /v1.0/vehicle_type HTTP/1.0" 200
+2023-06-11 18:45:13.935 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:50 - Trying to detect Linux board.
+2023-06-11 18:45:13.940 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:47564 - "GET /v1.0/board HTTP/1.0" 200
+2023-06-11 18:45:13.944 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:52 - Navigator R5 detected.
+2023-06-11 18:45:13.974 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:47566 - "GET /v1.0/firmware_info HTTP/1.0" 200
+2023-06-11 18:45:14.013 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:47568 - "GET /v1.0/available_boards HTTP/1.0" 200
+2023-06-11 18:45:18.417 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:47734 - "GET /v1.0/vehicle_type HTTP/1.0" 200
+2023-06-11 18:45:19.104 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:50 - Trying to detect Linux board.
+2023-06-11 18:45:19.108 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:47820 - "GET /v1.0/board HTTP/1.0" 200
+2023-06-11 18:45:19.113 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:52 - Navigator R5 detected.
+2023-06-11 18:45:19.137 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:47826 - "GET /v1.0/firmware_info HTTP/1.0" 200
+2023-06-11 18:45:19.150 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:47828 - "GET /v1.0/available_boards HTTP/1.0" 200
+2023-06-11 18:45:24.199 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:50 - Trying to detect Linux board.
+2023-06-11 18:45:24.203 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:48078 - "GET /v1.0/board HTTP/1.0" 200
+2023-06-11 18:45:24.208 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:52 - Navigator R5 detected.
+2023-06-11 18:45:24.245 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:48080 - "GET /v1.0/firmware_info HTTP/1.0" 200
+2023-06-11 18:45:24.272 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:48082 - "GET /v1.0/available_boards HTTP/1.0" 200
+2023-06-11 18:45:24.486 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:48032 - "GET /v1.0/vehicle_type HTTP/1.0" 200
+2023-06-11 18:45:29.301 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:48306 - "GET /v1.0/board HTTP/1.0" 200
+2023-06-11 18:45:29.304 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:50 - Trying to detect Linux board.
+2023-06-11 18:45:29.308 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:52 - Navigator R5 detected.
+2023-06-11 18:45:29.333 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:48308 - "GET /v1.0/firmware_info HTTP/1.0" 200
+2023-06-11 18:45:29.354 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:48310 - "GET /v1.0/available_boards HTTP/1.0" 200
+2023-06-11 18:45:30.561 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:48324 - "GET /v1.0/vehicle_type HTTP/1.0" 200
+2023-06-11 18:45:34.431 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:50 - Trying to detect Linux board.
+2023-06-11 18:45:34.435 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:48534 - "GET /v1.0/board HTTP/1.0" 200
+2023-06-11 18:45:34.439 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:52 - Navigator R5 detected.
+2023-06-11 18:45:34.468 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:48536 - "GET /v1.0/firmware_info HTTP/1.0" 200
+2023-06-11 18:45:34.487 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:48542 - "GET /v1.0/available_boards HTTP/1.0" 200
+2023-06-11 18:45:36.646 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:48610 - "GET /v1.0/vehicle_type HTTP/1.0" 200
+2023-06-11 18:45:39.542 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:50 - Trying to detect Linux board.
+2023-06-11 18:45:39.547 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:48786 - "GET /v1.0/board HTTP/1.0" 200
+2023-06-11 18:45:39.548 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:52 - Navigator R5 detected.
+2023-06-11 18:45:39.582 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:48788 - "GET /v1.0/firmware_info HTTP/1.0" 200
+2023-06-11 18:45:39.596 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:48790 - "GET /v1.0/available_boards HTTP/1.0" 200
+2023-06-11 18:45:42.717 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:48894 - "GET /v1.0/vehicle_type HTTP/1.0" 200
+2023-06-11 18:45:44.646 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:50 - Trying to detect Linux board.
+2023-06-11 18:45:44.652 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:49034 - "GET /v1.0/board HTTP/1.0" 200
+2023-06-11 18:45:44.653 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:52 - Navigator R5 detected.
+2023-06-11 18:45:44.689 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:49040 - "GET /v1.0/firmware_info HTTP/1.0" 200
+2023-06-11 18:45:44.732 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:49042 - "GET /v1.0/available_boards HTTP/1.0" 200
+2023-06-11 18:45:48.790 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:49192 - "GET /v1.0/vehicle_type HTTP/1.0" 200
+2023-06-11 18:45:49.878 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:50 - Trying to detect Linux board.
+2023-06-11 18:45:49.885 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:49284 - "GET /v1.0/board HTTP/1.0" 200
+2023-06-11 18:45:49.892 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:52 - Navigator R5 detected.
+2023-06-11 18:45:49.920 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:49296 - "GET /v1.0/firmware_info HTTP/1.0" 200
+2023-06-11 18:45:49.936 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:49298 - "GET /v1.0/available_boards HTTP/1.0" 200
+2023-06-11 18:45:55.036 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:50 - Trying to detect Linux board.
+2023-06-11 18:45:55.042 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:49548 - "GET /v1.0/board HTTP/1.0" 200
+2023-06-11 18:45:55.045 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:52 - Navigator R5 detected.
+2023-06-11 18:45:55.065 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:49476 - "GET /v1.0/vehicle_type HTTP/1.0" 200
+2023-06-11 18:45:55.088 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:49550 - "GET /v1.0/firmware_info HTTP/1.0" 200
+2023-06-11 18:45:55.103 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:49552 - "GET /v1.0/available_boards HTTP/1.0" 200
+2023-06-11 18:46:00.169 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:50 - Trying to detect Linux board.
+2023-06-11 18:46:00.174 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:52 - Navigator R5 detected.
+2023-06-11 18:46:00.176 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:49786 - "GET /v1.0/board HTTP/1.0" 200
+2023-06-11 18:46:00.215 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:49794 - "GET /v1.0/firmware_info HTTP/1.0" 200
+2023-06-11 18:46:00.235 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:49796 - "GET /v1.0/available_boards HTTP/1.0" 200
+2023-06-11 18:46:01.232 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:49788 - "GET /v1.0/vehicle_type HTTP/1.0" 200
+2023-06-11 18:46:05.270 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:50 - Trying to detect Linux board.
+2023-06-11 18:46:05.276 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:50064 - "GET /v1.0/board HTTP/1.0" 200
+2023-06-11 18:46:05.278 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:52 - Navigator R5 detected.
+2023-06-11 18:46:05.309 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:50066 - "GET /v1.0/firmware_info HTTP/1.0" 200
+2023-06-11 18:46:05.327 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:50068 - "GET /v1.0/available_boards HTTP/1.0" 200
+2023-06-11 18:46:07.309 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:50112 - "GET /v1.0/vehicle_type HTTP/1.0" 200
+2023-06-11 18:46:10.408 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:50 - Trying to detect Linux board.
+2023-06-11 18:46:10.415 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:50302 - "GET /v1.0/board HTTP/1.0" 200
+2023-06-11 18:46:10.419 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:52 - Navigator R5 detected.
+2023-06-11 18:46:10.445 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:50308 - "GET /v1.0/firmware_info HTTP/1.0" 200
+2023-06-11 18:46:10.465 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:50310 - "GET /v1.0/available_boards HTTP/1.0" 200
+2023-06-11 18:46:13.445 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:50396 - "GET /v1.0/vehicle_type HTTP/1.0" 200
+2023-06-11 18:46:15.510 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:50 - Trying to detect Linux board.
+2023-06-11 18:46:15.514 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:50566 - "GET /v1.0/board HTTP/1.0" 200
+2023-06-11 18:46:15.516 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:52 - Navigator R5 detected.
+2023-06-11 18:46:15.546 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:50570 - "GET /v1.0/available_boards HTTP/1.0" 200
+2023-06-11 18:46:15.561 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:50568 - "GET /v1.0/firmware_info HTTP/1.0" 200
+2023-06-11 18:46:19.507 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:50824 - "GET /v1.0/vehicle_type HTTP/1.0" 200
+2023-06-11 18:46:20.340 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:51094 - "GET / HTTP/1.1" 200
+2023-06-11 18:46:20.381 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:51096 - "GET /register_service HTTP/1.1" 404
+2023-06-11 18:46:20.396 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:51098 - "GET /docs HTTP/1.1" 200
+2023-06-11 18:46:20.414 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:51100 - "GET /docs.json HTTP/1.1" 404
+2023-06-11 18:46:20.428 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:51102 - "GET /openapi.json HTTP/1.1" 200
+2023-06-11 18:46:20.442 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:51104 - "GET /v1.0/docs HTTP/1.1" 200
+2023-06-11 18:46:20.456 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:51110 - "GET /v1.0/openapi.json HTTP/1.1" 200
+2023-06-11 18:46:20.473 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:51112 - "GET /swagger.json HTTP/1.1" 404
+2023-06-11 18:46:20.712 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:50 - Trying to detect Linux board.
+2023-06-11 18:46:20.722 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:51138 - "GET /v1.0/board HTTP/1.0" 200
+2023-06-11 18:46:20.725 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:52 - Navigator R5 detected.
+2023-06-11 18:46:20.757 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:51148 - "GET /v1.0/firmware_info HTTP/1.0" 200
+2023-06-11 18:46:20.771 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:51144 - "GET /v1.0/available_boards HTTP/1.0" 200
+2023-06-11 18:46:25.609 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:51368 - "GET /v1.0/vehicle_type HTTP/1.0" 200
+2023-06-11 18:46:25.846 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:50 - Trying to detect Linux board.
+2023-06-11 18:46:25.852 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:51454 - "GET /v1.0/board HTTP/1.0" 200
+2023-06-11 18:46:25.857 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:52 - Navigator R5 detected.
+2023-06-11 18:46:25.882 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:51456 - "GET /v1.0/firmware_info HTTP/1.0" 200
+2023-06-11 18:46:25.898 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:51458 - "GET /v1.0/available_boards HTTP/1.0" 200
+2023-06-11 18:46:30.950 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:50 - Trying to detect Linux board.
+2023-06-11 18:46:30.957 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:51736 - "GET /v1.0/board HTTP/1.0" 200
+2023-06-11 18:46:30.960 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:52 - Navigator R5 detected.
+2023-06-11 18:46:30.982 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:51738 - "GET /v1.0/firmware_info HTTP/1.0" 200
+2023-06-11 18:46:31.000 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:51740 - "GET /v1.0/available_boards HTTP/1.0" 200
+2023-06-11 18:46:31.689 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:51714 - "GET /v1.0/vehicle_type HTTP/1.0" 200
+2023-06-11 18:46:36.086 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:50 - Trying to detect Linux board.
+2023-06-11 18:46:36.092 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:52012 - "GET /v1.0/board HTTP/1.0" 200
+2023-06-11 18:46:36.094 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:52 - Navigator R5 detected.
+2023-06-11 18:46:36.120 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:52014 - "GET /v1.0/firmware_info HTTP/1.0" 200
+2023-06-11 18:46:36.136 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:52016 - "GET /v1.0/available_boards HTTP/1.0" 200
+2023-06-11 18:46:37.756 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:52064 - "GET /v1.0/vehicle_type HTTP/1.0" 200
+2023-06-11 18:46:41.187 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:50 - Trying to detect Linux board.
+2023-06-11 18:46:41.192 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:52308 - "GET /v1.0/board HTTP/1.0" 200
+2023-06-11 18:46:41.194 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:52 - Navigator R5 detected.
+2023-06-11 18:46:41.219 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:52312 - "GET /v1.0/available_boards HTTP/1.0" 200
+2023-06-11 18:46:41.233 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:52310 - "GET /v1.0/firmware_info HTTP/1.0" 200
+2023-06-11 18:46:43.855 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:52404 - "GET /v1.0/vehicle_type HTTP/1.0" 200
+2023-06-11 18:46:46.307 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:50 - Trying to detect Linux board.
+2023-06-11 18:46:46.311 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:52616 - "GET /v1.0/board HTTP/1.0" 200
+2023-06-11 18:46:46.312 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:52 - Navigator R5 detected.
+2023-06-11 18:46:46.339 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:52618 - "GET /v1.0/available_boards HTTP/1.0" 200
+2023-06-11 18:46:46.348 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:52620 - "GET /v1.0/firmware_info HTTP/1.0" 200
+2023-06-11 18:46:50.017 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:52750 - "GET /v1.0/vehicle_type HTTP/1.0" 200
+2023-06-11 18:46:51.469 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:50 - Trying to detect Linux board.
+2023-06-11 18:46:51.476 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:52 - Navigator R5 detected.
+2023-06-11 18:46:51.489 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:52876 - "GET /v1.0/board HTTP/1.0" 200
+2023-06-11 18:46:51.524 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:52880 - "GET /v1.0/firmware_info HTTP/1.0" 200
+2023-06-11 18:46:51.529 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:52878 - "GET /v1.0/available_boards HTTP/1.0" 200
+2023-06-11 18:46:56.089 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:53084 - "GET /v1.0/vehicle_type HTTP/1.0" 200
+2023-06-11 18:46:56.577 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:50 - Trying to detect Linux board.
+2023-06-11 18:46:56.585 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:53168 - "GET /v1.0/board HTTP/1.0" 200
+2023-06-11 18:46:56.593 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:52 - Navigator R5 detected.
+2023-06-11 18:46:56.634 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:53170 - "GET /v1.0/firmware_info HTTP/1.0" 200
+2023-06-11 18:46:56.662 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:53172 - "GET /v1.0/available_boards HTTP/1.0" 200

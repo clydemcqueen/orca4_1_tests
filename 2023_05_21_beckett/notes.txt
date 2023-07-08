@@ -1,0 +1,5 @@
+Install and run surftrak, based on 4.1.0
+
+Problem w/ surftrak, same as Lake Union test, a 1m oscillation, see online notes
+4.1.0 depth hold change in depth is super aggressive, it was difficult to get at exactly 1m depth
+I remember this from Lutris as well (which was why we went for 4.1.1 beta 5)

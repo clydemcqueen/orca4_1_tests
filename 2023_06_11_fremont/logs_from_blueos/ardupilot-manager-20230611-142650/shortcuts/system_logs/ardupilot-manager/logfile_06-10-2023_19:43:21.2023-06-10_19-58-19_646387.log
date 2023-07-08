@@ -1,0 +1,10 @@
+2023-06-10 19:58:19.643 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54332 - "GET /v1.0/vehicle_type HTTP/1.0" 200
+2023-06-10 19:58:20.731 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54506 - "GET /v1.0/vehicle_type HTTP/1.0" 200
+2023-06-10 19:58:22.218 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54824 - "GET / HTTP/1.1" 200
+2023-06-10 19:58:22.259 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54826 - "GET /register_service HTTP/1.1" 404
+2023-06-10 19:58:22.270 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54828 - "GET /docs HTTP/1.1" 200
+2023-06-10 19:58:22.288 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54830 - "GET /docs.json HTTP/1.1" 404
+2023-06-10 19:58:22.303 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54834 - "GET /openapi.json HTTP/1.1" 200
+2023-06-10 19:58:22.319 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54838 - "GET /v1.0/docs HTTP/1.1" 200
+2023-06-10 19:58:22.418 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54844 - "GET /v1.0/openapi.json HTTP/1.1" 200
+2023-06-10 19:58:22.436 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54846 - "GET /swagger.json HTTP/1.1" 404

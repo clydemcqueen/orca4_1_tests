@@ -1,0 +1,98 @@
+2023-06-10 19:25:18.223 | INFO     | __main__:<module>:49 - Starting ArduPilot Manager.
+2023-06-10 19:25:18.264 | INFO     | ArduPilotManager:__init__:51 - Loaded settings from /root/.config/ardupilot-manager/settings.json.
+2023-06-10 19:25:18.266 | DEBUG    | ArduPilotManager:__init__:52 - {'endpoints': [{'argument': 14551, 'connection_type': 'udpout', 'enabled': True, 'name': 'mavros', 'owner': 'clyde', 'persistent': True, 'place': '192.168.2.1', 'protected': False}, {'argument': 14550, 'connection_type': 'udpout', 'enabled': True, 'name': 'GCS Client Link', 'owner': 'ardupilot-manager', 'persistent': True, 'place': '192.168.2.1', 'protected': False}, {'argument': 14001, 'connection_type': 'udpin', 'enabled': True, 'name': 'Internal Link', 'owner': 'ardupilot-manager', 'persistent': True, 'place': '127.0.0.1', 'protected': True}, {'argument': 14000, 'connection_type': 'udpout', 'enabled': True, 'name': 'MAVLink2Rest', 'owner': 'ardupilot-manager', 'persistent': True, 'place': '127.0.0.1', 'protected': True}, {'argument': 14550, 'connection_type': 'udpin', 'enabled': False, 'name': 'GCS Server Link', 'owner': 'ardupilot-manager', 'persistent': True, 'place': '0.0.0.0', 'protected': False}, {'argument': 14660, 'connection_type': 'udpin', 'enabled': True, 'name': 'Ping360 Heading', 'owner': 'ardupilot-manager', 'persistent': True, 'place': '0.0.0.0', 'protected': True}], 'preferred_board': {'manufacturer': 'ArduPilot', 'name': 'Pixhawk1', 'platform': 'Pixhawk1'}}
+2023-06-10 19:25:18.281 | DEBUG    | ArduPilotManager:remove_old_logs:78 - Removing invalid log file: /root/.config/ardupilot-manager/logs/00015-2023-05-21_18-18-39.bin
+2023-06-10 19:25:18.282 | DEBUG    | ArduPilotManager:remove_old_logs:78 - Removing invalid log file: /root/.config/ardupilot-manager/logs/00006-2023-05-17_20-34-07.bin
+2023-06-10 19:25:18.283 | DEBUG    | ArduPilotManager:remove_old_logs:78 - Removing invalid log file: /root/.config/ardupilot-manager/logs/00013-2023-05-21_18-16-26.bin
+2023-06-10 19:25:18.284 | DEBUG    | ArduPilotManager:remove_old_logs:78 - Removing invalid log file: /root/.config/ardupilot-manager/logs/00012-2023-05-21_18-08-54.bin
+2023-06-10 19:25:18.285 | DEBUG    | ArduPilotManager:remove_old_logs:78 - Removing invalid log file: /root/.config/ardupilot-manager/logs/00002-2023-05-17_19-18-56.bin
+2023-06-10 19:25:18.285 | DEBUG    | ArduPilotManager:remove_old_logs:78 - Removing invalid log file: /root/.config/ardupilot-manager/logs/00001-2023-05-17_18-44-57.bin
+2023-06-10 19:25:18.286 | DEBUG    | ArduPilotManager:remove_old_logs:78 - Removing invalid log file: /root/.config/ardupilot-manager/logs/00008-2023-05-20_15-00-05.bin
+2023-06-10 19:25:18.286 | DEBUG    | ArduPilotManager:remove_old_logs:78 - Removing invalid log file: /root/.config/ardupilot-manager/logs/00003-2023-05-17_19-21-16.bin
+2023-06-10 19:25:18.287 | DEBUG    | ArduPilotManager:remove_old_logs:78 - Removing invalid log file: /root/.config/ardupilot-manager/logs/00005-2023-05-17_19-24-00.bin
+2023-06-10 19:25:18.288 | DEBUG    | ArduPilotManager:remove_old_logs:78 - Removing invalid log file: /root/.config/ardupilot-manager/logs/00000-2023-05-17_18-40-49.bin
+2023-06-10 19:25:18.288 | DEBUG    | ArduPilotManager:remove_old_logs:78 - Removing invalid log file: /root/.config/ardupilot-manager/logs/00010-2023-05-21_14-34-53.bin
+2023-06-10 19:25:18.289 | DEBUG    | ArduPilotManager:remove_old_logs:78 - Removing invalid log file: /root/.config/ardupilot-manager/logs/00009-2023-05-20_15-08-49.bin
+2023-06-10 19:25:18.290 | DEBUG    | ArduPilotManager:remove_old_logs:78 - Removing invalid log file: /root/.config/ardupilot-manager/logs/00004-2023-05-17_19-23-38.bin
+2023-06-10 19:25:18.290 | DEBUG    | ArduPilotManager:remove_old_logs:78 - Removing invalid log file: /root/.config/ardupilot-manager/logs/00014-2023-05-21_18-18-06.bin
+2023-06-10 19:25:18.291 | DEBUG    | ArduPilotManager:remove_old_logs:78 - Removing invalid log file: /root/.config/ardupilot-manager/logs/00011-2023-05-21_14-41-44.bin
+2023-06-10 19:25:18.292 | DEBUG    | ArduPilotManager:remove_old_logs:78 - Removing invalid log file: /root/.config/ardupilot-manager/logs/00007-2023-05-20_14-45-29.bin
+2023-06-10 19:25:18.412 | DEBUG    | asyncio.selector_events:__init__:54 - Using selector: EpollSelector
+2023-06-10 19:25:18.413 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:50 - Trying to detect Linux board.
+2023-06-10 19:25:18.416 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:52 - Navigator R5 detected.
+2023-06-10 19:25:18.430 | WARNING  | ArduPilotManager:start_ardupilot:462 - More than a single board detected: [FlightController(name='Navigator', manufacturer='Blue Robotics', platform=<Platform.Navigator: 'navigator'>, path=None, flags=[]), FlightController(name='SITL', manufacturer='ArduPilot Team', platform=<Platform.SITL: 'SITL_arm_linux_gnueabihf'>, path=None, flags=[])]
+2023-06-10 19:25:18.431 | DEBUG    | ArduPilotManager:get_board_to_be_used:377 - Preferred flight-controller is Pixhawk1.
+2023-06-10 19:25:18.433 | DEBUG    | ArduPilotManager:get_board_to_be_used:382 - Flight-controller Pixhawk1 not connected.
+2023-06-10 19:25:18.433 | INFO     | ArduPilotManager:start_ardupilot:465 - Using Navigator flight-controller.
+2023-06-10 19:25:18.520 | INFO     | ArduPilotManager:start_linux_board:223 - Using command line: '/root/.config/ardupilot-manager/firmware/ardupilot_navigator -A udp:127.0.0.1:8852 --log-directory /root/.config/ardupilot-manager/firmware/logs/ --storage-directory /root/.config/ardupilot-manager/firmware/storage/ -C /dev/ttyS0 -B /dev/ttyAMA1 -E /dev/ttyAMA2 -F /dev/ttyAMA3'
+2023-06-10 19:25:18.543 | DEBUG    | mavlink_proxy.AbstractRouter:start:90 - Calling router using following command: '/usr/bin/mavlink-routerd 127.0.0.1:8852 0.0.0.0:14660 --endpoint 192.168.2.1:14551 --endpoint 192.168.2.1:14550 --endpoint 127.0.0.1:14000 --tcp-port 5777 -l /root/.config/ardupilot-manager/logs'.
+2023-06-10 19:25:19.771 | INFO     | uvicorn.server:serve:64 - Started server process [88]
+2023-06-10 19:25:19.773 | INFO     | uvicorn.lifespan.on:startup:26 - Waiting for application startup.
+2023-06-10 19:25:19.775 | INFO     | uvicorn.lifespan.on:startup:38 - Application startup complete.
+2023-06-10 19:25:19.777 | INFO     | uvicorn.server:_log_started_message:199 - Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2023-06-10 19:26:14.757 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:43350 - "GET /v1.0/vehicle_type HTTP/1.0" 200
+2023-06-10 19:26:16.832 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:43524 - "GET /v1.0/vehicle_type HTTP/1.0" 200
+2023-06-10 19:26:17.078 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:43764 - "GET / HTTP/1.1" 200
+2023-06-10 19:26:17.146 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:43776 - "GET /register_service HTTP/1.1" 404
+2023-06-10 19:26:17.159 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:43778 - "GET /docs HTTP/1.1" 200
+2023-06-10 19:26:17.173 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:43780 - "GET /docs.json HTTP/1.1" 404
+2023-06-10 19:26:17.191 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:43782 - "GET /openapi.json HTTP/1.1" 200
+2023-06-10 19:26:17.204 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:43784 - "GET /v1.0/docs HTTP/1.1" 200
+2023-06-10 19:26:17.334 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:43786 - "GET /v1.0/openapi.json HTTP/1.1" 200
+2023-06-10 19:26:17.357 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:43788 - "GET /swagger.json HTTP/1.1" 404
+2023-06-10 19:27:30.994 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:47028 - "GET / HTTP/1.1" 200
+2023-06-10 19:27:31.039 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:47030 - "GET /register_service HTTP/1.1" 404
+2023-06-10 19:27:31.053 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:47032 - "GET /docs HTTP/1.1" 200
+2023-06-10 19:27:31.069 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:47034 - "GET /docs.json HTTP/1.1" 404
+2023-06-10 19:27:31.094 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:47040 - "GET /openapi.json HTTP/1.1" 200
+2023-06-10 19:27:31.113 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:47042 - "GET /v1.0/docs HTTP/1.1" 200
+2023-06-10 19:27:31.132 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:47044 - "GET /v1.0/openapi.json HTTP/1.1" 200
+2023-06-10 19:27:31.157 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:47050 - "GET /swagger.json HTTP/1.1" 404
+2023-06-10 19:28:36.375 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:50662 - "GET / HTTP/1.1" 200
+2023-06-10 19:28:36.427 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:50664 - "GET /register_service HTTP/1.1" 404
+2023-06-10 19:28:36.437 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:50666 - "GET /docs HTTP/1.1" 200
+2023-06-10 19:28:36.450 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:50668 - "GET /docs.json HTTP/1.1" 404
+2023-06-10 19:28:36.466 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:50670 - "GET /openapi.json HTTP/1.1" 200
+2023-06-10 19:28:36.478 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:50672 - "GET /v1.0/docs HTTP/1.1" 200
+2023-06-10 19:28:36.492 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:50674 - "GET /v1.0/openapi.json HTTP/1.1" 200
+2023-06-10 19:28:36.509 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:50676 - "GET /swagger.json HTTP/1.1" 404
+2023-06-10 19:29:40.862 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54204 - "GET / HTTP/1.1" 200
+2023-06-10 19:29:40.905 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54206 - "GET /register_service HTTP/1.1" 404
+2023-06-10 19:29:40.918 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54208 - "GET /docs HTTP/1.1" 200
+2023-06-10 19:29:40.937 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54210 - "GET /docs.json HTTP/1.1" 404
+2023-06-10 19:29:40.948 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54212 - "GET /openapi.json HTTP/1.1" 200
+2023-06-10 19:29:40.963 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54214 - "GET /v1.0/docs HTTP/1.1" 200
+2023-06-10 19:29:40.975 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54216 - "GET /v1.0/openapi.json HTTP/1.1" 200
+2023-06-10 19:29:40.992 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54218 - "GET /swagger.json HTTP/1.1" 404
+2023-06-10 19:30:46.347 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:57784 - "GET / HTTP/1.1" 200
+2023-06-10 19:30:46.382 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:57786 - "GET /register_service HTTP/1.1" 404
+2023-06-10 19:30:46.394 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:57788 - "GET /docs HTTP/1.1" 200
+2023-06-10 19:30:46.409 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:57790 - "GET /docs.json HTTP/1.1" 404
+2023-06-10 19:30:46.425 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:57792 - "GET /openapi.json HTTP/1.1" 200
+2023-06-10 19:30:46.439 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:57794 - "GET /v1.0/docs HTTP/1.1" 200
+2023-06-10 19:30:46.481 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:57798 - "GET /v1.0/openapi.json HTTP/1.1" 200
+2023-06-10 19:30:46.506 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:57810 - "GET /swagger.json HTTP/1.1" 404
+2023-06-10 19:31:51.221 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:33122 - "GET / HTTP/1.1" 200
+2023-06-10 19:31:51.273 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:33124 - "GET /register_service HTTP/1.1" 404
+2023-06-10 19:31:51.290 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:33126 - "GET /docs HTTP/1.1" 200
+2023-06-10 19:31:51.305 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:33128 - "GET /docs.json HTTP/1.1" 404
+2023-06-10 19:31:51.315 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:33130 - "GET /openapi.json HTTP/1.1" 200
+2023-06-10 19:31:51.331 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:33132 - "GET /v1.0/docs HTTP/1.1" 200
+2023-06-10 19:31:51.346 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:33138 - "GET /v1.0/openapi.json HTTP/1.1" 200
+2023-06-10 19:31:51.361 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:33140 - "GET /swagger.json HTTP/1.1" 404
+2023-06-10 19:33:06.010 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:37178 - "GET / HTTP/1.1" 200
+2023-06-10 19:33:06.059 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:37184 - "GET /register_service HTTP/1.1" 404
+2023-06-10 19:33:06.098 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:37186 - "GET /docs HTTP/1.1" 200
+2023-06-10 19:33:06.132 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:37194 - "GET /docs.json HTTP/1.1" 404
+2023-06-10 19:33:06.149 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:37200 - "GET /openapi.json HTTP/1.1" 200
+2023-06-10 19:33:06.165 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:37202 - "GET /v1.0/docs HTTP/1.1" 200
+2023-06-10 19:33:06.187 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:37208 - "GET /v1.0/openapi.json HTTP/1.1" 200
+2023-06-10 19:33:06.207 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:37210 - "GET /swagger.json HTTP/1.1" 404
+2023-06-10 19:34:10.898 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:40766 - "GET / HTTP/1.1" 200
+2023-06-10 19:34:10.947 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:40768 - "GET /register_service HTTP/1.1" 404
+2023-06-10 19:34:10.957 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:40774 - "GET /docs HTTP/1.1" 200
+2023-06-10 19:34:10.979 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:40776 - "GET /docs.json HTTP/1.1" 404
+2023-06-10 19:34:10.995 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:40778 - "GET /openapi.json HTTP/1.1" 200
+2023-06-10 19:34:11.018 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:40780 - "GET /v1.0/docs HTTP/1.1" 200
+2023-06-10 19:34:11.037 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:40786 - "GET /v1.0/openapi.json HTTP/1.1" 200
+2023-06-10 19:34:11.055 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:40788 - "GET /swagger.json HTTP/1.1" 404

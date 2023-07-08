@@ -1,0 +1,26 @@
+2023-06-11 17:19:58.497 | INFO     | __main__:<module>:49 - Starting ArduPilot Manager.
+2023-06-11 17:19:58.634 | INFO     | ArduPilotManager:__init__:51 - Loaded settings from /root/.config/ardupilot-manager/settings.json.
+2023-06-11 17:19:58.637 | DEBUG    | ArduPilotManager:__init__:52 - {'endpoints': [{'argument': 14551, 'connection_type': 'udpout', 'enabled': True, 'name': 'mavros', 'owner': 'clyde', 'persistent': True, 'place': '192.168.2.1', 'protected': False}, {'argument': 14550, 'connection_type': 'udpout', 'enabled': True, 'name': 'GCS Client Link', 'owner': 'ardupilot-manager', 'persistent': True, 'place': '192.168.2.1', 'protected': False}, {'argument': 14001, 'connection_type': 'udpin', 'enabled': True, 'name': 'Internal Link', 'owner': 'ardupilot-manager', 'persistent': True, 'place': '127.0.0.1', 'protected': True}, {'argument': 14000, 'connection_type': 'udpout', 'enabled': True, 'name': 'MAVLink2Rest', 'owner': 'ardupilot-manager', 'persistent': True, 'place': '127.0.0.1', 'protected': True}, {'argument': 14550, 'connection_type': 'udpin', 'enabled': False, 'name': 'GCS Server Link', 'owner': 'ardupilot-manager', 'persistent': True, 'place': '0.0.0.0', 'protected': False}, {'argument': 14660, 'connection_type': 'udpin', 'enabled': True, 'name': 'Ping360 Heading', 'owner': 'ardupilot-manager', 'persistent': True, 'place': '0.0.0.0', 'protected': True}], 'preferred_board': {'manufacturer': 'ArduPilot', 'name': 'Pixhawk1', 'platform': 'Pixhawk1'}}
+2023-06-11 17:19:58.774 | DEBUG    | asyncio.selector_events:__init__:54 - Using selector: EpollSelector
+2023-06-11 17:19:58.776 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:50 - Trying to detect Linux board.
+2023-06-11 17:19:58.779 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:52 - Navigator R5 detected.
+2023-06-11 17:19:58.798 | WARNING  | ArduPilotManager:start_ardupilot:462 - More than a single board detected: [FlightController(name='Navigator', manufacturer='Blue Robotics', platform=<Platform.Navigator: 'navigator'>, path=None, flags=[]), FlightController(name='SITL', manufacturer='ArduPilot Team', platform=<Platform.SITL: 'SITL_arm_linux_gnueabihf'>, path=None, flags=[])]
+2023-06-11 17:19:58.799 | DEBUG    | ArduPilotManager:get_board_to_be_used:377 - Preferred flight-controller is Pixhawk1.
+2023-06-11 17:19:58.801 | DEBUG    | ArduPilotManager:get_board_to_be_used:382 - Flight-controller Pixhawk1 not connected.
+2023-06-11 17:19:58.803 | INFO     | ArduPilotManager:start_ardupilot:465 - Using Navigator flight-controller.
+2023-06-11 17:19:58.885 | INFO     | ArduPilotManager:start_linux_board:223 - Using command line: '/root/.config/ardupilot-manager/firmware/ardupilot_navigator -A udp:127.0.0.1:8852 --log-directory /root/.config/ardupilot-manager/firmware/logs/ --storage-directory /root/.config/ardupilot-manager/firmware/storage/ -C /dev/ttyS0 -B /dev/ttyAMA1 -E /dev/ttyAMA2 -F /dev/ttyAMA3'
+2023-06-11 17:19:58.904 | DEBUG    | mavlink_proxy.AbstractRouter:start:90 - Calling router using following command: '/usr/bin/mavlink-routerd 127.0.0.1:8852 0.0.0.0:14660 --endpoint 127.0.0.1:14000 --endpoint 192.168.2.1:14550 --endpoint 192.168.2.1:14551 --tcp-port 5777 -l /root/.config/ardupilot-manager/logs'.
+2023-06-11 17:20:00.109 | INFO     | uvicorn.server:serve:64 - Started server process [89]
+2023-06-11 17:20:00.110 | INFO     | uvicorn.lifespan.on:startup:26 - Waiting for application startup.
+2023-06-11 17:20:00.166 | INFO     | uvicorn.lifespan.on:startup:38 - Application startup complete.
+2023-06-11 17:20:00.168 | INFO     | uvicorn.server:_log_started_message:199 - Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2023-06-11 17:21:45.469 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:42948 - "GET /v1.0/vehicle_type HTTP/1.0" 200
+2023-06-11 17:21:46.530 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:43106 - "GET /v1.0/vehicle_type HTTP/1.0" 200
+2023-06-11 17:21:48.190 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:43448 - "GET / HTTP/1.1" 200
+2023-06-11 17:21:48.244 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:43456 - "GET /register_service HTTP/1.1" 404
+2023-06-11 17:21:48.260 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:43458 - "GET /docs HTTP/1.1" 200
+2023-06-11 17:21:48.291 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:43464 - "GET /docs.json HTTP/1.1" 404
+2023-06-11 17:21:48.315 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:43466 - "GET /openapi.json HTTP/1.1" 200
+2023-06-11 17:21:48.333 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:43468 - "GET /v1.0/docs HTTP/1.1" 200
+2023-06-11 17:21:48.480 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:43470 - "GET /v1.0/openapi.json HTTP/1.1" 200
+2023-06-11 17:21:48.538 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:43486 - "GET /swagger.json HTTP/1.1" 404

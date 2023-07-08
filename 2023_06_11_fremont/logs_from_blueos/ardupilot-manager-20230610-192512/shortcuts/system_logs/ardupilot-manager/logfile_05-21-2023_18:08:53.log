@@ -1,0 +1,398 @@
+2023-05-21 18:55:23.601 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:53732 - "GET /v1.0/vehicle_type HTTP/1.0" 200
+2023-05-21 18:55:24.664 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:53968 - "GET /v1.0/vehicle_type HTTP/1.0" 200
+2023-05-21 18:55:25.047 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54192 - "GET / HTTP/1.1" 200
+2023-05-21 18:55:25.157 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54202 - "GET /register_service HTTP/1.1" 404
+2023-05-21 18:55:25.177 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54204 - "GET /docs HTTP/1.1" 200
+2023-05-21 18:55:25.197 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54206 - "GET /docs.json HTTP/1.1" 404
+2023-05-21 18:55:25.215 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54208 - "GET /openapi.json HTTP/1.1" 200
+2023-05-21 18:55:25.234 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54214 - "GET /v1.0/docs HTTP/1.1" 200
+2023-05-21 18:55:25.250 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54216 - "GET /v1.0/openapi.json HTTP/1.1" 200
+2023-05-21 18:55:25.267 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54218 - "GET /swagger.json HTTP/1.1" 404
+2023-05-21 18:55:39.885 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54972 - "GET /v1.0/vehicle_type HTTP/1.0" 200
+2023-05-21 18:55:41.947 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:55086 - "GET /v1.0/vehicle_type HTTP/1.0" 200
+2023-05-21 18:56:04.900 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:50 - Trying to detect Linux board.
+2023-05-21 18:56:04.905 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:56346 - "GET /v1.0/board HTTP/1.0" 200
+2023-05-21 18:56:04.906 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:52 - Navigator R5 detected.
+2023-05-21 18:56:04.968 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:56340 - "GET /v1.0/firmware_info HTTP/1.0" 200
+2023-05-21 18:56:04.975 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:56344 - "GET /v1.0/available_boards HTTP/1.0" 200
+2023-05-21 18:56:05.989 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:56342 - "GET /v1.0/vehicle_type HTTP/1.0" 200
+2023-05-21 18:56:07.338 | DEBUG    | __main__:stop:204 - Stopping ardupilot...
+2023-05-21 18:56:07.339 | INFO     | ArduPilotManager:kill_ardupilot:434 - Disarming vehicle.
+2023-05-21 18:56:08.367 | DEBUG    | commonwealth.mavlink_comm.VehicleManager:disarm_vehicle:109 - Vehicle already disarmed.
+2023-05-21 18:56:08.368 | INFO     | ArduPilotManager:kill_ardupilot:436 - Vehicle disarmed.
+2023-05-21 18:56:08.369 | INFO     | ArduPilotManager:kill_ardupilot:443 - Terminating Ardupilot subprocess.
+2023-05-21 18:56:08.370 | DEBUG    | ArduPilotManager:terminate_ardupilot_subprocess:416 - Waiting for process to die...
+2023-05-21 18:56:08.872 | INFO     | ArduPilotManager:terminate_ardupilot_subprocess:414 - Ardupilot subprocess terminated.
+2023-05-21 18:56:08.874 | INFO     | ArduPilotManager:kill_ardupilot:445 - Ardupilot subprocess terminated.
+2023-05-21 18:56:08.875 | INFO     | ArduPilotManager:kill_ardupilot:446 - Pruning Ardupilot's system processes.
+2023-05-21 18:56:09.003 | DEBUG    | ArduPilotManager:prune_ardupilot_processes:425 - Killing Ardupilot process ardupilot_navigator::452.
+2023-05-21 18:56:09.507 | INFO     | ArduPilotManager:kill_ardupilot:448 - Ardupilot's system processes pruned.
+2023-05-21 18:56:09.508 | INFO     | ArduPilotManager:kill_ardupilot:450 - Stopping Mavlink manager.
+2023-05-21 18:56:09.508 | INFO     | ArduPilotManager:kill_ardupilot:452 - Mavlink manager stopped.
+2023-05-21 18:56:09.509 | DEBUG    | __main__:stop:206 - Ardupilot successfully stopped.
+2023-05-21 18:56:09.510 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:56494 - "POST /v1.0/stop HTTP/1.0" 200
+2023-05-21 18:56:09.975 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:56644 - "GET /v1.0/board HTTP/1.0" 200
+2023-05-21 18:56:10.031 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:50 - Trying to detect Linux board.
+2023-05-21 18:56:10.040 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:52 - Navigator R5 detected.
+2023-05-21 18:56:10.059 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:56650 - "GET /v1.0/firmware_info HTTP/1.0" 200
+2023-05-21 18:56:10.085 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:56652 - "GET /v1.0/available_boards HTTP/1.0" 200
+2023-05-21 18:56:15.026 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:56948 - "GET /v1.0/board HTTP/1.0" 200
+2023-05-21 18:56:15.134 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:56954 - "GET /v1.0/firmware_info HTTP/1.0" 200
+2023-05-21 18:56:15.144 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:50 - Trying to detect Linux board.
+2023-05-21 18:56:15.147 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:52 - Navigator R5 detected.
+2023-05-21 18:56:15.172 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:56968 - "GET /v1.0/available_boards HTTP/1.0" 200
+2023-05-21 18:56:16.135 | WARNING  | commonwealth.mavlink_comm.MavlinkComm:get_updated_mavlink_message:123 - no new messages after 5.0 seconds, triggering system-id detection
+2023-05-21 18:56:16.156 | DEBUG    | commonwealth.mavlink_comm.MavlinkComm:get_most_recent_vehicle_id:102 - 1 (detected)
+2023-05-21 18:56:16.159 | INFO     | commonwealth.mavlink_comm.MavlinkComm:set_system_id:28 - system_id set to: 1
+2023-05-21 18:56:16.160 | ERROR    | commonwealth.utils.apis:custom_route_handler:36 - Unhandled service exception.
+2023-05-21 18:56:16.161 | ERROR    | commonwealth.utils.apis:custom_route_handler:37 - Did not receive an updated HEARTBEAT before timeout.
+Traceback (most recent call last):
+
+  File "/home/pi/services/ardupilot_manager/main.py", line 244, in <module>
+    loop.run_until_complete(server.serve())
+    │    │                  │      └ <function Server.serve at 0xb5d04070>
+    │    │                  └ <uvicorn.server.Server object at 0xb54dda90>
+    │    └ <function BaseEventLoop.run_until_complete at 0xb6437da8>
+    └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+
+  File "/usr/local/lib/python3.9/asyncio/base_events.py", line 634, in run_until_complete
+    self.run_forever()
+    │    └ <function BaseEventLoop.run_forever at 0xb6437d60>
+    └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+  File "/usr/local/lib/python3.9/asyncio/base_events.py", line 601, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0xb6439b20>
+    └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+  File "/usr/local/lib/python3.9/asyncio/base_events.py", line 1905, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0xb647f808>
+    └ <Handle <TaskStepMethWrapper object at 0xb549ae98>()>
+  File "/usr/local/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle <TaskStepMethWrapper object at 0xb549ae98>()>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle <TaskStepMethWrapper object at 0xb549ae98>()>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle <TaskStepMethWrapper object at 0xb549ae98>()>
+  File "/usr/local/lib/python3.9/site-packages/uvicorn-0.13.4-py3.9.egg/uvicorn/protocols/http/h11_impl.py", line 396, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+                   │   │    │      │    │        │    └ <function RequestResponseCycle.send at 0xb52e6028>
+                   │   │    │      │    │        └ <uvicorn.protocols.http.h11_impl.RequestResponseCycle object at 0xb5850a90>
+                   │   │    │      │    └ <function RequestResponseCycle.receive at 0xb52e6070>
+                   │   │    │      └ <uvicorn.protocols.http.h11_impl.RequestResponseCycle object at 0xb5850a90>
+                   │   │    └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.1'}, 'http_version': '1.0', 'server': ('127.0.0.1', 8000), 'cl...
+                   │   └ <uvicorn.protocols.http.h11_impl.RequestResponseCycle object at 0xb5850a90>
+                   └ <uvicorn.middleware.proxy_headers.ProxyHeadersMiddleware object at 0xb5501790>
+  File "/usr/local/lib/python3.9/site-packages/uvicorn-0.13.4-py3.9.egg/uvicorn/middleware/proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+                 │    │   │      │        └ <bound method RequestResponseCycle.send of <uvicorn.protocols.http.h11_impl.RequestResponseCycle object at 0xb5850a90>>
+                 │    │   │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.h11_impl.RequestResponseCycle object at 0xb5850a90>>
+                 │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.1'}, 'http_version': '1.0', 'server': ('127.0.0.1', 8000), 'cl...
+                 │    └ <uvicorn.middleware.message_logger.MessageLoggerMiddleware object at 0xb54ddb20>
+                 └ <uvicorn.middleware.proxy_headers.ProxyHeadersMiddleware object at 0xb5501790>
+  File "/usr/local/lib/python3.9/site-packages/uvicorn-0.13.4-py3.9.egg/uvicorn/middleware/message_logger.py", line 61, in __call__
+    await self.app(scope, inner_receive, inner_send)
+          │    │   │      │              └ <function MessageLoggerMiddleware.__call__.<locals>.inner_send at 0xb5400268>
+          │    │   │      └ <function MessageLoggerMiddleware.__call__.<locals>.inner_receive at 0xb5400028>
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.1'}, 'http_version': '1.0', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <fastapi.applications.FastAPI object at 0xb55e15c8>
+          └ <uvicorn.middleware.message_logger.MessageLoggerMiddleware object at 0xb54ddb20>
+  File "/usr/local/lib/python3.9/site-packages/fastapi-0.63.0-py3.9.egg/fastapi/applications.py", line 199, in __call__
+    await super().__call__(scope, receive, send)
+                           │      │        └ <function MessageLoggerMiddleware.__call__.<locals>.inner_send at 0xb5400268>
+                           │      └ <function MessageLoggerMiddleware.__call__.<locals>.inner_receive at 0xb5400028>
+                           └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.1'}, 'http_version': '1.0', 'server': ('127.0.0.1', 8000), 'cl...
+  File "/usr/local/lib/python3.9/site-packages/starlette-0.13.6-py3.9.egg/starlette/applications.py", line 111, in __call__
+    await self.middleware_stack(scope, receive, send)
+          │    │                │      │        └ <function MessageLoggerMiddleware.__call__.<locals>.inner_send at 0xb5400268>
+          │    │                │      └ <function MessageLoggerMiddleware.__call__.<locals>.inner_receive at 0xb5400028>
+          │    │                └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.1'}, 'http_version': '1.0', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <starlette.middleware.errors.ServerErrorMiddleware object at 0xb55e16e8>
+          └ <fastapi.applications.FastAPI object at 0xb55e15c8>
+  File "/usr/local/lib/python3.9/site-packages/starlette-0.13.6-py3.9.egg/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+          │    │   │      │        └ <function ServerErrorMiddleware.__call__.<locals>._send at 0xb54002f8>
+          │    │   │      └ <function MessageLoggerMiddleware.__call__.<locals>.inner_receive at 0xb5400028>
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.1'}, 'http_version': '1.0', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <starlette.exceptions.ExceptionMiddleware object at 0xb55e16d0>
+          └ <starlette.middleware.errors.ServerErrorMiddleware object at 0xb55e16e8>
+  File "/usr/local/lib/python3.9/site-packages/starlette-0.13.6-py3.9.egg/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+          │    │   │      │        └ <function ExceptionMiddleware.__call__.<locals>.sender at 0xb5400418>
+          │    │   │      └ <function MessageLoggerMiddleware.__call__.<locals>.inner_receive at 0xb5400028>
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.1'}, 'http_version': '1.0', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <fastapi.routing.APIRouter object at 0xb55e1610>
+          └ <starlette.exceptions.ExceptionMiddleware object at 0xb55e16d0>
+  File "/usr/local/lib/python3.9/site-packages/starlette-0.13.6-py3.9.egg/starlette/routing.py", line 566, in __call__
+    await route.handle(scope, receive, send)
+          │     │      │      │        └ <function ExceptionMiddleware.__call__.<locals>.sender at 0xb5400418>
+          │     │      │      └ <function MessageLoggerMiddleware.__call__.<locals>.inner_receive at 0xb5400028>
+          │     │      └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.1'}, 'http_version': '1.0', 'server': ('127.0.0.1', 8000), 'cl...
+          │     └ <function Mount.handle at 0xb5ed8778>
+          └ <starlette.routing.Mount object at 0xb54dd4f0>
+  File "/usr/local/lib/python3.9/site-packages/starlette-0.13.6-py3.9.egg/starlette/routing.py", line 376, in handle
+    await self.app(scope, receive, send)
+          │    │   │      │        └ <function ExceptionMiddleware.__call__.<locals>.sender at 0xb5400418>
+          │    │   │      └ <function MessageLoggerMiddleware.__call__.<locals>.inner_receive at 0xb5400028>
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.1'}, 'http_version': '1.0', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <fastapi.applications.FastAPI object at 0xb54dd3b8>
+          └ <starlette.routing.Mount object at 0xb54dd4f0>
+  File "/usr/local/lib/python3.9/site-packages/fastapi-0.63.0-py3.9.egg/fastapi/applications.py", line 199, in __call__
+    await super().__call__(scope, receive, send)
+                           │      │        └ <function ExceptionMiddleware.__call__.<locals>.sender at 0xb5400418>
+                           │      └ <function MessageLoggerMiddleware.__call__.<locals>.inner_receive at 0xb5400028>
+                           └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.1'}, 'http_version': '1.0', 'server': ('127.0.0.1', 8000), 'cl...
+  File "/usr/local/lib/python3.9/site-packages/starlette-0.13.6-py3.9.egg/starlette/applications.py", line 111, in __call__
+    await self.middleware_stack(scope, receive, send)
+          │    │                │      │        └ <function ExceptionMiddleware.__call__.<locals>.sender at 0xb5400418>
+          │    │                │      └ <function MessageLoggerMiddleware.__call__.<locals>.inner_receive at 0xb5400028>
+          │    │                └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.1'}, 'http_version': '1.0', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <starlette.middleware.errors.ServerErrorMiddleware object at 0xb54dd418>
+          └ <fastapi.applications.FastAPI object at 0xb54dd3b8>
+  File "/usr/local/lib/python3.9/site-packages/starlette-0.13.6-py3.9.egg/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+          │    │   │      │        └ <function ServerErrorMiddleware.__call__.<locals>._send at 0xb54008e0>
+          │    │   │      └ <function MessageLoggerMiddleware.__call__.<locals>.inner_receive at 0xb5400028>
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.1'}, 'http_version': '1.0', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <starlette.exceptions.ExceptionMiddleware object at 0xb54dd478>
+          └ <starlette.middleware.errors.ServerErrorMiddleware object at 0xb54dd418>
+  File "/usr/local/lib/python3.9/site-packages/starlette-0.13.6-py3.9.egg/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+          │    │   │      │        └ <function ExceptionMiddleware.__call__.<locals>.sender at 0xb5400da8>
+          │    │   │      └ <function MessageLoggerMiddleware.__call__.<locals>.inner_receive at 0xb5400028>
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.1'}, 'http_version': '1.0', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <fastapi.routing.APIRouter object at 0xb54dd388>
+          └ <starlette.exceptions.ExceptionMiddleware object at 0xb54dd478>
+  File "/usr/local/lib/python3.9/site-packages/starlette-0.13.6-py3.9.egg/starlette/routing.py", line 566, in __call__
+    await route.handle(scope, receive, send)
+          │     │      │      │        └ <function ExceptionMiddleware.__call__.<locals>.sender at 0xb5400da8>
+          │     │      │      └ <function MessageLoggerMiddleware.__call__.<locals>.inner_receive at 0xb5400028>
+          │     │      └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.1'}, 'http_version': '1.0', 'server': ('127.0.0.1', 8000), 'cl...
+          │     └ <function Route.handle at 0xb5ed8460>
+          └ <commonwealth.utils.apis.GenericErrorHandlingRoute object at 0xb5502cd0>
+  File "/usr/local/lib/python3.9/site-packages/starlette-0.13.6-py3.9.egg/starlette/routing.py", line 227, in handle
+    await self.app(scope, receive, send)
+          │    │   │      │        └ <function ExceptionMiddleware.__call__.<locals>.sender at 0xb5400da8>
+          │    │   │      └ <function MessageLoggerMiddleware.__call__.<locals>.inner_receive at 0xb5400028>
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.1'}, 'http_version': '1.0', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <function request_response.<locals>.app at 0xb54c40b8>
+          └ <commonwealth.utils.apis.GenericErrorHandlingRoute object at 0xb5502cd0>
+  File "/usr/local/lib/python3.9/site-packages/starlette-0.13.6-py3.9.egg/starlette/routing.py", line 41, in app
+    response = await func(request)
+                     │    └ <starlette.requests.Request object at 0xb58502c8>
+                     └ <function GenericErrorHandlingRoute.get_route_handler.<locals>.custom_route_handler at 0xb5530f58>
+> File "/usr/local/lib/python3.9/site-packages/commonwealth-0.1.0-py3.9.egg/commonwealth/utils/apis.py", line 31, in custom_route_handler
+    return await original_route_handler(request)
+                 │                      └ <starlette.requests.Request object at 0xb58502c8>
+                 └ <function get_request_handler.<locals>.app at 0xb5530fa0>
+  File "/usr/local/lib/python3.9/site-packages/fastapi-0.63.0-py3.9.egg/fastapi/routing.py", line 201, in app
+    raw_response = await run_endpoint_function(
+                         └ <function run_endpoint_function at 0xb5ed8e38>
+  File "/usr/local/lib/python3.9/site-packages/fastapi-0.63.0-py3.9.egg/fastapi/routing.py", line 148, in run_endpoint_function
+    return await dependant.call(**values)
+                 │         │      └ {}
+                 │         └ <function get_vehicle_type at 0xb5530f10>
+                 └ <fastapi.dependencies.models.Dependant object at 0xb5502e38>
+
+  File "/home/pi/services/ardupilot_manager/main.py", line 124, in get_vehicle_type
+    return await autopilot.vehicle_manager.get_vehicle_type()
+                 │         │               └ <function VehicleManager.get_vehicle_type at 0xb615dd60>
+                 │         └ <commonwealth.mavlink_comm.VehicleManager.VehicleManager object at 0xb55e1280>
+                 └ <ArduPilotManager.ArduPilotManager object at 0xb55de940>
+
+  File "/usr/local/lib/python3.9/site-packages/commonwealth-0.1.0-py3.9.egg/commonwealth/mavlink_comm/VehicleManager.py", line 75, in get_vehicle_type
+    heartbeat_message = await self.mavlink2rest.get_updated_mavlink_message("HEARTBEAT")
+                              │    │            └ <function MavlinkMessenger.get_updated_mavlink_message at 0xb615db20>
+                              │    └ <commonwealth.mavlink_comm.MavlinkComm.MavlinkMessenger object at 0xb55e1208>
+                              └ <commonwealth.mavlink_comm.VehicleManager.VehicleManager object at 0xb55e1280>
+  File "/usr/local/lib/python3.9/site-packages/commonwealth-0.1.0-py3.9.egg/commonwealth/mavlink_comm/MavlinkComm.py", line 125, in get_updated_mavlink_message
+    raise FetchUpdatedMessageFail(f"Did not receive an updated {message_name} before timeout.")
+          └ <class 'commonwealth.mavlink_comm.exceptions.FetchUpdatedMessageFail'>
+
+commonwealth.mavlink_comm.exceptions.FetchUpdatedMessageFail: Did not receive an updated HEARTBEAT before timeout.
+2023-05-21 18:56:16.281 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:56706 - "GET /v1.0/vehicle_type HTTP/1.0" 500
+2023-05-21 18:56:20.093 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:57232 - "GET /v1.0/board HTTP/1.0" 200
+2023-05-21 18:56:20.210 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:57242 - "GET /v1.0/firmware_info HTTP/1.0" 200
+2023-05-21 18:56:20.220 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:50 - Trying to detect Linux board.
+2023-05-21 18:56:20.223 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:52 - Navigator R5 detected.
+2023-05-21 18:56:20.249 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:57252 - "GET /v1.0/available_boards HTTP/1.0" 200
+2023-05-21 18:56:26.412 | WARNING  | commonwealth.mavlink_comm.MavlinkComm:get_updated_mavlink_message:123 - no new messages after 5.0 seconds, triggering system-id detection
+2023-05-21 18:56:26.433 | DEBUG    | commonwealth.mavlink_comm.MavlinkComm:get_most_recent_vehicle_id:102 - 1 (detected)
+2023-05-21 18:56:26.435 | INFO     | commonwealth.mavlink_comm.MavlinkComm:set_system_id:28 - system_id set to: 1
+2023-05-21 18:56:26.436 | ERROR    | commonwealth.utils.apis:custom_route_handler:36 - Unhandled service exception.
+2023-05-21 18:56:26.438 | ERROR    | commonwealth.utils.apis:custom_route_handler:37 - Did not receive an updated HEARTBEAT before timeout.
+Traceback (most recent call last):
+
+  File "/home/pi/services/ardupilot_manager/main.py", line 244, in <module>
+    loop.run_until_complete(server.serve())
+    │    │                  │      └ <function Server.serve at 0xb5d04070>
+    │    │                  └ <uvicorn.server.Server object at 0xb54dda90>
+    │    └ <function BaseEventLoop.run_until_complete at 0xb6437da8>
+    └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+
+  File "/usr/local/lib/python3.9/asyncio/base_events.py", line 634, in run_until_complete
+    self.run_forever()
+    │    └ <function BaseEventLoop.run_forever at 0xb6437d60>
+    └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+  File "/usr/local/lib/python3.9/asyncio/base_events.py", line 601, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0xb6439b20>
+    └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+  File "/usr/local/lib/python3.9/asyncio/base_events.py", line 1905, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0xb647f808>
+    └ <Handle <TaskStepMethWrapper object at 0xb542ca90>()>
+  File "/usr/local/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle <TaskStepMethWrapper object at 0xb542ca90>()>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle <TaskStepMethWrapper object at 0xb542ca90>()>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle <TaskStepMethWrapper object at 0xb542ca90>()>
+  File "/usr/local/lib/python3.9/site-packages/uvicorn-0.13.4-py3.9.egg/uvicorn/protocols/http/h11_impl.py", line 396, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+                   │   │    │      │    │        │    └ <function RequestResponseCycle.send at 0xb52e6028>
+                   │   │    │      │    │        └ <uvicorn.protocols.http.h11_impl.RequestResponseCycle object at 0xb5850da8>
+                   │   │    │      │    └ <function RequestResponseCycle.receive at 0xb52e6070>
+                   │   │    │      └ <uvicorn.protocols.http.h11_impl.RequestResponseCycle object at 0xb5850da8>
+                   │   │    └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.1'}, 'http_version': '1.0', 'server': ('127.0.0.1', 8000), 'cl...
+                   │   └ <uvicorn.protocols.http.h11_impl.RequestResponseCycle object at 0xb5850da8>
+                   └ <uvicorn.middleware.proxy_headers.ProxyHeadersMiddleware object at 0xb5501790>
+  File "/usr/local/lib/python3.9/site-packages/uvicorn-0.13.4-py3.9.egg/uvicorn/middleware/proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+                 │    │   │      │        └ <bound method RequestResponseCycle.send of <uvicorn.protocols.http.h11_impl.RequestResponseCycle object at 0xb5850da8>>
+                 │    │   │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.h11_impl.RequestResponseCycle object at 0xb5850da8>>
+                 │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.1'}, 'http_version': '1.0', 'server': ('127.0.0.1', 8000), 'cl...
+                 │    └ <uvicorn.middleware.message_logger.MessageLoggerMiddleware object at 0xb54ddb20>
+                 └ <uvicorn.middleware.proxy_headers.ProxyHeadersMiddleware object at 0xb5501790>
+  File "/usr/local/lib/python3.9/site-packages/uvicorn-0.13.4-py3.9.egg/uvicorn/middleware/message_logger.py", line 61, in __call__
+    await self.app(scope, inner_receive, inner_send)
+          │    │   │      │              └ <function MessageLoggerMiddleware.__call__.<locals>.inner_send at 0xb586e6a0>
+          │    │   │      └ <function MessageLoggerMiddleware.__call__.<locals>.inner_receive at 0xb53f3580>
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.1'}, 'http_version': '1.0', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <fastapi.applications.FastAPI object at 0xb55e15c8>
+          └ <uvicorn.middleware.message_logger.MessageLoggerMiddleware object at 0xb54ddb20>
+  File "/usr/local/lib/python3.9/site-packages/fastapi-0.63.0-py3.9.egg/fastapi/applications.py", line 199, in __call__
+    await super().__call__(scope, receive, send)
+                           │      │        └ <function MessageLoggerMiddleware.__call__.<locals>.inner_send at 0xb586e6a0>
+                           │      └ <function MessageLoggerMiddleware.__call__.<locals>.inner_receive at 0xb53f3580>
+                           └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.1'}, 'http_version': '1.0', 'server': ('127.0.0.1', 8000), 'cl...
+  File "/usr/local/lib/python3.9/site-packages/starlette-0.13.6-py3.9.egg/starlette/applications.py", line 111, in __call__
+    await self.middleware_stack(scope, receive, send)
+          │    │                │      │        └ <function MessageLoggerMiddleware.__call__.<locals>.inner_send at 0xb586e6a0>
+          │    │                │      └ <function MessageLoggerMiddleware.__call__.<locals>.inner_receive at 0xb53f3580>
+          │    │                └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.1'}, 'http_version': '1.0', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <starlette.middleware.errors.ServerErrorMiddleware object at 0xb55e16e8>
+          └ <fastapi.applications.FastAPI object at 0xb55e15c8>
+  File "/usr/local/lib/python3.9/site-packages/starlette-0.13.6-py3.9.egg/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+          │    │   │      │        └ <function ServerErrorMiddleware.__call__.<locals>._send at 0xb586eb20>
+          │    │   │      └ <function MessageLoggerMiddleware.__call__.<locals>.inner_receive at 0xb53f3580>
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.1'}, 'http_version': '1.0', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <starlette.exceptions.ExceptionMiddleware object at 0xb55e16d0>
+          └ <starlette.middleware.errors.ServerErrorMiddleware object at 0xb55e16e8>
+  File "/usr/local/lib/python3.9/site-packages/starlette-0.13.6-py3.9.egg/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+          │    │   │      │        └ <function ExceptionMiddleware.__call__.<locals>.sender at 0xb586e6e8>
+          │    │   │      └ <function MessageLoggerMiddleware.__call__.<locals>.inner_receive at 0xb53f3580>
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.1'}, 'http_version': '1.0', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <fastapi.routing.APIRouter object at 0xb55e1610>
+          └ <starlette.exceptions.ExceptionMiddleware object at 0xb55e16d0>
+  File "/usr/local/lib/python3.9/site-packages/starlette-0.13.6-py3.9.egg/starlette/routing.py", line 566, in __call__
+    await route.handle(scope, receive, send)
+          │     │      │      │        └ <function ExceptionMiddleware.__call__.<locals>.sender at 0xb586e6e8>
+          │     │      │      └ <function MessageLoggerMiddleware.__call__.<locals>.inner_receive at 0xb53f3580>
+          │     │      └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.1'}, 'http_version': '1.0', 'server': ('127.0.0.1', 8000), 'cl...
+          │     └ <function Mount.handle at 0xb5ed8778>
+          └ <starlette.routing.Mount object at 0xb54dd4f0>
+  File "/usr/local/lib/python3.9/site-packages/starlette-0.13.6-py3.9.egg/starlette/routing.py", line 376, in handle
+    await self.app(scope, receive, send)
+          │    │   │      │        └ <function ExceptionMiddleware.__call__.<locals>.sender at 0xb586e6e8>
+          │    │   │      └ <function MessageLoggerMiddleware.__call__.<locals>.inner_receive at 0xb53f3580>
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.1'}, 'http_version': '1.0', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <fastapi.applications.FastAPI object at 0xb54dd3b8>
+          └ <starlette.routing.Mount object at 0xb54dd4f0>
+  File "/usr/local/lib/python3.9/site-packages/fastapi-0.63.0-py3.9.egg/fastapi/applications.py", line 199, in __call__
+    await super().__call__(scope, receive, send)
+                           │      │        └ <function ExceptionMiddleware.__call__.<locals>.sender at 0xb586e6e8>
+                           │      └ <function MessageLoggerMiddleware.__call__.<locals>.inner_receive at 0xb53f3580>
+                           └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.1'}, 'http_version': '1.0', 'server': ('127.0.0.1', 8000), 'cl...
+  File "/usr/local/lib/python3.9/site-packages/starlette-0.13.6-py3.9.egg/starlette/applications.py", line 111, in __call__
+    await self.middleware_stack(scope, receive, send)
+          │    │                │      │        └ <function ExceptionMiddleware.__call__.<locals>.sender at 0xb586e6e8>
+          │    │                │      └ <function MessageLoggerMiddleware.__call__.<locals>.inner_receive at 0xb53f3580>
+          │    │                └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.1'}, 'http_version': '1.0', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <starlette.middleware.errors.ServerErrorMiddleware object at 0xb54dd418>
+          └ <fastapi.applications.FastAPI object at 0xb54dd3b8>
+  File "/usr/local/lib/python3.9/site-packages/starlette-0.13.6-py3.9.egg/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+          │    │   │      │        └ <function ServerErrorMiddleware.__call__.<locals>._send at 0xb586e730>
+          │    │   │      └ <function MessageLoggerMiddleware.__call__.<locals>.inner_receive at 0xb53f3580>
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.1'}, 'http_version': '1.0', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <starlette.exceptions.ExceptionMiddleware object at 0xb54dd478>
+          └ <starlette.middleware.errors.ServerErrorMiddleware object at 0xb54dd418>
+  File "/usr/local/lib/python3.9/site-packages/starlette-0.13.6-py3.9.egg/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+          │    │   │      │        └ <function ExceptionMiddleware.__call__.<locals>.sender at 0xb581fa48>
+          │    │   │      └ <function MessageLoggerMiddleware.__call__.<locals>.inner_receive at 0xb53f3580>
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.1'}, 'http_version': '1.0', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <fastapi.routing.APIRouter object at 0xb54dd388>
+          └ <starlette.exceptions.ExceptionMiddleware object at 0xb54dd478>
+  File "/usr/local/lib/python3.9/site-packages/starlette-0.13.6-py3.9.egg/starlette/routing.py", line 566, in __call__
+    await route.handle(scope, receive, send)
+          │     │      │      │        └ <function ExceptionMiddleware.__call__.<locals>.sender at 0xb581fa48>
+          │     │      │      └ <function MessageLoggerMiddleware.__call__.<locals>.inner_receive at 0xb53f3580>
+          │     │      └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.1'}, 'http_version': '1.0', 'server': ('127.0.0.1', 8000), 'cl...
+          │     └ <function Route.handle at 0xb5ed8460>
+          └ <commonwealth.utils.apis.GenericErrorHandlingRoute object at 0xb5502cd0>
+  File "/usr/local/lib/python3.9/site-packages/starlette-0.13.6-py3.9.egg/starlette/routing.py", line 227, in handle
+    await self.app(scope, receive, send)
+          │    │   │      │        └ <function ExceptionMiddleware.__call__.<locals>.sender at 0xb581fa48>
+          │    │   │      └ <function MessageLoggerMiddleware.__call__.<locals>.inner_receive at 0xb53f3580>
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.1'}, 'http_version': '1.0', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <function request_response.<locals>.app at 0xb54c40b8>
+          └ <commonwealth.utils.apis.GenericErrorHandlingRoute object at 0xb5502cd0>
+  File "/usr/local/lib/python3.9/site-packages/starlette-0.13.6-py3.9.egg/starlette/routing.py", line 41, in app
+    response = await func(request)
+                     │    └ <starlette.requests.Request object at 0xb58500b8>
+                     └ <function GenericErrorHandlingRoute.get_route_handler.<locals>.custom_route_handler at 0xb5530f58>
+> File "/usr/local/lib/python3.9/site-packages/commonwealth-0.1.0-py3.9.egg/commonwealth/utils/apis.py", line 31, in custom_route_handler
+    return await original_route_handler(request)
+                 │                      └ <starlette.requests.Request object at 0xb58500b8>
+                 └ <function get_request_handler.<locals>.app at 0xb5530fa0>
+  File "/usr/local/lib/python3.9/site-packages/fastapi-0.63.0-py3.9.egg/fastapi/routing.py", line 201, in app
+    raw_response = await run_endpoint_function(
+                         └ <function run_endpoint_function at 0xb5ed8e38>
+  File "/usr/local/lib/python3.9/site-packages/fastapi-0.63.0-py3.9.egg/fastapi/routing.py", line 148, in run_endpoint_function
+    return await dependant.call(**values)
+                 │         │      └ {}
+                 │         └ <function get_vehicle_type at 0xb5530f10>
+                 └ <fastapi.dependencies.models.Dependant object at 0xb5502e38>
+
+  File "/home/pi/services/ardupilot_manager/main.py", line 124, in get_vehicle_type
+    return await autopilot.vehicle_manager.get_vehicle_type()
+                 │         │               └ <function VehicleManager.get_vehicle_type at 0xb615dd60>
+                 │         └ <commonwealth.mavlink_comm.VehicleManager.VehicleManager object at 0xb55e1280>
+                 └ <ArduPilotManager.ArduPilotManager object at 0xb55de940>
+
+  File "/usr/local/lib/python3.9/site-packages/commonwealth-0.1.0-py3.9.egg/commonwealth/mavlink_comm/VehicleManager.py", line 75, in get_vehicle_type
+    heartbeat_message = await self.mavlink2rest.get_updated_mavlink_message("HEARTBEAT")
+                              │    │            └ <function MavlinkMessenger.get_updated_mavlink_message at 0xb615db20>
+                              │    └ <commonwealth.mavlink_comm.MavlinkComm.MavlinkMessenger object at 0xb55e1208>
+                              └ <commonwealth.mavlink_comm.VehicleManager.VehicleManager object at 0xb55e1280>
+  File "/usr/local/lib/python3.9/site-packages/commonwealth-0.1.0-py3.9.egg/commonwealth/mavlink_comm/MavlinkComm.py", line 125, in get_updated_mavlink_message
+    raise FetchUpdatedMessageFail(f"Did not receive an updated {message_name} before timeout.")
+          └ <class 'commonwealth.mavlink_comm.exceptions.FetchUpdatedMessageFail'>
+
+commonwealth.mavlink_comm.exceptions.FetchUpdatedMessageFail: Did not receive an updated HEARTBEAT before timeout.
+2023-05-21 18:56:26.503 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:57318 - "GET /v1.0/vehicle_type HTTP/1.0" 500
+2023-05-21 18:56:35.532 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:58362 - "GET / HTTP/1.1" 200
+2023-05-21 18:56:35.566 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:58368 - "GET /register_service HTTP/1.1" 404
+2023-05-21 18:56:35.575 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:58370 - "GET /docs HTTP/1.1" 200
+2023-05-21 18:56:35.586 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:58372 - "GET /docs.json HTTP/1.1" 404
+2023-05-21 18:56:35.595 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:58374 - "GET /openapi.json HTTP/1.1" 200
+2023-05-21 18:56:35.605 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:58376 - "GET /v1.0/docs HTTP/1.1" 200
+2023-05-21 18:56:35.616 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:58378 - "GET /v1.0/openapi.json HTTP/1.1" 200
+2023-05-21 18:56:35.627 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:58380 - "GET /swagger.json HTTP/1.1" 404
