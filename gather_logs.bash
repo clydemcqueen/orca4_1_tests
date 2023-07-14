@@ -7,3 +7,4 @@
 
 mv /home/clyde/Documents/PingViewer/Sensor_Log/* .
 mv /home/clyde/Documents/QGroundControl/Telemetry/* .
+mv /home/clyde/Documents/QGroundControl/Video/* .
