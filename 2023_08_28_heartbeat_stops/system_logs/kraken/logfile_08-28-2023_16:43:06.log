@@ -1,0 +1,21 @@
+2023-08-28 16:43:07.110 | DEBUG    | commonwealth.settings.manager:__init__:33 - Starting Kraken settings with SettingsV1, configuration path: None
+2023-08-28 16:43:07.116 | DEBUG    | commonwealth.settings.manager:load:115 - Found possible candidates for settings source: [PosixPath('/root/.config/kraken/settings-1.json')]
+2023-08-28 16:43:07.119 | DEBUG    | commonwealth.settings.manager:load:117 - Checking /root/.config/kraken/settings-1.json for settings
+2023-08-28 16:43:07.129 | DEBUG    | commonwealth.settings.settings:load:63 - Loading settings from file: /root/.config/kraken/settings-1.json
+2023-08-28 16:43:07.134 | DEBUG    | commonwealth.settings.manager:load:120 - Using /root/.config/kraken/settings-1.json as settings source
+2023-08-28 16:43:07.143 | INFO     | __main__:<module>:44 - Releasing the Kraken!
+2023-08-28 16:43:07.279 | INFO     | __main__:<module>:164 - Releasing the Kraken service.
+2023-08-28 16:43:07.294 | DEBUG    | asyncio.selector_events:__init__:54 - Using selector: EpollSelector
+2023-08-28 16:43:07.600 | INFO     | uvicorn.server:serve:64 - Started server process [140]
+2023-08-28 16:43:07.616 | INFO     | uvicorn.lifespan.on:startup:26 - Waiting for application startup.
+2023-08-28 16:43:07.641 | INFO     | uvicorn.lifespan.on:startup:38 - Application startup complete.
+2023-08-28 16:43:07.651 | INFO     | uvicorn.server:_log_started_message:199 - Uvicorn running on http://0.0.0.0:9134 (Press CTRL+C to quit)
+2023-08-28 16:43:28.807 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:42966 - "GET / HTTP/1.1" 200
+2023-08-28 16:43:28.820 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:42968 - "GET /register_service HTTP/1.1" 404
+2023-08-28 16:43:28.830 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:42970 - "GET /docs HTTP/1.1" 200
+2023-08-28 16:43:28.839 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:42972 - "GET /docs.json HTTP/1.1" 404
+2023-08-28 16:43:28.854 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:42974 - "GET /openapi.json HTTP/1.1" 200
+2023-08-28 16:43:28.862 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:42976 - "GET /v1.0/docs HTTP/1.1" 200
+2023-08-28 16:43:28.910 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:42978 - "GET /v1.0/openapi.json HTTP/1.1" 200
+2023-08-28 16:43:28.917 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:42980 - "GET / HTTP/1.1" 200
+2023-08-28 16:43:28.924 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:42982 - "GET /swagger.json HTTP/1.1" 404

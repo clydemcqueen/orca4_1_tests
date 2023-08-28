@@ -1,0 +1,246 @@
+2023-08-28 15:58:14.997 | DEBUG    | __main__:check_website:424 - Running check_website for '1.1.1.1:80': Online.
+2023-08-28 15:58:15.045 | DEBUG    | __main__:check_website:424 - Running check_website for 'github.com:80': Online.
+2023-08-28 15:58:15.168 | DEBUG    | __main__:check_website:424 - Running check_website for 'firmware.ardupilot.org:80': Online.
+2023-08-28 15:58:15.179 | DEBUG    | __main__:check_website:424 - Running check_website for 'amazon.com:80': Online.
+2023-08-28 15:58:15.340 | DEBUG    | __main__:check_website:424 - Running check_website for 'telemetry.blueos.cloud:443': Online.
+2023-08-28 15:58:49.380 | DEBUG    | __main__:check_website:424 - Running check_website for '1.1.1.1:80': Online.
+2023-08-28 15:58:49.417 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:57136 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 15:58:49.448 | DEBUG    | __main__:check_website:424 - Running check_website for 'github.com:80': Online.
+2023-08-28 15:58:49.515 | DEBUG    | __main__:check_website:424 - Running check_website for 'amazon.com:80': Online.
+2023-08-28 15:58:49.543 | DEBUG    | __main__:check_website:424 - Running check_website for 'firmware.ardupilot.org:80': Online.
+2023-08-28 15:58:49.712 | DEBUG    | __main__:check_website:424 - Running check_website for 'telemetry.blueos.cloud:443': Online.
+2023-08-28 15:58:49.718 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:57142 - "GET /latest/check_internet_access HTTP/1.0" 200
+2023-08-28 15:59:15.401 | DEBUG    | __main__:check_website:424 - Running check_website for '1.1.1.1:80': Online.
+2023-08-28 15:59:15.471 | DEBUG    | __main__:check_website:424 - Running check_website for 'github.com:80': Online.
+2023-08-28 15:59:15.565 | DEBUG    | __main__:check_website:424 - Running check_website for 'firmware.ardupilot.org:80': Online.
+2023-08-28 15:59:15.576 | DEBUG    | __main__:check_website:424 - Running check_website for 'amazon.com:80': Online.
+2023-08-28 15:59:16.210 | DEBUG    | __main__:check_website:424 - Running check_website for 'telemetry.blueos.cloud:443': Online.
+2023-08-28 15:59:49.386 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:57598 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 15:59:49.396 | DEBUG    | __main__:check_website:424 - Running check_website for '1.1.1.1:80': Online.
+2023-08-28 15:59:49.438 | DEBUG    | __main__:check_website:424 - Running check_website for 'github.com:80': Online.
+2023-08-28 15:59:49.538 | DEBUG    | __main__:check_website:424 - Running check_website for 'amazon.com:80': Online.
+2023-08-28 15:59:49.581 | DEBUG    | __main__:check_website:424 - Running check_website for 'firmware.ardupilot.org:80': Online.
+2023-08-28 15:59:49.695 | DEBUG    | __main__:check_website:424 - Running check_website for 'telemetry.blueos.cloud:443': Online.
+2023-08-28 15:59:49.704 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:57604 - "GET /latest/check_internet_access HTTP/1.0" 200
+2023-08-28 16:00:16.271 | DEBUG    | __main__:check_website:424 - Running check_website for '1.1.1.1:80': Online.
+2023-08-28 16:00:16.324 | DEBUG    | __main__:check_website:424 - Running check_website for 'github.com:80': Online.
+2023-08-28 16:00:16.452 | DEBUG    | __main__:check_website:424 - Running check_website for 'amazon.com:80': Online.
+2023-08-28 16:00:16.463 | DEBUG    | __main__:check_website:424 - Running check_website for 'firmware.ardupilot.org:80': Online.
+2023-08-28 16:00:16.600 | DEBUG    | __main__:check_website:424 - Running check_website for 'telemetry.blueos.cloud:443': Online.
+2023-08-28 16:00:49.345 | DEBUG    | __main__:check_website:424 - Running check_website for '1.1.1.1:80': Online.
+2023-08-28 16:00:49.352 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:58064 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:00:49.432 | DEBUG    | __main__:check_website:424 - Running check_website for 'github.com:80': Online.
+2023-08-28 16:00:49.502 | DEBUG    | __main__:check_website:424 - Running check_website for 'amazon.com:80': Online.
+2023-08-28 16:00:49.508 | DEBUG    | __main__:check_website:424 - Running check_website for 'firmware.ardupilot.org:80': Online.
+2023-08-28 16:00:49.699 | DEBUG    | __main__:check_website:424 - Running check_website for 'telemetry.blueos.cloud:443': Online.
+2023-08-28 16:00:49.705 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:58070 - "GET /latest/check_internet_access HTTP/1.0" 200
+2023-08-28 16:01:16.660 | DEBUG    | __main__:check_website:424 - Running check_website for '1.1.1.1:80': Online.
+2023-08-28 16:01:16.717 | DEBUG    | __main__:check_website:424 - Running check_website for 'github.com:80': Online.
+2023-08-28 16:01:16.835 | DEBUG    | __main__:check_website:424 - Running check_website for 'amazon.com:80': Online.
+2023-08-28 16:01:16.839 | DEBUG    | __main__:check_website:424 - Running check_website for 'firmware.ardupilot.org:80': Online.
+2023-08-28 16:01:16.998 | DEBUG    | __main__:check_website:424 - Running check_website for 'telemetry.blueos.cloud:443': Online.
+2023-08-28 16:01:49.396 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:58540 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:01:49.410 | DEBUG    | __main__:check_website:424 - Running check_website for '1.1.1.1:80': Online.
+2023-08-28 16:01:49.455 | DEBUG    | __main__:check_website:424 - Running check_website for 'github.com:80': Online.
+2023-08-28 16:01:49.546 | DEBUG    | __main__:check_website:424 - Running check_website for 'amazon.com:80': Online.
+2023-08-28 16:01:49.555 | DEBUG    | __main__:check_website:424 - Running check_website for 'firmware.ardupilot.org:80': Online.
+2023-08-28 16:01:49.710 | DEBUG    | __main__:check_website:424 - Running check_website for 'telemetry.blueos.cloud:443': Online.
+2023-08-28 16:01:49.715 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:58546 - "GET /latest/check_internet_access HTTP/1.0" 200
+2023-08-28 16:02:17.074 | DEBUG    | __main__:check_website:424 - Running check_website for '1.1.1.1:80': Online.
+2023-08-28 16:02:17.115 | DEBUG    | __main__:check_website:424 - Running check_website for 'github.com:80': Online.
+2023-08-28 16:02:17.225 | DEBUG    | __main__:check_website:424 - Running check_website for 'firmware.ardupilot.org:80': Online.
+2023-08-28 16:02:17.228 | DEBUG    | __main__:check_website:424 - Running check_website for 'amazon.com:80': Online.
+2023-08-28 16:02:17.395 | DEBUG    | __main__:check_website:424 - Running check_website for 'telemetry.blueos.cloud:443': Online.
+2023-08-28 16:02:49.388 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:59002 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:02:49.534 | DEBUG    | __main__:check_website:424 - Running check_website for '1.1.1.1:80': Online.
+2023-08-28 16:02:49.666 | DEBUG    | __main__:check_website:424 - Running check_website for 'github.com:80': Online.
+2023-08-28 16:02:49.667 | DEBUG    | __main__:check_website:424 - Running check_website for 'firmware.ardupilot.org:80': Online.
+2023-08-28 16:02:49.930 | DEBUG    | __main__:check_website:424 - Running check_website for 'amazon.com:80': Online.
+2023-08-28 16:02:50.411 | DEBUG    | __main__:check_website:424 - Running check_website for 'telemetry.blueos.cloud:443': Online.
+2023-08-28 16:02:50.417 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:59008 - "GET /latest/check_internet_access HTTP/1.0" 200
+2023-08-28 16:02:53.806 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:59064 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:02:58.800 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:59102 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:03:03.803 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:59150 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:03:08.801 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:59194 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:03:09.359 | DEBUG    | __main__:check_website:424 - Running check_website for '1.1.1.1:80': Online.
+2023-08-28 16:03:09.476 | DEBUG    | __main__:check_website:424 - Running check_website for 'github.com:80': Online.
+2023-08-28 16:03:09.503 | DEBUG    | __main__:check_website:424 - Running check_website for 'firmware.ardupilot.org:80': Online.
+2023-08-28 16:03:09.520 | DEBUG    | __main__:check_website:424 - Running check_website for 'amazon.com:80': Online.
+2023-08-28 16:03:09.704 | DEBUG    | __main__:check_website:424 - Running check_website for 'telemetry.blueos.cloud:443': Online.
+2023-08-28 16:03:09.709 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:59196 - "GET /latest/check_internet_access HTTP/1.0" 200
+2023-08-28 16:03:13.843 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:59256 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:03:17.462 | DEBUG    | __main__:check_website:424 - Running check_website for '1.1.1.1:80': Online.
+2023-08-28 16:03:17.508 | DEBUG    | __main__:check_website:424 - Running check_website for 'github.com:80': Online.
+2023-08-28 16:03:17.658 | DEBUG    | __main__:check_website:424 - Running check_website for 'firmware.ardupilot.org:80': Online.
+2023-08-28 16:03:17.798 | DEBUG    | __main__:check_website:424 - Running check_website for 'telemetry.blueos.cloud:443': Online.
+2023-08-28 16:03:17.931 | DEBUG    | __main__:check_website:424 - Running check_website for 'amazon.com:80': Online.
+2023-08-28 16:03:18.808 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:59304 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:03:23.799 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:59352 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:03:28.858 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:59396 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:03:29.371 | DEBUG    | __main__:check_website:424 - Running check_website for '1.1.1.1:80': Online.
+2023-08-28 16:03:29.410 | DEBUG    | __main__:check_website:424 - Running check_website for 'github.com:80': Online.
+2023-08-28 16:03:29.587 | DEBUG    | __main__:check_website:424 - Running check_website for 'firmware.ardupilot.org:80': Online.
+2023-08-28 16:03:29.593 | DEBUG    | __main__:check_website:424 - Running check_website for 'amazon.com:80': Online.
+2023-08-28 16:03:29.726 | DEBUG    | __main__:check_website:424 - Running check_website for 'telemetry.blueos.cloud:443': Online.
+2023-08-28 16:03:29.732 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:59398 - "GET /latest/check_internet_access HTTP/1.0" 200
+2023-08-28 16:03:33.827 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:59452 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:03:38.838 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:59496 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:03:43.803 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:59544 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:03:48.796 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:59588 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:03:49.357 | DEBUG    | __main__:check_website:424 - Running check_website for '1.1.1.1:80': Online.
+2023-08-28 16:03:49.482 | DEBUG    | __main__:check_website:424 - Running check_website for 'github.com:80': Online.
+2023-08-28 16:03:49.516 | DEBUG    | __main__:check_website:424 - Running check_website for 'firmware.ardupilot.org:80': Online.
+2023-08-28 16:03:49.522 | DEBUG    | __main__:check_website:424 - Running check_website for 'amazon.com:80': Online.
+2023-08-28 16:03:49.677 | DEBUG    | __main__:check_website:424 - Running check_website for 'telemetry.blueos.cloud:443': Online.
+2023-08-28 16:03:49.682 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:59590 - "GET /latest/check_internet_access HTTP/1.0" 200
+2023-08-28 16:03:53.845 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:59644 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:03:58.807 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:59688 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:04:03.801 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:59736 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:04:08.817 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:59774 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:04:09.360 | DEBUG    | __main__:check_website:424 - Running check_website for '1.1.1.1:80': Online.
+2023-08-28 16:04:09.411 | DEBUG    | __main__:check_website:424 - Running check_website for 'github.com:80': Online.
+2023-08-28 16:04:09.525 | DEBUG    | __main__:check_website:424 - Running check_website for 'amazon.com:80': Online.
+2023-08-28 16:04:09.527 | DEBUG    | __main__:check_website:424 - Running check_website for 'firmware.ardupilot.org:80': Online.
+2023-08-28 16:04:09.754 | DEBUG    | __main__:check_website:424 - Running check_website for 'telemetry.blueos.cloud:443': Online.
+2023-08-28 16:04:09.759 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:59782 - "GET /latest/check_internet_access HTTP/1.0" 200
+2023-08-28 16:04:13.809 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:59836 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:04:18.000 | DEBUG    | __main__:check_website:424 - Running check_website for '1.1.1.1:80': Online.
+2023-08-28 16:04:18.040 | DEBUG    | __main__:check_website:424 - Running check_website for 'github.com:80': Online.
+2023-08-28 16:04:18.163 | DEBUG    | __main__:check_website:424 - Running check_website for 'firmware.ardupilot.org:80': Online.
+2023-08-28 16:04:18.168 | DEBUG    | __main__:check_website:424 - Running check_website for 'amazon.com:80': Online.
+2023-08-28 16:04:18.316 | DEBUG    | __main__:check_website:424 - Running check_website for 'telemetry.blueos.cloud:443': Online.
+2023-08-28 16:04:18.858 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:59890 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:04:23.841 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:59938 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:04:28.802 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:59976 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:04:29.382 | DEBUG    | __main__:check_website:424 - Running check_website for '1.1.1.1:80': Online.
+2023-08-28 16:04:29.437 | DEBUG    | __main__:check_website:424 - Running check_website for 'github.com:80': Online.
+2023-08-28 16:04:29.718 | DEBUG    | __main__:check_website:424 - Running check_website for 'telemetry.blueos.cloud:443': Online.
+2023-08-28 16:04:29.854 | DEBUG    | __main__:check_website:424 - Running check_website for 'amazon.com:80': Online.
+2023-08-28 16:04:30.618 | DEBUG    | __main__:check_website:424 - Running check_website for 'firmware.ardupilot.org:80': Online.
+2023-08-28 16:04:30.624 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:59984 - "GET /latest/check_internet_access HTTP/1.0" 200
+2023-08-28 16:04:33.825 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:60038 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:04:38.797 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:60076 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:04:43.856 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:60118 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:04:48.803 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:60162 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:04:49.415 | DEBUG    | __main__:check_website:424 - Running check_website for '1.1.1.1:80': Online.
+2023-08-28 16:04:49.467 | DEBUG    | __main__:check_website:424 - Running check_website for 'github.com:80': Online.
+2023-08-28 16:04:49.564 | DEBUG    | __main__:check_website:424 - Running check_website for 'amazon.com:80': Online.
+2023-08-28 16:04:49.574 | DEBUG    | __main__:check_website:424 - Running check_website for 'firmware.ardupilot.org:80': Online.
+2023-08-28 16:04:49.726 | DEBUG    | __main__:check_website:424 - Running check_website for 'telemetry.blueos.cloud:443': Online.
+2023-08-28 16:04:49.730 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:60170 - "GET /latest/check_internet_access HTTP/1.0" 200
+2023-08-28 16:04:53.795 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:60224 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:04:58.834 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:60268 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:05:03.807 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:60310 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:05:08.797 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:60354 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:05:09.412 | DEBUG    | __main__:check_website:424 - Running check_website for '1.1.1.1:80': Online.
+2023-08-28 16:05:09.483 | DEBUG    | __main__:check_website:424 - Running check_website for 'github.com:80': Online.
+2023-08-28 16:05:09.565 | DEBUG    | __main__:check_website:424 - Running check_website for 'firmware.ardupilot.org:80': Online.
+2023-08-28 16:05:09.587 | DEBUG    | __main__:check_website:424 - Running check_website for 'amazon.com:80': Online.
+2023-08-28 16:05:09.758 | DEBUG    | __main__:check_website:424 - Running check_website for 'telemetry.blueos.cloud:443': Online.
+2023-08-28 16:05:09.764 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:60362 - "GET /latest/check_internet_access HTTP/1.0" 200
+2023-08-28 16:05:13.806 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:60416 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:05:18.375 | DEBUG    | __main__:check_website:424 - Running check_website for '1.1.1.1:80': Online.
+2023-08-28 16:05:18.425 | DEBUG    | __main__:check_website:424 - Running check_website for 'github.com:80': Online.
+2023-08-28 16:05:18.538 | DEBUG    | __main__:check_website:424 - Running check_website for 'amazon.com:80': Online.
+2023-08-28 16:05:18.587 | DEBUG    | __main__:check_website:424 - Running check_website for 'firmware.ardupilot.org:80': Online.
+2023-08-28 16:05:18.752 | DEBUG    | __main__:check_website:424 - Running check_website for 'telemetry.blueos.cloud:443': Online.
+2023-08-28 16:05:18.817 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:60470 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:05:23.846 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:60512 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:05:28.804 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:60556 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:05:29.393 | DEBUG    | __main__:check_website:424 - Running check_website for '1.1.1.1:80': Online.
+2023-08-28 16:05:29.438 | DEBUG    | __main__:check_website:424 - Running check_website for 'github.com:80': Online.
+2023-08-28 16:05:29.552 | DEBUG    | __main__:check_website:424 - Running check_website for 'amazon.com:80': Online.
+2023-08-28 16:05:29.558 | DEBUG    | __main__:check_website:424 - Running check_website for 'firmware.ardupilot.org:80': Online.
+2023-08-28 16:05:29.760 | DEBUG    | __main__:check_website:424 - Running check_website for 'telemetry.blueos.cloud:443': Online.
+2023-08-28 16:05:29.765 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:60564 - "GET /latest/check_internet_access HTTP/1.0" 200
+2023-08-28 16:05:33.823 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:60618 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:05:38.806 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:60656 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:05:43.799 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:60704 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:05:48.826 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:60748 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:05:49.409 | DEBUG    | __main__:check_website:424 - Running check_website for '1.1.1.1:80': Online.
+2023-08-28 16:05:49.465 | DEBUG    | __main__:check_website:424 - Running check_website for 'github.com:80': Online.
+2023-08-28 16:05:49.940 | DEBUG    | __main__:check_website:424 - Running check_website for 'amazon.com:80': Online.
+2023-08-28 16:05:49.967 | DEBUG    | __main__:check_website:424 - Running check_website for 'telemetry.blueos.cloud:443': Online.
+2023-08-28 16:05:49.972 | DEBUG    | __main__:check_website:424 - Running check_website for 'firmware.ardupilot.org:80': Online.
+2023-08-28 16:05:49.977 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:60750 - "GET /latest/check_internet_access HTTP/1.0" 200
+2023-08-28 16:05:53.803 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:60810 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:05:58.802 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:60848 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:06:03.817 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:60894 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:06:08.806 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:60938 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:06:09.446 | DEBUG    | __main__:check_website:424 - Running check_website for '1.1.1.1:80': Online.
+2023-08-28 16:06:09.510 | DEBUG    | __main__:check_website:424 - Running check_website for 'github.com:80': Online.
+2023-08-28 16:06:09.611 | DEBUG    | __main__:check_website:424 - Running check_website for 'firmware.ardupilot.org:80': Online.
+2023-08-28 16:06:09.615 | DEBUG    | __main__:check_website:424 - Running check_website for 'amazon.com:80': Online.
+2023-08-28 16:06:09.846 | DEBUG    | __main__:check_website:424 - Running check_website for 'telemetry.blueos.cloud:443': Online.
+2023-08-28 16:06:09.851 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:60942 - "GET /latest/check_internet_access HTTP/1.0" 200
+2023-08-28 16:06:13.798 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:60994 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:06:18.820 | DEBUG    | __main__:check_website:424 - Running check_website for '1.1.1.1:80': Online.
+2023-08-28 16:06:18.867 | DEBUG    | __main__:check_website:424 - Running check_website for 'github.com:80': Online.
+2023-08-28 16:06:19.031 | DEBUG    | __main__:check_website:424 - Running check_website for 'firmware.ardupilot.org:80': Online.
+2023-08-28 16:06:19.032 | DEBUG    | __main__:check_website:424 - Running check_website for 'amazon.com:80': Online.
+2023-08-28 16:06:19.285 | DEBUG    | __main__:check_website:424 - Running check_website for 'telemetry.blueos.cloud:443': Online.
+2023-08-28 16:06:19.321 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:32806 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:06:23.794 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:32864 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:06:28.811 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:32906 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:06:30.761 | DEBUG    | __main__:check_website:424 - Running check_website for '1.1.1.1:80': Online.
+2023-08-28 16:06:30.833 | DEBUG    | __main__:check_website:424 - Running check_website for 'github.com:80': Online.
+2023-08-28 16:06:31.734 | DEBUG    | __main__:check_website:424 - Running check_website for 'telemetry.blueos.cloud:443': Online.
+2023-08-28 16:06:33.799 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:32956 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:06:34.593 | DEBUG    | __main__:check_website:424 - Running check_website for 'firmware.ardupilot.org:80': Online.
+2023-08-28 16:06:34.597 | DEBUG    | __main__:check_website:424 - Running check_website for 'amazon.com:80': Online.
+2023-08-28 16:06:34.603 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:32910 - "GET /latest/check_internet_access HTTP/1.0" 200
+2023-08-28 16:06:38.796 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:33004 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:06:43.805 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:33052 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:06:48.812 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:33090 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:06:49.430 | DEBUG    | __main__:check_website:424 - Running check_website for '1.1.1.1:80': Online.
+2023-08-28 16:06:49.468 | DEBUG    | __main__:check_website:424 - Running check_website for 'github.com:80': Online.
+2023-08-28 16:06:49.583 | DEBUG    | __main__:check_website:424 - Running check_website for 'firmware.ardupilot.org:80': Online.
+2023-08-28 16:06:49.586 | DEBUG    | __main__:check_website:424 - Running check_website for 'amazon.com:80': Online.
+2023-08-28 16:06:49.798 | DEBUG    | __main__:check_website:424 - Running check_website for 'telemetry.blueos.cloud:443': Online.
+2023-08-28 16:06:49.804 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:33102 - "GET /latest/check_internet_access HTTP/1.0" 200
+2023-08-28 16:06:56.794 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:33164 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:06:58.761 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:33190 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:07:03.787 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:33228 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:07:08.802 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:33276 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:07:09.463 | DEBUG    | __main__:check_website:424 - Running check_website for '1.1.1.1:80': Online.
+2023-08-28 16:07:09.520 | DEBUG    | __main__:check_website:424 - Running check_website for 'github.com:80': Online.
+2023-08-28 16:07:09.586 | DEBUG    | __main__:check_website:424 - Running check_website for 'firmware.ardupilot.org:80': Online.
+2023-08-28 16:07:09.602 | DEBUG    | __main__:check_website:424 - Running check_website for 'amazon.com:80': Online.
+2023-08-28 16:07:09.826 | DEBUG    | __main__:check_website:424 - Running check_website for 'telemetry.blueos.cloud:443': Online.
+2023-08-28 16:07:09.833 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:33284 - "GET /latest/check_internet_access HTTP/1.0" 200
+2023-08-28 16:07:14.591 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:33334 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:07:19.384 | DEBUG    | __main__:check_website:424 - Running check_website for '1.1.1.1:80': Online.
+2023-08-28 16:07:19.429 | DEBUG    | __main__:check_website:424 - Running check_website for 'github.com:80': Online.
+2023-08-28 16:07:19.509 | DEBUG    | __main__:check_website:424 - Running check_website for 'amazon.com:80': Online.
+2023-08-28 16:07:19.545 | DEBUG    | __main__:check_website:424 - Running check_website for 'firmware.ardupilot.org:80': Online.
+2023-08-28 16:07:19.713 | DEBUG    | __main__:check_website:424 - Running check_website for 'telemetry.blueos.cloud:443': Online.
+2023-08-28 16:07:22.558 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:33404 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:07:23.763 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:33422 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:07:28.801 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:33470 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:07:29.440 | DEBUG    | __main__:check_website:424 - Running check_website for '1.1.1.1:80': Online.
+2023-08-28 16:07:29.475 | DEBUG    | __main__:check_website:424 - Running check_website for 'github.com:80': Online.
+2023-08-28 16:07:29.599 | DEBUG    | __main__:check_website:424 - Running check_website for 'firmware.ardupilot.org:80': Online.
+2023-08-28 16:07:29.608 | DEBUG    | __main__:check_website:424 - Running check_website for 'amazon.com:80': Online.
+2023-08-28 16:07:29.816 | DEBUG    | __main__:check_website:424 - Running check_website for 'telemetry.blueos.cloud:443': Online.
+2023-08-28 16:07:29.823 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:33478 - "GET /latest/check_internet_access HTTP/1.0" 200
+2023-08-28 16:07:33.825 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:33528 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:07:38.824 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:33570 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:07:43.860 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:33614 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:07:48.808 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:33656 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:07:49.440 | DEBUG    | __main__:check_website:424 - Running check_website for '1.1.1.1:80': Online.
+2023-08-28 16:07:49.486 | DEBUG    | __main__:check_website:424 - Running check_website for 'github.com:80': Online.
+2023-08-28 16:07:49.598 | DEBUG    | __main__:check_website:424 - Running check_website for 'amazon.com:80': Online.
+2023-08-28 16:07:49.611 | DEBUG    | __main__:check_website:424 - Running check_website for 'firmware.ardupilot.org:80': Online.
+2023-08-28 16:07:49.815 | DEBUG    | __main__:check_website:424 - Running check_website for 'telemetry.blueos.cloud:443': Online.
+2023-08-28 16:07:49.820 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:33664 - "GET /latest/check_internet_access HTTP/1.0" 200
+2023-08-28 16:07:53.803 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:33714 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:07:58.835 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:33756 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:08:03.807 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:33794 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:08:08.804 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:33836 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:08:09.444 | DEBUG    | __main__:check_website:424 - Running check_website for '1.1.1.1:80': Online.
+2023-08-28 16:08:09.501 | DEBUG    | __main__:check_website:424 - Running check_website for 'github.com:80': Online.
+2023-08-28 16:08:09.615 | DEBUG    | __main__:check_website:424 - Running check_website for 'amazon.com:80': Online.
+2023-08-28 16:08:09.623 | DEBUG    | __main__:check_website:424 - Running check_website for 'firmware.ardupilot.org:80': Online.
+2023-08-28 16:08:09.776 | DEBUG    | __main__:check_website:424 - Running check_website for 'telemetry.blueos.cloud:443': Online.
+2023-08-28 16:08:09.783 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:33844 - "GET /latest/check_internet_access HTTP/1.0" 200
+2023-08-28 16:08:13.814 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:33894 - "GET /latest/web_services HTTP/1.0" 200

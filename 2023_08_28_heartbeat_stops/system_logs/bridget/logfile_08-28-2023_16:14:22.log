@@ -1,0 +1,33 @@
+2023-08-28 16:14:22.883 | INFO     | __main__:<module>:26 - Starting Bridget!.
+2023-08-28 16:14:22.890 | DEBUG    | commonwealth.settings.manager:__init__:33 - Starting bridget settings with SettingsV1, configuration path: None
+2023-08-28 16:14:22.895 | DEBUG    | commonwealth.settings.manager:load:115 - Found possible candidates for settings source: [PosixPath('/root/.config/bridget/settings-1.json')]
+2023-08-28 16:14:22.900 | DEBUG    | commonwealth.settings.manager:load:117 - Checking /root/.config/bridget/settings-1.json for settings
+2023-08-28 16:14:22.915 | DEBUG    | commonwealth.settings.settings:load:63 - Loading settings from file: /root/.config/bridget/settings-1.json
+2023-08-28 16:14:22.943 | DEBUG    | commonwealth.settings.manager:load:120 - Using /root/.config/bridget/settings-1.json as settings source
+2023-08-28 16:14:22.959 | DEBUG    | commonwealth.settings.manager:load:115 - Found possible candidates for settings source: [PosixPath('/root/.config/bridget/settings-1.json')]
+2023-08-28 16:14:22.971 | DEBUG    | commonwealth.settings.manager:load:117 - Checking /root/.config/bridget/settings-1.json for settings
+2023-08-28 16:14:22.990 | DEBUG    | commonwealth.settings.settings:load:63 - Loading settings from file: /root/.config/bridget/settings-1.json
+2023-08-28 16:14:23.018 | DEBUG    | commonwealth.settings.manager:load:120 - Using /root/.config/bridget/settings-1.json as settings source
+2023-08-28 16:14:23.382 | DEBUG    | asyncio.selector_events:__init__:54 - Using selector: EpollSelector
+2023-08-28 16:14:23.990 | INFO     | uvicorn.server:serve:64 - Started server process [185]
+2023-08-28 16:14:23.995 | INFO     | uvicorn.lifespan.on:startup:26 - Waiting for application startup.
+2023-08-28 16:14:24.005 | INFO     | uvicorn.lifespan.on:startup:38 - Application startup complete.
+2023-08-28 16:14:24.017 | INFO     | uvicorn.server:_log_started_message:199 - Uvicorn running on http://0.0.0.0:27353 (Press CTRL+C to quit)
+2023-08-28 16:14:26.660 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:36188 - "GET / HTTP/1.1" 200
+2023-08-28 16:14:26.677 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:36190 - "GET /register_service HTTP/1.1" 404
+2023-08-28 16:14:26.686 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:36192 - "GET /docs HTTP/1.1" 200
+2023-08-28 16:14:26.704 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:36196 - "GET /docs.json HTTP/1.1" 404
+2023-08-28 16:14:26.717 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:36200 - "GET /openapi.json HTTP/1.1" 200
+2023-08-28 16:14:26.726 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:36204 - "GET /v1.0/docs HTTP/1.1" 200
+2023-08-28 16:14:26.777 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:36206 - "GET /v1.0/openapi.json HTTP/1.1" 200
+2023-08-28 16:14:26.785 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:36212 - "GET / HTTP/1.1" 200
+2023-08-28 16:14:26.799 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:36214 - "GET /swagger.json HTTP/1.1" 404
+2023-08-28 16:14:28.520 | DEBUG    | __main__:get_bridges:43 - []
+2023-08-28 16:14:28.533 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:36274 - "GET /v1.0/bridges HTTP/1.0" 200
+2023-08-28 16:14:28.574 | DEBUG    | bridget:available_serial_ports:68 - Port /dev/ttyUSB0 found and available.
+2023-08-28 16:14:28.576 | DEBUG    | bridget:available_serial_ports:68 - Port /dev/ttyAMA3 found and available.
+2023-08-28 16:14:28.578 | DEBUG    | bridget:available_serial_ports:68 - Port /dev/ttyAMA2 found and available.
+2023-08-28 16:14:28.580 | DEBUG    | bridget:available_serial_ports:68 - Port /dev/ttyAMA1 found and available.
+2023-08-28 16:14:28.582 | DEBUG    | bridget:available_serial_ports:68 - Port /dev/ttyAMA0 found and available.
+2023-08-28 16:14:28.583 | DEBUG    | __main__:get_serial_ports:35 - Available serial ports found: ['/dev/ttyUSB0', '/dev/ttyAMA3', '/dev/ttyAMA2', '/dev/ttyAMA1', '/dev/ttyAMA0'].
+2023-08-28 16:14:28.592 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:36278 - "GET /v1.0/serial_ports HTTP/1.0" 200

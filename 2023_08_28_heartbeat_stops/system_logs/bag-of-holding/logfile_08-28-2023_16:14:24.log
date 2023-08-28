@@ -1,0 +1,21 @@
+2023-08-28 16:14:25.032 | INFO     | __main__:<module>:33 - Starting Bag of Holding: /root/.config/bag-of-holding
+2023-08-28 16:14:25.072 | DEBUG    | asyncio.selector_events:__init__:54 - Using selector: EpollSelector
+2023-08-28 16:14:25.179 | INFO     | uvicorn.server:serve:64 - Started server process [372]
+2023-08-28 16:14:25.180 | INFO     | uvicorn.lifespan.on:startup:26 - Waiting for application startup.
+2023-08-28 16:14:25.184 | INFO     | uvicorn.lifespan.on:startup:38 - Application startup complete.
+2023-08-28 16:14:25.186 | INFO     | uvicorn.server:_log_started_message:199 - Uvicorn running on http://0.0.0.0:9101 (Press CTRL+C to quit)
+2023-08-28 16:14:26.341 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:51246 - "GET / HTTP/1.1" 200
+2023-08-28 16:14:26.355 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:51250 - "GET /register_service HTTP/1.1" 404
+2023-08-28 16:14:26.370 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:51254 - "GET /docs HTTP/1.1" 200
+2023-08-28 16:14:26.381 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:51258 - "GET /docs.json HTTP/1.1" 404
+2023-08-28 16:14:26.404 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:51262 - "GET /openapi.json HTTP/1.1" 200
+2023-08-28 16:14:26.415 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:51266 - "GET /v1.0/docs HTTP/1.1" 200
+2023-08-28 16:14:26.496 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:51268 - "GET /v1.0/openapi.json HTTP/1.1" 200
+2023-08-28 16:14:26.535 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:51272 - "GET / HTTP/1.1" 200
+2023-08-28 16:14:26.565 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:51280 - "GET /swagger.json HTTP/1.1" 404
+2023-08-28 16:14:28.549 | DEBUG    | __main__:read_data:76 - Get path: vehicle.image_path
+2023-08-28 16:14:28.551 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:51408 - "GET /v1.0/get/vehicle.image_path HTTP/1.0" 200
+2023-08-28 16:14:28.565 | DEBUG    | __main__:read_data:76 - Get path: vehicle.logo_image_path
+2023-08-28 16:14:28.573 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:51410 - "GET /v1.0/get/vehicle.logo_image_path HTTP/1.0" 400
+2023-08-28 16:14:28.649 | DEBUG    | __main__:read_data:76 - Get path: wizard
+2023-08-28 16:14:28.651 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:51440 - "GET /v1.0/get/wizard HTTP/1.0" 200

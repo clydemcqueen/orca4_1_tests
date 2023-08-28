@@ -1,0 +1,198 @@
+2023-08-28 16:43:09.736 | INFO     | __main__:<module>:32 - Starting Ping Service.
+2023-08-28 16:43:09.778 | DEBUG    | asyncio.selector_events:__init__:54 - Using selector: EpollSelector
+2023-08-28 16:43:09.780 | INFO     | portwatcher:__init__:24 - PortWatcher Started
+2023-08-28 16:43:09.797 | DEBUG    | portwatcher:start_watching:95 - Currently detected ports: ['usb-serial:ttyUSB0', 'amba:ttyAMA3', 'amba:ttyAMA2', 'amba:ttyAMA1', 'amba:ttyAMA0']
+2023-08-28 16:43:09.798 | INFO     | portwatcher:probe_port:50 - Probing port: USB VID:PID=0403:6015 SER=DK0FM31K LOCATION=1-1.4
+2023-08-28 16:43:09.799 | INFO     | pingprober:probe:17 - Probing /dev/ttyUSB0 - FT231X USB UART - FT231X USB UART
+2023-08-28 16:43:10.064 | INFO     | pingprober:detect_device:101 - Identified ping device:
+2023-08-28 16:43:10.065 | INFO     | pingprober:detect_device:102 - PING1D
+ID: 1
+FW: v3.28.0
+port: /sys/devices/platform/scb/fd500000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb1/1-1/1-1.4/1-1.4:1.0/ttyUSB0
+2023-08-28 16:43:10.069 | INFO     | pingmanager:launch_driver_instance:46 - Launching ping1d driver
+2023-08-28 16:43:10.092 | DEBUG    | commonwealth.settings.manager:__init__:33 - Starting ping settings with SettingsV1, configuration path: None
+2023-08-28 16:43:10.096 | DEBUG    | commonwealth.settings.manager:load:115 - Found possible candidates for settings source: [PosixPath('/root/.config/ping/settings-1.json')]
+2023-08-28 16:43:10.098 | DEBUG    | commonwealth.settings.manager:load:117 - Checking /root/.config/ping/settings-1.json for settings
+2023-08-28 16:43:10.099 | DEBUG    | commonwealth.settings.settings:load:63 - Loading settings from file: /root/.config/ping/settings-1.json
+2023-08-28 16:43:10.101 | DEBUG    | commonwealth.settings.manager:load:120 - Using /root/.config/ping/settings-1.json as settings source
+2023-08-28 16:43:10.102 | INFO     | portwatcher:probe_port:50 - Probing port: fe201a00.serial
+2023-08-28 16:43:10.103 | INFO     | pingprober:probe:17 - Probing /dev/ttyAMA3 - ttyAMA3
+2023-08-28 16:43:10.732 | INFO     | portwatcher:probe_port:50 - Probing port: fe201800.serial
+2023-08-28 16:43:10.733 | INFO     | pingprober:probe:17 - Probing /dev/ttyAMA2 - ttyAMA2
+2023-08-28 16:43:11.348 | INFO     | portwatcher:probe_port:50 - Probing port: fe201600.serial
+2023-08-28 16:43:11.349 | INFO     | pingprober:probe:17 - Probing /dev/ttyAMA1 - ttyAMA1
+2023-08-28 16:43:11.973 | INFO     | portwatcher:probe_port:50 - Probing port: fe201000.serial
+2023-08-28 16:43:11.974 | INFO     | pingprober:probe:17 - Probing /dev/ttyAMA0 - ttyAMA0
+2023-08-28 16:43:13.088 | INFO     | pingprober:detect_device:68 - An exception has occurred while attempting totalk Ping to device fe201000.serial: Failed to open the given serial port: Write timeoutIf this is not a Ping device, this is expected.
+2023-08-28 16:43:13.172 | INFO     | uvicorn.server:serve:64 - Started server process [295]
+2023-08-28 16:43:13.173 | INFO     | uvicorn.lifespan.on:startup:26 - Waiting for application startup.
+2023-08-28 16:43:13.175 | DEBUG    | pingdriver:detect_highest_baud:39 - Trying baud 1200...
+2023-08-28 16:43:13.507 | DEBUG    | pingdriver:detect_highest_baud:51 - Baudrate 1200 is invalid
+2023-08-28 16:43:13.508 | DEBUG    | pingdriver:detect_highest_baud:39 - Trying baud 1800...
+2023-08-28 16:43:13.848 | DEBUG    | pingdriver:detect_highest_baud:51 - Baudrate 1800 is invalid
+2023-08-28 16:43:13.850 | DEBUG    | pingdriver:detect_highest_baud:39 - Trying baud 2400...
+2023-08-28 16:43:14.249 | DEBUG    | pingdriver:detect_highest_baud:51 - Baudrate 2400 is invalid
+2023-08-28 16:43:14.250 | DEBUG    | pingdriver:detect_highest_baud:39 - Trying baud 4800...
+2023-08-28 16:43:15.015 | DEBUG    | pingdriver:detect_highest_baud:51 - Baudrate 4800 is invalid
+2023-08-28 16:43:15.015 | DEBUG    | pingdriver:detect_highest_baud:39 - Trying baud 9600...
+2023-08-28 16:43:15.822 | DEBUG    | pingdriver:detect_highest_baud:51 - Baudrate 9600 is valid
+2023-08-28 16:43:15.823 | DEBUG    | pingdriver:detect_highest_baud:39 - Trying baud 19200...
+2023-08-28 16:43:16.390 | DEBUG    | pingdriver:detect_highest_baud:51 - Baudrate 19200 is valid
+2023-08-28 16:43:16.391 | DEBUG    | pingdriver:detect_highest_baud:39 - Trying baud 38400...
+2023-08-28 16:43:16.872 | DEBUG    | pingdriver:detect_highest_baud:51 - Baudrate 38400 is valid
+2023-08-28 16:43:16.873 | DEBUG    | pingdriver:detect_highest_baud:39 - Trying baud 57600...
+2023-08-28 16:43:17.438 | DEBUG    | pingdriver:detect_highest_baud:51 - Baudrate 57600 is valid
+2023-08-28 16:43:17.439 | DEBUG    | pingdriver:detect_highest_baud:39 - Trying baud 115200...
+2023-08-28 16:43:17.918 | DEBUG    | pingdriver:detect_highest_baud:51 - Baudrate 115200 is valid
+2023-08-28 16:43:17.919 | DEBUG    | pingdriver:detect_highest_baud:39 - Trying baud 230400...
+2023-08-28 16:43:18.446 | DEBUG    | pingdriver:detect_highest_baud:51 - Baudrate 230400 is valid
+2023-08-28 16:43:18.447 | DEBUG    | pingdriver:detect_highest_baud:39 - Trying baud 460800...
+2023-08-28 16:43:18.989 | DEBUG    | pingdriver:detect_highest_baud:51 - Baudrate 460800 is valid
+2023-08-28 16:43:18.990 | DEBUG    | pingdriver:detect_highest_baud:39 - Trying baud 500000...
+2023-08-28 16:43:19.516 | DEBUG    | pingdriver:detect_highest_baud:51 - Baudrate 500000 is valid
+2023-08-28 16:43:19.517 | DEBUG    | pingdriver:detect_highest_baud:39 - Trying baud 576000...
+2023-08-28 16:43:20.080 | DEBUG    | pingdriver:detect_highest_baud:51 - Baudrate 576000 is valid
+2023-08-28 16:43:20.082 | DEBUG    | pingdriver:detect_highest_baud:39 - Trying baud 921600...
+2023-08-28 16:43:20.605 | DEBUG    | pingdriver:detect_highest_baud:51 - Baudrate 921600 is valid
+2023-08-28 16:43:20.606 | DEBUG    | pingdriver:detect_highest_baud:39 - Trying baud 1000000...
+2023-08-28 16:43:21.138 | DEBUG    | pingdriver:detect_highest_baud:51 - Baudrate 1000000 is valid
+2023-08-28 16:43:21.140 | DEBUG    | pingdriver:detect_highest_baud:39 - Trying baud 1152000...
+2023-08-28 16:43:21.538 | DEBUG    | pingdriver:detect_highest_baud:51 - Baudrate 1152000 is valid
+2023-08-28 16:43:21.539 | DEBUG    | pingdriver:detect_highest_baud:39 - Trying baud 1500000...
+2023-08-28 16:43:21.778 | DEBUG    | pingdriver:detect_highest_baud:51 - Baudrate 1500000 is valid
+2023-08-28 16:43:21.779 | DEBUG    | pingdriver:detect_highest_baud:39 - Trying baud 2000000...
+2023-08-28 16:43:22.113 | DEBUG    | pingdriver:detect_highest_baud:51 - Baudrate 2000000 is valid
+2023-08-28 16:43:22.115 | DEBUG    | pingdriver:detect_highest_baud:39 - Trying baud 2500000...
+2023-08-28 16:43:22.405 | DEBUG    | pingdriver:detect_highest_baud:51 - Baudrate 2500000 is valid
+2023-08-28 16:43:22.405 | DEBUG    | pingdriver:detect_highest_baud:39 - Trying baud 3000000...
+2023-08-28 16:43:22.744 | DEBUG    | pingdriver:detect_highest_baud:51 - Baudrate 3000000 is valid
+2023-08-28 16:43:22.746 | INFO     | pingdriver:detect_highest_baud:52 - Highest baudrate detected: 3000000
+2023-08-28 16:43:22.884 | INFO     | bridges.serialhelper:set_low_latency:40 - Latency file: /sys/bus/usb-serial/devices/ttyUSB0/latency_timer
+2023-08-28 16:43:22.886 | INFO     | bridges.bridges:__init__:27 - Launching bridge link with command '/usr/bin/bridges -u 0.0.0.0:9090 -p /dev/ttyUSB0:3000000 --no-udp-disconnection'.
+2023-08-28 16:43:25.442 | INFO     | ping1d_driver:start:40 - trying to start mavlink driver
+2023-08-28 16:43:25.451 | INFO     | uvicorn.lifespan.on:startup:38 - Application startup complete.
+2023-08-28 16:43:25.653 | DEBUG    | ping360_ethernet_prober:find_ping360_ethernet:69 - timed out waiting for ping360 at ip 172.18.0.1
+2023-08-28 16:43:25.656 | INFO     | uvicorn.server:_log_started_message:199 - Uvicorn running on http://0.0.0.0:9110 (Press CTRL+C to quit)
+2023-08-28 16:43:26.406 | INFO     | __main__:get_sensors:42 - Sensors available: [PingDeviceDescriptor(ping_type=<PingType.PING1D: 1>, device_id=1, device_model=0, device_revision=1, firmware_version_major=3, firmware_version_minor=28, firmware_version_patch=0, port=<serial.tools.list_ports_linux.SysFS object at 0xb568cb08>, ethernet_discovery_info=None, driver=<ping1d_driver.Ping1DDriver object at 0xb568cdd8>)]
+2023-08-28 16:43:26.412 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:45024 - "GET /v1.0/sensors HTTP/1.0" 200
+2023-08-28 16:43:26.858 | DEBUG    | ping360_ethernet_prober:find_ping360_ethernet:69 - timed out waiting for ping360 at ip 192.168.3.1
+2023-08-28 16:43:28.061 | DEBUG    | ping360_ethernet_prober:find_ping360_ethernet:69 - timed out waiting for ping360 at ip 192.168.86.32
+2023-08-28 16:43:28.189 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:45304 - "GET / HTTP/1.1" 200
+2023-08-28 16:43:28.207 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:45306 - "GET /register_service HTTP/1.1" 404
+2023-08-28 16:43:28.219 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:45308 - "GET /docs HTTP/1.1" 200
+2023-08-28 16:43:28.234 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:45310 - "GET /docs.json HTTP/1.1" 404
+2023-08-28 16:43:28.257 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:45312 - "GET /openapi.json HTTP/1.1" 200
+2023-08-28 16:43:28.273 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:45314 - "GET /v1.0/docs HTTP/1.1" 200
+2023-08-28 16:43:28.329 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:45316 - "GET /v1.0/openapi.json HTTP/1.1" 200
+2023-08-28 16:43:28.345 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:45318 - "GET / HTTP/1.1" 200
+2023-08-28 16:43:28.358 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:45320 - "GET /swagger.json HTTP/1.1" 404
+2023-08-28 16:43:29.266 | DEBUG    | ping360_ethernet_prober:find_ping360_ethernet:69 - timed out waiting for ping360 at ip 192.168.2.2
+2023-08-28 16:43:30.284 | DEBUG    | portwatcher:start_watching:95 - Currently detected ports: ['usb-serial:ttyUSB0', 'amba:ttyAMA3', 'amba:ttyAMA2', 'amba:ttyAMA1', 'amba:ttyAMA0']
+2023-08-28 16:43:30.285 | INFO     | portwatcher:probe_port:50 - Probing port: fe201a00.serial
+2023-08-28 16:43:30.286 | INFO     | pingprober:probe:17 - Probing /dev/ttyAMA3 - ttyAMA3
+2023-08-28 16:43:30.910 | INFO     | portwatcher:probe_port:50 - Probing port: fe201800.serial
+2023-08-28 16:43:30.910 | INFO     | pingprober:probe:17 - Probing /dev/ttyAMA2 - ttyAMA2
+2023-08-28 16:43:31.539 | INFO     | portwatcher:probe_port:50 - Probing port: fe201600.serial
+2023-08-28 16:43:31.541 | INFO     | pingprober:probe:17 - Probing /dev/ttyAMA1 - ttyAMA1
+2023-08-28 16:43:32.160 | INFO     | portwatcher:probe_port:50 - Probing port: fe201000.serial
+2023-08-28 16:43:32.161 | INFO     | pingprober:probe:17 - Probing /dev/ttyAMA0 - ttyAMA0
+2023-08-28 16:43:33.288 | INFO     | pingprober:detect_device:68 - An exception has occurred while attempting totalk Ping to device fe201000.serial: Failed to open the given serial port: Write timeoutIf this is not a Ping device, this is expected.
+2023-08-28 16:43:34.492 | DEBUG    | ping360_ethernet_prober:find_ping360_ethernet:69 - timed out waiting for ping360 at ip 192.168.3.1
+2023-08-28 16:43:35.696 | DEBUG    | ping360_ethernet_prober:find_ping360_ethernet:69 - timed out waiting for ping360 at ip 192.168.42.1
+2023-08-28 16:43:36.898 | DEBUG    | ping360_ethernet_prober:find_ping360_ethernet:69 - timed out waiting for ping360 at ip 172.18.0.1
+2023-08-28 16:43:38.101 | DEBUG    | ping360_ethernet_prober:find_ping360_ethernet:69 - timed out waiting for ping360 at ip 192.168.2.2
+2023-08-28 16:43:39.303 | DEBUG    | ping360_ethernet_prober:find_ping360_ethernet:69 - timed out waiting for ping360 at ip 192.168.86.32
+2023-08-28 16:43:40.331 | DEBUG    | portwatcher:start_watching:95 - Currently detected ports: ['usb-serial:ttyUSB0', 'amba:ttyAMA3', 'amba:ttyAMA2', 'amba:ttyAMA1', 'amba:ttyAMA0']
+2023-08-28 16:43:40.332 | INFO     | portwatcher:probe_port:50 - Probing port: fe201a00.serial
+2023-08-28 16:43:40.334 | INFO     | pingprober:probe:17 - Probing /dev/ttyAMA3 - ttyAMA3
+2023-08-28 16:43:40.958 | INFO     | portwatcher:probe_port:61 - Max number of probing attempts reached for /dev/ttyAMA3 - ttyAMA3. Giving up.
+2023-08-28 16:43:40.959 | INFO     | portwatcher:probe_port:50 - Probing port: fe201800.serial
+2023-08-28 16:43:40.961 | INFO     | pingprober:probe:17 - Probing /dev/ttyAMA2 - ttyAMA2
+2023-08-28 16:43:41.581 | INFO     | portwatcher:probe_port:61 - Max number of probing attempts reached for /dev/ttyAMA2 - ttyAMA2. Giving up.
+2023-08-28 16:43:41.583 | INFO     | portwatcher:probe_port:50 - Probing port: fe201600.serial
+2023-08-28 16:43:41.584 | INFO     | pingprober:probe:17 - Probing /dev/ttyAMA1 - ttyAMA1
+2023-08-28 16:43:42.200 | INFO     | portwatcher:probe_port:61 - Max number of probing attempts reached for /dev/ttyAMA1 - ttyAMA1. Giving up.
+2023-08-28 16:43:42.201 | INFO     | portwatcher:probe_port:50 - Probing port: fe201000.serial
+2023-08-28 16:43:42.202 | INFO     | pingprober:probe:17 - Probing /dev/ttyAMA0 - ttyAMA0
+2023-08-28 16:43:43.317 | INFO     | pingprober:detect_device:68 - An exception has occurred while attempting totalk Ping to device fe201000.serial: Failed to open the given serial port: Write timeoutIf this is not a Ping device, this is expected.
+2023-08-28 16:43:43.320 | INFO     | portwatcher:probe_port:61 - Max number of probing attempts reached for /dev/ttyAMA0 - ttyAMA0. Giving up.
+2023-08-28 16:43:44.524 | DEBUG    | ping360_ethernet_prober:find_ping360_ethernet:69 - timed out waiting for ping360 at ip 192.168.3.1
+2023-08-28 16:43:45.727 | DEBUG    | ping360_ethernet_prober:find_ping360_ethernet:69 - timed out waiting for ping360 at ip 192.168.42.1
+2023-08-28 16:43:46.930 | DEBUG    | ping360_ethernet_prober:find_ping360_ethernet:69 - timed out waiting for ping360 at ip 172.18.0.1
+2023-08-28 16:43:48.134 | DEBUG    | ping360_ethernet_prober:find_ping360_ethernet:69 - timed out waiting for ping360 at ip 192.168.2.2
+2023-08-28 16:43:49.336 | DEBUG    | ping360_ethernet_prober:find_ping360_ethernet:69 - timed out waiting for ping360 at ip 192.168.86.32
+2023-08-28 16:43:50.359 | DEBUG    | portwatcher:start_watching:95 - Currently detected ports: ['usb-serial:ttyUSB0', 'amba:ttyAMA3', 'amba:ttyAMA2', 'amba:ttyAMA1', 'amba:ttyAMA0']
+2023-08-28 16:43:51.564 | DEBUG    | ping360_ethernet_prober:find_ping360_ethernet:69 - timed out waiting for ping360 at ip 192.168.3.1
+2023-08-28 16:43:52.766 | DEBUG    | ping360_ethernet_prober:find_ping360_ethernet:69 - timed out waiting for ping360 at ip 192.168.42.1
+2023-08-28 16:43:53.969 | DEBUG    | ping360_ethernet_prober:find_ping360_ethernet:69 - timed out waiting for ping360 at ip 172.18.0.1
+2023-08-28 16:43:55.173 | DEBUG    | ping360_ethernet_prober:find_ping360_ethernet:69 - timed out waiting for ping360 at ip 192.168.2.2
+2023-08-28 16:43:56.376 | DEBUG    | ping360_ethernet_prober:find_ping360_ethernet:69 - timed out waiting for ping360 at ip 192.168.86.32
+2023-08-28 16:43:57.392 | DEBUG    | portwatcher:start_watching:95 - Currently detected ports: ['usb-serial:ttyUSB0', 'amba:ttyAMA3', 'amba:ttyAMA2', 'amba:ttyAMA1', 'amba:ttyAMA0']
+2023-08-28 16:43:58.598 | DEBUG    | ping360_ethernet_prober:find_ping360_ethernet:69 - timed out waiting for ping360 at ip 192.168.3.1
+2023-08-28 16:43:59.800 | DEBUG    | ping360_ethernet_prober:find_ping360_ethernet:69 - timed out waiting for ping360 at ip 192.168.42.1
+2023-08-28 16:44:01.003 | DEBUG    | ping360_ethernet_prober:find_ping360_ethernet:69 - timed out waiting for ping360 at ip 172.18.0.1
+2023-08-28 16:44:02.206 | DEBUG    | ping360_ethernet_prober:find_ping360_ethernet:69 - timed out waiting for ping360 at ip 192.168.2.2
+2023-08-28 16:44:03.409 | DEBUG    | ping360_ethernet_prober:find_ping360_ethernet:69 - timed out waiting for ping360 at ip 192.168.86.32
+2023-08-28 16:44:04.441 | DEBUG    | portwatcher:start_watching:95 - Currently detected ports: ['usb-serial:ttyUSB0', 'amba:ttyAMA3', 'amba:ttyAMA2', 'amba:ttyAMA1', 'amba:ttyAMA0']
+2023-08-28 16:44:05.649 | DEBUG    | ping360_ethernet_prober:find_ping360_ethernet:69 - timed out waiting for ping360 at ip 192.168.3.1
+2023-08-28 16:44:06.857 | DEBUG    | ping360_ethernet_prober:find_ping360_ethernet:69 - timed out waiting for ping360 at ip 192.168.42.1
+2023-08-28 16:44:08.059 | DEBUG    | ping360_ethernet_prober:find_ping360_ethernet:69 - timed out waiting for ping360 at ip 172.18.0.1
+2023-08-28 16:44:09.261 | DEBUG    | ping360_ethernet_prober:find_ping360_ethernet:69 - timed out waiting for ping360 at ip 192.168.2.2
+2023-08-28 16:44:10.464 | DEBUG    | ping360_ethernet_prober:find_ping360_ethernet:69 - timed out waiting for ping360 at ip 192.168.86.32
+2023-08-28 16:44:11.480 | DEBUG    | portwatcher:start_watching:95 - Currently detected ports: ['usb-serial:ttyUSB0', 'amba:ttyAMA3', 'amba:ttyAMA2', 'amba:ttyAMA1', 'amba:ttyAMA0']
+2023-08-28 16:44:12.684 | DEBUG    | ping360_ethernet_prober:find_ping360_ethernet:69 - timed out waiting for ping360 at ip 192.168.3.1
+2023-08-28 16:44:13.886 | DEBUG    | ping360_ethernet_prober:find_ping360_ethernet:69 - timed out waiting for ping360 at ip 192.168.42.1
+2023-08-28 16:44:15.089 | DEBUG    | ping360_ethernet_prober:find_ping360_ethernet:69 - timed out waiting for ping360 at ip 172.18.0.1
+2023-08-28 16:44:16.292 | DEBUG    | ping360_ethernet_prober:find_ping360_ethernet:69 - timed out waiting for ping360 at ip 192.168.2.2
+2023-08-28 16:44:17.496 | DEBUG    | ping360_ethernet_prober:find_ping360_ethernet:69 - timed out waiting for ping360 at ip 192.168.86.32
+2023-08-28 16:44:18.513 | DEBUG    | portwatcher:start_watching:95 - Currently detected ports: ['usb-serial:ttyUSB0', 'amba:ttyAMA3', 'amba:ttyAMA2', 'amba:ttyAMA1', 'amba:ttyAMA0']
+2023-08-28 16:44:19.718 | DEBUG    | ping360_ethernet_prober:find_ping360_ethernet:69 - timed out waiting for ping360 at ip 192.168.3.1
+2023-08-28 16:44:20.921 | DEBUG    | ping360_ethernet_prober:find_ping360_ethernet:69 - timed out waiting for ping360 at ip 192.168.42.1
+2023-08-28 16:44:22.124 | DEBUG    | ping360_ethernet_prober:find_ping360_ethernet:69 - timed out waiting for ping360 at ip 172.18.0.1
+2023-08-28 16:44:23.327 | DEBUG    | ping360_ethernet_prober:find_ping360_ethernet:69 - timed out waiting for ping360 at ip 192.168.2.2
+2023-08-28 16:44:24.529 | DEBUG    | ping360_ethernet_prober:find_ping360_ethernet:69 - timed out waiting for ping360 at ip 192.168.86.32
+2023-08-28 16:44:25.544 | DEBUG    | portwatcher:start_watching:95 - Currently detected ports: ['usb-serial:ttyUSB0', 'amba:ttyAMA3', 'amba:ttyAMA2', 'amba:ttyAMA1', 'amba:ttyAMA0']
+2023-08-28 16:44:26.749 | DEBUG    | ping360_ethernet_prober:find_ping360_ethernet:69 - timed out waiting for ping360 at ip 192.168.3.1
+2023-08-28 16:44:27.951 | DEBUG    | ping360_ethernet_prober:find_ping360_ethernet:69 - timed out waiting for ping360 at ip 192.168.42.1
+2023-08-28 16:44:29.153 | DEBUG    | ping360_ethernet_prober:find_ping360_ethernet:69 - timed out waiting for ping360 at ip 172.18.0.1
+2023-08-28 16:44:30.357 | DEBUG    | ping360_ethernet_prober:find_ping360_ethernet:69 - timed out waiting for ping360 at ip 192.168.2.2
+2023-08-28 16:44:31.563 | DEBUG    | ping360_ethernet_prober:find_ping360_ethernet:69 - timed out waiting for ping360 at ip 192.168.86.32
+2023-08-28 16:44:32.584 | DEBUG    | portwatcher:start_watching:95 - Currently detected ports: ['usb-serial:ttyUSB0', 'amba:ttyAMA3', 'amba:ttyAMA2', 'amba:ttyAMA1', 'amba:ttyAMA0']
+2023-08-28 16:44:33.790 | DEBUG    | ping360_ethernet_prober:find_ping360_ethernet:69 - timed out waiting for ping360 at ip 192.168.3.1
+2023-08-28 16:44:34.992 | DEBUG    | ping360_ethernet_prober:find_ping360_ethernet:69 - timed out waiting for ping360 at ip 192.168.42.1
+2023-08-28 16:44:36.194 | DEBUG    | ping360_ethernet_prober:find_ping360_ethernet:69 - timed out waiting for ping360 at ip 172.18.0.1
+2023-08-28 16:44:37.398 | DEBUG    | ping360_ethernet_prober:find_ping360_ethernet:69 - timed out waiting for ping360 at ip 192.168.2.2
+2023-08-28 16:44:38.601 | DEBUG    | ping360_ethernet_prober:find_ping360_ethernet:69 - timed out waiting for ping360 at ip 192.168.86.32
+2023-08-28 16:44:39.618 | DEBUG    | portwatcher:start_watching:95 - Currently detected ports: ['usb-serial:ttyUSB0', 'amba:ttyAMA3', 'amba:ttyAMA2', 'amba:ttyAMA1', 'amba:ttyAMA0']
+2023-08-28 16:44:40.823 | DEBUG    | ping360_ethernet_prober:find_ping360_ethernet:69 - timed out waiting for ping360 at ip 192.168.3.1
+2023-08-28 16:44:42.026 | DEBUG    | ping360_ethernet_prober:find_ping360_ethernet:69 - timed out waiting for ping360 at ip 192.168.42.1
+2023-08-28 16:44:43.228 | DEBUG    | ping360_ethernet_prober:find_ping360_ethernet:69 - timed out waiting for ping360 at ip 172.18.0.1
+2023-08-28 16:44:44.433 | DEBUG    | ping360_ethernet_prober:find_ping360_ethernet:69 - timed out waiting for ping360 at ip 192.168.2.2
+2023-08-28 16:44:45.636 | DEBUG    | ping360_ethernet_prober:find_ping360_ethernet:69 - timed out waiting for ping360 at ip 192.168.86.32
+2023-08-28 16:44:46.651 | DEBUG    | portwatcher:start_watching:95 - Currently detected ports: ['usb-serial:ttyUSB0', 'amba:ttyAMA3', 'amba:ttyAMA2', 'amba:ttyAMA1', 'amba:ttyAMA0']
+2023-08-28 16:44:47.856 | DEBUG    | ping360_ethernet_prober:find_ping360_ethernet:69 - timed out waiting for ping360 at ip 192.168.3.1
+2023-08-28 16:44:49.061 | DEBUG    | ping360_ethernet_prober:find_ping360_ethernet:69 - timed out waiting for ping360 at ip 192.168.42.1
+2023-08-28 16:44:50.263 | DEBUG    | ping360_ethernet_prober:find_ping360_ethernet:69 - timed out waiting for ping360 at ip 172.18.0.1
+2023-08-28 16:44:51.466 | DEBUG    | ping360_ethernet_prober:find_ping360_ethernet:69 - timed out waiting for ping360 at ip 192.168.2.2
+2023-08-28 16:44:52.668 | DEBUG    | ping360_ethernet_prober:find_ping360_ethernet:69 - timed out waiting for ping360 at ip 192.168.86.32
+2023-08-28 16:44:53.684 | DEBUG    | portwatcher:start_watching:95 - Currently detected ports: ['usb-serial:ttyUSB0', 'amba:ttyAMA3', 'amba:ttyAMA2', 'amba:ttyAMA1', 'amba:ttyAMA0']
+2023-08-28 16:44:54.889 | DEBUG    | ping360_ethernet_prober:find_ping360_ethernet:69 - timed out waiting for ping360 at ip 192.168.3.1
+2023-08-28 16:44:56.091 | DEBUG    | ping360_ethernet_prober:find_ping360_ethernet:69 - timed out waiting for ping360 at ip 192.168.42.1
+2023-08-28 16:44:57.293 | DEBUG    | ping360_ethernet_prober:find_ping360_ethernet:69 - timed out waiting for ping360 at ip 172.18.0.1
+2023-08-28 16:44:58.497 | DEBUG    | ping360_ethernet_prober:find_ping360_ethernet:69 - timed out waiting for ping360 at ip 192.168.2.2
+2023-08-28 16:44:59.700 | DEBUG    | ping360_ethernet_prober:find_ping360_ethernet:69 - timed out waiting for ping360 at ip 192.168.86.32
+2023-08-28 16:45:00.716 | DEBUG    | portwatcher:start_watching:95 - Currently detected ports: ['usb-serial:ttyUSB0', 'amba:ttyAMA3', 'amba:ttyAMA2', 'amba:ttyAMA1', 'amba:ttyAMA0']
+2023-08-28 16:45:01.920 | DEBUG    | ping360_ethernet_prober:find_ping360_ethernet:69 - timed out waiting for ping360 at ip 192.168.3.1
+2023-08-28 16:45:03.123 | DEBUG    | ping360_ethernet_prober:find_ping360_ethernet:69 - timed out waiting for ping360 at ip 192.168.42.1
+2023-08-28 16:45:04.326 | DEBUG    | ping360_ethernet_prober:find_ping360_ethernet:69 - timed out waiting for ping360 at ip 172.18.0.1
+2023-08-28 16:45:05.529 | DEBUG    | ping360_ethernet_prober:find_ping360_ethernet:69 - timed out waiting for ping360 at ip 192.168.2.2
+2023-08-28 16:45:06.733 | DEBUG    | ping360_ethernet_prober:find_ping360_ethernet:69 - timed out waiting for ping360 at ip 192.168.86.32
+2023-08-28 16:45:07.752 | DEBUG    | portwatcher:start_watching:95 - Currently detected ports: ['usb-serial:ttyUSB0', 'amba:ttyAMA3', 'amba:ttyAMA2', 'amba:ttyAMA1', 'amba:ttyAMA0']
+2023-08-28 16:45:08.957 | DEBUG    | ping360_ethernet_prober:find_ping360_ethernet:69 - timed out waiting for ping360 at ip 192.168.3.1
+2023-08-28 16:45:10.161 | DEBUG    | ping360_ethernet_prober:find_ping360_ethernet:69 - timed out waiting for ping360 at ip 192.168.42.1
+2023-08-28 16:45:11.363 | DEBUG    | ping360_ethernet_prober:find_ping360_ethernet:69 - timed out waiting for ping360 at ip 172.18.0.1
+2023-08-28 16:45:12.566 | DEBUG    | ping360_ethernet_prober:find_ping360_ethernet:69 - timed out waiting for ping360 at ip 192.168.2.2
+2023-08-28 16:45:13.770 | DEBUG    | ping360_ethernet_prober:find_ping360_ethernet:69 - timed out waiting for ping360 at ip 192.168.86.32
+2023-08-28 16:45:14.786 | DEBUG    | portwatcher:start_watching:95 - Currently detected ports: ['usb-serial:ttyUSB0', 'amba:ttyAMA3', 'amba:ttyAMA2', 'amba:ttyAMA1', 'amba:ttyAMA0']
+2023-08-28 16:45:15.993 | DEBUG    | ping360_ethernet_prober:find_ping360_ethernet:69 - timed out waiting for ping360 at ip 192.168.3.1
+2023-08-28 16:45:17.196 | DEBUG    | ping360_ethernet_prober:find_ping360_ethernet:69 - timed out waiting for ping360 at ip 192.168.42.1

@@ -1,0 +1,732 @@
+2023-08-28 16:43:11.718 | INFO     | __main__:<module>:18 - Starting Version Chooser
+2023-08-28 16:43:11.721 | DEBUG    | asyncio.selector_events:__init__:54 - Using selector: EpollSelector
+2023-08-28 16:43:11.723 | DEBUG    | docker.utils.config:find_config_file:21 - Trying paths: ['/root/.docker/config.json', '/root/.dockercfg']
+2023-08-28 16:43:11.725 | DEBUG    | docker.utils.config:find_config_file:28 - No config file found
+2023-08-28 16:43:11.726 | DEBUG    | docker.utils.config:find_config_file:21 - Trying paths: ['/root/.docker/config.json', '/root/.dockercfg']
+2023-08-28 16:43:11.727 | DEBUG    | docker.utils.config:find_config_file:28 - No config file found
+2023-08-28 16:43:11.790 | DEBUG    | urllib3.connectionpool:_make_request:473 - http://localhost:None "GET /version HTTP/1.1" 200 814
+2023-08-28 16:43:11.828 | DEBUG    | urllib3.connectionpool:_make_request:473 - http://localhost:None "POST /v1.41/images/prune?filters=%7B%22dangling%22%3A+%5B%22true%22%5D%7D HTTP/1.1" 200 42
+2023-08-28 16:43:11.833 | DEBUG    | connexion.apps.abstract:__init__:61 - Root Path: /home/pi/services/versionchooser
+2023-08-28 16:43:11.834 | DEBUG    | connexion.apps.abstract:__init__:69 - Specification directory: /home/pi/services/versionchooser/openapi
+2023-08-28 16:43:11.835 | DEBUG    | connexion.apps.abstract:__init__:72 - Setting error handlers
+2023-08-28 16:43:11.836 | DEBUG    | connexion.apis.abstract:__init__:74 - Loading specification: /home/pi/services/versionchooser/openapi/versionchooser.yaml
+2023-08-28 16:43:12.012 | DEBUG    | connexion.apis.abstract:__init__:83 - Read specification
+2023-08-28 16:43:12.014 | DEBUG    | connexion.apis.abstract:__init__:87 - Options Loaded
+2023-08-28 16:43:12.015 | DEBUG    | connexion.apis.abstract:__init__:94 - Security Definitions: {}
+2023-08-28 16:43:12.017 | DEBUG    | connexion.apis.abstract:__init__:98 - Validate Responses: False
+2023-08-28 16:43:12.018 | DEBUG    | connexion.apis.abstract:__init__:101 - Strict Request Validation: False
+2023-08-28 16:43:12.019 | DEBUG    | connexion.apis.abstract:__init__:104 - Pythonic params: False
+2023-08-28 16:43:12.019 | DEBUG    | connexion.apis.abstract:__init__:107 - pass_context_arg_name: request
+2023-08-28 16:43:12.021 | DEBUG    | connexion.apis.aiohttp_api:add_openapi_json:152 - Adding spec json: /v1.0//openapi.json
+2023-08-28 16:43:12.022 | DEBUG    | connexion.apis.aiohttp_api:add_openapi_yaml:170 - Adding spec yaml: /v1.0//openapi.yaml
+2023-08-28 16:43:12.023 | DEBUG    | connexion.apis.aiohttp_api:add_swagger_ui:197 - Adding swagger-ui: /v1.0/ui/
+2023-08-28 16:43:12.026 | DEBUG    | connexion.apis.abstract:add_paths:216 - Adding /v1.0/version/current...
+2023-08-28 16:43:12.056 | INFO     | main:<module>:18 - Starting Version Chooser
+2023-08-28 16:43:12.058 | DEBUG    | docker.utils.config:find_config_file:21 - Trying paths: ['/root/.docker/config.json', '/root/.dockercfg']
+2023-08-28 16:43:12.060 | DEBUG    | docker.utils.config:find_config_file:28 - No config file found
+2023-08-28 16:43:12.061 | DEBUG    | docker.utils.config:find_config_file:21 - Trying paths: ['/root/.docker/config.json', '/root/.dockercfg']
+2023-08-28 16:43:12.062 | DEBUG    | docker.utils.config:find_config_file:28 - No config file found
+2023-08-28 16:43:12.118 | DEBUG    | urllib3.connectionpool:_make_request:473 - http://localhost:None "GET /version HTTP/1.1" 200 814
+2023-08-28 16:43:12.196 | DEBUG    | urllib3.connectionpool:_make_request:473 - http://localhost:None "POST /v1.41/images/prune?filters=%7B%22dangling%22%3A+%5B%22true%22%5D%7D HTTP/1.1" 200 42
+2023-08-28 16:43:12.199 | DEBUG    | connexion.operations.openapi:__init__:129 - consumes: ['application/json']
+2023-08-28 16:43:12.202 | DEBUG    | connexion.operations.openapi:__init__:130 - produces: ['application/json']
+2023-08-28 16:43:12.203 | DEBUG    | connexion.apis.aiohttp_api:_add_operation_internal:281 - ... Adding GET -> main.get_version
+2023-08-28 16:43:12.205 | DEBUG    | connexion.operations.abstract:__content_type_decorator:410 - ... Produces: ['application/json']
+2023-08-28 16:43:12.206 | DEBUG    | connexion.operations.abstract:__content_type_decorator:414 - ... Produces json
+2023-08-28 16:43:12.208 | DEBUG    | connexion.operations.abstract:function:371 - ... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0xb53b8e80>)
+2023-08-28 16:43:12.211 | DEBUG    | connexion.operations.secure:security_decorator:73 - ... Security: None
+2023-08-28 16:43:12.212 | DEBUG    | connexion.operations.abstract:function:382 - ... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0xb5566df0>)
+2023-08-28 16:43:12.214 | DEBUG    | connexion.operations.openapi:__init__:129 - consumes: ['application/json']
+2023-08-28 16:43:12.216 | DEBUG    | connexion.operations.openapi:__init__:130 - produces: ['application/json']
+2023-08-28 16:43:12.217 | DEBUG    | connexion.apis.aiohttp_api:_add_operation_internal:281 - ... Adding POST -> main.set_version
+2023-08-28 16:43:12.218 | DEBUG    | connexion.operations.abstract:__content_type_decorator:410 - ... Produces: ['application/json']
+2023-08-28 16:43:12.220 | DEBUG    | connexion.operations.abstract:__content_type_decorator:414 - ... Produces json
+2023-08-28 16:43:12.221 | DEBUG    | connexion.operations.abstract:function:371 - ... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0xb53b8d18>)
+2023-08-28 16:43:12.223 | DEBUG    | connexion.operations.secure:security_decorator:73 - ... Security: None
+2023-08-28 16:43:12.224 | DEBUG    | connexion.operations.abstract:function:382 - ... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0xb5566df0>)
+2023-08-28 16:43:12.226 | DEBUG    | connexion.apis.abstract:add_paths:216 - Adding /v1.0/bootstrap/current...
+2023-08-28 16:43:12.228 | DEBUG    | connexion.operations.openapi:__init__:129 - consumes: ['application/json']
+2023-08-28 16:43:12.229 | DEBUG    | connexion.operations.openapi:__init__:130 - produces: ['application/json']
+2023-08-28 16:43:12.230 | DEBUG    | connexion.apis.aiohttp_api:_add_operation_internal:281 - ... Adding GET -> main.get_bootstrap_version
+2023-08-28 16:43:12.232 | DEBUG    | connexion.operations.abstract:__content_type_decorator:410 - ... Produces: ['application/json']
+2023-08-28 16:43:12.233 | DEBUG    | connexion.operations.abstract:__content_type_decorator:414 - ... Produces json
+2023-08-28 16:43:12.236 | DEBUG    | connexion.operations.abstract:function:371 - ... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0xb53374a8>)
+2023-08-28 16:43:12.238 | DEBUG    | connexion.operations.secure:security_decorator:73 - ... Security: None
+2023-08-28 16:43:12.239 | DEBUG    | connexion.operations.abstract:function:382 - ... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0xb5566df0>)
+2023-08-28 16:43:12.241 | DEBUG    | connexion.operations.openapi:__init__:129 - consumes: ['application/json']
+2023-08-28 16:43:12.242 | DEBUG    | connexion.operations.openapi:__init__:130 - produces: ['application/json']
+2023-08-28 16:43:12.244 | DEBUG    | connexion.apis.aiohttp_api:_add_operation_internal:281 - ... Adding POST -> main.set_bootstrap_version
+2023-08-28 16:43:12.245 | DEBUG    | connexion.operations.abstract:__content_type_decorator:410 - ... Produces: ['application/json']
+2023-08-28 16:43:12.247 | DEBUG    | connexion.operations.abstract:__content_type_decorator:414 - ... Produces json
+2023-08-28 16:43:12.248 | DEBUG    | connexion.operations.abstract:function:371 - ... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0xb5337580>)
+2023-08-28 16:43:12.250 | DEBUG    | connexion.operations.secure:security_decorator:73 - ... Security: None
+2023-08-28 16:43:12.251 | DEBUG    | connexion.operations.abstract:function:382 - ... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0xb5566df0>)
+2023-08-28 16:43:12.253 | DEBUG    | connexion.apis.abstract:add_paths:216 - Adding /v1.0/version/restart...
+2023-08-28 16:43:12.255 | DEBUG    | connexion.operations.openapi:__init__:129 - consumes: ['application/json']
+2023-08-28 16:43:12.256 | DEBUG    | connexion.operations.openapi:__init__:130 - produces: ['application/json']
+2023-08-28 16:43:12.258 | DEBUG    | connexion.apis.aiohttp_api:_add_operation_internal:281 - ... Adding POST -> main.restart
+2023-08-28 16:43:12.259 | DEBUG    | connexion.operations.abstract:__content_type_decorator:410 - ... Produces: ['application/json']
+2023-08-28 16:43:12.260 | DEBUG    | connexion.operations.abstract:__content_type_decorator:414 - ... Produces json
+2023-08-28 16:43:12.261 | DEBUG    | connexion.operations.abstract:function:371 - ... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0xb5337730>)
+2023-08-28 16:43:12.263 | DEBUG    | connexion.operations.secure:security_decorator:73 - ... Security: None
+2023-08-28 16:43:12.265 | DEBUG    | connexion.operations.abstract:function:382 - ... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0xb5566df0>)
+2023-08-28 16:43:12.267 | DEBUG    | connexion.apis.abstract:add_paths:216 - Adding /v1.0/version/delete...
+2023-08-28 16:43:12.268 | DEBUG    | connexion.operations.openapi:__init__:129 - consumes: ['application/json']
+2023-08-28 16:43:12.270 | DEBUG    | connexion.operations.openapi:__init__:130 - produces: ['application/json']
+2023-08-28 16:43:12.271 | DEBUG    | connexion.apis.aiohttp_api:_add_operation_internal:281 - ... Adding DELETE -> main.delete_version
+2023-08-28 16:43:12.272 | DEBUG    | connexion.operations.abstract:__content_type_decorator:410 - ... Produces: ['application/json']
+2023-08-28 16:43:12.274 | DEBUG    | connexion.operations.abstract:__content_type_decorator:414 - ... Produces json
+2023-08-28 16:43:12.276 | DEBUG    | connexion.operations.abstract:function:371 - ... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0xb5337808>)
+2023-08-28 16:43:12.277 | DEBUG    | connexion.operations.secure:security_decorator:73 - ... Security: None
+2023-08-28 16:43:12.278 | DEBUG    | connexion.operations.abstract:function:382 - ... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0xb5566df0>)
+2023-08-28 16:43:12.280 | DEBUG    | connexion.apis.abstract:add_paths:216 - Adding /v1.0/version/available/local...
+2023-08-28 16:43:12.281 | DEBUG    | connexion.operations.openapi:__init__:129 - consumes: ['application/json']
+2023-08-28 16:43:12.282 | DEBUG    | connexion.operations.openapi:__init__:130 - produces: ['application/json']
+2023-08-28 16:43:12.283 | DEBUG    | connexion.apis.aiohttp_api:_add_operation_internal:281 - ... Adding GET -> main.get_available_local_versions
+2023-08-28 16:43:12.285 | DEBUG    | connexion.operations.abstract:__content_type_decorator:410 - ... Produces: ['application/json']
+2023-08-28 16:43:12.286 | DEBUG    | connexion.operations.abstract:__content_type_decorator:414 - ... Produces json
+2023-08-28 16:43:12.287 | DEBUG    | connexion.operations.abstract:function:371 - ... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0xb53379b8>)
+2023-08-28 16:43:12.289 | DEBUG    | connexion.operations.secure:security_decorator:73 - ... Security: None
+2023-08-28 16:43:12.290 | DEBUG    | connexion.operations.abstract:function:382 - ... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0xb5566df0>)
+2023-08-28 16:43:12.291 | DEBUG    | connexion.apis.abstract:add_paths:216 - Adding /v1.0/version/available/{repository}/{image}...
+2023-08-28 16:43:12.294 | DEBUG    | connexion.operations.openapi:__init__:129 - consumes: ['application/json']
+2023-08-28 16:43:12.296 | DEBUG    | connexion.operations.openapi:__init__:130 - produces: ['application/json']
+2023-08-28 16:43:12.297 | DEBUG    | connexion.apis.aiohttp_api:_add_operation_internal:281 - ... Adding GET -> main.get_available_versions
+2023-08-28 16:43:12.298 | DEBUG    | connexion.operations.abstract:__content_type_decorator:410 - ... Produces: ['application/json']
+2023-08-28 16:43:12.300 | DEBUG    | connexion.operations.abstract:__content_type_decorator:414 - ... Produces json
+2023-08-28 16:43:12.301 | DEBUG    | connexion.operations.abstract:function:371 - ... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0xb5337a90>)
+2023-08-28 16:43:12.302 | DEBUG    | connexion.operations.secure:security_decorator:73 - ... Security: None
+2023-08-28 16:43:12.303 | DEBUG    | connexion.operations.abstract:function:382 - ... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0xb5566df0>)
+2023-08-28 16:43:12.307 | DEBUG    | connexion.apis.abstract:add_paths:216 - Adding /v1.0/version/pull/...
+2023-08-28 16:43:12.308 | DEBUG    | connexion.operations.openapi:__init__:129 - consumes: ['application/json']
+2023-08-28 16:43:12.309 | DEBUG    | connexion.operations.openapi:__init__:130 - produces: ['application/json']
+2023-08-28 16:43:12.310 | DEBUG    | connexion.apis.aiohttp_api:_add_operation_internal:281 - ... Adding POST -> main.pull_version
+2023-08-28 16:43:12.312 | DEBUG    | connexion.operations.abstract:__content_type_decorator:410 - ... Produces: ['application/json']
+2023-08-28 16:43:12.313 | DEBUG    | connexion.operations.abstract:__content_type_decorator:414 - ... Produces json
+2023-08-28 16:43:12.314 | DEBUG    | connexion.operations.abstract:function:371 - ... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0xb5337c40>)
+2023-08-28 16:43:12.316 | DEBUG    | connexion.operations.secure:security_decorator:73 - ... Security: None
+2023-08-28 16:43:12.318 | DEBUG    | connexion.operations.abstract:function:382 - ... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0xb5566df0>)
+2023-08-28 16:43:12.321 | DEBUG    | connexion.apis.abstract:add_paths:216 - Adding /v1.0/version/load/...
+2023-08-28 16:43:12.323 | DEBUG    | connexion.operations.openapi:__init__:129 - consumes: ['application/x-tar']
+2023-08-28 16:43:12.326 | DEBUG    | connexion.operations.openapi:__init__:130 - produces: ['application/json']
+2023-08-28 16:43:12.328 | DEBUG    | connexion.apis.aiohttp_api:_add_operation_internal:281 - ... Adding POST -> main.load
+2023-08-28 16:43:12.330 | DEBUG    | connexion.operations.abstract:__content_type_decorator:410 - ... Produces: ['application/json']
+2023-08-28 16:43:12.332 | DEBUG    | connexion.operations.abstract:__content_type_decorator:414 - ... Produces json
+2023-08-28 16:43:12.333 | DEBUG    | connexion.operations.abstract:function:371 - ... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0xb5337df0>)
+2023-08-28 16:43:12.336 | DEBUG    | connexion.operations.secure:security_decorator:73 - ... Security: None
+2023-08-28 16:43:12.337 | DEBUG    | connexion.operations.abstract:function:382 - ... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0xb5566df0>)
+2023-08-28 16:43:12.344 | DEBUG    | connexion.apps.aiohttp_app:run:87 - Starting aiohttp HTTP server..
+2023-08-28 16:43:12.345 | INFO     | connexion.apps.aiohttp_app:run:90 - Listening on 0.0.0.0:8081..
+2023-08-28 16:43:12.518 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:43:12.732 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:43:12.735 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:43:12.806 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:43:12.807 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:43:13.848 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:43:13.850 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:43:13.852 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:43:13.879 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:43:13.882 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:43:14.921 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:43:14.923 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:43:14.924 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:43:14.934 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:43:14.935 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:43:15.967 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:43:15.968 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:43:15.969 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:43:15.979 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:43:15.980 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:43:17.014 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:43:17.015 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:43:17.017 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:43:17.028 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:43:17.029 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:43:18.067 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:43:18.068 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:43:18.069 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:43:18.081 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:43:18.082 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:43:19.113 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:43:19.114 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:43:19.116 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:43:19.125 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:43:19.126 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:43:20.173 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:43:20.175 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:43:20.177 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:43:20.193 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:43:20.195 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:43:21.243 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:43:21.244 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:43:21.246 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:43:21.257 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:43:21.258 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:43:22.292 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:43:22.293 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:43:22.294 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:43:22.306 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:43:22.308 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:43:23.340 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:43:23.341 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:43:23.343 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:43:23.352 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:43:23.353 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:43:24.384 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:43:24.468 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:43:24.470 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:43:24.484 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:43:24.485 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:43:25.519 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:43:25.521 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:43:25.523 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:43:25.532 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:43:25.534 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:43:26.483 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:43:26.486 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:43:26.489 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:43:26.509 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:43:26.512 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:43:26.572 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:43:26.574 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:43:26.577 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:43:26.591 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:43:26.593 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:43:27.286 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:43:27.289 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:43:27.291 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:43:27.300 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:43:27.304 | DEBUG    | connexion.apis.abstract:_prepare_body_and_status_code:423 - Prepared body and status code (200)
+2023-08-28 16:43:27.307 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:43:27.342 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:43:27.345 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:43:27.348 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:43:27.361 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:43:27.365 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:43:27.452 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:43:27.455 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:43:27.469 | DEBUG    | connexion.decorators.validation:wrapper:365 - http://127.0.0.1:8081/v1.0/version/available/bluerobotics/blueos-core validating parameters...
+2023-08-28 16:43:27.483 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: ['repository', 'image']
+2023-08-28 16:43:27.537 | INFO     | utils.dockerhub:fetch_remote_tags:89 - fetching
+2023-08-28 16:43:27.660 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:43:27.662 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:43:27.665 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:43:27.679 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:43:27.681 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:43:28.726 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:43:28.728 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:43:28.730 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:43:28.741 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:43:28.743 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:43:29.781 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:43:29.783 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:43:29.785 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:43:29.795 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:43:29.797 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:43:30.850 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:43:30.853 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:43:30.857 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:43:30.871 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:43:30.872 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:43:31.914 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:43:31.915 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:43:31.916 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:43:31.925 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:43:31.926 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:43:32.260 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:43:32.262 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:43:32.961 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:43:32.962 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:43:32.964 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:43:32.972 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:43:32.974 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:43:34.008 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:43:34.010 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:43:34.011 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:43:34.021 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:43:34.022 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:43:35.081 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:43:35.084 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:43:35.087 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:43:35.102 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:43:35.105 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:43:36.157 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:43:36.159 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:43:36.161 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:43:36.177 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:43:36.181 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:43:37.219 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:43:37.221 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:43:37.222 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:43:37.233 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:43:37.235 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:43:38.272 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:43:38.273 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:43:38.274 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:43:38.284 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:43:38.285 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:43:39.336 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:43:39.338 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:43:39.340 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:43:39.349 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:43:39.351 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:43:40.410 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:43:40.415 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:43:40.418 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:43:40.434 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:43:40.437 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:43:41.476 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:43:41.477 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:43:41.479 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:43:41.488 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:43:41.489 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:43:42.523 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:43:42.524 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:43:42.525 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:43:42.535 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:43:42.536 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:43:43.579 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:43:43.582 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:43:43.583 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:43:43.594 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:43:43.596 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:43:44.629 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:43:44.631 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:43:44.632 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:43:44.642 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:43:44.643 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:43:45.686 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:43:45.688 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:43:45.691 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:43:45.705 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:43:45.707 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:43:46.768 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:43:46.770 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:43:46.771 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:43:46.780 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:43:46.781 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:43:47.813 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:43:47.814 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:43:47.816 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:43:47.828 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:43:47.829 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:43:48.880 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:43:48.882 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:43:48.884 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:43:48.898 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:43:48.900 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:43:49.936 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:43:49.937 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:43:49.939 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:43:49.947 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:43:49.949 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:43:50.983 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:43:50.985 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:43:50.986 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:43:50.995 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:43:50.998 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:43:52.043 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:43:52.045 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:43:52.047 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:43:52.062 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:43:52.064 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:43:53.111 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:43:53.112 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:43:53.115 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:43:53.125 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:43:53.126 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:43:54.175 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:43:54.177 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:43:54.180 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:43:54.210 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:43:54.211 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:43:55.246 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:43:55.247 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:43:55.249 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:43:55.257 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:43:55.258 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:43:56.302 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:43:56.303 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:43:56.306 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:43:56.317 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:43:56.318 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:43:57.360 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:43:57.362 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:43:57.363 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:43:57.372 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:43:57.374 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:43:58.410 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:43:58.412 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:43:58.414 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:43:58.426 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:43:58.427 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:43:59.474 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:43:59.476 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:43:59.480 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:43:59.494 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:43:59.496 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:44:00.546 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:44:00.549 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:44:00.552 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:44:00.573 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:44:00.577 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:44:01.631 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:44:01.633 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:44:01.636 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:44:01.646 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:44:01.647 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:44:02.682 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:44:02.684 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:44:02.686 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:44:02.696 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:44:02.698 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:44:03.733 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:44:03.735 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:44:03.737 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:44:03.749 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:44:03.751 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:44:04.798 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:44:04.804 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:44:04.808 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:44:04.822 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:44:04.825 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:44:05.864 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:44:05.866 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:44:05.868 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:44:05.877 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:44:05.881 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:44:06.919 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:44:06.920 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:44:06.921 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:44:06.934 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:44:06.936 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:44:07.970 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:44:07.971 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:44:07.972 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:44:07.983 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:44:07.986 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:44:09.023 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:44:09.025 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:44:09.026 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:44:09.050 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:44:09.052 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:44:10.102 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:44:10.106 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:44:10.110 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:44:10.129 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:44:10.131 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:44:11.168 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:44:11.171 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:44:11.172 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:44:11.182 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:44:11.185 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:44:12.238 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:44:12.242 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:44:12.243 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:44:12.256 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:44:12.258 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:44:13.314 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:44:13.317 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:44:13.319 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:44:13.336 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:44:13.339 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:44:14.397 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:44:14.399 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:44:14.401 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:44:14.410 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:44:14.412 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:44:15.461 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:44:15.465 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:44:15.469 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:44:15.489 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:44:15.491 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:44:16.524 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:44:16.526 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:44:16.528 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:44:16.538 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:44:16.539 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:44:17.588 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:44:17.591 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:44:17.593 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:44:17.610 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:44:17.612 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:44:18.662 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:44:18.664 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:44:18.666 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:44:18.679 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:44:18.690 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:44:19.744 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:44:19.746 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:44:19.747 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:44:19.756 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:44:19.757 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:44:20.810 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:44:20.813 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:44:20.816 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:44:20.835 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:44:20.837 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:44:21.893 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:44:21.896 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:44:21.899 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:44:21.924 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:44:21.929 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:44:22.978 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:44:22.980 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:44:22.982 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:44:22.991 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:44:22.993 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:44:24.035 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:44:24.038 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:44:24.041 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:44:24.049 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:44:24.051 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:44:25.122 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:44:25.125 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:44:25.127 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:44:25.143 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:44:25.145 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:44:26.207 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:44:26.209 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:44:26.212 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:44:26.230 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:44:26.233 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:44:27.277 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:44:27.279 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:44:27.280 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:44:27.291 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:44:27.292 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:44:28.324 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:44:28.326 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:44:28.328 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:44:28.340 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:44:28.341 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:44:29.372 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:44:29.375 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:44:29.376 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:44:29.385 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:44:29.386 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:44:30.418 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:44:30.419 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:44:30.421 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:44:30.429 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:44:30.431 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:44:31.462 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:44:31.464 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:44:31.465 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:44:31.475 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:44:31.476 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:44:32.507 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:44:32.509 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:44:32.513 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:44:32.525 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:44:32.526 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:44:33.591 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:44:33.592 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:44:33.594 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:44:33.604 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:44:33.606 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:44:34.662 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:44:34.664 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:44:34.666 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:44:34.701 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:44:34.702 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:44:35.778 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:44:35.782 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:44:35.786 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:44:35.802 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:44:35.804 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:44:36.839 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:44:36.840 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:44:36.842 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:44:36.853 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:44:36.855 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:44:37.905 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:44:37.906 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:44:37.908 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:44:37.918 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:44:37.919 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:44:38.956 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:44:38.958 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:44:38.959 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:44:38.968 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:44:38.970 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:44:40.007 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:44:40.008 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:44:40.010 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:44:40.020 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:44:40.021 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:44:41.072 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:44:41.075 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:44:41.078 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:44:41.098 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:44:41.102 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:44:42.139 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:44:42.141 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:44:42.142 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:44:42.152 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:44:42.154 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:44:43.212 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:44:43.216 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:44:43.220 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:44:43.237 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:44:43.239 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:44:44.289 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:44:44.292 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:44:44.295 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:44:44.332 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:44:44.334 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:44:45.392 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:44:45.396 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:44:45.400 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:44:45.418 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:44:45.421 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:44:46.459 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:44:46.460 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:44:46.462 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:44:46.472 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:44:46.473 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:44:47.511 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:44:47.512 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:44:47.514 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:44:47.523 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:44:47.526 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:44:48.579 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:44:48.581 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:44:48.582 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:44:48.592 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:44:48.593 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:44:49.632 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:44:49.635 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:44:49.637 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:44:49.652 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:44:49.654 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:44:50.690 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:44:50.692 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:44:50.694 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:44:50.704 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:44:50.705 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:44:51.740 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:44:51.742 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:44:51.744 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:44:51.756 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:44:51.758 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:44:52.797 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:44:52.799 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:44:52.801 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:44:52.810 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:44:52.811 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:44:53.846 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:44:53.848 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:44:53.849 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:44:53.859 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:44:53.862 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:44:54.900 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:44:54.901 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:44:54.903 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:44:54.912 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:44:54.914 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:44:55.948 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:44:55.950 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:44:55.951 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:44:55.961 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:44:55.963 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:44:56.997 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:44:56.999 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:44:57.001 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:44:57.014 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:44:57.017 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:44:58.054 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:44:58.055 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:44:58.057 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:44:58.065 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:44:58.067 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:44:59.099 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:44:59.100 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:44:59.102 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:44:59.110 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:44:59.111 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:45:00.156 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:45:00.158 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:45:00.160 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:45:00.175 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:45:00.177 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:45:01.216 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:45:01.217 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:45:01.219 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:45:01.233 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:45:01.237 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:45:02.268 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:45:02.270 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:45:02.271 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:45:02.280 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:45:02.282 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:45:03.342 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:45:03.344 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:45:03.345 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:45:03.355 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:45:03.356 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:45:04.407 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:45:04.410 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:45:04.412 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:45:04.424 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:45:04.427 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:45:05.466 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:45:05.468 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:45:05.470 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:45:05.481 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:45:05.483 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:45:06.522 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:45:06.523 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:45:06.525 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:45:06.534 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:45:06.536 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:45:07.571 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:45:07.573 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:45:07.574 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:45:07.583 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:45:07.585 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:45:08.624 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:45:08.625 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:45:08.626 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:45:08.635 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:45:08.636 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:45:09.684 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:45:09.685 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:45:09.687 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:45:09.695 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:45:09.699 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:45:10.745 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:45:10.747 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:45:10.749 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:45:10.761 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:45:10.763 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:45:11.810 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:45:11.812 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:45:11.814 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:45:11.824 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:45:11.828 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:45:12.866 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:45:12.867 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:45:12.869 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:45:12.878 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:45:12.884 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:45:13.920 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:45:13.921 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:45:13.923 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:45:13.933 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:45:13.935 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:45:14.972 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:45:14.973 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:45:14.975 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:45:14.985 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:45:14.986 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:45:16.023 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:45:16.025 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:45:16.026 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:45:16.049 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:45:16.050 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response
+2023-08-28 16:45:17.092 | DEBUG    | connexion.apis.aiohttp_api:get_request:309 - Getting data and status code
+2023-08-28 16:45:17.094 | DEBUG    | connexion.apis.aiohttp_api:get_request:353 - Reading data from request
+2023-08-28 16:45:17.096 | DEBUG    | connexion.decorators.parameter:wrapper:85 - Function Arguments: []
+2023-08-28 16:45:17.104 | DEBUG    | connexion.apis.abstract:_get_response:280 - Getting data and status code
+2023-08-28 16:45:17.105 | DEBUG    | connexion.apis.abstract:_get_response:292 - Got framework response

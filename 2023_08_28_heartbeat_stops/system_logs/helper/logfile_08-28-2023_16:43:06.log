@@ -1,0 +1,115 @@
+2023-08-28 16:43:06.345 | INFO     | __main__:<module>:45 - Starting Helper
+2023-08-28 16:43:07.951 | DEBUG    | asyncio.selector_events:__init__:54 - Using selector: EpollSelector
+2023-08-28 16:43:08.431 | INFO     | uvicorn.server:serve:64 - Started server process [213]
+2023-08-28 16:43:08.433 | INFO     | uvicorn.lifespan.on:startup:26 - Waiting for application startup.
+2023-08-28 16:43:08.435 | INFO     | uvicorn.lifespan.on:startup:38 - Application startup complete.
+2023-08-28 16:43:08.437 | INFO     | uvicorn.server:_log_started_message:199 - Uvicorn running on http://0.0.0.0:81 (Press CTRL+C to quit)
+2023-08-28 16:43:26.472 | DEBUG    | __main__:check_website:424 - Running check_website for '1.1.1.1:80': Online.
+2023-08-28 16:43:26.500 | DEBUG    | __main__:check_website:424 - Running check_website for 'github.com:80': Online.
+2023-08-28 16:43:26.599 | DEBUG    | __main__:check_website:424 - Running check_website for 'amazon.com:80': Online.
+2023-08-28 16:43:26.641 | DEBUG    | __main__:detect_service:326 - No metadata received from MAVLink Camera Manager (port 6020)
+2023-08-28 16:43:26.669 | DEBUG    | __main__:check_website:424 - Running check_website for 'firmware.ardupilot.org:80': Online.
+2023-08-28 16:43:26.748 | DEBUG    | __main__:detect_service:375 - Detecting service at port 6020: Valid.
+2023-08-28 16:43:26.787 | DEBUG    | __main__:detect_service:326 - No metadata received from Cable-guy (port 9090)
+2023-08-28 16:43:26.819 | DEBUG    | __main__:check_website:424 - Running check_website for 'telemetry.blueos.cloud:443': Online.
+2023-08-28 16:43:26.835 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:35642 - "GET /latest/check_internet_access HTTP/1.0" 200
+2023-08-28 16:43:26.987 | DEBUG    | __main__:detect_service:375 - Detecting service at port 9090: Valid.
+2023-08-28 16:43:27.021 | DEBUG    | __main__:detect_service:326 - No metadata received from Bag Of Holding (port 9101)
+2023-08-28 16:43:27.122 | DEBUG    | __main__:detect_service:375 - Detecting service at port 9101: Valid.
+2023-08-28 16:43:27.135 | DEBUG    | __main__:detect_service:326 - No metadata received from System Information (port 6030)
+2023-08-28 16:43:27.770 | WARNING  | __main__:simple_http_request:267 - timed out
+2023-08-28 16:43:27.771 | DEBUG    | __main__:detect_service:297 - Detecting service at port 9100: Invalid
+2023-08-28 16:43:27.869 | DEBUG    | __main__:detect_service:326 - No metadata received from Version Chooser (port 8081)
+2023-08-28 16:43:27.951 | DEBUG    | __main__:detect_service:375 - Detecting service at port 8081: Valid.
+2023-08-28 16:43:27.969 | DEBUG    | __main__:detect_service:326 - No metadata received from Beacon Service (port 9111)
+2023-08-28 16:43:28.073 | DEBUG    | __main__:detect_service:375 - Detecting service at port 9111: Valid.
+2023-08-28 16:43:28.098 | DEBUG    | __main__:detect_service:326 - No metadata received from MAVLink2Rest (port 6040)
+2023-08-28 16:43:28.183 | DEBUG    | __main__:detect_service:375 - Detecting service at port 6040: Valid.
+2023-08-28 16:43:28.211 | DEBUG    | __main__:detect_service:326 - No metadata received from Ping Service (port 9110)
+2023-08-28 16:43:28.365 | DEBUG    | __main__:detect_service:375 - Detecting service at port 9110: Valid.
+2023-08-28 16:43:28.375 | WARNING  | __main__:simple_http_request:267 - timed out
+2023-08-28 16:43:28.439 | DEBUG    | __main__:detect_service:326 - No metadata received from ttyd - Terminal (port 8088)
+2023-08-28 16:43:28.456 | DEBUG    | __main__:detect_service:375 - Detecting service at port 8088: Valid.
+2023-08-28 16:43:28.485 | DEBUG    | __main__:detect_service:326 - No metadata received from Pardal (port 9120)
+2023-08-28 16:43:28.503 | DEBUG    | __main__:detect_service:375 - Detecting service at port 9120: Valid.
+2023-08-28 16:43:28.627 | DEBUG    | __main__:detect_service:326 - No metadata received from Wifi Manager (port 9000)
+2023-08-28 16:43:28.800 | DEBUG    | __main__:detect_service:375 - Detecting service at port 9000: Valid.
+2023-08-28 16:43:28.824 | DEBUG    | __main__:detect_service:326 - No metadata received from Kraken (port 9134)
+2023-08-28 16:43:28.926 | DEBUG    | __main__:detect_service:375 - Detecting service at port 9134: Valid.
+2023-08-28 16:43:28.956 | DEBUG    | __main__:detect_service:326 - No metadata received from NMEA Injector (port 2748)
+2023-08-28 16:43:29.028 | DEBUG    | __main__:detect_service:375 - Detecting service at port 2748: Valid.
+2023-08-28 16:43:29.114 | DEBUG    | __main__:detect_service:326 - No metadata received from ArduPilot Manager (port 8000)
+2023-08-28 16:43:29.301 | DEBUG    | __main__:detect_service:375 - Detecting service at port 8000: Valid.
+2023-08-28 16:43:29.335 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:36056 - "GET / HTTP/1.1" 200
+2023-08-28 16:43:29.364 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:36058 - "GET /register_service HTTP/1.1" 404
+2023-08-28 16:43:29.368 | DEBUG    | __main__:detect_service:326 - No metadata received from Helper (port 81)
+2023-08-28 16:43:29.376 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:36060 - "GET /docs HTTP/1.1" 200
+2023-08-28 16:43:29.387 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:36062 - "GET /docs.json HTTP/1.1" 404
+2023-08-28 16:43:29.400 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:36064 - "GET /openapi.json HTTP/1.1" 200
+2023-08-28 16:43:29.411 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:36066 - "GET /v1.0/docs HTTP/1.1" 200
+2023-08-28 16:43:29.453 | WARNING  | __main__:simple_http_request:267 - timed out
+2023-08-28 16:43:29.459 | DEBUG    | __main__:detect_service:375 - Detecting service at port 6030: Valid.
+2023-08-28 16:43:29.486 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:36068 - "GET /v1.0/openapi.json HTTP/1.1" 200
+2023-08-28 16:43:29.501 | DEBUG    | __main__:detect_service:326 - No metadata received from Bridget (port 27353)
+2023-08-28 16:43:29.506 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:36074 - "GET /swagger.json HTTP/1.1" 404
+2023-08-28 16:43:29.510 | DEBUG    | __main__:detect_service:375 - Detecting service at port 81: Valid.
+2023-08-28 16:43:29.537 | WARNING  | __main__:simple_http_request:272 - Expecting value: line 1 column 1 (char 0)
+2023-08-28 16:43:29.539 | DEBUG    | __main__:detect_service:326 - No metadata received from File Browser (port 7777)
+2023-08-28 16:43:29.551 | WARNING  | __main__:simple_http_request:272 - Expecting value: line 1 column 1 (char 0)
+2023-08-28 16:43:29.562 | WARNING  | __main__:simple_http_request:272 - Expecting value: line 1 column 1 (char 0)
+2023-08-28 16:43:29.569 | WARNING  | __main__:simple_http_request:272 - Expecting value: line 1 column 1 (char 0)
+2023-08-28 16:43:29.571 | DEBUG    | __main__:detect_service:375 - Detecting service at port 7777: Valid.
+2023-08-28 16:43:29.651 | DEBUG    | __main__:detect_service:375 - Detecting service at port 27353: Valid.
+2023-08-28 16:43:29.665 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:35678 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:43:31.259 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:36120 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:43:36.274 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:36168 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:43:41.277 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:36210 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:43:46.248 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:36254 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:43:46.323 | DEBUG    | __main__:check_website:424 - Running check_website for '1.1.1.1:80': Online.
+2023-08-28 16:43:46.370 | DEBUG    | __main__:check_website:424 - Running check_website for 'github.com:80': Online.
+2023-08-28 16:43:46.489 | DEBUG    | __main__:check_website:424 - Running check_website for 'amazon.com:80': Online.
+2023-08-28 16:43:46.528 | DEBUG    | __main__:check_website:424 - Running check_website for 'firmware.ardupilot.org:80': Online.
+2023-08-28 16:43:46.697 | DEBUG    | __main__:check_website:424 - Running check_website for 'telemetry.blueos.cloud:443': Online.
+2023-08-28 16:43:46.707 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:36256 - "GET /latest/check_internet_access HTTP/1.0" 200
+2023-08-28 16:43:51.266 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:36316 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:43:56.313 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:36354 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:44:01.258 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:36402 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:44:06.250 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:36450 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:44:06.291 | DEBUG    | __main__:check_website:424 - Running check_website for '1.1.1.1:80': Online.
+2023-08-28 16:44:06.354 | DEBUG    | __main__:check_website:424 - Running check_website for 'github.com:80': Online.
+2023-08-28 16:44:06.463 | DEBUG    | __main__:check_website:424 - Running check_website for 'firmware.ardupilot.org:80': Online.
+2023-08-28 16:44:06.471 | DEBUG    | __main__:check_website:424 - Running check_website for 'amazon.com:80': Online.
+2023-08-28 16:44:06.768 | DEBUG    | __main__:check_website:424 - Running check_website for 'telemetry.blueos.cloud:443': Online.
+2023-08-28 16:44:06.773 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:36452 - "GET /latest/check_internet_access HTTP/1.0" 200
+2023-08-28 16:44:11.247 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:36512 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:44:16.308 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:36550 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:44:21.265 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:36598 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:44:26.322 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:36636 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:44:26.326 | DEBUG    | __main__:check_website:424 - Running check_website for '1.1.1.1:80': Online.
+2023-08-28 16:44:26.368 | DEBUG    | __main__:check_website:424 - Running check_website for 'github.com:80': Online.
+2023-08-28 16:44:26.473 | DEBUG    | __main__:check_website:424 - Running check_website for 'amazon.com:80': Online.
+2023-08-28 16:44:26.545 | DEBUG    | __main__:check_website:424 - Running check_website for 'firmware.ardupilot.org:80': Online.
+2023-08-28 16:44:26.692 | DEBUG    | __main__:check_website:424 - Running check_website for 'telemetry.blueos.cloud:443': Online.
+2023-08-28 16:44:26.699 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:36644 - "GET /latest/check_internet_access HTTP/1.0" 200
+2023-08-28 16:44:31.239 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:36750 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:44:36.350 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:36838 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:44:41.348 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:36932 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:44:46.357 | DEBUG    | __main__:check_website:424 - Running check_website for '1.1.1.1:80': Online.
+2023-08-28 16:44:46.379 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:37016 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:44:46.438 | DEBUG    | __main__:check_website:424 - Running check_website for 'github.com:80': Online.
+2023-08-28 16:44:46.555 | DEBUG    | __main__:check_website:424 - Running check_website for 'amazon.com:80': Online.
+2023-08-28 16:44:46.571 | DEBUG    | __main__:check_website:424 - Running check_website for 'firmware.ardupilot.org:80': Online.
+2023-08-28 16:44:46.743 | DEBUG    | __main__:check_website:424 - Running check_website for 'telemetry.blueos.cloud:443': Online.
+2023-08-28 16:44:46.748 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:37018 - "GET /latest/check_internet_access HTTP/1.0" 200
+2023-08-28 16:44:51.350 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:37122 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:44:56.276 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:37218 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:45:01.268 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:37320 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:45:06.269 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:37410 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:45:06.350 | DEBUG    | __main__:check_website:424 - Running check_website for '1.1.1.1:80': Online.
+2023-08-28 16:45:06.428 | DEBUG    | __main__:check_website:424 - Running check_website for 'github.com:80': Online.
+2023-08-28 16:45:06.517 | DEBUG    | __main__:check_website:424 - Running check_website for 'amazon.com:80': Online.
+2023-08-28 16:45:06.525 | DEBUG    | __main__:check_website:424 - Running check_website for 'firmware.ardupilot.org:80': Online.
+2023-08-28 16:45:06.883 | DEBUG    | __main__:check_website:424 - Running check_website for 'telemetry.blueos.cloud:443': Online.
+2023-08-28 16:45:06.894 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:37412 - "GET /latest/check_internet_access HTTP/1.0" 200
+2023-08-28 16:45:11.232 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:37528 - "GET /latest/web_services HTTP/1.0" 200
+2023-08-28 16:45:16.242 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:37624 - "GET /latest/web_services HTTP/1.0" 200
