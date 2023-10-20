@@ -1,0 +1,47 @@
+2023-08-28 16:42:57.633 | WARNING  | api.settings:load:32 - User settings does not exist: /root/.config/cable-guy/settings.json
+2023-08-28 16:42:57.635 | ERROR    | api.manager:__init__:79 - Failed to load previous settings. Using default configuration: [NetworkInterface(name='eth0', addresses=[InterfaceAddress(ip='192.168.2.2', mode=<AddressMode.Unmanaged: 'unmanaged'>)], info=None), NetworkInterface(name='usb0', addresses=[InterfaceAddress(ip='192.168.3.1', mode=<AddressMode.Server: 'server'>)], info=None)]
+2023-08-28 16:42:57.748 | DEBUG    | api.manager:set_configuration:116 - Found following ethernet interfaces: [NetworkInterface(name='eth0', addresses=[], info=InterfaceInfo(connected=True, number_of_disconnections=0, priority=0)), NetworkInterface(name='usb0', addresses=[], info=InterfaceInfo(connected=False, number_of_disconnections=1, priority=0))].
+2023-08-28 16:42:57.760 | INFO     | api.manager:flush_interface:248 - Flushing IP addresses from interface eth0.
+2023-08-28 16:42:57.765 | INFO     | api.manager:remove_dhcp_server_from_interface:650 - Removing DHCP server from interface 'eth0'.
+2023-08-28 16:42:57.767 | INFO     | api.manager:add_static_ip:280 - Adding static IP '192.168.2.2' to interface 'eth0'.
+2023-08-28 16:42:57.828 | DEBUG    | api.manager:set_configuration:116 - Found following ethernet interfaces: [NetworkInterface(name='eth0', addresses=[InterfaceAddress(ip='192.168.2.2', mode=<AddressMode.Unmanaged: 'unmanaged'>)], info=InterfaceInfo(connected=True, number_of_disconnections=0, priority=0)), NetworkInterface(name='usb0', addresses=[], info=InterfaceInfo(connected=False, number_of_disconnections=1, priority=0))].
+2023-08-28 16:42:57.836 | INFO     | api.manager:flush_interface:248 - Flushing IP addresses from interface usb0.
+2023-08-28 16:42:57.837 | INFO     | api.manager:remove_dhcp_server_from_interface:650 - Removing DHCP server from interface 'usb0'.
+2023-08-28 16:42:57.887 | INFO     | api.manager:add_static_ip:280 - Adding static IP '192.168.3.1' to interface 'usb0'.
+2023-08-28 16:42:57.893 | INFO     | api.manager:add_dhcp_server_to_interface:665 - Adding DHCP server with gateway '192.168.3.1' to interface 'usb0'.
+2023-08-28 16:43:01.029 | INFO     | commonwealth.utils.DHCPServerManager:start:105 - DHCP Server started.
+2023-08-28 16:43:01.434 | DEBUG    | asyncio.selector_events:__init__:54 - Using selector: EpollSelector
+2023-08-28 16:43:03.628 | INFO     | uvicorn.server:serve:64 - Started server process [58]
+2023-08-28 16:43:03.629 | INFO     | uvicorn.lifespan.on:startup:26 - Waiting for application startup.
+2023-08-28 16:43:03.642 | INFO     | uvicorn.lifespan.on:startup:38 - Application startup complete.
+2023-08-28 16:43:03.644 | INFO     | uvicorn.server:_log_started_message:199 - Uvicorn running on http://0.0.0.0:9090 (Press CTRL+C to quit)
+2023-08-28 16:43:26.711 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:49748 - "GET / HTTP/1.1" 200
+2023-08-28 16:43:26.785 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:49784 - "GET /register_service HTTP/1.1" 404
+2023-08-28 16:43:26.797 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:49788 - "GET /docs HTTP/1.1" 200
+2023-08-28 16:43:26.830 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:49736 - "GET /v1.0/ethernet HTTP/1.0" 200
+2023-08-28 16:43:26.836 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:49790 - "GET /docs.json HTTP/1.1" 404
+2023-08-28 16:43:26.855 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:49794 - "GET /openapi.json HTTP/1.1" 200
+2023-08-28 16:43:26.862 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:49798 - "GET /v1.0/docs HTTP/1.1" 200
+2023-08-28 16:43:26.953 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:49800 - "GET /v1.0/openapi.json HTTP/1.1" 200
+2023-08-28 16:43:26.978 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:49808 - "GET /swagger.json HTTP/1.1" 404
+2023-08-28 16:43:31.880 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:50186 - "GET /v1.0/ethernet HTTP/1.0" 200
+2023-08-28 16:43:37.100 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:50230 - "GET /v1.0/ethernet HTTP/1.0" 200
+2023-08-28 16:43:42.138 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:50280 - "GET /v1.0/ethernet HTTP/1.0" 200
+2023-08-28 16:43:47.335 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:50342 - "GET /v1.0/ethernet HTTP/1.0" 200
+2023-08-28 16:43:52.382 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:50388 - "GET /v1.0/ethernet HTTP/1.0" 200
+2023-08-28 16:43:57.567 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:50434 - "GET /v1.0/ethernet HTTP/1.0" 200
+2023-08-28 16:44:02.602 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:50474 - "GET /v1.0/ethernet HTTP/1.0" 200
+2023-08-28 16:44:07.816 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:50540 - "GET /v1.0/ethernet HTTP/1.0" 200
+2023-08-28 16:44:12.847 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:50584 - "GET /v1.0/ethernet HTTP/1.0" 200
+2023-08-28 16:44:18.062 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:50632 - "GET /v1.0/ethernet HTTP/1.0" 200
+2023-08-28 16:44:23.098 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:50676 - "GET /v1.0/ethernet HTTP/1.0" 200
+2023-08-28 16:44:28.311 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:50756 - "GET /v1.0/ethernet HTTP/1.0" 200
+2023-08-28 16:44:33.357 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:50852 - "GET /v1.0/ethernet HTTP/1.0" 200
+2023-08-28 16:44:39.464 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:50962 - "GET /v1.0/ethernet HTTP/1.0" 200
+2023-08-28 16:44:45.378 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:51058 - "GET /v1.0/ethernet HTTP/1.0" 200
+2023-08-28 16:44:51.428 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:51172 - "GET /v1.0/ethernet HTTP/1.0" 200
+2023-08-28 16:44:56.464 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:51274 - "GET /v1.0/ethernet HTTP/1.0" 200
+2023-08-28 16:45:01.639 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:51382 - "GET /v1.0/ethernet HTTP/1.0" 200
+2023-08-28 16:45:06.671 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:51494 - "GET /v1.0/ethernet HTTP/1.0" 200
+2023-08-28 16:45:11.905 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:51584 - "GET /v1.0/ethernet HTTP/1.0" 200
+2023-08-28 16:45:16.939 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:51684 - "GET /v1.0/ethernet HTTP/1.0" 200

@@ -1,0 +1,39 @@
+2023-08-28 16:12:12.887 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:50 - Trying to detect Linux board.
+2023-08-28 16:12:12.904 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:55684 - "GET /v1.0/board HTTP/1.0" 200
+2023-08-28 16:12:12.905 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:52 - Navigator R5 detected.
+2023-08-28 16:12:12.933 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:55686 - "GET /v1.0/firmware_info HTTP/1.0" 200
+2023-08-28 16:12:12.968 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:55682 - "GET /v1.0/available_boards HTTP/1.0" 200
+2023-08-28 16:12:13.962 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:55688 - "GET /v1.0/vehicle_type HTTP/1.0" 200
+2023-08-28 16:12:15.661 | DEBUG    | __main__:restart:196 - Restarting ardupilot...
+2023-08-28 16:12:15.663 | INFO     | ArduPilotManager:kill_ardupilot:445 - Disarming vehicle.
+2023-08-28 16:12:16.704 | DEBUG    | commonwealth.mavlink_comm.VehicleManager:disarm_vehicle:109 - Vehicle already disarmed.
+2023-08-28 16:12:16.707 | INFO     | ArduPilotManager:kill_ardupilot:447 - Vehicle disarmed.
+2023-08-28 16:12:16.708 | INFO     | ArduPilotManager:kill_ardupilot:454 - Terminating Ardupilot subprocess.
+2023-08-28 16:12:16.710 | DEBUG    | ArduPilotManager:terminate_ardupilot_subprocess:427 - Waiting for process to die...
+2023-08-28 16:12:17.212 | INFO     | ArduPilotManager:terminate_ardupilot_subprocess:425 - Ardupilot subprocess terminated.
+2023-08-28 16:12:17.214 | INFO     | ArduPilotManager:kill_ardupilot:456 - Ardupilot subprocess terminated.
+2023-08-28 16:12:17.216 | INFO     | ArduPilotManager:kill_ardupilot:457 - Pruning Ardupilot's system processes.
+2023-08-28 16:12:17.353 | DEBUG    | ArduPilotManager:prune_ardupilot_processes:436 - Killing Ardupilot process ardupilot_navigator::121.
+2023-08-28 16:12:17.855 | INFO     | ArduPilotManager:kill_ardupilot:459 - Ardupilot's system processes pruned.
+2023-08-28 16:12:17.857 | INFO     | ArduPilotManager:kill_ardupilot:461 - Stopping Mavlink manager.
+2023-08-28 16:12:17.858 | INFO     | ArduPilotManager:kill_ardupilot:463 - Mavlink manager stopped.
+2023-08-28 16:12:17.859 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:50 - Trying to detect Linux board.
+2023-08-28 16:12:17.862 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:52 - Navigator R5 detected.
+2023-08-28 16:12:17.883 | WARNING  | ArduPilotManager:start_ardupilot:473 - More than a single board detected: [FlightController(name='Navigator', manufacturer='Blue Robotics', platform=<Platform.Navigator: 'navigator'>, path=None, flags=[]), FlightController(name='SITL', manufacturer='ArduPilot Team', platform=<Platform.SITL: 'SITL_arm_linux_gnueabihf'>, path=None, flags=[])]
+2023-08-28 16:12:17.884 | DEBUG    | ArduPilotManager:get_board_to_be_used:388 - Preferred flight-controller is Navigator.
+2023-08-28 16:12:17.885 | INFO     | ArduPilotManager:start_ardupilot:476 - Using Navigator flight-controller.
+2023-08-28 16:12:17.923 | INFO     | ArduPilotManager:start_linux_board:234 - Using command line: '/root/.config/ardupilot-manager/firmware/ardupilot_navigator -A udp:127.0.0.1:8852 --log-directory /root/.config/ardupilot-manager/firmware/logs/ --storage-directory /root/.config/ardupilot-manager/firmware/storage/ -C /dev/ttyS0 -B /dev/ttyAMA1 -E /dev/ttyAMA2 -F /dev/ttyAMA3 --defaults /usr/blueos/userdata/firmware/ardupilot_navigatorparams.params'
+2023-08-28 16:12:17.940 | DEBUG    | mavlink_proxy.AbstractRouter:start:90 - Calling router using following command: '/usr/bin/mavlink-routerd 127.0.0.1:8852 0.0.0.0:14660 --endpoint 127.0.0.1:14000 --endpoint 192.168.2.1:14550 --tcp-port 5777 -l /root/.config/ardupilot-manager/logs'.
+2023-08-28 16:12:18.957 | DEBUG    | __main__:restart:198 - Ardupilot successfully restarted.
+2023-08-28 16:12:18.961 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:55742 - "POST /v1.0/restart HTTP/1.0" 200
+2023-08-28 16:12:18.976 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:50 - Trying to detect Linux board.
+2023-08-28 16:12:18.982 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:55770 - "GET /v1.0/board HTTP/1.0" 200
+2023-08-28 16:12:18.982 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:52 - Navigator R5 detected.
+2023-08-28 16:12:19.004 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:55772 - "GET /v1.0/firmware_info HTTP/1.0" 200
+2023-08-28 16:12:19.018 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:55774 - "GET /v1.0/available_boards HTTP/1.0" 200
+2023-08-28 16:12:20.061 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:55804 - "GET /v1.0/vehicle_type HTTP/1.0" 200
+2023-08-28 16:12:24.046 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:55868 - "GET /v1.0/board HTTP/1.0" 200
+2023-08-28 16:12:24.062 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:50 - Trying to detect Linux board.
+2023-08-28 16:12:24.066 | DEBUG    | flight_controller_detector.Detector:detect_linux_board:52 - Navigator R5 detected.
+2023-08-28 16:12:24.074 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:55870 - "GET /v1.0/firmware_info HTTP/1.0" 200
+2023-08-28 16:12:24.098 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:55876 - "GET /v1.0/available_boards HTTP/1.0" 200

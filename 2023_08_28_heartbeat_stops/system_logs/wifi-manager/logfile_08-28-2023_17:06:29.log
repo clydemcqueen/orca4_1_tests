@@ -1,0 +1,986 @@
+2023-08-28 17:46:35.599 | INFO     | __main__:network_status:50 - Status:
+2023-08-28 17:46:35.605 | INFO     | __main__:network_status:52 - ------------------  ------------------------------------
+2023-08-28 17:46:35.606 | INFO     | __main__:network_status:52 - bssid               44:07:0b:08:3b:84
+2023-08-28 17:46:35.607 | INFO     | __main__:network_status:52 - freq                2462
+2023-08-28 17:46:35.608 | INFO     | __main__:network_status:52 - ssid                mcqueen
+2023-08-28 17:46:35.609 | INFO     | __main__:network_status:52 - id                  2
+2023-08-28 17:46:35.610 | INFO     | __main__:network_status:52 - mode                station
+2023-08-28 17:46:35.611 | INFO     | __main__:network_status:52 - pairwise_cipher     CCMP
+2023-08-28 17:46:35.611 | INFO     | __main__:network_status:52 - group_cipher        CCMP
+2023-08-28 17:46:35.612 | INFO     | __main__:network_status:52 - key_mgmt            WPA2-PSK
+2023-08-28 17:46:35.613 | INFO     | __main__:network_status:52 - wpa_state           COMPLETED
+2023-08-28 17:46:35.614 | INFO     | __main__:network_status:52 - ip_address          192.168.86.32
+2023-08-28 17:46:35.615 | INFO     | __main__:network_status:52 - p2p_device_address  de:a6:32:77:d8:13
+2023-08-28 17:46:35.616 | INFO     | __main__:network_status:52 - address             dc:a6:32:77:d8:13
+2023-08-28 17:46:35.617 | INFO     | __main__:network_status:52 - uuid                9e3b10fb-d6cb-531d-9906-408f8956cd05
+2023-08-28 17:46:35.618 | INFO     | __main__:network_status:52 - ------------------  ------------------------------------
+2023-08-28 17:46:35.620 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:53654 - "GET /v1.0/status HTTP/1.0" 200
+2023-08-28 17:46:35.711 | INFO     | __main__:saved:73 - Trying to fetch saved networks.
+2023-08-28 17:46:35.713 | INFO     | __main__:saved:75 - Saved networks:
+2023-08-28 17:46:35.715 | INFO     | __main__:saved:77 -   networkid  ssid     bssid    flags
+2023-08-28 17:46:35.716 | INFO     | __main__:saved:77 - -----------  -------  -------  ---------
+2023-08-28 17:46:35.716 | INFO     | __main__:saved:77 -           0  Beckett  any
+2023-08-28 17:46:35.717 | INFO     | __main__:saved:77 -           1  Beckett  any
+2023-08-28 17:46:35.717 | INFO     | __main__:saved:77 -           2  mcqueen  any      [CURRENT]
+2023-08-28 17:46:35.718 | INFO     | __main__:saved:77 -           3  clyde    any
+2023-08-28 17:46:35.721 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:53656 - "GET /v1.0/saved HTTP/1.0" 200
+2023-08-28 17:46:38.481 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:53692 - "GET /v1.0/hotspot_credentials HTTP/1.0" 200
+2023-08-28 17:46:38.502 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:53694 - "GET /v1.0/hotspot HTTP/1.0" 200
+2023-08-28 17:46:40.705 | INFO     | __main__:network_status:50 - Status:
+2023-08-28 17:46:40.709 | INFO     | __main__:network_status:52 - ------------------  ------------------------------------
+2023-08-28 17:46:40.710 | INFO     | __main__:network_status:52 - bssid               44:07:0b:08:3b:84
+2023-08-28 17:46:40.712 | INFO     | __main__:network_status:52 - freq                2462
+2023-08-28 17:46:40.713 | INFO     | __main__:network_status:52 - ssid                mcqueen
+2023-08-28 17:46:40.714 | INFO     | __main__:network_status:52 - id                  2
+2023-08-28 17:46:40.714 | INFO     | __main__:network_status:52 - mode                station
+2023-08-28 17:46:40.716 | INFO     | __main__:network_status:52 - pairwise_cipher     CCMP
+2023-08-28 17:46:40.717 | INFO     | __main__:network_status:52 - group_cipher        CCMP
+2023-08-28 17:46:40.717 | INFO     | __main__:network_status:52 - key_mgmt            WPA2-PSK
+2023-08-28 17:46:40.718 | INFO     | __main__:network_status:52 - wpa_state           COMPLETED
+2023-08-28 17:46:40.719 | INFO     | __main__:network_status:52 - ip_address          192.168.86.32
+2023-08-28 17:46:40.720 | INFO     | __main__:network_status:52 - p2p_device_address  de:a6:32:77:d8:13
+2023-08-28 17:46:40.721 | INFO     | __main__:network_status:52 - address             dc:a6:32:77:d8:13
+2023-08-28 17:46:40.722 | INFO     | __main__:network_status:52 - uuid                9e3b10fb-d6cb-531d-9906-408f8956cd05
+2023-08-28 17:46:40.723 | INFO     | __main__:network_status:52 - ------------------  ------------------------------------
+2023-08-28 17:46:40.725 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:53714 - "GET /v1.0/status HTTP/1.0" 200
+2023-08-28 17:46:40.815 | INFO     | __main__:saved:73 - Trying to fetch saved networks.
+2023-08-28 17:46:40.817 | INFO     | __main__:saved:75 - Saved networks:
+2023-08-28 17:46:40.821 | INFO     | __main__:saved:77 -   networkid  ssid     bssid    flags
+2023-08-28 17:46:40.822 | INFO     | __main__:saved:77 - -----------  -------  -------  ---------
+2023-08-28 17:46:40.823 | INFO     | __main__:saved:77 -           0  Beckett  any
+2023-08-28 17:46:40.824 | INFO     | __main__:saved:77 -           1  Beckett  any
+2023-08-28 17:46:40.825 | INFO     | __main__:saved:77 -           2  mcqueen  any      [CURRENT]
+2023-08-28 17:46:40.826 | INFO     | __main__:saved:77 -           3  clyde    any
+2023-08-28 17:46:40.830 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:53716 - "GET /v1.0/saved HTTP/1.0" 200
+2023-08-28 17:46:45.810 | INFO     | __main__:network_status:50 - Status:
+2023-08-28 17:46:45.819 | INFO     | __main__:network_status:52 - ------------------  ------------------------------------
+2023-08-28 17:46:45.820 | INFO     | __main__:network_status:52 - bssid               44:07:0b:08:3b:84
+2023-08-28 17:46:45.821 | INFO     | __main__:network_status:52 - freq                2462
+2023-08-28 17:46:45.822 | INFO     | __main__:network_status:52 - ssid                mcqueen
+2023-08-28 17:46:45.822 | INFO     | __main__:network_status:52 - id                  2
+2023-08-28 17:46:45.823 | INFO     | __main__:network_status:52 - mode                station
+2023-08-28 17:46:45.824 | INFO     | __main__:network_status:52 - pairwise_cipher     CCMP
+2023-08-28 17:46:45.824 | INFO     | __main__:network_status:52 - group_cipher        CCMP
+2023-08-28 17:46:45.825 | INFO     | __main__:network_status:52 - key_mgmt            WPA2-PSK
+2023-08-28 17:46:45.826 | INFO     | __main__:network_status:52 - wpa_state           COMPLETED
+2023-08-28 17:46:45.826 | INFO     | __main__:network_status:52 - ip_address          192.168.86.32
+2023-08-28 17:46:45.827 | INFO     | __main__:network_status:52 - p2p_device_address  de:a6:32:77:d8:13
+2023-08-28 17:46:45.828 | INFO     | __main__:network_status:52 - address             dc:a6:32:77:d8:13
+2023-08-28 17:46:45.829 | INFO     | __main__:network_status:52 - uuid                9e3b10fb-d6cb-531d-9906-408f8956cd05
+2023-08-28 17:46:45.830 | INFO     | __main__:network_status:52 - ------------------  ------------------------------------
+2023-08-28 17:46:45.831 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:53752 - "GET /v1.0/status HTTP/1.0" 200
+2023-08-28 17:46:45.905 | INFO     | __main__:saved:73 - Trying to fetch saved networks.
+2023-08-28 17:46:45.908 | INFO     | __main__:saved:75 - Saved networks:
+2023-08-28 17:46:45.911 | INFO     | __main__:saved:77 -   networkid  ssid     bssid    flags
+2023-08-28 17:46:45.912 | INFO     | __main__:saved:77 - -----------  -------  -------  ---------
+2023-08-28 17:46:45.913 | INFO     | __main__:saved:77 -           0  Beckett  any
+2023-08-28 17:46:45.915 | INFO     | __main__:saved:77 -           1  Beckett  any
+2023-08-28 17:46:45.916 | INFO     | __main__:saved:77 -           2  mcqueen  any      [CURRENT]
+2023-08-28 17:46:45.917 | INFO     | __main__:saved:77 -           3  clyde    any
+2023-08-28 17:46:45.920 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:53760 - "GET /v1.0/saved HTTP/1.0" 200
+2023-08-28 17:46:46.589 | INFO     | __main__:scan:59 - Trying to perform network scan.
+2023-08-28 17:46:46.591 | INFO     | __main__:scan:62 - Available networks:
+2023-08-28 17:46:46.595 | INFO     | __main__:scan:64 - ssid      bssid              flags                   frequency    signallevel
+2023-08-28 17:46:46.596 | INFO     | __main__:scan:64 - --------  -----------------  --------------------  -----------  -------------
+2023-08-28 17:46:46.597 | INFO     | __main__:scan:64 - mcqueen   44:07:0b:08:3b:80  [WPA2-PSK-CCMP][ESS]         5745            -51
+2023-08-28 17:46:46.598 | INFO     | __main__:scan:64 - mcqueen   b0:6a:41:c7:19:e6  [WPA2-PSK-CCMP][ESS]         5745            -71
+2023-08-28 17:46:46.599 | INFO     | __main__:scan:64 - mcqueen   44:07:0b:08:3b:84  [WPA2-PSK-CCMP][ESS]         2462            -47
+2023-08-28 17:46:46.600 | INFO     | __main__:scan:64 - mcqueen   b0:6a:41:c7:19:ea  [WPA2-PSK-CCMP][ESS]         2462            -63
+2023-08-28 17:46:46.600 | INFO     | __main__:scan:64 - DB964921  b2:6a:41:c7:19:e5  [RSN-SAE-CCMP][MESH]         5745            -72
+2023-08-28 17:46:46.604 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:53766 - "GET /v1.0/scan HTTP/1.0" 200
+2023-08-28 17:46:48.534 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:53780 - "GET /v1.0/hotspot_credentials HTTP/1.0" 200
+2023-08-28 17:46:48.539 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:53782 - "GET /v1.0/hotspot HTTP/1.0" 200
+2023-08-28 17:46:50.899 | INFO     | __main__:network_status:50 - Status:
+2023-08-28 17:46:50.906 | INFO     | __main__:network_status:52 - ------------------  ------------------------------------
+2023-08-28 17:46:50.908 | INFO     | __main__:network_status:52 - bssid               44:07:0b:08:3b:84
+2023-08-28 17:46:50.911 | INFO     | __main__:network_status:52 - freq                2462
+2023-08-28 17:46:50.914 | INFO     | __main__:network_status:52 - ssid                mcqueen
+2023-08-28 17:46:50.916 | INFO     | __main__:network_status:52 - id                  2
+2023-08-28 17:46:50.919 | INFO     | __main__:network_status:52 - mode                station
+2023-08-28 17:46:50.920 | INFO     | __main__:network_status:52 - pairwise_cipher     CCMP
+2023-08-28 17:46:50.921 | INFO     | __main__:network_status:52 - group_cipher        CCMP
+2023-08-28 17:46:50.921 | INFO     | __main__:network_status:52 - key_mgmt            WPA2-PSK
+2023-08-28 17:46:50.922 | INFO     | __main__:network_status:52 - wpa_state           COMPLETED
+2023-08-28 17:46:50.923 | INFO     | __main__:network_status:52 - ip_address          192.168.86.32
+2023-08-28 17:46:50.923 | INFO     | __main__:network_status:52 - p2p_device_address  de:a6:32:77:d8:13
+2023-08-28 17:46:50.924 | INFO     | __main__:network_status:52 - address             dc:a6:32:77:d8:13
+2023-08-28 17:46:50.925 | INFO     | __main__:network_status:52 - uuid                9e3b10fb-d6cb-531d-9906-408f8956cd05
+2023-08-28 17:46:50.926 | INFO     | __main__:network_status:52 - ------------------  ------------------------------------
+2023-08-28 17:46:50.927 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:53802 - "GET /v1.0/status HTTP/1.0" 200
+2023-08-28 17:46:51.013 | INFO     | __main__:saved:73 - Trying to fetch saved networks.
+2023-08-28 17:46:51.015 | INFO     | __main__:saved:75 - Saved networks:
+2023-08-28 17:46:51.018 | INFO     | __main__:saved:77 -   networkid  ssid     bssid    flags
+2023-08-28 17:46:51.019 | INFO     | __main__:saved:77 - -----------  -------  -------  ---------
+2023-08-28 17:46:51.020 | INFO     | __main__:saved:77 -           0  Beckett  any
+2023-08-28 17:46:51.021 | INFO     | __main__:saved:77 -           1  Beckett  any
+2023-08-28 17:46:51.022 | INFO     | __main__:saved:77 -           2  mcqueen  any      [CURRENT]
+2023-08-28 17:46:51.023 | INFO     | __main__:saved:77 -           3  clyde    any
+2023-08-28 17:46:51.027 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:53804 - "GET /v1.0/saved HTTP/1.0" 200
+2023-08-28 17:46:56.003 | INFO     | __main__:network_status:50 - Status:
+2023-08-28 17:46:56.008 | INFO     | __main__:network_status:52 - ------------------  ------------------------------------
+2023-08-28 17:46:56.009 | INFO     | __main__:network_status:52 - bssid               44:07:0b:08:3b:84
+2023-08-28 17:46:56.011 | INFO     | __main__:network_status:52 - freq                2462
+2023-08-28 17:46:56.012 | INFO     | __main__:network_status:52 - ssid                mcqueen
+2023-08-28 17:46:56.013 | INFO     | __main__:network_status:52 - id                  2
+2023-08-28 17:46:56.014 | INFO     | __main__:network_status:52 - mode                station
+2023-08-28 17:46:56.016 | INFO     | __main__:network_status:52 - pairwise_cipher     CCMP
+2023-08-28 17:46:56.017 | INFO     | __main__:network_status:52 - group_cipher        CCMP
+2023-08-28 17:46:56.018 | INFO     | __main__:network_status:52 - key_mgmt            WPA2-PSK
+2023-08-28 17:46:56.019 | INFO     | __main__:network_status:52 - wpa_state           COMPLETED
+2023-08-28 17:46:56.022 | INFO     | __main__:network_status:52 - ip_address          192.168.86.32
+2023-08-28 17:46:56.024 | INFO     | __main__:network_status:52 - p2p_device_address  de:a6:32:77:d8:13
+2023-08-28 17:46:56.025 | INFO     | __main__:network_status:52 - address             dc:a6:32:77:d8:13
+2023-08-28 17:46:56.027 | INFO     | __main__:network_status:52 - uuid                9e3b10fb-d6cb-531d-9906-408f8956cd05
+2023-08-28 17:46:56.028 | INFO     | __main__:network_status:52 - ------------------  ------------------------------------
+2023-08-28 17:46:56.031 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:53846 - "GET /v1.0/status HTTP/1.0" 200
+2023-08-28 17:46:56.124 | INFO     | __main__:saved:73 - Trying to fetch saved networks.
+2023-08-28 17:46:56.127 | INFO     | __main__:saved:75 - Saved networks:
+2023-08-28 17:46:56.129 | INFO     | __main__:saved:77 -   networkid  ssid     bssid    flags
+2023-08-28 17:46:56.129 | INFO     | __main__:saved:77 - -----------  -------  -------  ---------
+2023-08-28 17:46:56.130 | INFO     | __main__:saved:77 -           0  Beckett  any
+2023-08-28 17:46:56.131 | INFO     | __main__:saved:77 -           1  Beckett  any
+2023-08-28 17:46:56.131 | INFO     | __main__:saved:77 -           2  mcqueen  any      [CURRENT]
+2023-08-28 17:46:56.132 | INFO     | __main__:saved:77 -           3  clyde    any
+2023-08-28 17:46:56.134 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:53848 - "GET /v1.0/saved HTTP/1.0" 200
+2023-08-28 17:46:58.580 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:53878 - "GET /v1.0/hotspot_credentials HTTP/1.0" 200
+2023-08-28 17:46:58.586 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:53880 - "GET /v1.0/hotspot HTTP/1.0" 200
+2023-08-28 17:47:01.119 | INFO     | __main__:network_status:50 - Status:
+2023-08-28 17:47:01.124 | INFO     | __main__:network_status:52 - ------------------  ------------------------------------
+2023-08-28 17:47:01.125 | INFO     | __main__:network_status:52 - bssid               44:07:0b:08:3b:84
+2023-08-28 17:47:01.126 | INFO     | __main__:network_status:52 - freq                2462
+2023-08-28 17:47:01.128 | INFO     | __main__:network_status:52 - ssid                mcqueen
+2023-08-28 17:47:01.129 | INFO     | __main__:network_status:52 - id                  2
+2023-08-28 17:47:01.130 | INFO     | __main__:network_status:52 - mode                station
+2023-08-28 17:47:01.131 | INFO     | __main__:network_status:52 - pairwise_cipher     CCMP
+2023-08-28 17:47:01.132 | INFO     | __main__:network_status:52 - group_cipher        CCMP
+2023-08-28 17:47:01.133 | INFO     | __main__:network_status:52 - key_mgmt            WPA2-PSK
+2023-08-28 17:47:01.135 | INFO     | __main__:network_status:52 - wpa_state           COMPLETED
+2023-08-28 17:47:01.136 | INFO     | __main__:network_status:52 - ip_address          192.168.86.32
+2023-08-28 17:47:01.137 | INFO     | __main__:network_status:52 - p2p_device_address  de:a6:32:77:d8:13
+2023-08-28 17:47:01.138 | INFO     | __main__:network_status:52 - address             dc:a6:32:77:d8:13
+2023-08-28 17:47:01.139 | INFO     | __main__:network_status:52 - uuid                9e3b10fb-d6cb-531d-9906-408f8956cd05
+2023-08-28 17:47:01.140 | INFO     | __main__:network_status:52 - ------------------  ------------------------------------
+2023-08-28 17:47:01.143 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:53906 - "GET /v1.0/status HTTP/1.0" 200
+2023-08-28 17:47:01.230 | INFO     | __main__:saved:73 - Trying to fetch saved networks.
+2023-08-28 17:47:01.232 | INFO     | __main__:saved:75 - Saved networks:
+2023-08-28 17:47:01.235 | INFO     | __main__:saved:77 -   networkid  ssid     bssid    flags
+2023-08-28 17:47:01.236 | INFO     | __main__:saved:77 - -----------  -------  -------  ---------
+2023-08-28 17:47:01.237 | INFO     | __main__:saved:77 -           0  Beckett  any
+2023-08-28 17:47:01.238 | INFO     | __main__:saved:77 -           1  Beckett  any
+2023-08-28 17:47:01.238 | INFO     | __main__:saved:77 -           2  mcqueen  any      [CURRENT]
+2023-08-28 17:47:01.239 | INFO     | __main__:saved:77 -           3  clyde    any
+2023-08-28 17:47:01.242 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:53908 - "GET /v1.0/saved HTTP/1.0" 200
+2023-08-28 17:47:06.215 | INFO     | __main__:network_status:50 - Status:
+2023-08-28 17:47:06.219 | INFO     | __main__:network_status:52 - ------------------  ------------------------------------
+2023-08-28 17:47:06.220 | INFO     | __main__:network_status:52 - bssid               44:07:0b:08:3b:84
+2023-08-28 17:47:06.221 | INFO     | __main__:network_status:52 - freq                2462
+2023-08-28 17:47:06.221 | INFO     | __main__:network_status:52 - ssid                mcqueen
+2023-08-28 17:47:06.222 | INFO     | __main__:network_status:52 - id                  2
+2023-08-28 17:47:06.223 | INFO     | __main__:network_status:52 - mode                station
+2023-08-28 17:47:06.224 | INFO     | __main__:network_status:52 - pairwise_cipher     CCMP
+2023-08-28 17:47:06.224 | INFO     | __main__:network_status:52 - group_cipher        CCMP
+2023-08-28 17:47:06.225 | INFO     | __main__:network_status:52 - key_mgmt            WPA2-PSK
+2023-08-28 17:47:06.226 | INFO     | __main__:network_status:52 - wpa_state           COMPLETED
+2023-08-28 17:47:06.227 | INFO     | __main__:network_status:52 - ip_address          192.168.86.32
+2023-08-28 17:47:06.228 | INFO     | __main__:network_status:52 - p2p_device_address  de:a6:32:77:d8:13
+2023-08-28 17:47:06.229 | INFO     | __main__:network_status:52 - address             dc:a6:32:77:d8:13
+2023-08-28 17:47:06.231 | INFO     | __main__:network_status:52 - uuid                9e3b10fb-d6cb-531d-9906-408f8956cd05
+2023-08-28 17:47:06.232 | INFO     | __main__:network_status:52 - ------------------  ------------------------------------
+2023-08-28 17:47:06.234 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:53950 - "GET /v1.0/status HTTP/1.0" 200
+2023-08-28 17:47:06.331 | INFO     | __main__:saved:73 - Trying to fetch saved networks.
+2023-08-28 17:47:06.332 | INFO     | __main__:saved:75 - Saved networks:
+2023-08-28 17:47:06.334 | INFO     | __main__:saved:77 -   networkid  ssid     bssid    flags
+2023-08-28 17:47:06.335 | INFO     | __main__:saved:77 - -----------  -------  -------  ---------
+2023-08-28 17:47:06.336 | INFO     | __main__:saved:77 -           0  Beckett  any
+2023-08-28 17:47:06.337 | INFO     | __main__:saved:77 -           1  Beckett  any
+2023-08-28 17:47:06.337 | INFO     | __main__:saved:77 -           2  mcqueen  any      [CURRENT]
+2023-08-28 17:47:06.338 | INFO     | __main__:saved:77 -           3  clyde    any
+2023-08-28 17:47:06.341 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:53954 - "GET /v1.0/saved HTTP/1.0" 200
+2023-08-28 17:47:06.686 | INFO     | __main__:scan:59 - Trying to perform network scan.
+2023-08-28 17:47:06.689 | INFO     | __main__:scan:62 - Available networks:
+2023-08-28 17:47:06.692 | INFO     | __main__:scan:64 - ssid      bssid              flags                   frequency    signallevel
+2023-08-28 17:47:06.693 | INFO     | __main__:scan:64 - --------  -----------------  --------------------  -----------  -------------
+2023-08-28 17:47:06.694 | INFO     | __main__:scan:64 - mcqueen   44:07:0b:08:3b:80  [WPA2-PSK-CCMP][ESS]         5745            -49
+2023-08-28 17:47:06.694 | INFO     | __main__:scan:64 - mcqueen   b0:6a:41:c7:19:e6  [WPA2-PSK-CCMP][ESS]         5745            -69
+2023-08-28 17:47:06.695 | INFO     | __main__:scan:64 - mcqueen   44:07:0b:08:3b:84  [WPA2-PSK-CCMP][ESS]         2462            -39
+2023-08-28 17:47:06.696 | INFO     | __main__:scan:64 - mcqueen   b0:6a:41:c7:19:ea  [WPA2-PSK-CCMP][ESS]         2462            -63
+2023-08-28 17:47:06.697 | INFO     | __main__:scan:64 - DB964921  b2:6a:41:c7:19:e5  [RSN-SAE-CCMP][MESH]         5745            -72
+2023-08-28 17:47:06.703 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:53958 - "GET /v1.0/scan HTTP/1.0" 200
+2023-08-28 17:47:08.625 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:53972 - "GET /v1.0/hotspot_credentials HTTP/1.0" 200
+2023-08-28 17:47:08.633 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:53974 - "GET /v1.0/hotspot HTTP/1.0" 200
+2023-08-28 17:47:11.320 | INFO     | __main__:network_status:50 - Status:
+2023-08-28 17:47:11.326 | INFO     | __main__:network_status:52 - ------------------  ------------------------------------
+2023-08-28 17:47:11.327 | INFO     | __main__:network_status:52 - bssid               44:07:0b:08:3b:84
+2023-08-28 17:47:11.328 | INFO     | __main__:network_status:52 - freq                2462
+2023-08-28 17:47:11.329 | INFO     | __main__:network_status:52 - ssid                mcqueen
+2023-08-28 17:47:11.330 | INFO     | __main__:network_status:52 - id                  2
+2023-08-28 17:47:11.331 | INFO     | __main__:network_status:52 - mode                station
+2023-08-28 17:47:11.332 | INFO     | __main__:network_status:52 - pairwise_cipher     CCMP
+2023-08-28 17:47:11.333 | INFO     | __main__:network_status:52 - group_cipher        CCMP
+2023-08-28 17:47:11.334 | INFO     | __main__:network_status:52 - key_mgmt            WPA2-PSK
+2023-08-28 17:47:11.335 | INFO     | __main__:network_status:52 - wpa_state           COMPLETED
+2023-08-28 17:47:11.336 | INFO     | __main__:network_status:52 - ip_address          192.168.86.32
+2023-08-28 17:47:11.337 | INFO     | __main__:network_status:52 - p2p_device_address  de:a6:32:77:d8:13
+2023-08-28 17:47:11.339 | INFO     | __main__:network_status:52 - address             dc:a6:32:77:d8:13
+2023-08-28 17:47:11.341 | INFO     | __main__:network_status:52 - uuid                9e3b10fb-d6cb-531d-9906-408f8956cd05
+2023-08-28 17:47:11.343 | INFO     | __main__:network_status:52 - ------------------  ------------------------------------
+2023-08-28 17:47:11.347 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:53994 - "GET /v1.0/status HTTP/1.0" 200
+2023-08-28 17:47:11.371 | INFO     | __main__:saved:73 - Trying to fetch saved networks.
+2023-08-28 17:47:11.379 | INFO     | __main__:saved:75 - Saved networks:
+2023-08-28 17:47:11.385 | INFO     | __main__:saved:77 -   networkid  ssid     bssid    flags
+2023-08-28 17:47:11.388 | INFO     | __main__:saved:77 - -----------  -------  -------  ---------
+2023-08-28 17:47:11.389 | INFO     | __main__:saved:77 -           0  Beckett  any
+2023-08-28 17:47:11.392 | INFO     | __main__:saved:77 -           1  Beckett  any
+2023-08-28 17:47:11.394 | INFO     | __main__:saved:77 -           2  mcqueen  any      [CURRENT]
+2023-08-28 17:47:11.396 | INFO     | __main__:saved:77 -           3  clyde    any
+2023-08-28 17:47:11.406 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:53998 - "GET /v1.0/saved HTTP/1.0" 200
+2023-08-28 17:47:16.465 | INFO     | __main__:network_status:50 - Status:
+2023-08-28 17:47:16.469 | INFO     | __main__:network_status:52 - ------------------  ------------------------------------
+2023-08-28 17:47:16.469 | INFO     | __main__:network_status:52 - bssid               44:07:0b:08:3b:84
+2023-08-28 17:47:16.470 | INFO     | __main__:network_status:52 - freq                2462
+2023-08-28 17:47:16.471 | INFO     | __main__:network_status:52 - ssid                mcqueen
+2023-08-28 17:47:16.472 | INFO     | __main__:network_status:52 - id                  2
+2023-08-28 17:47:16.473 | INFO     | __main__:network_status:52 - mode                station
+2023-08-28 17:47:16.474 | INFO     | __main__:network_status:52 - pairwise_cipher     CCMP
+2023-08-28 17:47:16.475 | INFO     | __main__:network_status:52 - group_cipher        CCMP
+2023-08-28 17:47:16.475 | INFO     | __main__:network_status:52 - key_mgmt            WPA2-PSK
+2023-08-28 17:47:16.476 | INFO     | __main__:network_status:52 - wpa_state           COMPLETED
+2023-08-28 17:47:16.477 | INFO     | __main__:network_status:52 - ip_address          192.168.86.32
+2023-08-28 17:47:16.478 | INFO     | __main__:network_status:52 - p2p_device_address  de:a6:32:77:d8:13
+2023-08-28 17:47:16.479 | INFO     | __main__:network_status:52 - address             dc:a6:32:77:d8:13
+2023-08-28 17:47:16.479 | INFO     | __main__:network_status:52 - uuid                9e3b10fb-d6cb-531d-9906-408f8956cd05
+2023-08-28 17:47:16.480 | INFO     | __main__:network_status:52 - ------------------  ------------------------------------
+2023-08-28 17:47:16.482 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54038 - "GET /v1.0/status HTTP/1.0" 200
+2023-08-28 17:47:16.488 | INFO     | __main__:saved:73 - Trying to fetch saved networks.
+2023-08-28 17:47:16.492 | INFO     | __main__:saved:75 - Saved networks:
+2023-08-28 17:47:16.497 | INFO     | __main__:saved:77 -   networkid  ssid     bssid    flags
+2023-08-28 17:47:16.499 | INFO     | __main__:saved:77 - -----------  -------  -------  ---------
+2023-08-28 17:47:16.501 | INFO     | __main__:saved:77 -           0  Beckett  any
+2023-08-28 17:47:16.502 | INFO     | __main__:saved:77 -           1  Beckett  any
+2023-08-28 17:47:16.503 | INFO     | __main__:saved:77 -           2  mcqueen  any      [CURRENT]
+2023-08-28 17:47:16.504 | INFO     | __main__:saved:77 -           3  clyde    any
+2023-08-28 17:47:16.508 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54042 - "GET /v1.0/saved HTTP/1.0" 200
+2023-08-28 17:47:18.687 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54070 - "GET /v1.0/hotspot_credentials HTTP/1.0" 200
+2023-08-28 17:47:18.705 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54072 - "GET /v1.0/hotspot HTTP/1.0" 200
+2023-08-28 17:47:21.565 | INFO     | __main__:network_status:50 - Status:
+2023-08-28 17:47:21.571 | INFO     | __main__:network_status:52 - ------------------  ------------------------------------
+2023-08-28 17:47:21.575 | INFO     | __main__:network_status:52 - bssid               44:07:0b:08:3b:84
+2023-08-28 17:47:21.578 | INFO     | __main__:network_status:52 - freq                2462
+2023-08-28 17:47:21.581 | INFO     | __main__:network_status:52 - ssid                mcqueen
+2023-08-28 17:47:21.585 | INFO     | __main__:network_status:52 - id                  2
+2023-08-28 17:47:21.588 | INFO     | __main__:network_status:52 - mode                station
+2023-08-28 17:47:21.590 | INFO     | __main__:network_status:52 - pairwise_cipher     CCMP
+2023-08-28 17:47:21.592 | INFO     | __main__:network_status:52 - group_cipher        CCMP
+2023-08-28 17:47:21.594 | INFO     | __main__:network_status:52 - key_mgmt            WPA2-PSK
+2023-08-28 17:47:21.596 | INFO     | __main__:network_status:52 - wpa_state           COMPLETED
+2023-08-28 17:47:21.598 | INFO     | __main__:network_status:52 - ip_address          192.168.86.32
+2023-08-28 17:47:21.600 | INFO     | __main__:network_status:52 - p2p_device_address  de:a6:32:77:d8:13
+2023-08-28 17:47:21.601 | INFO     | __main__:network_status:52 - address             dc:a6:32:77:d8:13
+2023-08-28 17:47:21.602 | INFO     | __main__:network_status:52 - uuid                9e3b10fb-d6cb-531d-9906-408f8956cd05
+2023-08-28 17:47:21.603 | INFO     | __main__:network_status:52 - ------------------  ------------------------------------
+2023-08-28 17:47:21.606 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54100 - "GET /v1.0/status HTTP/1.0" 200
+2023-08-28 17:47:21.613 | INFO     | __main__:saved:73 - Trying to fetch saved networks.
+2023-08-28 17:47:21.617 | INFO     | __main__:saved:75 - Saved networks:
+2023-08-28 17:47:21.623 | INFO     | __main__:saved:77 -   networkid  ssid     bssid    flags
+2023-08-28 17:47:21.624 | INFO     | __main__:saved:77 - -----------  -------  -------  ---------
+2023-08-28 17:47:21.625 | INFO     | __main__:saved:77 -           0  Beckett  any
+2023-08-28 17:47:21.626 | INFO     | __main__:saved:77 -           1  Beckett  any
+2023-08-28 17:47:21.626 | INFO     | __main__:saved:77 -           2  mcqueen  any      [CURRENT]
+2023-08-28 17:47:21.627 | INFO     | __main__:saved:77 -           3  clyde    any
+2023-08-28 17:47:21.630 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54102 - "GET /v1.0/saved HTTP/1.0" 200
+2023-08-28 17:47:26.682 | INFO     | __main__:network_status:50 - Status:
+2023-08-28 17:47:26.686 | INFO     | __main__:network_status:52 - ------------------  ------------------------------------
+2023-08-28 17:47:26.687 | INFO     | __main__:network_status:52 - bssid               44:07:0b:08:3b:84
+2023-08-28 17:47:26.688 | INFO     | __main__:network_status:52 - freq                2462
+2023-08-28 17:47:26.690 | INFO     | __main__:network_status:52 - ssid                mcqueen
+2023-08-28 17:47:26.692 | INFO     | __main__:network_status:52 - id                  2
+2023-08-28 17:47:26.693 | INFO     | __main__:network_status:52 - mode                station
+2023-08-28 17:47:26.694 | INFO     | __main__:network_status:52 - pairwise_cipher     CCMP
+2023-08-28 17:47:26.695 | INFO     | __main__:network_status:52 - group_cipher        CCMP
+2023-08-28 17:47:26.696 | INFO     | __main__:network_status:52 - key_mgmt            WPA2-PSK
+2023-08-28 17:47:26.698 | INFO     | __main__:network_status:52 - wpa_state           COMPLETED
+2023-08-28 17:47:26.699 | INFO     | __main__:network_status:52 - ip_address          192.168.86.32
+2023-08-28 17:47:26.700 | INFO     | __main__:network_status:52 - p2p_device_address  de:a6:32:77:d8:13
+2023-08-28 17:47:26.701 | INFO     | __main__:network_status:52 - address             dc:a6:32:77:d8:13
+2023-08-28 17:47:26.702 | INFO     | __main__:network_status:52 - uuid                9e3b10fb-d6cb-531d-9906-408f8956cd05
+2023-08-28 17:47:26.703 | INFO     | __main__:network_status:52 - ------------------  ------------------------------------
+2023-08-28 17:47:26.705 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54146 - "GET /v1.0/status HTTP/1.0" 200
+2023-08-28 17:47:26.712 | INFO     | __main__:saved:73 - Trying to fetch saved networks.
+2023-08-28 17:47:26.714 | INFO     | __main__:saved:75 - Saved networks:
+2023-08-28 17:47:26.718 | INFO     | __main__:saved:77 -   networkid  ssid     bssid    flags
+2023-08-28 17:47:26.719 | INFO     | __main__:saved:77 - -----------  -------  -------  ---------
+2023-08-28 17:47:26.720 | INFO     | __main__:saved:77 -           0  Beckett  any
+2023-08-28 17:47:26.721 | INFO     | __main__:saved:77 -           1  Beckett  any
+2023-08-28 17:47:26.722 | INFO     | __main__:saved:77 -           2  mcqueen  any      [CURRENT]
+2023-08-28 17:47:26.724 | INFO     | __main__:saved:77 -           3  clyde    any
+2023-08-28 17:47:26.727 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54148 - "GET /v1.0/saved HTTP/1.0" 200
+2023-08-28 17:47:26.746 | INFO     | __main__:scan:59 - Trying to perform network scan.
+2023-08-28 17:47:26.747 | INFO     | __main__:scan:62 - Available networks:
+2023-08-28 17:47:26.751 | INFO     | __main__:scan:64 - ssid      bssid              flags                   frequency    signallevel
+2023-08-28 17:47:26.752 | INFO     | __main__:scan:64 - --------  -----------------  --------------------  -----------  -------------
+2023-08-28 17:47:26.753 | INFO     | __main__:scan:64 - mcqueen   44:07:0b:08:3b:80  [WPA2-PSK-CCMP][ESS]         5745            -49
+2023-08-28 17:47:26.754 | INFO     | __main__:scan:64 - mcqueen   b0:6a:41:c7:19:e6  [WPA2-PSK-CCMP][ESS]         5745            -69
+2023-08-28 17:47:26.754 | INFO     | __main__:scan:64 - mcqueen   44:07:0b:08:3b:84  [WPA2-PSK-CCMP][ESS]         2462            -39
+2023-08-28 17:47:26.755 | INFO     | __main__:scan:64 - mcqueen   b0:6a:41:c7:19:ea  [WPA2-PSK-CCMP][ESS]         2462            -63
+2023-08-28 17:47:26.756 | INFO     | __main__:scan:64 - DB964921  b2:6a:41:c7:19:e5  [RSN-SAE-CCMP][MESH]         5745            -72
+2023-08-28 17:47:26.759 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54150 - "GET /v1.0/scan HTTP/1.0" 200
+2023-08-28 17:47:28.766 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54164 - "GET /v1.0/hotspot HTTP/1.0" 200
+2023-08-28 17:47:28.773 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54166 - "GET /v1.0/hotspot_credentials HTTP/1.0" 200
+2023-08-28 17:47:31.754 | INFO     | __main__:network_status:50 - Status:
+2023-08-28 17:47:31.758 | INFO     | __main__:network_status:52 - ------------------  ------------------------------------
+2023-08-28 17:47:31.759 | INFO     | __main__:network_status:52 - bssid               44:07:0b:08:3b:84
+2023-08-28 17:47:31.760 | INFO     | __main__:network_status:52 - freq                2462
+2023-08-28 17:47:31.761 | INFO     | __main__:network_status:52 - ssid                mcqueen
+2023-08-28 17:47:31.762 | INFO     | __main__:network_status:52 - id                  2
+2023-08-28 17:47:31.763 | INFO     | __main__:network_status:52 - mode                station
+2023-08-28 17:47:31.764 | INFO     | __main__:network_status:52 - pairwise_cipher     CCMP
+2023-08-28 17:47:31.765 | INFO     | __main__:network_status:52 - group_cipher        CCMP
+2023-08-28 17:47:31.766 | INFO     | __main__:network_status:52 - key_mgmt            WPA2-PSK
+2023-08-28 17:47:31.767 | INFO     | __main__:network_status:52 - wpa_state           COMPLETED
+2023-08-28 17:47:31.768 | INFO     | __main__:network_status:52 - ip_address          192.168.86.32
+2023-08-28 17:47:31.769 | INFO     | __main__:network_status:52 - p2p_device_address  de:a6:32:77:d8:13
+2023-08-28 17:47:31.770 | INFO     | __main__:network_status:52 - address             dc:a6:32:77:d8:13
+2023-08-28 17:47:31.771 | INFO     | __main__:network_status:52 - uuid                9e3b10fb-d6cb-531d-9906-408f8956cd05
+2023-08-28 17:47:31.772 | INFO     | __main__:network_status:52 - ------------------  ------------------------------------
+2023-08-28 17:47:31.774 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54196 - "GET /v1.0/status HTTP/1.0" 200
+2023-08-28 17:47:31.779 | INFO     | __main__:saved:73 - Trying to fetch saved networks.
+2023-08-28 17:47:31.781 | INFO     | __main__:saved:75 - Saved networks:
+2023-08-28 17:47:31.784 | INFO     | __main__:saved:77 -   networkid  ssid     bssid    flags
+2023-08-28 17:47:31.785 | INFO     | __main__:saved:77 - -----------  -------  -------  ---------
+2023-08-28 17:47:31.787 | INFO     | __main__:saved:77 -           0  Beckett  any
+2023-08-28 17:47:31.788 | INFO     | __main__:saved:77 -           1  Beckett  any
+2023-08-28 17:47:31.789 | INFO     | __main__:saved:77 -           2  mcqueen  any      [CURRENT]
+2023-08-28 17:47:31.790 | INFO     | __main__:saved:77 -           3  clyde    any
+2023-08-28 17:47:31.794 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54198 - "GET /v1.0/saved HTTP/1.0" 200
+2023-08-28 17:47:36.852 | INFO     | __main__:network_status:50 - Status:
+2023-08-28 17:47:36.855 | INFO     | __main__:network_status:52 - ------------------  ------------------------------------
+2023-08-28 17:47:36.856 | INFO     | __main__:network_status:52 - bssid               44:07:0b:08:3b:84
+2023-08-28 17:47:36.856 | INFO     | __main__:network_status:52 - freq                2462
+2023-08-28 17:47:36.857 | INFO     | __main__:network_status:52 - ssid                mcqueen
+2023-08-28 17:47:36.860 | INFO     | __main__:network_status:52 - id                  2
+2023-08-28 17:47:36.862 | INFO     | __main__:network_status:52 - mode                station
+2023-08-28 17:47:36.864 | INFO     | __main__:network_status:52 - pairwise_cipher     CCMP
+2023-08-28 17:47:36.866 | INFO     | __main__:network_status:52 - group_cipher        CCMP
+2023-08-28 17:47:36.868 | INFO     | __main__:network_status:52 - key_mgmt            WPA2-PSK
+2023-08-28 17:47:36.869 | INFO     | __main__:network_status:52 - wpa_state           COMPLETED
+2023-08-28 17:47:36.870 | INFO     | __main__:network_status:52 - ip_address          192.168.86.32
+2023-08-28 17:47:36.871 | INFO     | __main__:network_status:52 - p2p_device_address  de:a6:32:77:d8:13
+2023-08-28 17:47:36.873 | INFO     | __main__:network_status:52 - address             dc:a6:32:77:d8:13
+2023-08-28 17:47:36.874 | INFO     | __main__:network_status:52 - uuid                9e3b10fb-d6cb-531d-9906-408f8956cd05
+2023-08-28 17:47:36.875 | INFO     | __main__:network_status:52 - ------------------  ------------------------------------
+2023-08-28 17:47:36.877 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54234 - "GET /v1.0/status HTTP/1.0" 200
+2023-08-28 17:47:36.883 | INFO     | __main__:saved:73 - Trying to fetch saved networks.
+2023-08-28 17:47:36.885 | INFO     | __main__:saved:75 - Saved networks:
+2023-08-28 17:47:36.887 | INFO     | __main__:saved:77 -   networkid  ssid     bssid    flags
+2023-08-28 17:47:36.888 | INFO     | __main__:saved:77 - -----------  -------  -------  ---------
+2023-08-28 17:47:36.890 | INFO     | __main__:saved:77 -           0  Beckett  any
+2023-08-28 17:47:36.891 | INFO     | __main__:saved:77 -           1  Beckett  any
+2023-08-28 17:47:36.894 | INFO     | __main__:saved:77 -           2  mcqueen  any      [CURRENT]
+2023-08-28 17:47:36.896 | INFO     | __main__:saved:77 -           3  clyde    any
+2023-08-28 17:47:36.902 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54236 - "GET /v1.0/saved HTTP/1.0" 200
+2023-08-28 17:47:38.816 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54262 - "GET /v1.0/hotspot HTTP/1.0" 200
+2023-08-28 17:47:38.820 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54264 - "GET /v1.0/hotspot_credentials HTTP/1.0" 200
+2023-08-28 17:47:41.949 | INFO     | __main__:network_status:50 - Status:
+2023-08-28 17:47:41.954 | INFO     | __main__:network_status:52 - ------------------  ------------------------------------
+2023-08-28 17:47:41.956 | INFO     | __main__:network_status:52 - bssid               44:07:0b:08:3b:84
+2023-08-28 17:47:41.957 | INFO     | __main__:network_status:52 - freq                2462
+2023-08-28 17:47:41.958 | INFO     | __main__:network_status:52 - ssid                mcqueen
+2023-08-28 17:47:41.959 | INFO     | __main__:network_status:52 - id                  2
+2023-08-28 17:47:41.962 | INFO     | __main__:network_status:52 - mode                station
+2023-08-28 17:47:41.965 | INFO     | __main__:network_status:52 - pairwise_cipher     CCMP
+2023-08-28 17:47:41.967 | INFO     | __main__:network_status:52 - group_cipher        CCMP
+2023-08-28 17:47:41.968 | INFO     | __main__:network_status:52 - key_mgmt            WPA2-PSK
+2023-08-28 17:47:41.969 | INFO     | __main__:network_status:52 - wpa_state           COMPLETED
+2023-08-28 17:47:41.971 | INFO     | __main__:network_status:52 - ip_address          192.168.86.32
+2023-08-28 17:47:41.973 | INFO     | __main__:network_status:52 - p2p_device_address  de:a6:32:77:d8:13
+2023-08-28 17:47:41.974 | INFO     | __main__:network_status:52 - address             dc:a6:32:77:d8:13
+2023-08-28 17:47:41.976 | INFO     | __main__:network_status:52 - uuid                9e3b10fb-d6cb-531d-9906-408f8956cd05
+2023-08-28 17:47:41.977 | INFO     | __main__:network_status:52 - ------------------  ------------------------------------
+2023-08-28 17:47:41.980 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54294 - "GET /v1.0/status HTTP/1.0" 200
+2023-08-28 17:47:41.985 | INFO     | __main__:saved:73 - Trying to fetch saved networks.
+2023-08-28 17:47:41.988 | INFO     | __main__:saved:75 - Saved networks:
+2023-08-28 17:47:41.993 | INFO     | __main__:saved:77 -   networkid  ssid     bssid    flags
+2023-08-28 17:47:41.994 | INFO     | __main__:saved:77 - -----------  -------  -------  ---------
+2023-08-28 17:47:41.995 | INFO     | __main__:saved:77 -           0  Beckett  any
+2023-08-28 17:47:41.997 | INFO     | __main__:saved:77 -           1  Beckett  any
+2023-08-28 17:47:41.998 | INFO     | __main__:saved:77 -           2  mcqueen  any      [CURRENT]
+2023-08-28 17:47:42.000 | INFO     | __main__:saved:77 -           3  clyde    any
+2023-08-28 17:47:42.003 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54296 - "GET /v1.0/saved HTTP/1.0" 200
+2023-08-28 17:47:46.785 | INFO     | __main__:scan:59 - Trying to perform network scan.
+2023-08-28 17:47:46.789 | INFO     | __main__:scan:62 - Available networks:
+2023-08-28 17:47:46.793 | INFO     | __main__:scan:64 - ssid     bssid              flags                   frequency    signallevel
+2023-08-28 17:47:46.793 | INFO     | __main__:scan:64 - -------  -----------------  --------------------  -----------  -------------
+2023-08-28 17:47:46.794 | INFO     | __main__:scan:64 - mcqueen  44:07:0b:08:3b:80  [WPA2-PSK-CCMP][ESS]         5745            -46
+2023-08-28 17:47:46.794 | INFO     | __main__:scan:64 - mcqueen  b0:6a:41:c7:19:e6  [WPA2-PSK-CCMP][ESS]         5745            -70
+2023-08-28 17:47:46.795 | INFO     | __main__:scan:64 - mcqueen  44:07:0b:08:3b:84  [WPA2-PSK-CCMP][ESS]         2462            -40
+2023-08-28 17:47:46.796 | INFO     | __main__:scan:64 - mcqueen  b0:6a:41:c7:19:ea  [WPA2-PSK-CCMP][ESS]         2462            -65
+2023-08-28 17:47:46.798 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54334 - "GET /v1.0/scan HTTP/1.0" 200
+2023-08-28 17:47:47.072 | INFO     | __main__:network_status:50 - Status:
+2023-08-28 17:47:47.076 | INFO     | __main__:network_status:52 - ------------------  ------------------------------------
+2023-08-28 17:47:47.077 | INFO     | __main__:network_status:52 - bssid               44:07:0b:08:3b:84
+2023-08-28 17:47:47.077 | INFO     | __main__:network_status:52 - freq                2462
+2023-08-28 17:47:47.078 | INFO     | __main__:network_status:52 - ssid                mcqueen
+2023-08-28 17:47:47.079 | INFO     | __main__:network_status:52 - id                  2
+2023-08-28 17:47:47.079 | INFO     | __main__:network_status:52 - mode                station
+2023-08-28 17:47:47.080 | INFO     | __main__:network_status:52 - pairwise_cipher     CCMP
+2023-08-28 17:47:47.081 | INFO     | __main__:network_status:52 - group_cipher        CCMP
+2023-08-28 17:47:47.081 | INFO     | __main__:network_status:52 - key_mgmt            WPA2-PSK
+2023-08-28 17:47:47.082 | INFO     | __main__:network_status:52 - wpa_state           COMPLETED
+2023-08-28 17:47:47.083 | INFO     | __main__:network_status:52 - ip_address          192.168.86.32
+2023-08-28 17:47:47.084 | INFO     | __main__:network_status:52 - p2p_device_address  de:a6:32:77:d8:13
+2023-08-28 17:47:47.084 | INFO     | __main__:network_status:52 - address             dc:a6:32:77:d8:13
+2023-08-28 17:47:47.085 | INFO     | __main__:network_status:52 - uuid                9e3b10fb-d6cb-531d-9906-408f8956cd05
+2023-08-28 17:47:47.086 | INFO     | __main__:network_status:52 - ------------------  ------------------------------------
+2023-08-28 17:47:47.087 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54340 - "GET /v1.0/status HTTP/1.0" 200
+2023-08-28 17:47:47.092 | INFO     | __main__:saved:73 - Trying to fetch saved networks.
+2023-08-28 17:47:47.094 | INFO     | __main__:saved:75 - Saved networks:
+2023-08-28 17:47:47.097 | INFO     | __main__:saved:77 -   networkid  ssid     bssid    flags
+2023-08-28 17:47:47.098 | INFO     | __main__:saved:77 - -----------  -------  -------  ---------
+2023-08-28 17:47:47.099 | INFO     | __main__:saved:77 -           0  Beckett  any
+2023-08-28 17:47:47.100 | INFO     | __main__:saved:77 -           1  Beckett  any
+2023-08-28 17:47:47.101 | INFO     | __main__:saved:77 -           2  mcqueen  any      [CURRENT]
+2023-08-28 17:47:47.102 | INFO     | __main__:saved:77 -           3  clyde    any
+2023-08-28 17:47:47.104 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54342 - "GET /v1.0/saved HTTP/1.0" 200
+2023-08-28 17:47:48.862 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54356 - "GET /v1.0/hotspot HTTP/1.0" 200
+2023-08-28 17:47:48.866 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54358 - "GET /v1.0/hotspot_credentials HTTP/1.0" 200
+2023-08-28 17:47:52.164 | INFO     | __main__:network_status:50 - Status:
+2023-08-28 17:47:52.168 | INFO     | __main__:network_status:52 - ------------------  ------------------------------------
+2023-08-28 17:47:52.168 | INFO     | __main__:network_status:52 - bssid               44:07:0b:08:3b:84
+2023-08-28 17:47:52.169 | INFO     | __main__:network_status:52 - freq                2462
+2023-08-28 17:47:52.170 | INFO     | __main__:network_status:52 - ssid                mcqueen
+2023-08-28 17:47:52.170 | INFO     | __main__:network_status:52 - id                  2
+2023-08-28 17:47:52.171 | INFO     | __main__:network_status:52 - mode                station
+2023-08-28 17:47:52.172 | INFO     | __main__:network_status:52 - pairwise_cipher     CCMP
+2023-08-28 17:47:52.174 | INFO     | __main__:network_status:52 - group_cipher        CCMP
+2023-08-28 17:47:52.175 | INFO     | __main__:network_status:52 - key_mgmt            WPA2-PSK
+2023-08-28 17:47:52.176 | INFO     | __main__:network_status:52 - wpa_state           COMPLETED
+2023-08-28 17:47:52.177 | INFO     | __main__:network_status:52 - ip_address          192.168.86.32
+2023-08-28 17:47:52.178 | INFO     | __main__:network_status:52 - p2p_device_address  de:a6:32:77:d8:13
+2023-08-28 17:47:52.179 | INFO     | __main__:network_status:52 - address             dc:a6:32:77:d8:13
+2023-08-28 17:47:52.181 | INFO     | __main__:network_status:52 - uuid                9e3b10fb-d6cb-531d-9906-408f8956cd05
+2023-08-28 17:47:52.182 | INFO     | __main__:network_status:52 - ------------------  ------------------------------------
+2023-08-28 17:47:52.184 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54388 - "GET /v1.0/status HTTP/1.0" 200
+2023-08-28 17:47:52.190 | INFO     | __main__:saved:73 - Trying to fetch saved networks.
+2023-08-28 17:47:52.192 | INFO     | __main__:saved:75 - Saved networks:
+2023-08-28 17:47:52.195 | INFO     | __main__:saved:77 -   networkid  ssid     bssid    flags
+2023-08-28 17:47:52.196 | INFO     | __main__:saved:77 - -----------  -------  -------  ---------
+2023-08-28 17:47:52.196 | INFO     | __main__:saved:77 -           0  Beckett  any
+2023-08-28 17:47:52.197 | INFO     | __main__:saved:77 -           1  Beckett  any
+2023-08-28 17:47:52.198 | INFO     | __main__:saved:77 -           2  mcqueen  any      [CURRENT]
+2023-08-28 17:47:52.199 | INFO     | __main__:saved:77 -           3  clyde    any
+2023-08-28 17:47:52.201 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54390 - "GET /v1.0/saved HTTP/1.0" 200
+2023-08-28 17:47:57.274 | INFO     | __main__:network_status:50 - Status:
+2023-08-28 17:47:57.276 | INFO     | __main__:network_status:52 - ------------------  ------------------------------------
+2023-08-28 17:47:57.277 | INFO     | __main__:network_status:52 - bssid               44:07:0b:08:3b:84
+2023-08-28 17:47:57.278 | INFO     | __main__:network_status:52 - freq                2462
+2023-08-28 17:47:57.279 | INFO     | __main__:network_status:52 - ssid                mcqueen
+2023-08-28 17:47:57.279 | INFO     | __main__:network_status:52 - id                  2
+2023-08-28 17:47:57.280 | INFO     | __main__:network_status:52 - mode                station
+2023-08-28 17:47:57.281 | INFO     | __main__:network_status:52 - pairwise_cipher     CCMP
+2023-08-28 17:47:57.282 | INFO     | __main__:network_status:52 - group_cipher        CCMP
+2023-08-28 17:47:57.283 | INFO     | __main__:network_status:52 - key_mgmt            WPA2-PSK
+2023-08-28 17:47:57.283 | INFO     | __main__:network_status:52 - wpa_state           COMPLETED
+2023-08-28 17:47:57.284 | INFO     | __main__:network_status:52 - ip_address          192.168.86.32
+2023-08-28 17:47:57.285 | INFO     | __main__:network_status:52 - p2p_device_address  de:a6:32:77:d8:13
+2023-08-28 17:47:57.286 | INFO     | __main__:network_status:52 - address             dc:a6:32:77:d8:13
+2023-08-28 17:47:57.287 | INFO     | __main__:network_status:52 - uuid                9e3b10fb-d6cb-531d-9906-408f8956cd05
+2023-08-28 17:47:57.287 | INFO     | __main__:network_status:52 - ------------------  ------------------------------------
+2023-08-28 17:47:57.289 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54432 - "GET /v1.0/status HTTP/1.0" 200
+2023-08-28 17:47:57.294 | INFO     | __main__:saved:73 - Trying to fetch saved networks.
+2023-08-28 17:47:57.296 | INFO     | __main__:saved:75 - Saved networks:
+2023-08-28 17:47:57.298 | INFO     | __main__:saved:77 -   networkid  ssid     bssid    flags
+2023-08-28 17:47:57.299 | INFO     | __main__:saved:77 - -----------  -------  -------  ---------
+2023-08-28 17:47:57.300 | INFO     | __main__:saved:77 -           0  Beckett  any
+2023-08-28 17:47:57.301 | INFO     | __main__:saved:77 -           1  Beckett  any
+2023-08-28 17:47:57.301 | INFO     | __main__:saved:77 -           2  mcqueen  any      [CURRENT]
+2023-08-28 17:47:57.302 | INFO     | __main__:saved:77 -           3  clyde    any
+2023-08-28 17:47:57.305 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54434 - "GET /v1.0/saved HTTP/1.0" 200
+2023-08-28 17:47:58.915 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54454 - "GET /v1.0/hotspot HTTP/1.0" 200
+2023-08-28 17:47:58.920 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54456 - "GET /v1.0/hotspot_credentials HTTP/1.0" 200
+2023-08-28 17:48:02.373 | INFO     | __main__:network_status:50 - Status:
+2023-08-28 17:48:02.379 | INFO     | __main__:network_status:52 - ------------------  ------------------------------------
+2023-08-28 17:48:02.381 | INFO     | __main__:network_status:52 - bssid               44:07:0b:08:3b:84
+2023-08-28 17:48:02.382 | INFO     | __main__:network_status:52 - freq                2462
+2023-08-28 17:48:02.386 | INFO     | __main__:network_status:52 - ssid                mcqueen
+2023-08-28 17:48:02.388 | INFO     | __main__:network_status:52 - id                  2
+2023-08-28 17:48:02.390 | INFO     | __main__:network_status:52 - mode                station
+2023-08-28 17:48:02.392 | INFO     | __main__:network_status:52 - pairwise_cipher     CCMP
+2023-08-28 17:48:02.393 | INFO     | __main__:network_status:52 - group_cipher        CCMP
+2023-08-28 17:48:02.397 | INFO     | __main__:network_status:52 - key_mgmt            WPA2-PSK
+2023-08-28 17:48:02.398 | INFO     | __main__:network_status:52 - wpa_state           COMPLETED
+2023-08-28 17:48:02.400 | INFO     | __main__:network_status:52 - ip_address          192.168.86.32
+2023-08-28 17:48:02.401 | INFO     | __main__:network_status:52 - p2p_device_address  de:a6:32:77:d8:13
+2023-08-28 17:48:02.402 | INFO     | __main__:network_status:52 - address             dc:a6:32:77:d8:13
+2023-08-28 17:48:02.403 | INFO     | __main__:network_status:52 - uuid                9e3b10fb-d6cb-531d-9906-408f8956cd05
+2023-08-28 17:48:02.405 | INFO     | __main__:network_status:52 - ------------------  ------------------------------------
+2023-08-28 17:48:02.407 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54486 - "GET /v1.0/status HTTP/1.0" 200
+2023-08-28 17:48:02.427 | INFO     | __main__:saved:73 - Trying to fetch saved networks.
+2023-08-28 17:48:02.432 | INFO     | __main__:saved:75 - Saved networks:
+2023-08-28 17:48:02.439 | INFO     | __main__:saved:77 -   networkid  ssid     bssid    flags
+2023-08-28 17:48:02.440 | INFO     | __main__:saved:77 - -----------  -------  -------  ---------
+2023-08-28 17:48:02.441 | INFO     | __main__:saved:77 -           0  Beckett  any
+2023-08-28 17:48:02.446 | INFO     | __main__:saved:77 -           1  Beckett  any
+2023-08-28 17:48:02.447 | INFO     | __main__:saved:77 -           2  mcqueen  any      [CURRENT]
+2023-08-28 17:48:02.448 | INFO     | __main__:saved:77 -           3  clyde    any
+2023-08-28 17:48:02.451 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54488 - "GET /v1.0/saved HTTP/1.0" 200
+2023-08-28 17:48:06.851 | INFO     | __main__:scan:59 - Trying to perform network scan.
+2023-08-28 17:48:06.854 | INFO     | __main__:scan:62 - Available networks:
+2023-08-28 17:48:06.859 | INFO     | __main__:scan:64 - ssid     bssid              flags                   frequency    signallevel
+2023-08-28 17:48:06.861 | INFO     | __main__:scan:64 - -------  -----------------  --------------------  -----------  -------------
+2023-08-28 17:48:06.862 | INFO     | __main__:scan:64 - mcqueen  44:07:0b:08:3b:80  [WPA2-PSK-CCMP][ESS]         5745            -46
+2023-08-28 17:48:06.863 | INFO     | __main__:scan:64 - mcqueen  b0:6a:41:c7:19:e6  [WPA2-PSK-CCMP][ESS]         5745            -70
+2023-08-28 17:48:06.865 | INFO     | __main__:scan:64 - mcqueen  44:07:0b:08:3b:84  [WPA2-PSK-CCMP][ESS]         2462            -40
+2023-08-28 17:48:06.866 | INFO     | __main__:scan:64 - mcqueen  b0:6a:41:c7:19:ea  [WPA2-PSK-CCMP][ESS]         2462            -65
+2023-08-28 17:48:06.872 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54526 - "GET /v1.0/scan HTTP/1.0" 200
+2023-08-28 17:48:07.502 | INFO     | __main__:network_status:50 - Status:
+2023-08-28 17:48:07.508 | INFO     | __main__:network_status:52 - ------------------  ------------------------------------
+2023-08-28 17:48:07.509 | INFO     | __main__:network_status:52 - bssid               44:07:0b:08:3b:84
+2023-08-28 17:48:07.511 | INFO     | __main__:network_status:52 - freq                2462
+2023-08-28 17:48:07.512 | INFO     | __main__:network_status:52 - ssid                mcqueen
+2023-08-28 17:48:07.514 | INFO     | __main__:network_status:52 - id                  2
+2023-08-28 17:48:07.515 | INFO     | __main__:network_status:52 - mode                station
+2023-08-28 17:48:07.516 | INFO     | __main__:network_status:52 - pairwise_cipher     CCMP
+2023-08-28 17:48:07.517 | INFO     | __main__:network_status:52 - group_cipher        CCMP
+2023-08-28 17:48:07.518 | INFO     | __main__:network_status:52 - key_mgmt            WPA2-PSK
+2023-08-28 17:48:07.520 | INFO     | __main__:network_status:52 - wpa_state           COMPLETED
+2023-08-28 17:48:07.521 | INFO     | __main__:network_status:52 - ip_address          192.168.86.32
+2023-08-28 17:48:07.522 | INFO     | __main__:network_status:52 - p2p_device_address  de:a6:32:77:d8:13
+2023-08-28 17:48:07.523 | INFO     | __main__:network_status:52 - address             dc:a6:32:77:d8:13
+2023-08-28 17:48:07.525 | INFO     | __main__:network_status:52 - uuid                9e3b10fb-d6cb-531d-9906-408f8956cd05
+2023-08-28 17:48:07.527 | INFO     | __main__:network_status:52 - ------------------  ------------------------------------
+2023-08-28 17:48:07.529 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54532 - "GET /v1.0/status HTTP/1.0" 200
+2023-08-28 17:48:07.536 | INFO     | __main__:saved:73 - Trying to fetch saved networks.
+2023-08-28 17:48:07.539 | INFO     | __main__:saved:75 - Saved networks:
+2023-08-28 17:48:07.543 | INFO     | __main__:saved:77 -   networkid  ssid     bssid    flags
+2023-08-28 17:48:07.544 | INFO     | __main__:saved:77 - -----------  -------  -------  ---------
+2023-08-28 17:48:07.545 | INFO     | __main__:saved:77 -           0  Beckett  any
+2023-08-28 17:48:07.546 | INFO     | __main__:saved:77 -           1  Beckett  any
+2023-08-28 17:48:07.547 | INFO     | __main__:saved:77 -           2  mcqueen  any      [CURRENT]
+2023-08-28 17:48:07.548 | INFO     | __main__:saved:77 -           3  clyde    any
+2023-08-28 17:48:07.551 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54534 - "GET /v1.0/saved HTTP/1.0" 200
+2023-08-28 17:48:08.971 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54548 - "GET /v1.0/hotspot HTTP/1.0" 200
+2023-08-28 17:48:08.976 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54550 - "GET /v1.0/hotspot_credentials HTTP/1.0" 200
+2023-08-28 17:48:12.619 | INFO     | __main__:network_status:50 - Status:
+2023-08-28 17:48:12.625 | INFO     | __main__:network_status:52 - ------------------  ------------------------------------
+2023-08-28 17:48:12.627 | INFO     | __main__:network_status:52 - bssid               44:07:0b:08:3b:84
+2023-08-28 17:48:12.629 | INFO     | __main__:network_status:52 - freq                2462
+2023-08-28 17:48:12.635 | INFO     | __main__:network_status:52 - ssid                mcqueen
+2023-08-28 17:48:12.637 | INFO     | __main__:network_status:52 - id                  2
+2023-08-28 17:48:12.639 | INFO     | __main__:network_status:52 - mode                station
+2023-08-28 17:48:12.639 | INFO     | __main__:network_status:52 - pairwise_cipher     CCMP
+2023-08-28 17:48:12.642 | INFO     | __main__:network_status:52 - group_cipher        CCMP
+2023-08-28 17:48:12.643 | INFO     | __main__:network_status:52 - key_mgmt            WPA2-PSK
+2023-08-28 17:48:12.646 | INFO     | __main__:network_status:52 - wpa_state           COMPLETED
+2023-08-28 17:48:12.648 | INFO     | __main__:network_status:52 - ip_address          192.168.86.32
+2023-08-28 17:48:12.650 | INFO     | __main__:network_status:52 - p2p_device_address  de:a6:32:77:d8:13
+2023-08-28 17:48:12.652 | INFO     | __main__:network_status:52 - address             dc:a6:32:77:d8:13
+2023-08-28 17:48:12.653 | INFO     | __main__:network_status:52 - uuid                9e3b10fb-d6cb-531d-9906-408f8956cd05
+2023-08-28 17:48:12.654 | INFO     | __main__:network_status:52 - ------------------  ------------------------------------
+2023-08-28 17:48:12.657 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54578 - "GET /v1.0/status HTTP/1.0" 200
+2023-08-28 17:48:12.665 | INFO     | __main__:saved:73 - Trying to fetch saved networks.
+2023-08-28 17:48:12.668 | INFO     | __main__:saved:75 - Saved networks:
+2023-08-28 17:48:12.672 | INFO     | __main__:saved:77 -   networkid  ssid     bssid    flags
+2023-08-28 17:48:12.673 | INFO     | __main__:saved:77 - -----------  -------  -------  ---------
+2023-08-28 17:48:12.674 | INFO     | __main__:saved:77 -           0  Beckett  any
+2023-08-28 17:48:12.675 | INFO     | __main__:saved:77 -           1  Beckett  any
+2023-08-28 17:48:12.676 | INFO     | __main__:saved:77 -           2  mcqueen  any      [CURRENT]
+2023-08-28 17:48:12.676 | INFO     | __main__:saved:77 -           3  clyde    any
+2023-08-28 17:48:12.680 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54580 - "GET /v1.0/saved HTTP/1.0" 200
+2023-08-28 17:48:17.738 | INFO     | __main__:network_status:50 - Status:
+2023-08-28 17:48:17.742 | INFO     | __main__:network_status:52 - ------------------  ------------------------------------
+2023-08-28 17:48:17.743 | INFO     | __main__:network_status:52 - bssid               44:07:0b:08:3b:84
+2023-08-28 17:48:17.744 | INFO     | __main__:network_status:52 - freq                2462
+2023-08-28 17:48:17.745 | INFO     | __main__:network_status:52 - ssid                mcqueen
+2023-08-28 17:48:17.746 | INFO     | __main__:network_status:52 - id                  2
+2023-08-28 17:48:17.747 | INFO     | __main__:network_status:52 - mode                station
+2023-08-28 17:48:17.748 | INFO     | __main__:network_status:52 - pairwise_cipher     CCMP
+2023-08-28 17:48:17.749 | INFO     | __main__:network_status:52 - group_cipher        CCMP
+2023-08-28 17:48:17.750 | INFO     | __main__:network_status:52 - key_mgmt            WPA2-PSK
+2023-08-28 17:48:17.751 | INFO     | __main__:network_status:52 - wpa_state           COMPLETED
+2023-08-28 17:48:17.752 | INFO     | __main__:network_status:52 - ip_address          192.168.86.32
+2023-08-28 17:48:17.753 | INFO     | __main__:network_status:52 - p2p_device_address  de:a6:32:77:d8:13
+2023-08-28 17:48:17.754 | INFO     | __main__:network_status:52 - address             dc:a6:32:77:d8:13
+2023-08-28 17:48:17.756 | INFO     | __main__:network_status:52 - uuid                9e3b10fb-d6cb-531d-9906-408f8956cd05
+2023-08-28 17:48:17.757 | INFO     | __main__:network_status:52 - ------------------  ------------------------------------
+2023-08-28 17:48:17.760 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54636 - "GET /v1.0/status HTTP/1.0" 200
+2023-08-28 17:48:17.768 | INFO     | __main__:saved:73 - Trying to fetch saved networks.
+2023-08-28 17:48:17.771 | INFO     | __main__:saved:75 - Saved networks:
+2023-08-28 17:48:17.774 | INFO     | __main__:saved:77 -   networkid  ssid     bssid    flags
+2023-08-28 17:48:17.775 | INFO     | __main__:saved:77 - -----------  -------  -------  ---------
+2023-08-28 17:48:17.776 | INFO     | __main__:saved:77 -           0  Beckett  any
+2023-08-28 17:48:17.777 | INFO     | __main__:saved:77 -           1  Beckett  any
+2023-08-28 17:48:17.778 | INFO     | __main__:saved:77 -           2  mcqueen  any      [CURRENT]
+2023-08-28 17:48:17.779 | INFO     | __main__:saved:77 -           3  clyde    any
+2023-08-28 17:48:17.782 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54638 - "GET /v1.0/saved HTTP/1.0" 200
+2023-08-28 17:48:19.042 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54646 - "GET /v1.0/hotspot HTTP/1.0" 200
+2023-08-28 17:48:19.049 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54648 - "GET /v1.0/hotspot_credentials HTTP/1.0" 200
+2023-08-28 17:48:22.847 | INFO     | __main__:network_status:50 - Status:
+2023-08-28 17:48:22.851 | INFO     | __main__:network_status:52 - ------------------  ------------------------------------
+2023-08-28 17:48:22.851 | INFO     | __main__:network_status:52 - bssid               44:07:0b:08:3b:84
+2023-08-28 17:48:22.853 | INFO     | __main__:network_status:52 - freq                2462
+2023-08-28 17:48:22.854 | INFO     | __main__:network_status:52 - ssid                mcqueen
+2023-08-28 17:48:22.855 | INFO     | __main__:network_status:52 - id                  2
+2023-08-28 17:48:22.856 | INFO     | __main__:network_status:52 - mode                station
+2023-08-28 17:48:22.857 | INFO     | __main__:network_status:52 - pairwise_cipher     CCMP
+2023-08-28 17:48:22.858 | INFO     | __main__:network_status:52 - group_cipher        CCMP
+2023-08-28 17:48:22.859 | INFO     | __main__:network_status:52 - key_mgmt            WPA2-PSK
+2023-08-28 17:48:22.860 | INFO     | __main__:network_status:52 - wpa_state           COMPLETED
+2023-08-28 17:48:22.861 | INFO     | __main__:network_status:52 - ip_address          192.168.86.32
+2023-08-28 17:48:22.862 | INFO     | __main__:network_status:52 - p2p_device_address  de:a6:32:77:d8:13
+2023-08-28 17:48:22.863 | INFO     | __main__:network_status:52 - address             dc:a6:32:77:d8:13
+2023-08-28 17:48:22.865 | INFO     | __main__:network_status:52 - uuid                9e3b10fb-d6cb-531d-9906-408f8956cd05
+2023-08-28 17:48:22.866 | INFO     | __main__:network_status:52 - ------------------  ------------------------------------
+2023-08-28 17:48:22.868 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54682 - "GET /v1.0/status HTTP/1.0" 200
+2023-08-28 17:48:22.873 | INFO     | __main__:saved:73 - Trying to fetch saved networks.
+2023-08-28 17:48:22.875 | INFO     | __main__:saved:75 - Saved networks:
+2023-08-28 17:48:22.878 | INFO     | __main__:saved:77 -   networkid  ssid     bssid    flags
+2023-08-28 17:48:22.879 | INFO     | __main__:saved:77 - -----------  -------  -------  ---------
+2023-08-28 17:48:22.879 | INFO     | __main__:saved:77 -           0  Beckett  any
+2023-08-28 17:48:22.880 | INFO     | __main__:saved:77 -           1  Beckett  any
+2023-08-28 17:48:22.881 | INFO     | __main__:saved:77 -           2  mcqueen  any      [CURRENT]
+2023-08-28 17:48:22.882 | INFO     | __main__:saved:77 -           3  clyde    any
+2023-08-28 17:48:22.885 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54684 - "GET /v1.0/saved HTTP/1.0" 200
+2023-08-28 17:48:26.922 | INFO     | __main__:scan:59 - Trying to perform network scan.
+2023-08-28 17:48:26.927 | INFO     | __main__:scan:62 - Available networks:
+2023-08-28 17:48:26.930 | INFO     | __main__:scan:64 - ssid     bssid              flags                   frequency    signallevel
+2023-08-28 17:48:26.931 | INFO     | __main__:scan:64 - -------  -----------------  --------------------  -----------  -------------
+2023-08-28 17:48:26.932 | INFO     | __main__:scan:64 - mcqueen  44:07:0b:08:3b:80  [WPA2-PSK-CCMP][ESS]         5745            -46
+2023-08-28 17:48:26.933 | INFO     | __main__:scan:64 - mcqueen  b0:6a:41:c7:19:e6  [WPA2-PSK-CCMP][ESS]         5745            -66
+2023-08-28 17:48:26.934 | INFO     | __main__:scan:64 - mcqueen  44:07:0b:08:3b:84  [WPA2-PSK-CCMP][ESS]         2462            -32
+2023-08-28 17:48:26.934 | INFO     | __main__:scan:64 - mcqueen  b0:6a:41:c7:19:ea  [WPA2-PSK-CCMP][ESS]         2462            -61
+2023-08-28 17:48:26.939 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54718 - "GET /v1.0/scan HTTP/1.0" 200
+2023-08-28 17:48:27.957 | INFO     | __main__:network_status:50 - Status:
+2023-08-28 17:48:27.963 | INFO     | __main__:network_status:52 - ------------------  ------------------------------------
+2023-08-28 17:48:27.965 | INFO     | __main__:network_status:52 - bssid               44:07:0b:08:3b:84
+2023-08-28 17:48:27.968 | INFO     | __main__:network_status:52 - freq                2462
+2023-08-28 17:48:27.970 | INFO     | __main__:network_status:52 - ssid                mcqueen
+2023-08-28 17:48:27.971 | INFO     | __main__:network_status:52 - id                  2
+2023-08-28 17:48:27.973 | INFO     | __main__:network_status:52 - mode                station
+2023-08-28 17:48:27.974 | INFO     | __main__:network_status:52 - pairwise_cipher     CCMP
+2023-08-28 17:48:27.975 | INFO     | __main__:network_status:52 - group_cipher        CCMP
+2023-08-28 17:48:27.976 | INFO     | __main__:network_status:52 - key_mgmt            WPA2-PSK
+2023-08-28 17:48:27.977 | INFO     | __main__:network_status:52 - wpa_state           COMPLETED
+2023-08-28 17:48:27.978 | INFO     | __main__:network_status:52 - ip_address          192.168.86.32
+2023-08-28 17:48:27.979 | INFO     | __main__:network_status:52 - p2p_device_address  de:a6:32:77:d8:13
+2023-08-28 17:48:27.980 | INFO     | __main__:network_status:52 - address             dc:a6:32:77:d8:13
+2023-08-28 17:48:27.981 | INFO     | __main__:network_status:52 - uuid                9e3b10fb-d6cb-531d-9906-408f8956cd05
+2023-08-28 17:48:27.982 | INFO     | __main__:network_status:52 - ------------------  ------------------------------------
+2023-08-28 17:48:27.984 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54730 - "GET /v1.0/status HTTP/1.0" 200
+2023-08-28 17:48:27.991 | INFO     | __main__:saved:73 - Trying to fetch saved networks.
+2023-08-28 17:48:27.993 | INFO     | __main__:saved:75 - Saved networks:
+2023-08-28 17:48:27.999 | INFO     | __main__:saved:77 -   networkid  ssid     bssid    flags
+2023-08-28 17:48:28.001 | INFO     | __main__:saved:77 - -----------  -------  -------  ---------
+2023-08-28 17:48:28.002 | INFO     | __main__:saved:77 -           0  Beckett  any
+2023-08-28 17:48:28.003 | INFO     | __main__:saved:77 -           1  Beckett  any
+2023-08-28 17:48:28.005 | INFO     | __main__:saved:77 -           2  mcqueen  any      [CURRENT]
+2023-08-28 17:48:28.007 | INFO     | __main__:saved:77 -           3  clyde    any
+2023-08-28 17:48:28.012 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54732 - "GET /v1.0/saved HTTP/1.0" 200
+2023-08-28 17:48:29.095 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54740 - "GET /v1.0/hotspot HTTP/1.0" 200
+2023-08-28 17:48:29.101 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54742 - "GET /v1.0/hotspot_credentials HTTP/1.0" 200
+2023-08-28 17:48:33.085 | INFO     | __main__:network_status:50 - Status:
+2023-08-28 17:48:33.089 | INFO     | __main__:network_status:52 - ------------------  ------------------------------------
+2023-08-28 17:48:33.090 | INFO     | __main__:network_status:52 - bssid               44:07:0b:08:3b:84
+2023-08-28 17:48:33.091 | INFO     | __main__:network_status:52 - freq                2462
+2023-08-28 17:48:33.092 | INFO     | __main__:network_status:52 - ssid                mcqueen
+2023-08-28 17:48:33.094 | INFO     | __main__:network_status:52 - id                  2
+2023-08-28 17:48:33.095 | INFO     | __main__:network_status:52 - mode                station
+2023-08-28 17:48:33.096 | INFO     | __main__:network_status:52 - pairwise_cipher     CCMP
+2023-08-28 17:48:33.097 | INFO     | __main__:network_status:52 - group_cipher        CCMP
+2023-08-28 17:48:33.098 | INFO     | __main__:network_status:52 - key_mgmt            WPA2-PSK
+2023-08-28 17:48:33.099 | INFO     | __main__:network_status:52 - wpa_state           COMPLETED
+2023-08-28 17:48:33.099 | INFO     | __main__:network_status:52 - ip_address          192.168.86.32
+2023-08-28 17:48:33.100 | INFO     | __main__:network_status:52 - p2p_device_address  de:a6:32:77:d8:13
+2023-08-28 17:48:33.101 | INFO     | __main__:network_status:52 - address             dc:a6:32:77:d8:13
+2023-08-28 17:48:33.103 | INFO     | __main__:network_status:52 - uuid                9e3b10fb-d6cb-531d-9906-408f8956cd05
+2023-08-28 17:48:33.105 | INFO     | __main__:network_status:52 - ------------------  ------------------------------------
+2023-08-28 17:48:33.107 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54770 - "GET /v1.0/status HTTP/1.0" 200
+2023-08-28 17:48:33.112 | INFO     | __main__:saved:73 - Trying to fetch saved networks.
+2023-08-28 17:48:33.114 | INFO     | __main__:saved:75 - Saved networks:
+2023-08-28 17:48:33.118 | INFO     | __main__:saved:77 -   networkid  ssid     bssid    flags
+2023-08-28 17:48:33.118 | INFO     | __main__:saved:77 - -----------  -------  -------  ---------
+2023-08-28 17:48:33.119 | INFO     | __main__:saved:77 -           0  Beckett  any
+2023-08-28 17:48:33.120 | INFO     | __main__:saved:77 -           1  Beckett  any
+2023-08-28 17:48:33.121 | INFO     | __main__:saved:77 -           2  mcqueen  any      [CURRENT]
+2023-08-28 17:48:33.123 | INFO     | __main__:saved:77 -           3  clyde    any
+2023-08-28 17:48:33.127 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54772 - "GET /v1.0/saved HTTP/1.0" 200
+2023-08-28 17:48:38.185 | INFO     | __main__:network_status:50 - Status:
+2023-08-28 17:48:38.193 | INFO     | __main__:network_status:52 - ------------------  ------------------------------------
+2023-08-28 17:48:38.195 | INFO     | __main__:network_status:52 - bssid               44:07:0b:08:3b:84
+2023-08-28 17:48:38.200 | INFO     | __main__:network_status:52 - freq                2462
+2023-08-28 17:48:38.202 | INFO     | __main__:network_status:52 - ssid                mcqueen
+2023-08-28 17:48:38.204 | INFO     | __main__:network_status:52 - id                  2
+2023-08-28 17:48:38.207 | INFO     | __main__:network_status:52 - mode                station
+2023-08-28 17:48:38.210 | INFO     | __main__:network_status:52 - pairwise_cipher     CCMP
+2023-08-28 17:48:38.212 | INFO     | __main__:network_status:52 - group_cipher        CCMP
+2023-08-28 17:48:38.214 | INFO     | __main__:network_status:52 - key_mgmt            WPA2-PSK
+2023-08-28 17:48:38.216 | INFO     | __main__:network_status:52 - wpa_state           COMPLETED
+2023-08-28 17:48:38.217 | INFO     | __main__:network_status:52 - ip_address          192.168.86.32
+2023-08-28 17:48:38.219 | INFO     | __main__:network_status:52 - p2p_device_address  de:a6:32:77:d8:13
+2023-08-28 17:48:38.220 | INFO     | __main__:network_status:52 - address             dc:a6:32:77:d8:13
+2023-08-28 17:48:38.221 | INFO     | __main__:network_status:52 - uuid                9e3b10fb-d6cb-531d-9906-408f8956cd05
+2023-08-28 17:48:38.223 | INFO     | __main__:network_status:52 - ------------------  ------------------------------------
+2023-08-28 17:48:38.225 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54828 - "GET /v1.0/status HTTP/1.0" 200
+2023-08-28 17:48:38.233 | INFO     | __main__:saved:73 - Trying to fetch saved networks.
+2023-08-28 17:48:38.235 | INFO     | __main__:saved:75 - Saved networks:
+2023-08-28 17:48:38.239 | INFO     | __main__:saved:77 -   networkid  ssid     bssid    flags
+2023-08-28 17:48:38.244 | INFO     | __main__:saved:77 - -----------  -------  -------  ---------
+2023-08-28 17:48:38.246 | INFO     | __main__:saved:77 -           0  Beckett  any
+2023-08-28 17:48:38.247 | INFO     | __main__:saved:77 -           1  Beckett  any
+2023-08-28 17:48:38.249 | INFO     | __main__:saved:77 -           2  mcqueen  any      [CURRENT]
+2023-08-28 17:48:38.250 | INFO     | __main__:saved:77 -           3  clyde    any
+2023-08-28 17:48:38.256 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54830 - "GET /v1.0/saved HTTP/1.0" 200
+2023-08-28 17:48:39.151 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54838 - "GET /v1.0/hotspot HTTP/1.0" 200
+2023-08-28 17:48:39.161 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54840 - "GET /v1.0/hotspot_credentials HTTP/1.0" 200
+2023-08-28 17:48:43.315 | INFO     | __main__:network_status:50 - Status:
+2023-08-28 17:48:43.319 | INFO     | __main__:network_status:52 - ------------------  ------------------------------------
+2023-08-28 17:48:43.320 | INFO     | __main__:network_status:52 - bssid               44:07:0b:08:3b:84
+2023-08-28 17:48:43.321 | INFO     | __main__:network_status:52 - freq                2462
+2023-08-28 17:48:43.322 | INFO     | __main__:network_status:52 - ssid                mcqueen
+2023-08-28 17:48:43.323 | INFO     | __main__:network_status:52 - id                  2
+2023-08-28 17:48:43.324 | INFO     | __main__:network_status:52 - mode                station
+2023-08-28 17:48:43.324 | INFO     | __main__:network_status:52 - pairwise_cipher     CCMP
+2023-08-28 17:48:43.325 | INFO     | __main__:network_status:52 - group_cipher        CCMP
+2023-08-28 17:48:43.326 | INFO     | __main__:network_status:52 - key_mgmt            WPA2-PSK
+2023-08-28 17:48:43.327 | INFO     | __main__:network_status:52 - wpa_state           COMPLETED
+2023-08-28 17:48:43.328 | INFO     | __main__:network_status:52 - ip_address          192.168.86.32
+2023-08-28 17:48:43.328 | INFO     | __main__:network_status:52 - p2p_device_address  de:a6:32:77:d8:13
+2023-08-28 17:48:43.329 | INFO     | __main__:network_status:52 - address             dc:a6:32:77:d8:13
+2023-08-28 17:48:43.330 | INFO     | __main__:network_status:52 - uuid                9e3b10fb-d6cb-531d-9906-408f8956cd05
+2023-08-28 17:48:43.331 | INFO     | __main__:network_status:52 - ------------------  ------------------------------------
+2023-08-28 17:48:43.333 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54874 - "GET /v1.0/status HTTP/1.0" 200
+2023-08-28 17:48:43.338 | INFO     | __main__:saved:73 - Trying to fetch saved networks.
+2023-08-28 17:48:43.340 | INFO     | __main__:saved:75 - Saved networks:
+2023-08-28 17:48:43.343 | INFO     | __main__:saved:77 -   networkid  ssid     bssid    flags
+2023-08-28 17:48:43.344 | INFO     | __main__:saved:77 - -----------  -------  -------  ---------
+2023-08-28 17:48:43.345 | INFO     | __main__:saved:77 -           0  Beckett  any
+2023-08-28 17:48:43.346 | INFO     | __main__:saved:77 -           1  Beckett  any
+2023-08-28 17:48:43.347 | INFO     | __main__:saved:77 -           2  mcqueen  any      [CURRENT]
+2023-08-28 17:48:43.347 | INFO     | __main__:saved:77 -           3  clyde    any
+2023-08-28 17:48:43.352 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54876 - "GET /v1.0/saved HTTP/1.0" 200
+2023-08-28 17:48:46.971 | INFO     | __main__:scan:59 - Trying to perform network scan.
+2023-08-28 17:48:46.972 | INFO     | __main__:scan:62 - Available networks:
+2023-08-28 17:48:46.977 | INFO     | __main__:scan:64 - ssid     bssid              flags                   frequency    signallevel
+2023-08-28 17:48:46.978 | INFO     | __main__:scan:64 - -------  -----------------  --------------------  -----------  -------------
+2023-08-28 17:48:46.980 | INFO     | __main__:scan:64 - mcqueen  44:07:0b:08:3b:80  [WPA2-PSK-CCMP][ESS]         5745            -46
+2023-08-28 17:48:46.981 | INFO     | __main__:scan:64 - mcqueen  b0:6a:41:c7:19:e6  [WPA2-PSK-CCMP][ESS]         5745            -66
+2023-08-28 17:48:46.983 | INFO     | __main__:scan:64 - mcqueen  44:07:0b:08:3b:84  [WPA2-PSK-CCMP][ESS]         2462            -32
+2023-08-28 17:48:46.984 | INFO     | __main__:scan:64 - mcqueen  b0:6a:41:c7:19:ea  [WPA2-PSK-CCMP][ESS]         2462            -61
+2023-08-28 17:48:46.996 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54910 - "GET /v1.0/scan HTTP/1.0" 200
+2023-08-28 17:48:48.398 | INFO     | __main__:network_status:50 - Status:
+2023-08-28 17:48:48.403 | INFO     | __main__:network_status:52 - ------------------  ------------------------------------
+2023-08-28 17:48:48.411 | INFO     | __main__:network_status:52 - bssid               44:07:0b:08:3b:84
+2023-08-28 17:48:48.413 | INFO     | __main__:network_status:52 - freq                2462
+2023-08-28 17:48:48.414 | INFO     | __main__:network_status:52 - ssid                mcqueen
+2023-08-28 17:48:48.415 | INFO     | __main__:network_status:52 - id                  2
+2023-08-28 17:48:48.417 | INFO     | __main__:network_status:52 - mode                station
+2023-08-28 17:48:48.418 | INFO     | __main__:network_status:52 - pairwise_cipher     CCMP
+2023-08-28 17:48:48.420 | INFO     | __main__:network_status:52 - group_cipher        CCMP
+2023-08-28 17:48:48.422 | INFO     | __main__:network_status:52 - key_mgmt            WPA2-PSK
+2023-08-28 17:48:48.423 | INFO     | __main__:network_status:52 - wpa_state           COMPLETED
+2023-08-28 17:48:48.425 | INFO     | __main__:network_status:52 - ip_address          192.168.86.32
+2023-08-28 17:48:48.426 | INFO     | __main__:network_status:52 - p2p_device_address  de:a6:32:77:d8:13
+2023-08-28 17:48:48.428 | INFO     | __main__:network_status:52 - address             dc:a6:32:77:d8:13
+2023-08-28 17:48:48.429 | INFO     | __main__:network_status:52 - uuid                9e3b10fb-d6cb-531d-9906-408f8956cd05
+2023-08-28 17:48:48.431 | INFO     | __main__:network_status:52 - ------------------  ------------------------------------
+2023-08-28 17:48:48.433 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54920 - "GET /v1.0/status HTTP/1.0" 200
+2023-08-28 17:48:48.442 | INFO     | __main__:saved:73 - Trying to fetch saved networks.
+2023-08-28 17:48:48.445 | INFO     | __main__:saved:75 - Saved networks:
+2023-08-28 17:48:48.449 | INFO     | __main__:saved:77 -   networkid  ssid     bssid    flags
+2023-08-28 17:48:48.450 | INFO     | __main__:saved:77 - -----------  -------  -------  ---------
+2023-08-28 17:48:48.452 | INFO     | __main__:saved:77 -           0  Beckett  any
+2023-08-28 17:48:48.454 | INFO     | __main__:saved:77 -           1  Beckett  any
+2023-08-28 17:48:48.455 | INFO     | __main__:saved:77 -           2  mcqueen  any      [CURRENT]
+2023-08-28 17:48:48.457 | INFO     | __main__:saved:77 -           3  clyde    any
+2023-08-28 17:48:48.462 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54922 - "GET /v1.0/saved HTTP/1.0" 200
+2023-08-28 17:48:49.207 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54932 - "GET /v1.0/hotspot HTTP/1.0" 200
+2023-08-28 17:48:49.212 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54934 - "GET /v1.0/hotspot_credentials HTTP/1.0" 200
+2023-08-28 17:48:53.516 | INFO     | __main__:network_status:50 - Status:
+2023-08-28 17:48:53.519 | INFO     | __main__:network_status:52 - ------------------  ------------------------------------
+2023-08-28 17:48:53.520 | INFO     | __main__:network_status:52 - bssid               44:07:0b:08:3b:84
+2023-08-28 17:48:53.521 | INFO     | __main__:network_status:52 - freq                2462
+2023-08-28 17:48:53.522 | INFO     | __main__:network_status:52 - ssid                mcqueen
+2023-08-28 17:48:53.523 | INFO     | __main__:network_status:52 - id                  2
+2023-08-28 17:48:53.523 | INFO     | __main__:network_status:52 - mode                station
+2023-08-28 17:48:53.525 | INFO     | __main__:network_status:52 - pairwise_cipher     CCMP
+2023-08-28 17:48:53.526 | INFO     | __main__:network_status:52 - group_cipher        CCMP
+2023-08-28 17:48:53.526 | INFO     | __main__:network_status:52 - key_mgmt            WPA2-PSK
+2023-08-28 17:48:53.527 | INFO     | __main__:network_status:52 - wpa_state           COMPLETED
+2023-08-28 17:48:53.527 | INFO     | __main__:network_status:52 - ip_address          192.168.86.32
+2023-08-28 17:48:53.528 | INFO     | __main__:network_status:52 - p2p_device_address  de:a6:32:77:d8:13
+2023-08-28 17:48:53.529 | INFO     | __main__:network_status:52 - address             dc:a6:32:77:d8:13
+2023-08-28 17:48:53.529 | INFO     | __main__:network_status:52 - uuid                9e3b10fb-d6cb-531d-9906-408f8956cd05
+2023-08-28 17:48:53.530 | INFO     | __main__:network_status:52 - ------------------  ------------------------------------
+2023-08-28 17:48:53.532 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54968 - "GET /v1.0/status HTTP/1.0" 200
+2023-08-28 17:48:53.537 | INFO     | __main__:saved:73 - Trying to fetch saved networks.
+2023-08-28 17:48:53.539 | INFO     | __main__:saved:75 - Saved networks:
+2023-08-28 17:48:53.541 | INFO     | __main__:saved:77 -   networkid  ssid     bssid    flags
+2023-08-28 17:48:53.542 | INFO     | __main__:saved:77 - -----------  -------  -------  ---------
+2023-08-28 17:48:53.543 | INFO     | __main__:saved:77 -           0  Beckett  any
+2023-08-28 17:48:53.544 | INFO     | __main__:saved:77 -           1  Beckett  any
+2023-08-28 17:48:53.545 | INFO     | __main__:saved:77 -           2  mcqueen  any      [CURRENT]
+2023-08-28 17:48:53.545 | INFO     | __main__:saved:77 -           3  clyde    any
+2023-08-28 17:48:53.548 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:54970 - "GET /v1.0/saved HTTP/1.0" 200
+2023-08-28 17:48:58.614 | INFO     | __main__:network_status:50 - Status:
+2023-08-28 17:48:58.617 | INFO     | __main__:network_status:52 - ------------------  ------------------------------------
+2023-08-28 17:48:58.618 | INFO     | __main__:network_status:52 - bssid               44:07:0b:08:3b:84
+2023-08-28 17:48:58.619 | INFO     | __main__:network_status:52 - freq                2462
+2023-08-28 17:48:58.620 | INFO     | __main__:network_status:52 - ssid                mcqueen
+2023-08-28 17:48:58.620 | INFO     | __main__:network_status:52 - id                  2
+2023-08-28 17:48:58.621 | INFO     | __main__:network_status:52 - mode                station
+2023-08-28 17:48:58.622 | INFO     | __main__:network_status:52 - pairwise_cipher     CCMP
+2023-08-28 17:48:58.623 | INFO     | __main__:network_status:52 - group_cipher        CCMP
+2023-08-28 17:48:58.623 | INFO     | __main__:network_status:52 - key_mgmt            WPA2-PSK
+2023-08-28 17:48:58.624 | INFO     | __main__:network_status:52 - wpa_state           COMPLETED
+2023-08-28 17:48:58.625 | INFO     | __main__:network_status:52 - ip_address          192.168.86.32
+2023-08-28 17:48:58.625 | INFO     | __main__:network_status:52 - p2p_device_address  de:a6:32:77:d8:13
+2023-08-28 17:48:58.626 | INFO     | __main__:network_status:52 - address             dc:a6:32:77:d8:13
+2023-08-28 17:48:58.627 | INFO     | __main__:network_status:52 - uuid                9e3b10fb-d6cb-531d-9906-408f8956cd05
+2023-08-28 17:48:58.628 | INFO     | __main__:network_status:52 - ------------------  ------------------------------------
+2023-08-28 17:48:58.630 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:55044 - "GET /v1.0/status HTTP/1.0" 200
+2023-08-28 17:48:58.636 | INFO     | __main__:saved:73 - Trying to fetch saved networks.
+2023-08-28 17:48:58.638 | INFO     | __main__:saved:75 - Saved networks:
+2023-08-28 17:48:58.643 | INFO     | __main__:saved:77 -   networkid  ssid     bssid    flags
+2023-08-28 17:48:58.644 | INFO     | __main__:saved:77 - -----------  -------  -------  ---------
+2023-08-28 17:48:58.645 | INFO     | __main__:saved:77 -           0  Beckett  any
+2023-08-28 17:48:58.646 | INFO     | __main__:saved:77 -           1  Beckett  any
+2023-08-28 17:48:58.647 | INFO     | __main__:saved:77 -           2  mcqueen  any      [CURRENT]
+2023-08-28 17:48:58.648 | INFO     | __main__:saved:77 -           3  clyde    any
+2023-08-28 17:48:58.652 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:55046 - "GET /v1.0/saved HTTP/1.0" 200
+2023-08-28 17:48:59.257 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:55050 - "GET /v1.0/hotspot HTTP/1.0" 200
+2023-08-28 17:48:59.264 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:55052 - "GET /v1.0/hotspot_credentials HTTP/1.0" 200
+2023-08-28 17:49:03.696 | INFO     | __main__:network_status:50 - Status:
+2023-08-28 17:49:03.699 | INFO     | __main__:network_status:52 - ------------------  ------------------------------------
+2023-08-28 17:49:03.701 | INFO     | __main__:network_status:52 - bssid               44:07:0b:08:3b:84
+2023-08-28 17:49:03.701 | INFO     | __main__:network_status:52 - freq                2462
+2023-08-28 17:49:03.702 | INFO     | __main__:network_status:52 - ssid                mcqueen
+2023-08-28 17:49:03.703 | INFO     | __main__:network_status:52 - id                  2
+2023-08-28 17:49:03.704 | INFO     | __main__:network_status:52 - mode                station
+2023-08-28 17:49:03.704 | INFO     | __main__:network_status:52 - pairwise_cipher     CCMP
+2023-08-28 17:49:03.705 | INFO     | __main__:network_status:52 - group_cipher        CCMP
+2023-08-28 17:49:03.706 | INFO     | __main__:network_status:52 - key_mgmt            WPA2-PSK
+2023-08-28 17:49:03.707 | INFO     | __main__:network_status:52 - wpa_state           COMPLETED
+2023-08-28 17:49:03.707 | INFO     | __main__:network_status:52 - ip_address          192.168.86.32
+2023-08-28 17:49:03.708 | INFO     | __main__:network_status:52 - p2p_device_address  de:a6:32:77:d8:13
+2023-08-28 17:49:03.709 | INFO     | __main__:network_status:52 - address             dc:a6:32:77:d8:13
+2023-08-28 17:49:03.710 | INFO     | __main__:network_status:52 - uuid                9e3b10fb-d6cb-531d-9906-408f8956cd05
+2023-08-28 17:49:03.711 | INFO     | __main__:network_status:52 - ------------------  ------------------------------------
+2023-08-28 17:49:03.712 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:55090 - "GET /v1.0/status HTTP/1.0" 200
+2023-08-28 17:49:03.717 | INFO     | __main__:saved:73 - Trying to fetch saved networks.
+2023-08-28 17:49:03.719 | INFO     | __main__:saved:75 - Saved networks:
+2023-08-28 17:49:03.721 | INFO     | __main__:saved:77 -   networkid  ssid     bssid    flags
+2023-08-28 17:49:03.722 | INFO     | __main__:saved:77 - -----------  -------  -------  ---------
+2023-08-28 17:49:03.723 | INFO     | __main__:saved:77 -           0  Beckett  any
+2023-08-28 17:49:03.723 | INFO     | __main__:saved:77 -           1  Beckett  any
+2023-08-28 17:49:03.724 | INFO     | __main__:saved:77 -           2  mcqueen  any      [CURRENT]
+2023-08-28 17:49:03.725 | INFO     | __main__:saved:77 -           3  clyde    any
+2023-08-28 17:49:03.727 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:55092 - "GET /v1.0/saved HTTP/1.0" 200
+2023-08-28 17:49:07.049 | INFO     | __main__:scan:59 - Trying to perform network scan.
+2023-08-28 17:49:07.052 | INFO     | __main__:scan:62 - Available networks:
+2023-08-28 17:49:07.055 | INFO     | __main__:scan:64 - ssid       bssid              flags                                  frequency    signallevel
+2023-08-28 17:49:07.056 | INFO     | __main__:scan:64 - ---------  -----------------  -----------------------------------  -----------  -------------
+2023-08-28 17:49:07.057 | INFO     | __main__:scan:64 - mcqueen    44:07:0b:08:3b:80  [WPA2-PSK-CCMP][ESS]                        5745            -46
+2023-08-28 17:49:07.057 | INFO     | __main__:scan:64 - mcqueen    b0:6a:41:c7:19:e6  [WPA2-PSK-CCMP][ESS]                        5745            -68
+2023-08-28 17:49:07.058 | INFO     | __main__:scan:64 - mcqueen    44:07:0b:08:3b:84  [WPA2-PSK-CCMP][ESS]                        2462            -33
+2023-08-28 17:49:07.058 | INFO     | __main__:scan:64 - mcqueen    b0:6a:41:c7:19:ea  [WPA2-PSK-CCMP][ESS]                        2462            -61
+2023-08-28 17:49:07.059 | INFO     | __main__:scan:64 - araknis    d4:6a:91:d9:16:ed  [WPA2-PSK+FT/PSK-CCMP-preauth][ESS]         2437            -73
+2023-08-28 17:49:07.059 | INFO     | __main__:scan:64 - Beckett 1  6c:ae:f6:cb:b6:68  [WPA2-PSK-CCMP][ESS]                        5785            -84
+2023-08-28 17:49:07.068 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:55130 - "GET /v1.0/scan HTTP/1.0" 200
+2023-08-28 17:49:08.796 | INFO     | __main__:network_status:50 - Status:
+2023-08-28 17:49:08.798 | INFO     | __main__:network_status:52 - ------------------  ------------------------------------
+2023-08-28 17:49:08.799 | INFO     | __main__:network_status:52 - bssid               44:07:0b:08:3b:84
+2023-08-28 17:49:08.800 | INFO     | __main__:network_status:52 - freq                2462
+2023-08-28 17:49:08.800 | INFO     | __main__:network_status:52 - ssid                mcqueen
+2023-08-28 17:49:08.801 | INFO     | __main__:network_status:52 - id                  2
+2023-08-28 17:49:08.802 | INFO     | __main__:network_status:52 - mode                station
+2023-08-28 17:49:08.802 | INFO     | __main__:network_status:52 - pairwise_cipher     CCMP
+2023-08-28 17:49:08.803 | INFO     | __main__:network_status:52 - group_cipher        CCMP
+2023-08-28 17:49:08.803 | INFO     | __main__:network_status:52 - key_mgmt            WPA2-PSK
+2023-08-28 17:49:08.807 | INFO     | __main__:network_status:52 - wpa_state           COMPLETED
+2023-08-28 17:49:08.808 | INFO     | __main__:network_status:52 - ip_address          192.168.86.32
+2023-08-28 17:49:08.809 | INFO     | __main__:network_status:52 - p2p_device_address  de:a6:32:77:d8:13
+2023-08-28 17:49:08.809 | INFO     | __main__:network_status:52 - address             dc:a6:32:77:d8:13
+2023-08-28 17:49:08.810 | INFO     | __main__:network_status:52 - uuid                9e3b10fb-d6cb-531d-9906-408f8956cd05
+2023-08-28 17:49:08.811 | INFO     | __main__:network_status:52 - ------------------  ------------------------------------
+2023-08-28 17:49:08.812 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:55140 - "GET /v1.0/status HTTP/1.0" 200
+2023-08-28 17:49:08.817 | INFO     | __main__:saved:73 - Trying to fetch saved networks.
+2023-08-28 17:49:08.818 | INFO     | __main__:saved:75 - Saved networks:
+2023-08-28 17:49:08.821 | INFO     | __main__:saved:77 -   networkid  ssid     bssid    flags
+2023-08-28 17:49:08.823 | INFO     | __main__:saved:77 - -----------  -------  -------  ---------
+2023-08-28 17:49:08.824 | INFO     | __main__:saved:77 -           0  Beckett  any
+2023-08-28 17:49:08.824 | INFO     | __main__:saved:77 -           1  Beckett  any
+2023-08-28 17:49:08.825 | INFO     | __main__:saved:77 -           2  mcqueen  any      [CURRENT]
+2023-08-28 17:49:08.826 | INFO     | __main__:saved:77 -           3  clyde    any
+2023-08-28 17:49:08.828 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:55142 - "GET /v1.0/saved HTTP/1.0" 200
+2023-08-28 17:49:09.311 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:55156 - "GET /v1.0/hotspot HTTP/1.0" 200
+2023-08-28 17:49:09.315 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:55158 - "GET /v1.0/hotspot_credentials HTTP/1.0" 200
+2023-08-28 17:49:13.901 | INFO     | __main__:network_status:50 - Status:
+2023-08-28 17:49:13.908 | INFO     | __main__:network_status:52 - ------------------  ------------------------------------
+2023-08-28 17:49:13.909 | INFO     | __main__:network_status:52 - bssid               44:07:0b:08:3b:84
+2023-08-28 17:49:13.912 | INFO     | __main__:network_status:52 - freq                2462
+2023-08-28 17:49:13.913 | INFO     | __main__:network_status:52 - ssid                mcqueen
+2023-08-28 17:49:13.914 | INFO     | __main__:network_status:52 - id                  2
+2023-08-28 17:49:13.915 | INFO     | __main__:network_status:52 - mode                station
+2023-08-28 17:49:13.916 | INFO     | __main__:network_status:52 - pairwise_cipher     CCMP
+2023-08-28 17:49:13.918 | INFO     | __main__:network_status:52 - group_cipher        CCMP
+2023-08-28 17:49:13.919 | INFO     | __main__:network_status:52 - key_mgmt            WPA2-PSK
+2023-08-28 17:49:13.920 | INFO     | __main__:network_status:52 - wpa_state           COMPLETED
+2023-08-28 17:49:13.922 | INFO     | __main__:network_status:52 - ip_address          192.168.86.32
+2023-08-28 17:49:13.923 | INFO     | __main__:network_status:52 - p2p_device_address  de:a6:32:77:d8:13
+2023-08-28 17:49:13.924 | INFO     | __main__:network_status:52 - address             dc:a6:32:77:d8:13
+2023-08-28 17:49:13.925 | INFO     | __main__:network_status:52 - uuid                9e3b10fb-d6cb-531d-9906-408f8956cd05
+2023-08-28 17:49:13.926 | INFO     | __main__:network_status:52 - ------------------  ------------------------------------
+2023-08-28 17:49:13.929 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:55192 - "GET /v1.0/status HTTP/1.0" 200
+2023-08-28 17:49:13.935 | INFO     | __main__:saved:73 - Trying to fetch saved networks.
+2023-08-28 17:49:13.938 | INFO     | __main__:saved:75 - Saved networks:
+2023-08-28 17:49:13.941 | INFO     | __main__:saved:77 -   networkid  ssid     bssid    flags
+2023-08-28 17:49:13.942 | INFO     | __main__:saved:77 - -----------  -------  -------  ---------
+2023-08-28 17:49:13.944 | INFO     | __main__:saved:77 -           0  Beckett  any
+2023-08-28 17:49:13.945 | INFO     | __main__:saved:77 -           1  Beckett  any
+2023-08-28 17:49:13.946 | INFO     | __main__:saved:77 -           2  mcqueen  any      [CURRENT]
+2023-08-28 17:49:13.947 | INFO     | __main__:saved:77 -           3  clyde    any
+2023-08-28 17:49:13.951 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:55194 - "GET /v1.0/saved HTTP/1.0" 200
+2023-08-28 17:49:19.018 | INFO     | __main__:network_status:50 - Status:
+2023-08-28 17:49:19.022 | INFO     | __main__:network_status:52 - ------------------  ------------------------------------
+2023-08-28 17:49:19.023 | INFO     | __main__:network_status:52 - bssid               44:07:0b:08:3b:84
+2023-08-28 17:49:19.024 | INFO     | __main__:network_status:52 - freq                2462
+2023-08-28 17:49:19.025 | INFO     | __main__:network_status:52 - ssid                mcqueen
+2023-08-28 17:49:19.025 | INFO     | __main__:network_status:52 - id                  2
+2023-08-28 17:49:19.026 | INFO     | __main__:network_status:52 - mode                station
+2023-08-28 17:49:19.028 | INFO     | __main__:network_status:52 - pairwise_cipher     CCMP
+2023-08-28 17:49:19.028 | INFO     | __main__:network_status:52 - group_cipher        CCMP
+2023-08-28 17:49:19.029 | INFO     | __main__:network_status:52 - key_mgmt            WPA2-PSK
+2023-08-28 17:49:19.030 | INFO     | __main__:network_status:52 - wpa_state           COMPLETED
+2023-08-28 17:49:19.031 | INFO     | __main__:network_status:52 - ip_address          192.168.86.32
+2023-08-28 17:49:19.032 | INFO     | __main__:network_status:52 - p2p_device_address  de:a6:32:77:d8:13
+2023-08-28 17:49:19.033 | INFO     | __main__:network_status:52 - address             dc:a6:32:77:d8:13
+2023-08-28 17:49:19.034 | INFO     | __main__:network_status:52 - uuid                9e3b10fb-d6cb-531d-9906-408f8956cd05
+2023-08-28 17:49:19.035 | INFO     | __main__:network_status:52 - ------------------  ------------------------------------
+2023-08-28 17:49:19.037 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:55254 - "GET /v1.0/status HTTP/1.0" 200
+2023-08-28 17:49:19.044 | INFO     | __main__:saved:73 - Trying to fetch saved networks.
+2023-08-28 17:49:19.046 | INFO     | __main__:saved:75 - Saved networks:
+2023-08-28 17:49:19.050 | INFO     | __main__:saved:77 -   networkid  ssid     bssid    flags
+2023-08-28 17:49:19.051 | INFO     | __main__:saved:77 - -----------  -------  -------  ---------
+2023-08-28 17:49:19.053 | INFO     | __main__:saved:77 -           0  Beckett  any
+2023-08-28 17:49:19.054 | INFO     | __main__:saved:77 -           1  Beckett  any
+2023-08-28 17:49:19.055 | INFO     | __main__:saved:77 -           2  mcqueen  any      [CURRENT]
+2023-08-28 17:49:19.056 | INFO     | __main__:saved:77 -           3  clyde    any
+2023-08-28 17:49:19.060 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:55256 - "GET /v1.0/saved HTTP/1.0" 200
+2023-08-28 17:49:19.364 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:55260 - "GET /v1.0/hotspot HTTP/1.0" 200
+2023-08-28 17:49:19.370 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:55262 - "GET /v1.0/hotspot_credentials HTTP/1.0" 200
+2023-08-28 17:49:24.112 | INFO     | __main__:network_status:50 - Status:
+2023-08-28 17:49:24.115 | INFO     | __main__:network_status:52 - ------------------  ------------------------------------
+2023-08-28 17:49:24.116 | INFO     | __main__:network_status:52 - bssid               44:07:0b:08:3b:84
+2023-08-28 17:49:24.121 | INFO     | __main__:network_status:52 - freq                2462
+2023-08-28 17:49:24.122 | INFO     | __main__:network_status:52 - ssid                mcqueen
+2023-08-28 17:49:24.123 | INFO     | __main__:network_status:52 - id                  2
+2023-08-28 17:49:24.124 | INFO     | __main__:network_status:52 - mode                station
+2023-08-28 17:49:24.126 | INFO     | __main__:network_status:52 - pairwise_cipher     CCMP
+2023-08-28 17:49:24.127 | INFO     | __main__:network_status:52 - group_cipher        CCMP
+2023-08-28 17:49:24.128 | INFO     | __main__:network_status:52 - key_mgmt            WPA2-PSK
+2023-08-28 17:49:24.129 | INFO     | __main__:network_status:52 - wpa_state           COMPLETED
+2023-08-28 17:49:24.130 | INFO     | __main__:network_status:52 - ip_address          192.168.86.32
+2023-08-28 17:49:24.132 | INFO     | __main__:network_status:52 - p2p_device_address  de:a6:32:77:d8:13
+2023-08-28 17:49:24.133 | INFO     | __main__:network_status:52 - address             dc:a6:32:77:d8:13
+2023-08-28 17:49:24.134 | INFO     | __main__:network_status:52 - uuid                9e3b10fb-d6cb-531d-9906-408f8956cd05
+2023-08-28 17:49:24.134 | INFO     | __main__:network_status:52 - ------------------  ------------------------------------
+2023-08-28 17:49:24.136 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:55304 - "GET /v1.0/status HTTP/1.0" 200

@@ -1,0 +1,817 @@
+2023-08-28 16:34:32.095 | DEBUG    | commonwealth.settings.manager:load:115 - Found possible candidates for settings source: [PosixPath('/root/.config/beacon/settings-4.json'), PosixPath('/root/.config/beacon/settings-3.json'), PosixPath('/root/.config/beacon/settings-1.json')]
+2023-08-28 16:34:32.100 | DEBUG    | commonwealth.settings.manager:load:117 - Checking /root/.config/beacon/settings-4.json for settings
+2023-08-28 16:34:32.103 | DEBUG    | commonwealth.settings.settings:load:63 - Loading settings from file: /root/.config/beacon/settings-4.json
+2023-08-28 16:34:32.108 | DEBUG    | commonwealth.settings.manager:load:120 - Using /root/.config/beacon/settings-4.json as settings source
+2023-08-28 16:34:32.114 | INFO     | __main__:create_default_runners:186 - Created runner blueos-eth0-1 for 192.168.2.2
+2023-08-28 16:34:32.117 | INFO     | __main__:create_default_runners:186 - Created runner blueos-usb0-1 for 192.168.3.1
+2023-08-28 16:34:32.120 | INFO     | __main__:create_default_runners:186 - Created runner blueos-wlan0-1 for 192.168.86.32
+2023-08-28 16:34:32.123 | INFO     | __main__:create_default_runners:186 - Created runner blueos-uap0-1 for 192.168.42.1
+2023-08-28 16:34:32.129 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:34:32.131 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:34:32.136 | INFO     | __main__:create_user_runners:211 - Created runner for interface wlan0, broadcasting on 192.168.86.32
+2023-08-28 16:34:32.138 | INFO     | __main__:create_user_runners:211 - Created runner for interface uap0, broadcasting on 192.168.42.1
+2023-08-28 16:34:32.139 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos-eth0-1._http._tcp.local.'].
+2023-08-28 16:34:32.140 | INFO     | __main__:run:239 - Runner on 192.168.3.1, serving ['blueos-usb0-1._http._tcp.local.'].
+2023-08-28 16:34:32.141 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wlan0-1._http._tcp.local.'].
+2023-08-28 16:34:32.142 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-uap0-1._http._tcp.local.'].
+2023-08-28 16:34:32.142 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos._mavlink._udp.local.', 'blueos._http._tcp.local.'].
+2023-08-28 16:34:32.143 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wifi._http._tcp.local.'].
+2023-08-28 16:34:32.144 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-hostspot._http._tcp.local.'].
+2023-08-28 16:34:42.148 | DEBUG    | commonwealth.settings.manager:load:115 - Found possible candidates for settings source: [PosixPath('/root/.config/beacon/settings-4.json'), PosixPath('/root/.config/beacon/settings-3.json'), PosixPath('/root/.config/beacon/settings-1.json')]
+2023-08-28 16:34:42.150 | DEBUG    | commonwealth.settings.manager:load:117 - Checking /root/.config/beacon/settings-4.json for settings
+2023-08-28 16:34:42.151 | DEBUG    | commonwealth.settings.settings:load:63 - Loading settings from file: /root/.config/beacon/settings-4.json
+2023-08-28 16:34:42.156 | DEBUG    | commonwealth.settings.manager:load:120 - Using /root/.config/beacon/settings-4.json as settings source
+2023-08-28 16:34:42.162 | INFO     | __main__:create_default_runners:186 - Created runner blueos-eth0-1 for 192.168.2.2
+2023-08-28 16:34:42.165 | INFO     | __main__:create_default_runners:186 - Created runner blueos-usb0-1 for 192.168.3.1
+2023-08-28 16:34:42.167 | INFO     | __main__:create_default_runners:186 - Created runner blueos-wlan0-1 for 192.168.86.32
+2023-08-28 16:34:42.170 | INFO     | __main__:create_default_runners:186 - Created runner blueos-uap0-1 for 192.168.42.1
+2023-08-28 16:34:42.175 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:34:42.177 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:34:42.182 | INFO     | __main__:create_user_runners:211 - Created runner for interface wlan0, broadcasting on 192.168.86.32
+2023-08-28 16:34:42.185 | INFO     | __main__:create_user_runners:211 - Created runner for interface uap0, broadcasting on 192.168.42.1
+2023-08-28 16:34:42.187 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos-eth0-1._http._tcp.local.'].
+2023-08-28 16:34:42.188 | INFO     | __main__:run:239 - Runner on 192.168.3.1, serving ['blueos-usb0-1._http._tcp.local.'].
+2023-08-28 16:34:42.189 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wlan0-1._http._tcp.local.'].
+2023-08-28 16:34:42.191 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-uap0-1._http._tcp.local.'].
+2023-08-28 16:34:42.192 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos._mavlink._udp.local.', 'blueos._http._tcp.local.'].
+2023-08-28 16:34:42.193 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wifi._http._tcp.local.'].
+2023-08-28 16:34:42.193 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-hostspot._http._tcp.local.'].
+2023-08-28 16:34:52.200 | DEBUG    | commonwealth.settings.manager:load:115 - Found possible candidates for settings source: [PosixPath('/root/.config/beacon/settings-4.json'), PosixPath('/root/.config/beacon/settings-3.json'), PosixPath('/root/.config/beacon/settings-1.json')]
+2023-08-28 16:34:52.201 | DEBUG    | commonwealth.settings.manager:load:117 - Checking /root/.config/beacon/settings-4.json for settings
+2023-08-28 16:34:52.202 | DEBUG    | commonwealth.settings.settings:load:63 - Loading settings from file: /root/.config/beacon/settings-4.json
+2023-08-28 16:34:52.206 | DEBUG    | commonwealth.settings.manager:load:120 - Using /root/.config/beacon/settings-4.json as settings source
+2023-08-28 16:34:52.211 | INFO     | __main__:create_default_runners:186 - Created runner blueos-eth0-1 for 192.168.2.2
+2023-08-28 16:34:52.213 | INFO     | __main__:create_default_runners:186 - Created runner blueos-usb0-1 for 192.168.3.1
+2023-08-28 16:34:52.216 | INFO     | __main__:create_default_runners:186 - Created runner blueos-wlan0-1 for 192.168.86.32
+2023-08-28 16:34:52.218 | INFO     | __main__:create_default_runners:186 - Created runner blueos-uap0-1 for 192.168.42.1
+2023-08-28 16:34:52.223 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:34:52.225 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:34:52.228 | INFO     | __main__:create_user_runners:211 - Created runner for interface wlan0, broadcasting on 192.168.86.32
+2023-08-28 16:34:52.231 | INFO     | __main__:create_user_runners:211 - Created runner for interface uap0, broadcasting on 192.168.42.1
+2023-08-28 16:34:52.234 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos-eth0-1._http._tcp.local.'].
+2023-08-28 16:34:52.236 | INFO     | __main__:run:239 - Runner on 192.168.3.1, serving ['blueos-usb0-1._http._tcp.local.'].
+2023-08-28 16:34:52.237 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wlan0-1._http._tcp.local.'].
+2023-08-28 16:34:52.238 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-uap0-1._http._tcp.local.'].
+2023-08-28 16:34:52.239 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos._mavlink._udp.local.', 'blueos._http._tcp.local.'].
+2023-08-28 16:34:52.240 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wifi._http._tcp.local.'].
+2023-08-28 16:34:52.241 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-hostspot._http._tcp.local.'].
+2023-08-28 16:35:02.244 | DEBUG    | commonwealth.settings.manager:load:115 - Found possible candidates for settings source: [PosixPath('/root/.config/beacon/settings-4.json'), PosixPath('/root/.config/beacon/settings-3.json'), PosixPath('/root/.config/beacon/settings-1.json')]
+2023-08-28 16:35:02.245 | DEBUG    | commonwealth.settings.manager:load:117 - Checking /root/.config/beacon/settings-4.json for settings
+2023-08-28 16:35:02.246 | DEBUG    | commonwealth.settings.settings:load:63 - Loading settings from file: /root/.config/beacon/settings-4.json
+2023-08-28 16:35:02.249 | DEBUG    | commonwealth.settings.manager:load:120 - Using /root/.config/beacon/settings-4.json as settings source
+2023-08-28 16:35:02.252 | INFO     | __main__:create_default_runners:186 - Created runner blueos-eth0-1 for 192.168.2.2
+2023-08-28 16:35:02.254 | INFO     | __main__:create_default_runners:186 - Created runner blueos-usb0-1 for 192.168.3.1
+2023-08-28 16:35:02.258 | INFO     | __main__:create_default_runners:186 - Created runner blueos-wlan0-1 for 192.168.86.32
+2023-08-28 16:35:02.266 | INFO     | __main__:create_default_runners:186 - Created runner blueos-uap0-1 for 192.168.42.1
+2023-08-28 16:35:02.271 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:35:02.275 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:35:02.282 | INFO     | __main__:create_user_runners:211 - Created runner for interface wlan0, broadcasting on 192.168.86.32
+2023-08-28 16:35:02.286 | INFO     | __main__:create_user_runners:211 - Created runner for interface uap0, broadcasting on 192.168.42.1
+2023-08-28 16:35:02.291 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos-eth0-1._http._tcp.local.'].
+2023-08-28 16:35:02.293 | INFO     | __main__:run:239 - Runner on 192.168.3.1, serving ['blueos-usb0-1._http._tcp.local.'].
+2023-08-28 16:35:02.295 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wlan0-1._http._tcp.local.'].
+2023-08-28 16:35:02.296 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-uap0-1._http._tcp.local.'].
+2023-08-28 16:35:02.300 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos._mavlink._udp.local.', 'blueos._http._tcp.local.'].
+2023-08-28 16:35:02.302 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wifi._http._tcp.local.'].
+2023-08-28 16:35:02.303 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-hostspot._http._tcp.local.'].
+2023-08-28 16:35:12.306 | DEBUG    | commonwealth.settings.manager:load:115 - Found possible candidates for settings source: [PosixPath('/root/.config/beacon/settings-4.json'), PosixPath('/root/.config/beacon/settings-3.json'), PosixPath('/root/.config/beacon/settings-1.json')]
+2023-08-28 16:35:12.307 | DEBUG    | commonwealth.settings.manager:load:117 - Checking /root/.config/beacon/settings-4.json for settings
+2023-08-28 16:35:12.309 | DEBUG    | commonwealth.settings.settings:load:63 - Loading settings from file: /root/.config/beacon/settings-4.json
+2023-08-28 16:35:12.313 | DEBUG    | commonwealth.settings.manager:load:120 - Using /root/.config/beacon/settings-4.json as settings source
+2023-08-28 16:35:12.317 | INFO     | __main__:create_default_runners:186 - Created runner blueos-eth0-1 for 192.168.2.2
+2023-08-28 16:35:12.319 | INFO     | __main__:create_default_runners:186 - Created runner blueos-usb0-1 for 192.168.3.1
+2023-08-28 16:35:12.321 | INFO     | __main__:create_default_runners:186 - Created runner blueos-wlan0-1 for 192.168.86.32
+2023-08-28 16:35:12.323 | INFO     | __main__:create_default_runners:186 - Created runner blueos-uap0-1 for 192.168.42.1
+2023-08-28 16:35:12.327 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:35:12.328 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:35:12.331 | INFO     | __main__:create_user_runners:211 - Created runner for interface wlan0, broadcasting on 192.168.86.32
+2023-08-28 16:35:12.333 | INFO     | __main__:create_user_runners:211 - Created runner for interface uap0, broadcasting on 192.168.42.1
+2023-08-28 16:35:12.335 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos-eth0-1._http._tcp.local.'].
+2023-08-28 16:35:12.336 | INFO     | __main__:run:239 - Runner on 192.168.3.1, serving ['blueos-usb0-1._http._tcp.local.'].
+2023-08-28 16:35:12.337 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wlan0-1._http._tcp.local.'].
+2023-08-28 16:35:12.338 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-uap0-1._http._tcp.local.'].
+2023-08-28 16:35:12.339 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos._mavlink._udp.local.', 'blueos._http._tcp.local.'].
+2023-08-28 16:35:12.340 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wifi._http._tcp.local.'].
+2023-08-28 16:35:12.341 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-hostspot._http._tcp.local.'].
+2023-08-28 16:35:22.344 | DEBUG    | commonwealth.settings.manager:load:115 - Found possible candidates for settings source: [PosixPath('/root/.config/beacon/settings-4.json'), PosixPath('/root/.config/beacon/settings-3.json'), PosixPath('/root/.config/beacon/settings-1.json')]
+2023-08-28 16:35:22.345 | DEBUG    | commonwealth.settings.manager:load:117 - Checking /root/.config/beacon/settings-4.json for settings
+2023-08-28 16:35:22.346 | DEBUG    | commonwealth.settings.settings:load:63 - Loading settings from file: /root/.config/beacon/settings-4.json
+2023-08-28 16:35:22.349 | DEBUG    | commonwealth.settings.manager:load:120 - Using /root/.config/beacon/settings-4.json as settings source
+2023-08-28 16:35:22.352 | INFO     | __main__:create_default_runners:186 - Created runner blueos-eth0-1 for 192.168.2.2
+2023-08-28 16:35:22.354 | INFO     | __main__:create_default_runners:186 - Created runner blueos-usb0-1 for 192.168.3.1
+2023-08-28 16:35:22.356 | INFO     | __main__:create_default_runners:186 - Created runner blueos-wlan0-1 for 192.168.86.32
+2023-08-28 16:35:22.358 | INFO     | __main__:create_default_runners:186 - Created runner blueos-uap0-1 for 192.168.42.1
+2023-08-28 16:35:22.361 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:35:22.362 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:35:22.365 | INFO     | __main__:create_user_runners:211 - Created runner for interface wlan0, broadcasting on 192.168.86.32
+2023-08-28 16:35:22.367 | INFO     | __main__:create_user_runners:211 - Created runner for interface uap0, broadcasting on 192.168.42.1
+2023-08-28 16:35:22.368 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos-eth0-1._http._tcp.local.'].
+2023-08-28 16:35:22.369 | INFO     | __main__:run:239 - Runner on 192.168.3.1, serving ['blueos-usb0-1._http._tcp.local.'].
+2023-08-28 16:35:22.370 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wlan0-1._http._tcp.local.'].
+2023-08-28 16:35:22.370 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-uap0-1._http._tcp.local.'].
+2023-08-28 16:35:22.371 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos._mavlink._udp.local.', 'blueos._http._tcp.local.'].
+2023-08-28 16:35:22.372 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wifi._http._tcp.local.'].
+2023-08-28 16:35:22.373 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-hostspot._http._tcp.local.'].
+2023-08-28 16:35:32.376 | DEBUG    | commonwealth.settings.manager:load:115 - Found possible candidates for settings source: [PosixPath('/root/.config/beacon/settings-4.json'), PosixPath('/root/.config/beacon/settings-3.json'), PosixPath('/root/.config/beacon/settings-1.json')]
+2023-08-28 16:35:32.377 | DEBUG    | commonwealth.settings.manager:load:117 - Checking /root/.config/beacon/settings-4.json for settings
+2023-08-28 16:35:32.378 | DEBUG    | commonwealth.settings.settings:load:63 - Loading settings from file: /root/.config/beacon/settings-4.json
+2023-08-28 16:35:32.381 | DEBUG    | commonwealth.settings.manager:load:120 - Using /root/.config/beacon/settings-4.json as settings source
+2023-08-28 16:35:32.384 | INFO     | __main__:create_default_runners:186 - Created runner blueos-eth0-1 for 192.168.2.2
+2023-08-28 16:35:32.386 | INFO     | __main__:create_default_runners:186 - Created runner blueos-usb0-1 for 192.168.3.1
+2023-08-28 16:35:32.388 | INFO     | __main__:create_default_runners:186 - Created runner blueos-wlan0-1 for 192.168.86.32
+2023-08-28 16:35:32.390 | INFO     | __main__:create_default_runners:186 - Created runner blueos-uap0-1 for 192.168.42.1
+2023-08-28 16:35:32.392 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:35:32.393 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:35:32.396 | INFO     | __main__:create_user_runners:211 - Created runner for interface wlan0, broadcasting on 192.168.86.32
+2023-08-28 16:35:32.398 | INFO     | __main__:create_user_runners:211 - Created runner for interface uap0, broadcasting on 192.168.42.1
+2023-08-28 16:35:32.398 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos-eth0-1._http._tcp.local.'].
+2023-08-28 16:35:32.399 | INFO     | __main__:run:239 - Runner on 192.168.3.1, serving ['blueos-usb0-1._http._tcp.local.'].
+2023-08-28 16:35:32.400 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wlan0-1._http._tcp.local.'].
+2023-08-28 16:35:32.400 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-uap0-1._http._tcp.local.'].
+2023-08-28 16:35:32.401 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos._mavlink._udp.local.', 'blueos._http._tcp.local.'].
+2023-08-28 16:35:32.402 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wifi._http._tcp.local.'].
+2023-08-28 16:35:32.403 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-hostspot._http._tcp.local.'].
+2023-08-28 16:35:42.405 | DEBUG    | commonwealth.settings.manager:load:115 - Found possible candidates for settings source: [PosixPath('/root/.config/beacon/settings-4.json'), PosixPath('/root/.config/beacon/settings-3.json'), PosixPath('/root/.config/beacon/settings-1.json')]
+2023-08-28 16:35:42.406 | DEBUG    | commonwealth.settings.manager:load:117 - Checking /root/.config/beacon/settings-4.json for settings
+2023-08-28 16:35:42.407 | DEBUG    | commonwealth.settings.settings:load:63 - Loading settings from file: /root/.config/beacon/settings-4.json
+2023-08-28 16:35:42.410 | DEBUG    | commonwealth.settings.manager:load:120 - Using /root/.config/beacon/settings-4.json as settings source
+2023-08-28 16:35:42.413 | INFO     | __main__:create_default_runners:186 - Created runner blueos-eth0-1 for 192.168.2.2
+2023-08-28 16:35:42.416 | INFO     | __main__:create_default_runners:186 - Created runner blueos-usb0-1 for 192.168.3.1
+2023-08-28 16:35:42.418 | INFO     | __main__:create_default_runners:186 - Created runner blueos-wlan0-1 for 192.168.86.32
+2023-08-28 16:35:42.420 | INFO     | __main__:create_default_runners:186 - Created runner blueos-uap0-1 for 192.168.42.1
+2023-08-28 16:35:42.423 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:35:42.424 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:35:42.426 | INFO     | __main__:create_user_runners:211 - Created runner for interface wlan0, broadcasting on 192.168.86.32
+2023-08-28 16:35:42.428 | INFO     | __main__:create_user_runners:211 - Created runner for interface uap0, broadcasting on 192.168.42.1
+2023-08-28 16:35:42.429 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos-eth0-1._http._tcp.local.'].
+2023-08-28 16:35:42.430 | INFO     | __main__:run:239 - Runner on 192.168.3.1, serving ['blueos-usb0-1._http._tcp.local.'].
+2023-08-28 16:35:42.430 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wlan0-1._http._tcp.local.'].
+2023-08-28 16:35:42.431 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-uap0-1._http._tcp.local.'].
+2023-08-28 16:35:42.432 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos._mavlink._udp.local.', 'blueos._http._tcp.local.'].
+2023-08-28 16:35:42.433 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wifi._http._tcp.local.'].
+2023-08-28 16:35:42.435 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-hostspot._http._tcp.local.'].
+2023-08-28 16:35:52.439 | DEBUG    | commonwealth.settings.manager:load:115 - Found possible candidates for settings source: [PosixPath('/root/.config/beacon/settings-4.json'), PosixPath('/root/.config/beacon/settings-3.json'), PosixPath('/root/.config/beacon/settings-1.json')]
+2023-08-28 16:35:52.440 | DEBUG    | commonwealth.settings.manager:load:117 - Checking /root/.config/beacon/settings-4.json for settings
+2023-08-28 16:35:52.442 | DEBUG    | commonwealth.settings.settings:load:63 - Loading settings from file: /root/.config/beacon/settings-4.json
+2023-08-28 16:35:52.445 | DEBUG    | commonwealth.settings.manager:load:120 - Using /root/.config/beacon/settings-4.json as settings source
+2023-08-28 16:35:52.450 | INFO     | __main__:create_default_runners:186 - Created runner blueos-eth0-1 for 192.168.2.2
+2023-08-28 16:35:52.452 | INFO     | __main__:create_default_runners:186 - Created runner blueos-usb0-1 for 192.168.3.1
+2023-08-28 16:35:52.454 | INFO     | __main__:create_default_runners:186 - Created runner blueos-wlan0-1 for 192.168.86.32
+2023-08-28 16:35:52.457 | INFO     | __main__:create_default_runners:186 - Created runner blueos-uap0-1 for 192.168.42.1
+2023-08-28 16:35:52.461 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:35:52.462 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:35:52.466 | INFO     | __main__:create_user_runners:211 - Created runner for interface wlan0, broadcasting on 192.168.86.32
+2023-08-28 16:35:52.469 | INFO     | __main__:create_user_runners:211 - Created runner for interface uap0, broadcasting on 192.168.42.1
+2023-08-28 16:35:52.470 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos-eth0-1._http._tcp.local.'].
+2023-08-28 16:35:52.471 | INFO     | __main__:run:239 - Runner on 192.168.3.1, serving ['blueos-usb0-1._http._tcp.local.'].
+2023-08-28 16:35:52.472 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wlan0-1._http._tcp.local.'].
+2023-08-28 16:35:52.473 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-uap0-1._http._tcp.local.'].
+2023-08-28 16:35:52.474 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos._mavlink._udp.local.', 'blueos._http._tcp.local.'].
+2023-08-28 16:35:52.476 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wifi._http._tcp.local.'].
+2023-08-28 16:35:52.476 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-hostspot._http._tcp.local.'].
+2023-08-28 16:36:02.480 | DEBUG    | commonwealth.settings.manager:load:115 - Found possible candidates for settings source: [PosixPath('/root/.config/beacon/settings-4.json'), PosixPath('/root/.config/beacon/settings-3.json'), PosixPath('/root/.config/beacon/settings-1.json')]
+2023-08-28 16:36:02.481 | DEBUG    | commonwealth.settings.manager:load:117 - Checking /root/.config/beacon/settings-4.json for settings
+2023-08-28 16:36:02.482 | DEBUG    | commonwealth.settings.settings:load:63 - Loading settings from file: /root/.config/beacon/settings-4.json
+2023-08-28 16:36:02.485 | DEBUG    | commonwealth.settings.manager:load:120 - Using /root/.config/beacon/settings-4.json as settings source
+2023-08-28 16:36:02.488 | INFO     | __main__:create_default_runners:186 - Created runner blueos-eth0-1 for 192.168.2.2
+2023-08-28 16:36:02.491 | INFO     | __main__:create_default_runners:186 - Created runner blueos-usb0-1 for 192.168.3.1
+2023-08-28 16:36:02.494 | INFO     | __main__:create_default_runners:186 - Created runner blueos-wlan0-1 for 192.168.86.32
+2023-08-28 16:36:02.496 | INFO     | __main__:create_default_runners:186 - Created runner blueos-uap0-1 for 192.168.42.1
+2023-08-28 16:36:02.499 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:36:02.500 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:36:02.503 | INFO     | __main__:create_user_runners:211 - Created runner for interface wlan0, broadcasting on 192.168.86.32
+2023-08-28 16:36:02.505 | INFO     | __main__:create_user_runners:211 - Created runner for interface uap0, broadcasting on 192.168.42.1
+2023-08-28 16:36:02.506 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos-eth0-1._http._tcp.local.'].
+2023-08-28 16:36:02.507 | INFO     | __main__:run:239 - Runner on 192.168.3.1, serving ['blueos-usb0-1._http._tcp.local.'].
+2023-08-28 16:36:02.508 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wlan0-1._http._tcp.local.'].
+2023-08-28 16:36:02.509 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-uap0-1._http._tcp.local.'].
+2023-08-28 16:36:02.510 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos._mavlink._udp.local.', 'blueos._http._tcp.local.'].
+2023-08-28 16:36:02.510 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wifi._http._tcp.local.'].
+2023-08-28 16:36:02.511 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-hostspot._http._tcp.local.'].
+2023-08-28 16:36:12.514 | DEBUG    | commonwealth.settings.manager:load:115 - Found possible candidates for settings source: [PosixPath('/root/.config/beacon/settings-4.json'), PosixPath('/root/.config/beacon/settings-3.json'), PosixPath('/root/.config/beacon/settings-1.json')]
+2023-08-28 16:36:12.515 | DEBUG    | commonwealth.settings.manager:load:117 - Checking /root/.config/beacon/settings-4.json for settings
+2023-08-28 16:36:12.517 | DEBUG    | commonwealth.settings.settings:load:63 - Loading settings from file: /root/.config/beacon/settings-4.json
+2023-08-28 16:36:12.519 | DEBUG    | commonwealth.settings.manager:load:120 - Using /root/.config/beacon/settings-4.json as settings source
+2023-08-28 16:36:12.522 | INFO     | __main__:create_default_runners:186 - Created runner blueos-eth0-1 for 192.168.2.2
+2023-08-28 16:36:12.524 | INFO     | __main__:create_default_runners:186 - Created runner blueos-usb0-1 for 192.168.3.1
+2023-08-28 16:36:12.526 | INFO     | __main__:create_default_runners:186 - Created runner blueos-wlan0-1 for 192.168.86.32
+2023-08-28 16:36:12.527 | INFO     | __main__:create_default_runners:186 - Created runner blueos-uap0-1 for 192.168.42.1
+2023-08-28 16:36:12.530 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:36:12.531 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:36:12.533 | INFO     | __main__:create_user_runners:211 - Created runner for interface wlan0, broadcasting on 192.168.86.32
+2023-08-28 16:36:12.536 | INFO     | __main__:create_user_runners:211 - Created runner for interface uap0, broadcasting on 192.168.42.1
+2023-08-28 16:36:12.536 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos-eth0-1._http._tcp.local.'].
+2023-08-28 16:36:12.537 | INFO     | __main__:run:239 - Runner on 192.168.3.1, serving ['blueos-usb0-1._http._tcp.local.'].
+2023-08-28 16:36:12.538 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wlan0-1._http._tcp.local.'].
+2023-08-28 16:36:12.539 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-uap0-1._http._tcp.local.'].
+2023-08-28 16:36:12.539 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos._mavlink._udp.local.', 'blueos._http._tcp.local.'].
+2023-08-28 16:36:12.540 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wifi._http._tcp.local.'].
+2023-08-28 16:36:12.541 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-hostspot._http._tcp.local.'].
+2023-08-28 16:36:22.543 | DEBUG    | commonwealth.settings.manager:load:115 - Found possible candidates for settings source: [PosixPath('/root/.config/beacon/settings-4.json'), PosixPath('/root/.config/beacon/settings-3.json'), PosixPath('/root/.config/beacon/settings-1.json')]
+2023-08-28 16:36:22.545 | DEBUG    | commonwealth.settings.manager:load:117 - Checking /root/.config/beacon/settings-4.json for settings
+2023-08-28 16:36:22.548 | DEBUG    | commonwealth.settings.settings:load:63 - Loading settings from file: /root/.config/beacon/settings-4.json
+2023-08-28 16:36:22.553 | DEBUG    | commonwealth.settings.manager:load:120 - Using /root/.config/beacon/settings-4.json as settings source
+2023-08-28 16:36:22.559 | INFO     | __main__:create_default_runners:186 - Created runner blueos-eth0-1 for 192.168.2.2
+2023-08-28 16:36:22.562 | INFO     | __main__:create_default_runners:186 - Created runner blueos-usb0-1 for 192.168.3.1
+2023-08-28 16:36:22.565 | INFO     | __main__:create_default_runners:186 - Created runner blueos-wlan0-1 for 192.168.86.32
+2023-08-28 16:36:22.568 | INFO     | __main__:create_default_runners:186 - Created runner blueos-uap0-1 for 192.168.42.1
+2023-08-28 16:36:22.574 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:36:22.576 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:36:22.581 | INFO     | __main__:create_user_runners:211 - Created runner for interface wlan0, broadcasting on 192.168.86.32
+2023-08-28 16:36:22.584 | INFO     | __main__:create_user_runners:211 - Created runner for interface uap0, broadcasting on 192.168.42.1
+2023-08-28 16:36:22.585 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos-eth0-1._http._tcp.local.'].
+2023-08-28 16:36:22.587 | INFO     | __main__:run:239 - Runner on 192.168.3.1, serving ['blueos-usb0-1._http._tcp.local.'].
+2023-08-28 16:36:22.588 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wlan0-1._http._tcp.local.'].
+2023-08-28 16:36:22.589 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-uap0-1._http._tcp.local.'].
+2023-08-28 16:36:22.591 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos._mavlink._udp.local.', 'blueos._http._tcp.local.'].
+2023-08-28 16:36:22.592 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wifi._http._tcp.local.'].
+2023-08-28 16:36:22.593 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-hostspot._http._tcp.local.'].
+2023-08-28 16:36:32.597 | DEBUG    | commonwealth.settings.manager:load:115 - Found possible candidates for settings source: [PosixPath('/root/.config/beacon/settings-4.json'), PosixPath('/root/.config/beacon/settings-3.json'), PosixPath('/root/.config/beacon/settings-1.json')]
+2023-08-28 16:36:32.597 | DEBUG    | commonwealth.settings.manager:load:117 - Checking /root/.config/beacon/settings-4.json for settings
+2023-08-28 16:36:32.599 | DEBUG    | commonwealth.settings.settings:load:63 - Loading settings from file: /root/.config/beacon/settings-4.json
+2023-08-28 16:36:32.602 | DEBUG    | commonwealth.settings.manager:load:120 - Using /root/.config/beacon/settings-4.json as settings source
+2023-08-28 16:36:32.605 | INFO     | __main__:create_default_runners:186 - Created runner blueos-eth0-1 for 192.168.2.2
+2023-08-28 16:36:32.607 | INFO     | __main__:create_default_runners:186 - Created runner blueos-usb0-1 for 192.168.3.1
+2023-08-28 16:36:32.608 | INFO     | __main__:create_default_runners:186 - Created runner blueos-wlan0-1 for 192.168.86.32
+2023-08-28 16:36:32.610 | INFO     | __main__:create_default_runners:186 - Created runner blueos-uap0-1 for 192.168.42.1
+2023-08-28 16:36:32.615 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:36:32.617 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:36:32.625 | INFO     | __main__:create_user_runners:211 - Created runner for interface wlan0, broadcasting on 192.168.86.32
+2023-08-28 16:36:32.628 | INFO     | __main__:create_user_runners:211 - Created runner for interface uap0, broadcasting on 192.168.42.1
+2023-08-28 16:36:32.629 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos-eth0-1._http._tcp.local.'].
+2023-08-28 16:36:32.630 | INFO     | __main__:run:239 - Runner on 192.168.3.1, serving ['blueos-usb0-1._http._tcp.local.'].
+2023-08-28 16:36:32.632 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wlan0-1._http._tcp.local.'].
+2023-08-28 16:36:32.632 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-uap0-1._http._tcp.local.'].
+2023-08-28 16:36:32.633 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos._mavlink._udp.local.', 'blueos._http._tcp.local.'].
+2023-08-28 16:36:32.635 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wifi._http._tcp.local.'].
+2023-08-28 16:36:32.636 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-hostspot._http._tcp.local.'].
+2023-08-28 16:36:42.640 | DEBUG    | commonwealth.settings.manager:load:115 - Found possible candidates for settings source: [PosixPath('/root/.config/beacon/settings-4.json'), PosixPath('/root/.config/beacon/settings-3.json'), PosixPath('/root/.config/beacon/settings-1.json')]
+2023-08-28 16:36:42.640 | DEBUG    | commonwealth.settings.manager:load:117 - Checking /root/.config/beacon/settings-4.json for settings
+2023-08-28 16:36:42.642 | DEBUG    | commonwealth.settings.settings:load:63 - Loading settings from file: /root/.config/beacon/settings-4.json
+2023-08-28 16:36:42.644 | DEBUG    | commonwealth.settings.manager:load:120 - Using /root/.config/beacon/settings-4.json as settings source
+2023-08-28 16:36:42.647 | INFO     | __main__:create_default_runners:186 - Created runner blueos-eth0-1 for 192.168.2.2
+2023-08-28 16:36:42.650 | INFO     | __main__:create_default_runners:186 - Created runner blueos-usb0-1 for 192.168.3.1
+2023-08-28 16:36:42.652 | INFO     | __main__:create_default_runners:186 - Created runner blueos-wlan0-1 for 192.168.86.32
+2023-08-28 16:36:42.653 | INFO     | __main__:create_default_runners:186 - Created runner blueos-uap0-1 for 192.168.42.1
+2023-08-28 16:36:42.656 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:36:42.657 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:36:42.660 | INFO     | __main__:create_user_runners:211 - Created runner for interface wlan0, broadcasting on 192.168.86.32
+2023-08-28 16:36:42.661 | INFO     | __main__:create_user_runners:211 - Created runner for interface uap0, broadcasting on 192.168.42.1
+2023-08-28 16:36:42.662 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos-eth0-1._http._tcp.local.'].
+2023-08-28 16:36:42.663 | INFO     | __main__:run:239 - Runner on 192.168.3.1, serving ['blueos-usb0-1._http._tcp.local.'].
+2023-08-28 16:36:42.664 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wlan0-1._http._tcp.local.'].
+2023-08-28 16:36:42.665 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-uap0-1._http._tcp.local.'].
+2023-08-28 16:36:42.665 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos._mavlink._udp.local.', 'blueos._http._tcp.local.'].
+2023-08-28 16:36:42.666 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wifi._http._tcp.local.'].
+2023-08-28 16:36:42.667 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-hostspot._http._tcp.local.'].
+2023-08-28 16:36:52.674 | DEBUG    | commonwealth.settings.manager:load:115 - Found possible candidates for settings source: [PosixPath('/root/.config/beacon/settings-4.json'), PosixPath('/root/.config/beacon/settings-3.json'), PosixPath('/root/.config/beacon/settings-1.json')]
+2023-08-28 16:36:52.675 | DEBUG    | commonwealth.settings.manager:load:117 - Checking /root/.config/beacon/settings-4.json for settings
+2023-08-28 16:36:52.676 | DEBUG    | commonwealth.settings.settings:load:63 - Loading settings from file: /root/.config/beacon/settings-4.json
+2023-08-28 16:36:52.680 | DEBUG    | commonwealth.settings.manager:load:120 - Using /root/.config/beacon/settings-4.json as settings source
+2023-08-28 16:36:52.683 | INFO     | __main__:create_default_runners:186 - Created runner blueos-eth0-1 for 192.168.2.2
+2023-08-28 16:36:52.685 | INFO     | __main__:create_default_runners:186 - Created runner blueos-usb0-1 for 192.168.3.1
+2023-08-28 16:36:52.687 | INFO     | __main__:create_default_runners:186 - Created runner blueos-wlan0-1 for 192.168.86.32
+2023-08-28 16:36:52.689 | INFO     | __main__:create_default_runners:186 - Created runner blueos-uap0-1 for 192.168.42.1
+2023-08-28 16:36:52.692 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:36:52.693 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:36:52.696 | INFO     | __main__:create_user_runners:211 - Created runner for interface wlan0, broadcasting on 192.168.86.32
+2023-08-28 16:36:52.698 | INFO     | __main__:create_user_runners:211 - Created runner for interface uap0, broadcasting on 192.168.42.1
+2023-08-28 16:36:52.699 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos-eth0-1._http._tcp.local.'].
+2023-08-28 16:36:52.700 | INFO     | __main__:run:239 - Runner on 192.168.3.1, serving ['blueos-usb0-1._http._tcp.local.'].
+2023-08-28 16:36:52.700 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wlan0-1._http._tcp.local.'].
+2023-08-28 16:36:52.701 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-uap0-1._http._tcp.local.'].
+2023-08-28 16:36:52.702 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos._mavlink._udp.local.', 'blueos._http._tcp.local.'].
+2023-08-28 16:36:52.703 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wifi._http._tcp.local.'].
+2023-08-28 16:36:52.704 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-hostspot._http._tcp.local.'].
+2023-08-28 16:37:02.707 | DEBUG    | commonwealth.settings.manager:load:115 - Found possible candidates for settings source: [PosixPath('/root/.config/beacon/settings-4.json'), PosixPath('/root/.config/beacon/settings-3.json'), PosixPath('/root/.config/beacon/settings-1.json')]
+2023-08-28 16:37:02.708 | DEBUG    | commonwealth.settings.manager:load:117 - Checking /root/.config/beacon/settings-4.json for settings
+2023-08-28 16:37:02.710 | DEBUG    | commonwealth.settings.settings:load:63 - Loading settings from file: /root/.config/beacon/settings-4.json
+2023-08-28 16:37:02.712 | DEBUG    | commonwealth.settings.manager:load:120 - Using /root/.config/beacon/settings-4.json as settings source
+2023-08-28 16:37:02.716 | INFO     | __main__:create_default_runners:186 - Created runner blueos-eth0-1 for 192.168.2.2
+2023-08-28 16:37:02.718 | INFO     | __main__:create_default_runners:186 - Created runner blueos-usb0-1 for 192.168.3.1
+2023-08-28 16:37:02.720 | INFO     | __main__:create_default_runners:186 - Created runner blueos-wlan0-1 for 192.168.86.32
+2023-08-28 16:37:02.722 | INFO     | __main__:create_default_runners:186 - Created runner blueos-uap0-1 for 192.168.42.1
+2023-08-28 16:37:02.726 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:37:02.727 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:37:02.730 | INFO     | __main__:create_user_runners:211 - Created runner for interface wlan0, broadcasting on 192.168.86.32
+2023-08-28 16:37:02.732 | INFO     | __main__:create_user_runners:211 - Created runner for interface uap0, broadcasting on 192.168.42.1
+2023-08-28 16:37:02.733 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos-eth0-1._http._tcp.local.'].
+2023-08-28 16:37:02.734 | INFO     | __main__:run:239 - Runner on 192.168.3.1, serving ['blueos-usb0-1._http._tcp.local.'].
+2023-08-28 16:37:02.735 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wlan0-1._http._tcp.local.'].
+2023-08-28 16:37:02.736 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-uap0-1._http._tcp.local.'].
+2023-08-28 16:37:02.737 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos._mavlink._udp.local.', 'blueos._http._tcp.local.'].
+2023-08-28 16:37:02.737 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wifi._http._tcp.local.'].
+2023-08-28 16:37:02.739 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-hostspot._http._tcp.local.'].
+2023-08-28 16:37:12.742 | DEBUG    | commonwealth.settings.manager:load:115 - Found possible candidates for settings source: [PosixPath('/root/.config/beacon/settings-4.json'), PosixPath('/root/.config/beacon/settings-3.json'), PosixPath('/root/.config/beacon/settings-1.json')]
+2023-08-28 16:37:12.744 | DEBUG    | commonwealth.settings.manager:load:117 - Checking /root/.config/beacon/settings-4.json for settings
+2023-08-28 16:37:12.747 | DEBUG    | commonwealth.settings.settings:load:63 - Loading settings from file: /root/.config/beacon/settings-4.json
+2023-08-28 16:37:12.751 | DEBUG    | commonwealth.settings.manager:load:120 - Using /root/.config/beacon/settings-4.json as settings source
+2023-08-28 16:37:12.754 | INFO     | __main__:create_default_runners:186 - Created runner blueos-eth0-1 for 192.168.2.2
+2023-08-28 16:37:12.756 | INFO     | __main__:create_default_runners:186 - Created runner blueos-usb0-1 for 192.168.3.1
+2023-08-28 16:37:12.758 | INFO     | __main__:create_default_runners:186 - Created runner blueos-wlan0-1 for 192.168.86.32
+2023-08-28 16:37:12.760 | INFO     | __main__:create_default_runners:186 - Created runner blueos-uap0-1 for 192.168.42.1
+2023-08-28 16:37:12.763 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:37:12.764 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:37:12.767 | INFO     | __main__:create_user_runners:211 - Created runner for interface wlan0, broadcasting on 192.168.86.32
+2023-08-28 16:37:12.769 | INFO     | __main__:create_user_runners:211 - Created runner for interface uap0, broadcasting on 192.168.42.1
+2023-08-28 16:37:12.770 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos-eth0-1._http._tcp.local.'].
+2023-08-28 16:37:12.771 | INFO     | __main__:run:239 - Runner on 192.168.3.1, serving ['blueos-usb0-1._http._tcp.local.'].
+2023-08-28 16:37:12.772 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wlan0-1._http._tcp.local.'].
+2023-08-28 16:37:12.772 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-uap0-1._http._tcp.local.'].
+2023-08-28 16:37:12.773 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos._mavlink._udp.local.', 'blueos._http._tcp.local.'].
+2023-08-28 16:37:12.775 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wifi._http._tcp.local.'].
+2023-08-28 16:37:12.776 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-hostspot._http._tcp.local.'].
+2023-08-28 16:37:22.779 | DEBUG    | commonwealth.settings.manager:load:115 - Found possible candidates for settings source: [PosixPath('/root/.config/beacon/settings-4.json'), PosixPath('/root/.config/beacon/settings-3.json'), PosixPath('/root/.config/beacon/settings-1.json')]
+2023-08-28 16:37:22.782 | DEBUG    | commonwealth.settings.manager:load:117 - Checking /root/.config/beacon/settings-4.json for settings
+2023-08-28 16:37:22.783 | DEBUG    | commonwealth.settings.settings:load:63 - Loading settings from file: /root/.config/beacon/settings-4.json
+2023-08-28 16:37:22.787 | DEBUG    | commonwealth.settings.manager:load:120 - Using /root/.config/beacon/settings-4.json as settings source
+2023-08-28 16:37:22.792 | INFO     | __main__:create_default_runners:186 - Created runner blueos-eth0-1 for 192.168.2.2
+2023-08-28 16:37:22.794 | INFO     | __main__:create_default_runners:186 - Created runner blueos-usb0-1 for 192.168.3.1
+2023-08-28 16:37:22.797 | INFO     | __main__:create_default_runners:186 - Created runner blueos-wlan0-1 for 192.168.86.32
+2023-08-28 16:37:22.799 | INFO     | __main__:create_default_runners:186 - Created runner blueos-uap0-1 for 192.168.42.1
+2023-08-28 16:37:22.808 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:37:22.811 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:37:22.818 | INFO     | __main__:create_user_runners:211 - Created runner for interface wlan0, broadcasting on 192.168.86.32
+2023-08-28 16:37:22.823 | INFO     | __main__:create_user_runners:211 - Created runner for interface uap0, broadcasting on 192.168.42.1
+2023-08-28 16:37:22.826 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos-eth0-1._http._tcp.local.'].
+2023-08-28 16:37:22.828 | INFO     | __main__:run:239 - Runner on 192.168.3.1, serving ['blueos-usb0-1._http._tcp.local.'].
+2023-08-28 16:37:22.831 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wlan0-1._http._tcp.local.'].
+2023-08-28 16:37:22.833 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-uap0-1._http._tcp.local.'].
+2023-08-28 16:37:22.836 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos._mavlink._udp.local.', 'blueos._http._tcp.local.'].
+2023-08-28 16:37:22.841 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wifi._http._tcp.local.'].
+2023-08-28 16:37:22.843 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-hostspot._http._tcp.local.'].
+2023-08-28 16:37:32.847 | DEBUG    | commonwealth.settings.manager:load:115 - Found possible candidates for settings source: [PosixPath('/root/.config/beacon/settings-4.json'), PosixPath('/root/.config/beacon/settings-3.json'), PosixPath('/root/.config/beacon/settings-1.json')]
+2023-08-28 16:37:32.849 | DEBUG    | commonwealth.settings.manager:load:117 - Checking /root/.config/beacon/settings-4.json for settings
+2023-08-28 16:37:32.850 | DEBUG    | commonwealth.settings.settings:load:63 - Loading settings from file: /root/.config/beacon/settings-4.json
+2023-08-28 16:37:32.852 | DEBUG    | commonwealth.settings.manager:load:120 - Using /root/.config/beacon/settings-4.json as settings source
+2023-08-28 16:37:32.856 | INFO     | __main__:create_default_runners:186 - Created runner blueos-eth0-1 for 192.168.2.2
+2023-08-28 16:37:32.858 | INFO     | __main__:create_default_runners:186 - Created runner blueos-usb0-1 for 192.168.3.1
+2023-08-28 16:37:32.860 | INFO     | __main__:create_default_runners:186 - Created runner blueos-wlan0-1 for 192.168.86.32
+2023-08-28 16:37:32.862 | INFO     | __main__:create_default_runners:186 - Created runner blueos-uap0-1 for 192.168.42.1
+2023-08-28 16:37:32.866 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:37:32.867 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:37:32.869 | INFO     | __main__:create_user_runners:211 - Created runner for interface wlan0, broadcasting on 192.168.86.32
+2023-08-28 16:37:32.871 | INFO     | __main__:create_user_runners:211 - Created runner for interface uap0, broadcasting on 192.168.42.1
+2023-08-28 16:37:32.872 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos-eth0-1._http._tcp.local.'].
+2023-08-28 16:37:32.873 | INFO     | __main__:run:239 - Runner on 192.168.3.1, serving ['blueos-usb0-1._http._tcp.local.'].
+2023-08-28 16:37:32.873 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wlan0-1._http._tcp.local.'].
+2023-08-28 16:37:32.875 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-uap0-1._http._tcp.local.'].
+2023-08-28 16:37:32.875 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos._mavlink._udp.local.', 'blueos._http._tcp.local.'].
+2023-08-28 16:37:32.876 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wifi._http._tcp.local.'].
+2023-08-28 16:37:32.877 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-hostspot._http._tcp.local.'].
+2023-08-28 16:37:42.879 | DEBUG    | commonwealth.settings.manager:load:115 - Found possible candidates for settings source: [PosixPath('/root/.config/beacon/settings-4.json'), PosixPath('/root/.config/beacon/settings-3.json'), PosixPath('/root/.config/beacon/settings-1.json')]
+2023-08-28 16:37:42.880 | DEBUG    | commonwealth.settings.manager:load:117 - Checking /root/.config/beacon/settings-4.json for settings
+2023-08-28 16:37:42.881 | DEBUG    | commonwealth.settings.settings:load:63 - Loading settings from file: /root/.config/beacon/settings-4.json
+2023-08-28 16:37:42.884 | DEBUG    | commonwealth.settings.manager:load:120 - Using /root/.config/beacon/settings-4.json as settings source
+2023-08-28 16:37:42.887 | INFO     | __main__:create_default_runners:186 - Created runner blueos-eth0-1 for 192.168.2.2
+2023-08-28 16:37:42.889 | INFO     | __main__:create_default_runners:186 - Created runner blueos-usb0-1 for 192.168.3.1
+2023-08-28 16:37:42.891 | INFO     | __main__:create_default_runners:186 - Created runner blueos-wlan0-1 for 192.168.86.32
+2023-08-28 16:37:42.893 | INFO     | __main__:create_default_runners:186 - Created runner blueos-uap0-1 for 192.168.42.1
+2023-08-28 16:37:42.897 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:37:42.898 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:37:42.901 | INFO     | __main__:create_user_runners:211 - Created runner for interface wlan0, broadcasting on 192.168.86.32
+2023-08-28 16:37:42.904 | INFO     | __main__:create_user_runners:211 - Created runner for interface uap0, broadcasting on 192.168.42.1
+2023-08-28 16:37:42.905 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos-eth0-1._http._tcp.local.'].
+2023-08-28 16:37:42.905 | INFO     | __main__:run:239 - Runner on 192.168.3.1, serving ['blueos-usb0-1._http._tcp.local.'].
+2023-08-28 16:37:42.906 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wlan0-1._http._tcp.local.'].
+2023-08-28 16:37:42.907 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-uap0-1._http._tcp.local.'].
+2023-08-28 16:37:42.907 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos._mavlink._udp.local.', 'blueos._http._tcp.local.'].
+2023-08-28 16:37:42.908 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wifi._http._tcp.local.'].
+2023-08-28 16:37:42.910 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-hostspot._http._tcp.local.'].
+2023-08-28 16:37:52.920 | DEBUG    | commonwealth.settings.manager:load:115 - Found possible candidates for settings source: [PosixPath('/root/.config/beacon/settings-4.json'), PosixPath('/root/.config/beacon/settings-3.json'), PosixPath('/root/.config/beacon/settings-1.json')]
+2023-08-28 16:37:52.926 | DEBUG    | commonwealth.settings.manager:load:117 - Checking /root/.config/beacon/settings-4.json for settings
+2023-08-28 16:37:52.927 | DEBUG    | commonwealth.settings.settings:load:63 - Loading settings from file: /root/.config/beacon/settings-4.json
+2023-08-28 16:37:52.931 | DEBUG    | commonwealth.settings.manager:load:120 - Using /root/.config/beacon/settings-4.json as settings source
+2023-08-28 16:37:52.935 | INFO     | __main__:create_default_runners:186 - Created runner blueos-eth0-1 for 192.168.2.2
+2023-08-28 16:37:52.939 | INFO     | __main__:create_default_runners:186 - Created runner blueos-usb0-1 for 192.168.3.1
+2023-08-28 16:37:52.941 | INFO     | __main__:create_default_runners:186 - Created runner blueos-wlan0-1 for 192.168.86.32
+2023-08-28 16:37:52.944 | INFO     | __main__:create_default_runners:186 - Created runner blueos-uap0-1 for 192.168.42.1
+2023-08-28 16:37:52.947 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:37:52.948 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:37:52.952 | INFO     | __main__:create_user_runners:211 - Created runner for interface wlan0, broadcasting on 192.168.86.32
+2023-08-28 16:37:52.953 | INFO     | __main__:create_user_runners:211 - Created runner for interface uap0, broadcasting on 192.168.42.1
+2023-08-28 16:37:52.955 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos-eth0-1._http._tcp.local.'].
+2023-08-28 16:37:52.956 | INFO     | __main__:run:239 - Runner on 192.168.3.1, serving ['blueos-usb0-1._http._tcp.local.'].
+2023-08-28 16:37:52.957 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wlan0-1._http._tcp.local.'].
+2023-08-28 16:37:52.958 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-uap0-1._http._tcp.local.'].
+2023-08-28 16:37:52.958 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos._mavlink._udp.local.', 'blueos._http._tcp.local.'].
+2023-08-28 16:37:52.959 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wifi._http._tcp.local.'].
+2023-08-28 16:37:52.960 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-hostspot._http._tcp.local.'].
+2023-08-28 16:38:02.962 | DEBUG    | commonwealth.settings.manager:load:115 - Found possible candidates for settings source: [PosixPath('/root/.config/beacon/settings-4.json'), PosixPath('/root/.config/beacon/settings-3.json'), PosixPath('/root/.config/beacon/settings-1.json')]
+2023-08-28 16:38:02.963 | DEBUG    | commonwealth.settings.manager:load:117 - Checking /root/.config/beacon/settings-4.json for settings
+2023-08-28 16:38:02.966 | DEBUG    | commonwealth.settings.settings:load:63 - Loading settings from file: /root/.config/beacon/settings-4.json
+2023-08-28 16:38:02.969 | DEBUG    | commonwealth.settings.manager:load:120 - Using /root/.config/beacon/settings-4.json as settings source
+2023-08-28 16:38:02.973 | INFO     | __main__:create_default_runners:186 - Created runner blueos-eth0-1 for 192.168.2.2
+2023-08-28 16:38:02.975 | INFO     | __main__:create_default_runners:186 - Created runner blueos-usb0-1 for 192.168.3.1
+2023-08-28 16:38:02.978 | INFO     | __main__:create_default_runners:186 - Created runner blueos-wlan0-1 for 192.168.86.32
+2023-08-28 16:38:02.981 | INFO     | __main__:create_default_runners:186 - Created runner blueos-uap0-1 for 192.168.42.1
+2023-08-28 16:38:02.985 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:38:02.987 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:38:02.990 | INFO     | __main__:create_user_runners:211 - Created runner for interface wlan0, broadcasting on 192.168.86.32
+2023-08-28 16:38:02.992 | INFO     | __main__:create_user_runners:211 - Created runner for interface uap0, broadcasting on 192.168.42.1
+2023-08-28 16:38:02.995 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos-eth0-1._http._tcp.local.'].
+2023-08-28 16:38:02.996 | INFO     | __main__:run:239 - Runner on 192.168.3.1, serving ['blueos-usb0-1._http._tcp.local.'].
+2023-08-28 16:38:02.997 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wlan0-1._http._tcp.local.'].
+2023-08-28 16:38:02.998 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-uap0-1._http._tcp.local.'].
+2023-08-28 16:38:02.999 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos._mavlink._udp.local.', 'blueos._http._tcp.local.'].
+2023-08-28 16:38:03.000 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wifi._http._tcp.local.'].
+2023-08-28 16:38:03.002 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-hostspot._http._tcp.local.'].
+2023-08-28 16:38:13.007 | DEBUG    | commonwealth.settings.manager:load:115 - Found possible candidates for settings source: [PosixPath('/root/.config/beacon/settings-4.json'), PosixPath('/root/.config/beacon/settings-3.json'), PosixPath('/root/.config/beacon/settings-1.json')]
+2023-08-28 16:38:13.007 | DEBUG    | commonwealth.settings.manager:load:117 - Checking /root/.config/beacon/settings-4.json for settings
+2023-08-28 16:38:13.009 | DEBUG    | commonwealth.settings.settings:load:63 - Loading settings from file: /root/.config/beacon/settings-4.json
+2023-08-28 16:38:13.016 | DEBUG    | commonwealth.settings.manager:load:120 - Using /root/.config/beacon/settings-4.json as settings source
+2023-08-28 16:38:13.019 | INFO     | __main__:create_default_runners:186 - Created runner blueos-eth0-1 for 192.168.2.2
+2023-08-28 16:38:13.021 | INFO     | __main__:create_default_runners:186 - Created runner blueos-usb0-1 for 192.168.3.1
+2023-08-28 16:38:13.024 | INFO     | __main__:create_default_runners:186 - Created runner blueos-wlan0-1 for 192.168.86.32
+2023-08-28 16:38:13.026 | INFO     | __main__:create_default_runners:186 - Created runner blueos-uap0-1 for 192.168.42.1
+2023-08-28 16:38:13.030 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:38:13.032 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:38:13.035 | INFO     | __main__:create_user_runners:211 - Created runner for interface wlan0, broadcasting on 192.168.86.32
+2023-08-28 16:38:13.037 | INFO     | __main__:create_user_runners:211 - Created runner for interface uap0, broadcasting on 192.168.42.1
+2023-08-28 16:38:13.038 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos-eth0-1._http._tcp.local.'].
+2023-08-28 16:38:13.039 | INFO     | __main__:run:239 - Runner on 192.168.3.1, serving ['blueos-usb0-1._http._tcp.local.'].
+2023-08-28 16:38:13.040 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wlan0-1._http._tcp.local.'].
+2023-08-28 16:38:13.040 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-uap0-1._http._tcp.local.'].
+2023-08-28 16:38:13.041 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos._mavlink._udp.local.', 'blueos._http._tcp.local.'].
+2023-08-28 16:38:13.042 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wifi._http._tcp.local.'].
+2023-08-28 16:38:13.042 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-hostspot._http._tcp.local.'].
+2023-08-28 16:38:23.046 | DEBUG    | commonwealth.settings.manager:load:115 - Found possible candidates for settings source: [PosixPath('/root/.config/beacon/settings-4.json'), PosixPath('/root/.config/beacon/settings-3.json'), PosixPath('/root/.config/beacon/settings-1.json')]
+2023-08-28 16:38:23.048 | DEBUG    | commonwealth.settings.manager:load:117 - Checking /root/.config/beacon/settings-4.json for settings
+2023-08-28 16:38:23.050 | DEBUG    | commonwealth.settings.settings:load:63 - Loading settings from file: /root/.config/beacon/settings-4.json
+2023-08-28 16:38:23.055 | DEBUG    | commonwealth.settings.manager:load:120 - Using /root/.config/beacon/settings-4.json as settings source
+2023-08-28 16:38:23.060 | INFO     | __main__:create_default_runners:186 - Created runner blueos-eth0-1 for 192.168.2.2
+2023-08-28 16:38:23.064 | INFO     | __main__:create_default_runners:186 - Created runner blueos-usb0-1 for 192.168.3.1
+2023-08-28 16:38:23.067 | INFO     | __main__:create_default_runners:186 - Created runner blueos-wlan0-1 for 192.168.86.32
+2023-08-28 16:38:23.070 | INFO     | __main__:create_default_runners:186 - Created runner blueos-uap0-1 for 192.168.42.1
+2023-08-28 16:38:23.076 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:38:23.078 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:38:23.083 | INFO     | __main__:create_user_runners:211 - Created runner for interface wlan0, broadcasting on 192.168.86.32
+2023-08-28 16:38:23.086 | INFO     | __main__:create_user_runners:211 - Created runner for interface uap0, broadcasting on 192.168.42.1
+2023-08-28 16:38:23.087 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos-eth0-1._http._tcp.local.'].
+2023-08-28 16:38:23.089 | INFO     | __main__:run:239 - Runner on 192.168.3.1, serving ['blueos-usb0-1._http._tcp.local.'].
+2023-08-28 16:38:23.090 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wlan0-1._http._tcp.local.'].
+2023-08-28 16:38:23.091 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-uap0-1._http._tcp.local.'].
+2023-08-28 16:38:23.092 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos._mavlink._udp.local.', 'blueos._http._tcp.local.'].
+2023-08-28 16:38:23.094 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wifi._http._tcp.local.'].
+2023-08-28 16:38:23.096 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-hostspot._http._tcp.local.'].
+2023-08-28 16:38:33.101 | DEBUG    | commonwealth.settings.manager:load:115 - Found possible candidates for settings source: [PosixPath('/root/.config/beacon/settings-4.json'), PosixPath('/root/.config/beacon/settings-3.json'), PosixPath('/root/.config/beacon/settings-1.json')]
+2023-08-28 16:38:33.101 | DEBUG    | commonwealth.settings.manager:load:117 - Checking /root/.config/beacon/settings-4.json for settings
+2023-08-28 16:38:33.103 | DEBUG    | commonwealth.settings.settings:load:63 - Loading settings from file: /root/.config/beacon/settings-4.json
+2023-08-28 16:38:33.105 | DEBUG    | commonwealth.settings.manager:load:120 - Using /root/.config/beacon/settings-4.json as settings source
+2023-08-28 16:38:33.108 | INFO     | __main__:create_default_runners:186 - Created runner blueos-eth0-1 for 192.168.2.2
+2023-08-28 16:38:33.110 | INFO     | __main__:create_default_runners:186 - Created runner blueos-usb0-1 for 192.168.3.1
+2023-08-28 16:38:33.112 | INFO     | __main__:create_default_runners:186 - Created runner blueos-wlan0-1 for 192.168.86.32
+2023-08-28 16:38:33.113 | INFO     | __main__:create_default_runners:186 - Created runner blueos-uap0-1 for 192.168.42.1
+2023-08-28 16:38:33.117 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:38:33.118 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:38:33.120 | INFO     | __main__:create_user_runners:211 - Created runner for interface wlan0, broadcasting on 192.168.86.32
+2023-08-28 16:38:33.122 | INFO     | __main__:create_user_runners:211 - Created runner for interface uap0, broadcasting on 192.168.42.1
+2023-08-28 16:38:33.123 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos-eth0-1._http._tcp.local.'].
+2023-08-28 16:38:33.124 | INFO     | __main__:run:239 - Runner on 192.168.3.1, serving ['blueos-usb0-1._http._tcp.local.'].
+2023-08-28 16:38:33.124 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wlan0-1._http._tcp.local.'].
+2023-08-28 16:38:33.125 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-uap0-1._http._tcp.local.'].
+2023-08-28 16:38:33.126 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos._mavlink._udp.local.', 'blueos._http._tcp.local.'].
+2023-08-28 16:38:33.127 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wifi._http._tcp.local.'].
+2023-08-28 16:38:33.128 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-hostspot._http._tcp.local.'].
+2023-08-28 16:38:43.130 | DEBUG    | commonwealth.settings.manager:load:115 - Found possible candidates for settings source: [PosixPath('/root/.config/beacon/settings-4.json'), PosixPath('/root/.config/beacon/settings-3.json'), PosixPath('/root/.config/beacon/settings-1.json')]
+2023-08-28 16:38:43.132 | DEBUG    | commonwealth.settings.manager:load:117 - Checking /root/.config/beacon/settings-4.json for settings
+2023-08-28 16:38:43.133 | DEBUG    | commonwealth.settings.settings:load:63 - Loading settings from file: /root/.config/beacon/settings-4.json
+2023-08-28 16:38:43.136 | DEBUG    | commonwealth.settings.manager:load:120 - Using /root/.config/beacon/settings-4.json as settings source
+2023-08-28 16:38:43.138 | INFO     | __main__:create_default_runners:186 - Created runner blueos-eth0-1 for 192.168.2.2
+2023-08-28 16:38:43.140 | INFO     | __main__:create_default_runners:186 - Created runner blueos-usb0-1 for 192.168.3.1
+2023-08-28 16:38:43.141 | INFO     | __main__:create_default_runners:186 - Created runner blueos-wlan0-1 for 192.168.86.32
+2023-08-28 16:38:43.143 | INFO     | __main__:create_default_runners:186 - Created runner blueos-uap0-1 for 192.168.42.1
+2023-08-28 16:38:43.146 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:38:43.150 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:38:43.152 | INFO     | __main__:create_user_runners:211 - Created runner for interface wlan0, broadcasting on 192.168.86.32
+2023-08-28 16:38:43.154 | INFO     | __main__:create_user_runners:211 - Created runner for interface uap0, broadcasting on 192.168.42.1
+2023-08-28 16:38:43.155 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos-eth0-1._http._tcp.local.'].
+2023-08-28 16:38:43.156 | INFO     | __main__:run:239 - Runner on 192.168.3.1, serving ['blueos-usb0-1._http._tcp.local.'].
+2023-08-28 16:38:43.156 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wlan0-1._http._tcp.local.'].
+2023-08-28 16:38:43.157 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-uap0-1._http._tcp.local.'].
+2023-08-28 16:38:43.157 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos._mavlink._udp.local.', 'blueos._http._tcp.local.'].
+2023-08-28 16:38:43.158 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wifi._http._tcp.local.'].
+2023-08-28 16:38:43.159 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-hostspot._http._tcp.local.'].
+2023-08-28 16:38:53.161 | DEBUG    | commonwealth.settings.manager:load:115 - Found possible candidates for settings source: [PosixPath('/root/.config/beacon/settings-4.json'), PosixPath('/root/.config/beacon/settings-3.json'), PosixPath('/root/.config/beacon/settings-1.json')]
+2023-08-28 16:38:53.162 | DEBUG    | commonwealth.settings.manager:load:117 - Checking /root/.config/beacon/settings-4.json for settings
+2023-08-28 16:38:53.163 | DEBUG    | commonwealth.settings.settings:load:63 - Loading settings from file: /root/.config/beacon/settings-4.json
+2023-08-28 16:38:53.166 | DEBUG    | commonwealth.settings.manager:load:120 - Using /root/.config/beacon/settings-4.json as settings source
+2023-08-28 16:38:53.170 | INFO     | __main__:create_default_runners:186 - Created runner blueos-eth0-1 for 192.168.2.2
+2023-08-28 16:38:53.172 | INFO     | __main__:create_default_runners:186 - Created runner blueos-usb0-1 for 192.168.3.1
+2023-08-28 16:38:53.174 | INFO     | __main__:create_default_runners:186 - Created runner blueos-wlan0-1 for 192.168.86.32
+2023-08-28 16:38:53.176 | INFO     | __main__:create_default_runners:186 - Created runner blueos-uap0-1 for 192.168.42.1
+2023-08-28 16:38:53.179 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:38:53.180 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:38:53.183 | INFO     | __main__:create_user_runners:211 - Created runner for interface wlan0, broadcasting on 192.168.86.32
+2023-08-28 16:38:53.185 | INFO     | __main__:create_user_runners:211 - Created runner for interface uap0, broadcasting on 192.168.42.1
+2023-08-28 16:38:53.186 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos-eth0-1._http._tcp.local.'].
+2023-08-28 16:38:53.187 | INFO     | __main__:run:239 - Runner on 192.168.3.1, serving ['blueos-usb0-1._http._tcp.local.'].
+2023-08-28 16:38:53.188 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wlan0-1._http._tcp.local.'].
+2023-08-28 16:38:53.188 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-uap0-1._http._tcp.local.'].
+2023-08-28 16:38:53.189 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos._mavlink._udp.local.', 'blueos._http._tcp.local.'].
+2023-08-28 16:38:53.190 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wifi._http._tcp.local.'].
+2023-08-28 16:38:53.191 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-hostspot._http._tcp.local.'].
+2023-08-28 16:39:03.194 | DEBUG    | commonwealth.settings.manager:load:115 - Found possible candidates for settings source: [PosixPath('/root/.config/beacon/settings-4.json'), PosixPath('/root/.config/beacon/settings-3.json'), PosixPath('/root/.config/beacon/settings-1.json')]
+2023-08-28 16:39:03.195 | DEBUG    | commonwealth.settings.manager:load:117 - Checking /root/.config/beacon/settings-4.json for settings
+2023-08-28 16:39:03.198 | DEBUG    | commonwealth.settings.settings:load:63 - Loading settings from file: /root/.config/beacon/settings-4.json
+2023-08-28 16:39:03.201 | DEBUG    | commonwealth.settings.manager:load:120 - Using /root/.config/beacon/settings-4.json as settings source
+2023-08-28 16:39:03.205 | INFO     | __main__:create_default_runners:186 - Created runner blueos-eth0-1 for 192.168.2.2
+2023-08-28 16:39:03.207 | INFO     | __main__:create_default_runners:186 - Created runner blueos-usb0-1 for 192.168.3.1
+2023-08-28 16:39:03.209 | INFO     | __main__:create_default_runners:186 - Created runner blueos-wlan0-1 for 192.168.86.32
+2023-08-28 16:39:03.211 | INFO     | __main__:create_default_runners:186 - Created runner blueos-uap0-1 for 192.168.42.1
+2023-08-28 16:39:03.214 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:39:03.216 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:39:03.219 | INFO     | __main__:create_user_runners:211 - Created runner for interface wlan0, broadcasting on 192.168.86.32
+2023-08-28 16:39:03.221 | INFO     | __main__:create_user_runners:211 - Created runner for interface uap0, broadcasting on 192.168.42.1
+2023-08-28 16:39:03.222 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos-eth0-1._http._tcp.local.'].
+2023-08-28 16:39:03.223 | INFO     | __main__:run:239 - Runner on 192.168.3.1, serving ['blueos-usb0-1._http._tcp.local.'].
+2023-08-28 16:39:03.224 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wlan0-1._http._tcp.local.'].
+2023-08-28 16:39:03.225 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-uap0-1._http._tcp.local.'].
+2023-08-28 16:39:03.226 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos._mavlink._udp.local.', 'blueos._http._tcp.local.'].
+2023-08-28 16:39:03.227 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wifi._http._tcp.local.'].
+2023-08-28 16:39:03.229 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-hostspot._http._tcp.local.'].
+2023-08-28 16:39:13.232 | DEBUG    | commonwealth.settings.manager:load:115 - Found possible candidates for settings source: [PosixPath('/root/.config/beacon/settings-4.json'), PosixPath('/root/.config/beacon/settings-3.json'), PosixPath('/root/.config/beacon/settings-1.json')]
+2023-08-28 16:39:13.235 | DEBUG    | commonwealth.settings.manager:load:117 - Checking /root/.config/beacon/settings-4.json for settings
+2023-08-28 16:39:13.237 | DEBUG    | commonwealth.settings.settings:load:63 - Loading settings from file: /root/.config/beacon/settings-4.json
+2023-08-28 16:39:13.240 | DEBUG    | commonwealth.settings.manager:load:120 - Using /root/.config/beacon/settings-4.json as settings source
+2023-08-28 16:39:13.245 | INFO     | __main__:create_default_runners:186 - Created runner blueos-eth0-1 for 192.168.2.2
+2023-08-28 16:39:13.253 | INFO     | __main__:create_default_runners:186 - Created runner blueos-usb0-1 for 192.168.3.1
+2023-08-28 16:39:13.256 | INFO     | __main__:create_default_runners:186 - Created runner blueos-wlan0-1 for 192.168.86.32
+2023-08-28 16:39:13.258 | INFO     | __main__:create_default_runners:186 - Created runner blueos-uap0-1 for 192.168.42.1
+2023-08-28 16:39:13.263 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:39:13.264 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:39:13.268 | INFO     | __main__:create_user_runners:211 - Created runner for interface wlan0, broadcasting on 192.168.86.32
+2023-08-28 16:39:13.270 | INFO     | __main__:create_user_runners:211 - Created runner for interface uap0, broadcasting on 192.168.42.1
+2023-08-28 16:39:13.272 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos-eth0-1._http._tcp.local.'].
+2023-08-28 16:39:13.273 | INFO     | __main__:run:239 - Runner on 192.168.3.1, serving ['blueos-usb0-1._http._tcp.local.'].
+2023-08-28 16:39:13.274 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wlan0-1._http._tcp.local.'].
+2023-08-28 16:39:13.275 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-uap0-1._http._tcp.local.'].
+2023-08-28 16:39:13.277 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos._mavlink._udp.local.', 'blueos._http._tcp.local.'].
+2023-08-28 16:39:13.285 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wifi._http._tcp.local.'].
+2023-08-28 16:39:13.287 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-hostspot._http._tcp.local.'].
+2023-08-28 16:39:23.292 | DEBUG    | commonwealth.settings.manager:load:115 - Found possible candidates for settings source: [PosixPath('/root/.config/beacon/settings-4.json'), PosixPath('/root/.config/beacon/settings-3.json'), PosixPath('/root/.config/beacon/settings-1.json')]
+2023-08-28 16:39:23.293 | DEBUG    | commonwealth.settings.manager:load:117 - Checking /root/.config/beacon/settings-4.json for settings
+2023-08-28 16:39:23.295 | DEBUG    | commonwealth.settings.settings:load:63 - Loading settings from file: /root/.config/beacon/settings-4.json
+2023-08-28 16:39:23.297 | DEBUG    | commonwealth.settings.manager:load:120 - Using /root/.config/beacon/settings-4.json as settings source
+2023-08-28 16:39:23.300 | INFO     | __main__:create_default_runners:186 - Created runner blueos-eth0-1 for 192.168.2.2
+2023-08-28 16:39:23.302 | INFO     | __main__:create_default_runners:186 - Created runner blueos-usb0-1 for 192.168.3.1
+2023-08-28 16:39:23.304 | INFO     | __main__:create_default_runners:186 - Created runner blueos-wlan0-1 for 192.168.86.32
+2023-08-28 16:39:23.306 | INFO     | __main__:create_default_runners:186 - Created runner blueos-uap0-1 for 192.168.42.1
+2023-08-28 16:39:23.309 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:39:23.310 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:39:23.313 | INFO     | __main__:create_user_runners:211 - Created runner for interface wlan0, broadcasting on 192.168.86.32
+2023-08-28 16:39:23.315 | INFO     | __main__:create_user_runners:211 - Created runner for interface uap0, broadcasting on 192.168.42.1
+2023-08-28 16:39:23.316 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos-eth0-1._http._tcp.local.'].
+2023-08-28 16:39:23.317 | INFO     | __main__:run:239 - Runner on 192.168.3.1, serving ['blueos-usb0-1._http._tcp.local.'].
+2023-08-28 16:39:23.318 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wlan0-1._http._tcp.local.'].
+2023-08-28 16:39:23.318 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-uap0-1._http._tcp.local.'].
+2023-08-28 16:39:23.319 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos._mavlink._udp.local.', 'blueos._http._tcp.local.'].
+2023-08-28 16:39:23.320 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wifi._http._tcp.local.'].
+2023-08-28 16:39:23.321 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-hostspot._http._tcp.local.'].
+2023-08-28 16:39:33.323 | DEBUG    | commonwealth.settings.manager:load:115 - Found possible candidates for settings source: [PosixPath('/root/.config/beacon/settings-4.json'), PosixPath('/root/.config/beacon/settings-3.json'), PosixPath('/root/.config/beacon/settings-1.json')]
+2023-08-28 16:39:33.324 | DEBUG    | commonwealth.settings.manager:load:117 - Checking /root/.config/beacon/settings-4.json for settings
+2023-08-28 16:39:33.326 | DEBUG    | commonwealth.settings.settings:load:63 - Loading settings from file: /root/.config/beacon/settings-4.json
+2023-08-28 16:39:33.330 | DEBUG    | commonwealth.settings.manager:load:120 - Using /root/.config/beacon/settings-4.json as settings source
+2023-08-28 16:39:33.333 | INFO     | __main__:create_default_runners:186 - Created runner blueos-eth0-1 for 192.168.2.2
+2023-08-28 16:39:33.336 | INFO     | __main__:create_default_runners:186 - Created runner blueos-usb0-1 for 192.168.3.1
+2023-08-28 16:39:33.337 | INFO     | __main__:create_default_runners:186 - Created runner blueos-wlan0-1 for 192.168.86.32
+2023-08-28 16:39:33.339 | INFO     | __main__:create_default_runners:186 - Created runner blueos-uap0-1 for 192.168.42.1
+2023-08-28 16:39:33.342 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:39:33.343 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:39:33.346 | INFO     | __main__:create_user_runners:211 - Created runner for interface wlan0, broadcasting on 192.168.86.32
+2023-08-28 16:39:33.348 | INFO     | __main__:create_user_runners:211 - Created runner for interface uap0, broadcasting on 192.168.42.1
+2023-08-28 16:39:33.349 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos-eth0-1._http._tcp.local.'].
+2023-08-28 16:39:33.350 | INFO     | __main__:run:239 - Runner on 192.168.3.1, serving ['blueos-usb0-1._http._tcp.local.'].
+2023-08-28 16:39:33.351 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wlan0-1._http._tcp.local.'].
+2023-08-28 16:39:33.352 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-uap0-1._http._tcp.local.'].
+2023-08-28 16:39:33.352 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos._mavlink._udp.local.', 'blueos._http._tcp.local.'].
+2023-08-28 16:39:33.353 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wifi._http._tcp.local.'].
+2023-08-28 16:39:33.354 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-hostspot._http._tcp.local.'].
+2023-08-28 16:39:43.357 | DEBUG    | commonwealth.settings.manager:load:115 - Found possible candidates for settings source: [PosixPath('/root/.config/beacon/settings-4.json'), PosixPath('/root/.config/beacon/settings-3.json'), PosixPath('/root/.config/beacon/settings-1.json')]
+2023-08-28 16:39:43.358 | DEBUG    | commonwealth.settings.manager:load:117 - Checking /root/.config/beacon/settings-4.json for settings
+2023-08-28 16:39:43.360 | DEBUG    | commonwealth.settings.settings:load:63 - Loading settings from file: /root/.config/beacon/settings-4.json
+2023-08-28 16:39:43.363 | DEBUG    | commonwealth.settings.manager:load:120 - Using /root/.config/beacon/settings-4.json as settings source
+2023-08-28 16:39:43.366 | INFO     | __main__:create_default_runners:186 - Created runner blueos-eth0-1 for 192.168.2.2
+2023-08-28 16:39:43.368 | INFO     | __main__:create_default_runners:186 - Created runner blueos-usb0-1 for 192.168.3.1
+2023-08-28 16:39:43.370 | INFO     | __main__:create_default_runners:186 - Created runner blueos-wlan0-1 for 192.168.86.32
+2023-08-28 16:39:43.372 | INFO     | __main__:create_default_runners:186 - Created runner blueos-uap0-1 for 192.168.42.1
+2023-08-28 16:39:43.376 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:39:43.377 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:39:43.380 | INFO     | __main__:create_user_runners:211 - Created runner for interface wlan0, broadcasting on 192.168.86.32
+2023-08-28 16:39:43.382 | INFO     | __main__:create_user_runners:211 - Created runner for interface uap0, broadcasting on 192.168.42.1
+2023-08-28 16:39:43.382 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos-eth0-1._http._tcp.local.'].
+2023-08-28 16:39:43.383 | INFO     | __main__:run:239 - Runner on 192.168.3.1, serving ['blueos-usb0-1._http._tcp.local.'].
+2023-08-28 16:39:43.384 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wlan0-1._http._tcp.local.'].
+2023-08-28 16:39:43.385 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-uap0-1._http._tcp.local.'].
+2023-08-28 16:39:43.386 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos._mavlink._udp.local.', 'blueos._http._tcp.local.'].
+2023-08-28 16:39:43.387 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wifi._http._tcp.local.'].
+2023-08-28 16:39:43.388 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-hostspot._http._tcp.local.'].
+2023-08-28 16:39:53.391 | DEBUG    | commonwealth.settings.manager:load:115 - Found possible candidates for settings source: [PosixPath('/root/.config/beacon/settings-4.json'), PosixPath('/root/.config/beacon/settings-3.json'), PosixPath('/root/.config/beacon/settings-1.json')]
+2023-08-28 16:39:53.392 | DEBUG    | commonwealth.settings.manager:load:117 - Checking /root/.config/beacon/settings-4.json for settings
+2023-08-28 16:39:53.393 | DEBUG    | commonwealth.settings.settings:load:63 - Loading settings from file: /root/.config/beacon/settings-4.json
+2023-08-28 16:39:53.396 | DEBUG    | commonwealth.settings.manager:load:120 - Using /root/.config/beacon/settings-4.json as settings source
+2023-08-28 16:39:53.399 | INFO     | __main__:create_default_runners:186 - Created runner blueos-eth0-1 for 192.168.2.2
+2023-08-28 16:39:53.400 | INFO     | __main__:create_default_runners:186 - Created runner blueos-usb0-1 for 192.168.3.1
+2023-08-28 16:39:53.402 | INFO     | __main__:create_default_runners:186 - Created runner blueos-wlan0-1 for 192.168.86.32
+2023-08-28 16:39:53.404 | INFO     | __main__:create_default_runners:186 - Created runner blueos-uap0-1 for 192.168.42.1
+2023-08-28 16:39:53.408 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:39:53.409 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:39:53.412 | INFO     | __main__:create_user_runners:211 - Created runner for interface wlan0, broadcasting on 192.168.86.32
+2023-08-28 16:39:53.414 | INFO     | __main__:create_user_runners:211 - Created runner for interface uap0, broadcasting on 192.168.42.1
+2023-08-28 16:39:53.415 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos-eth0-1._http._tcp.local.'].
+2023-08-28 16:39:53.416 | INFO     | __main__:run:239 - Runner on 192.168.3.1, serving ['blueos-usb0-1._http._tcp.local.'].
+2023-08-28 16:39:53.416 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wlan0-1._http._tcp.local.'].
+2023-08-28 16:39:53.417 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-uap0-1._http._tcp.local.'].
+2023-08-28 16:39:53.418 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos._mavlink._udp.local.', 'blueos._http._tcp.local.'].
+2023-08-28 16:39:53.418 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wifi._http._tcp.local.'].
+2023-08-28 16:39:53.419 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-hostspot._http._tcp.local.'].
+2023-08-28 16:40:03.422 | DEBUG    | commonwealth.settings.manager:load:115 - Found possible candidates for settings source: [PosixPath('/root/.config/beacon/settings-4.json'), PosixPath('/root/.config/beacon/settings-3.json'), PosixPath('/root/.config/beacon/settings-1.json')]
+2023-08-28 16:40:03.654 | DEBUG    | commonwealth.settings.manager:load:117 - Checking /root/.config/beacon/settings-4.json for settings
+2023-08-28 16:40:03.656 | DEBUG    | commonwealth.settings.settings:load:63 - Loading settings from file: /root/.config/beacon/settings-4.json
+2023-08-28 16:40:03.660 | DEBUG    | commonwealth.settings.manager:load:120 - Using /root/.config/beacon/settings-4.json as settings source
+2023-08-28 16:40:03.663 | INFO     | __main__:create_default_runners:186 - Created runner blueos-eth0-1 for 192.168.2.2
+2023-08-28 16:40:03.667 | INFO     | __main__:create_default_runners:186 - Created runner blueos-usb0-1 for 192.168.3.1
+2023-08-28 16:40:03.669 | INFO     | __main__:create_default_runners:186 - Created runner blueos-wlan0-1 for 192.168.86.32
+2023-08-28 16:40:03.672 | INFO     | __main__:create_default_runners:186 - Created runner blueos-uap0-1 for 192.168.42.1
+2023-08-28 16:40:03.677 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:40:03.678 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:40:03.682 | INFO     | __main__:create_user_runners:211 - Created runner for interface wlan0, broadcasting on 192.168.86.32
+2023-08-28 16:40:03.685 | INFO     | __main__:create_user_runners:211 - Created runner for interface uap0, broadcasting on 192.168.42.1
+2023-08-28 16:40:03.686 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos-eth0-1._http._tcp.local.'].
+2023-08-28 16:40:03.687 | INFO     | __main__:run:239 - Runner on 192.168.3.1, serving ['blueos-usb0-1._http._tcp.local.'].
+2023-08-28 16:40:03.688 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wlan0-1._http._tcp.local.'].
+2023-08-28 16:40:03.689 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-uap0-1._http._tcp.local.'].
+2023-08-28 16:40:03.690 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos._mavlink._udp.local.', 'blueos._http._tcp.local.'].
+2023-08-28 16:40:03.692 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wifi._http._tcp.local.'].
+2023-08-28 16:40:03.693 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-hostspot._http._tcp.local.'].
+2023-08-28 16:40:13.700 | DEBUG    | commonwealth.settings.manager:load:115 - Found possible candidates for settings source: [PosixPath('/root/.config/beacon/settings-4.json'), PosixPath('/root/.config/beacon/settings-3.json'), PosixPath('/root/.config/beacon/settings-1.json')]
+2023-08-28 16:40:13.701 | DEBUG    | commonwealth.settings.manager:load:117 - Checking /root/.config/beacon/settings-4.json for settings
+2023-08-28 16:40:13.703 | DEBUG    | commonwealth.settings.settings:load:63 - Loading settings from file: /root/.config/beacon/settings-4.json
+2023-08-28 16:40:13.708 | DEBUG    | commonwealth.settings.manager:load:120 - Using /root/.config/beacon/settings-4.json as settings source
+2023-08-28 16:40:13.712 | INFO     | __main__:create_default_runners:186 - Created runner blueos-eth0-1 for 192.168.2.2
+2023-08-28 16:40:13.715 | INFO     | __main__:create_default_runners:186 - Created runner blueos-usb0-1 for 192.168.3.1
+2023-08-28 16:40:13.717 | INFO     | __main__:create_default_runners:186 - Created runner blueos-wlan0-1 for 192.168.86.32
+2023-08-28 16:40:13.720 | INFO     | __main__:create_default_runners:186 - Created runner blueos-uap0-1 for 192.168.42.1
+2023-08-28 16:40:13.724 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:40:13.726 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:40:13.729 | INFO     | __main__:create_user_runners:211 - Created runner for interface wlan0, broadcasting on 192.168.86.32
+2023-08-28 16:40:13.732 | INFO     | __main__:create_user_runners:211 - Created runner for interface uap0, broadcasting on 192.168.42.1
+2023-08-28 16:40:13.733 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos-eth0-1._http._tcp.local.'].
+2023-08-28 16:40:13.735 | INFO     | __main__:run:239 - Runner on 192.168.3.1, serving ['blueos-usb0-1._http._tcp.local.'].
+2023-08-28 16:40:13.736 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wlan0-1._http._tcp.local.'].
+2023-08-28 16:40:13.737 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-uap0-1._http._tcp.local.'].
+2023-08-28 16:40:13.738 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos._mavlink._udp.local.', 'blueos._http._tcp.local.'].
+2023-08-28 16:40:13.739 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wifi._http._tcp.local.'].
+2023-08-28 16:40:13.740 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-hostspot._http._tcp.local.'].
+2023-08-28 16:40:23.744 | DEBUG    | commonwealth.settings.manager:load:115 - Found possible candidates for settings source: [PosixPath('/root/.config/beacon/settings-4.json'), PosixPath('/root/.config/beacon/settings-3.json'), PosixPath('/root/.config/beacon/settings-1.json')]
+2023-08-28 16:40:23.745 | DEBUG    | commonwealth.settings.manager:load:117 - Checking /root/.config/beacon/settings-4.json for settings
+2023-08-28 16:40:23.746 | DEBUG    | commonwealth.settings.settings:load:63 - Loading settings from file: /root/.config/beacon/settings-4.json
+2023-08-28 16:40:23.748 | DEBUG    | commonwealth.settings.manager:load:120 - Using /root/.config/beacon/settings-4.json as settings source
+2023-08-28 16:40:23.752 | INFO     | __main__:create_default_runners:186 - Created runner blueos-eth0-1 for 192.168.2.2
+2023-08-28 16:40:23.754 | INFO     | __main__:create_default_runners:186 - Created runner blueos-usb0-1 for 192.168.3.1
+2023-08-28 16:40:23.756 | INFO     | __main__:create_default_runners:186 - Created runner blueos-wlan0-1 for 192.168.86.32
+2023-08-28 16:40:23.759 | INFO     | __main__:create_default_runners:186 - Created runner blueos-uap0-1 for 192.168.42.1
+2023-08-28 16:40:23.762 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:40:23.763 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:40:23.766 | INFO     | __main__:create_user_runners:211 - Created runner for interface wlan0, broadcasting on 192.168.86.32
+2023-08-28 16:40:23.767 | INFO     | __main__:create_user_runners:211 - Created runner for interface uap0, broadcasting on 192.168.42.1
+2023-08-28 16:40:23.768 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos-eth0-1._http._tcp.local.'].
+2023-08-28 16:40:23.769 | INFO     | __main__:run:239 - Runner on 192.168.3.1, serving ['blueos-usb0-1._http._tcp.local.'].
+2023-08-28 16:40:23.770 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wlan0-1._http._tcp.local.'].
+2023-08-28 16:40:23.770 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-uap0-1._http._tcp.local.'].
+2023-08-28 16:40:23.771 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos._mavlink._udp.local.', 'blueos._http._tcp.local.'].
+2023-08-28 16:40:23.772 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wifi._http._tcp.local.'].
+2023-08-28 16:40:23.772 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-hostspot._http._tcp.local.'].
+2023-08-28 16:40:33.776 | DEBUG    | commonwealth.settings.manager:load:115 - Found possible candidates for settings source: [PosixPath('/root/.config/beacon/settings-4.json'), PosixPath('/root/.config/beacon/settings-3.json'), PosixPath('/root/.config/beacon/settings-1.json')]
+2023-08-28 16:40:33.777 | DEBUG    | commonwealth.settings.manager:load:117 - Checking /root/.config/beacon/settings-4.json for settings
+2023-08-28 16:40:33.779 | DEBUG    | commonwealth.settings.settings:load:63 - Loading settings from file: /root/.config/beacon/settings-4.json
+2023-08-28 16:40:33.784 | DEBUG    | commonwealth.settings.manager:load:120 - Using /root/.config/beacon/settings-4.json as settings source
+2023-08-28 16:40:33.788 | INFO     | __main__:create_default_runners:186 - Created runner blueos-eth0-1 for 192.168.2.2
+2023-08-28 16:40:33.791 | INFO     | __main__:create_default_runners:186 - Created runner blueos-usb0-1 for 192.168.3.1
+2023-08-28 16:40:33.793 | INFO     | __main__:create_default_runners:186 - Created runner blueos-wlan0-1 for 192.168.86.32
+2023-08-28 16:40:33.796 | INFO     | __main__:create_default_runners:186 - Created runner blueos-uap0-1 for 192.168.42.1
+2023-08-28 16:40:33.800 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:40:33.803 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:40:33.806 | INFO     | __main__:create_user_runners:211 - Created runner for interface wlan0, broadcasting on 192.168.86.32
+2023-08-28 16:40:33.809 | INFO     | __main__:create_user_runners:211 - Created runner for interface uap0, broadcasting on 192.168.42.1
+2023-08-28 16:40:33.810 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos-eth0-1._http._tcp.local.'].
+2023-08-28 16:40:33.811 | INFO     | __main__:run:239 - Runner on 192.168.3.1, serving ['blueos-usb0-1._http._tcp.local.'].
+2023-08-28 16:40:33.813 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wlan0-1._http._tcp.local.'].
+2023-08-28 16:40:33.814 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-uap0-1._http._tcp.local.'].
+2023-08-28 16:40:33.816 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos._mavlink._udp.local.', 'blueos._http._tcp.local.'].
+2023-08-28 16:40:33.817 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wifi._http._tcp.local.'].
+2023-08-28 16:40:33.818 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-hostspot._http._tcp.local.'].
+2023-08-28 16:40:43.821 | DEBUG    | commonwealth.settings.manager:load:115 - Found possible candidates for settings source: [PosixPath('/root/.config/beacon/settings-4.json'), PosixPath('/root/.config/beacon/settings-3.json'), PosixPath('/root/.config/beacon/settings-1.json')]
+2023-08-28 16:40:43.822 | DEBUG    | commonwealth.settings.manager:load:117 - Checking /root/.config/beacon/settings-4.json for settings
+2023-08-28 16:40:43.824 | DEBUG    | commonwealth.settings.settings:load:63 - Loading settings from file: /root/.config/beacon/settings-4.json
+2023-08-28 16:40:43.826 | DEBUG    | commonwealth.settings.manager:load:120 - Using /root/.config/beacon/settings-4.json as settings source
+2023-08-28 16:40:43.830 | INFO     | __main__:create_default_runners:186 - Created runner blueos-eth0-1 for 192.168.2.2
+2023-08-28 16:40:43.832 | INFO     | __main__:create_default_runners:186 - Created runner blueos-usb0-1 for 192.168.3.1
+2023-08-28 16:40:43.834 | INFO     | __main__:create_default_runners:186 - Created runner blueos-wlan0-1 for 192.168.86.32
+2023-08-28 16:40:43.836 | INFO     | __main__:create_default_runners:186 - Created runner blueos-uap0-1 for 192.168.42.1
+2023-08-28 16:40:43.840 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:40:43.841 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:40:43.844 | INFO     | __main__:create_user_runners:211 - Created runner for interface wlan0, broadcasting on 192.168.86.32
+2023-08-28 16:40:43.846 | INFO     | __main__:create_user_runners:211 - Created runner for interface uap0, broadcasting on 192.168.42.1
+2023-08-28 16:40:43.847 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos-eth0-1._http._tcp.local.'].
+2023-08-28 16:40:43.848 | INFO     | __main__:run:239 - Runner on 192.168.3.1, serving ['blueos-usb0-1._http._tcp.local.'].
+2023-08-28 16:40:43.848 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wlan0-1._http._tcp.local.'].
+2023-08-28 16:40:43.849 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-uap0-1._http._tcp.local.'].
+2023-08-28 16:40:43.850 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos._mavlink._udp.local.', 'blueos._http._tcp.local.'].
+2023-08-28 16:40:43.851 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wifi._http._tcp.local.'].
+2023-08-28 16:40:43.851 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-hostspot._http._tcp.local.'].
+2023-08-28 16:40:53.855 | DEBUG    | commonwealth.settings.manager:load:115 - Found possible candidates for settings source: [PosixPath('/root/.config/beacon/settings-4.json'), PosixPath('/root/.config/beacon/settings-3.json'), PosixPath('/root/.config/beacon/settings-1.json')]
+2023-08-28 16:40:53.856 | DEBUG    | commonwealth.settings.manager:load:117 - Checking /root/.config/beacon/settings-4.json for settings
+2023-08-28 16:40:53.860 | DEBUG    | commonwealth.settings.settings:load:63 - Loading settings from file: /root/.config/beacon/settings-4.json
+2023-08-28 16:40:53.863 | DEBUG    | commonwealth.settings.manager:load:120 - Using /root/.config/beacon/settings-4.json as settings source
+2023-08-28 16:40:53.869 | INFO     | __main__:create_default_runners:186 - Created runner blueos-eth0-1 for 192.168.2.2
+2023-08-28 16:40:53.871 | INFO     | __main__:create_default_runners:186 - Created runner blueos-usb0-1 for 192.168.3.1
+2023-08-28 16:40:53.873 | INFO     | __main__:create_default_runners:186 - Created runner blueos-wlan0-1 for 192.168.86.32
+2023-08-28 16:40:53.875 | INFO     | __main__:create_default_runners:186 - Created runner blueos-uap0-1 for 192.168.42.1
+2023-08-28 16:40:53.878 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:40:53.880 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:40:53.882 | INFO     | __main__:create_user_runners:211 - Created runner for interface wlan0, broadcasting on 192.168.86.32
+2023-08-28 16:40:53.884 | INFO     | __main__:create_user_runners:211 - Created runner for interface uap0, broadcasting on 192.168.42.1
+2023-08-28 16:40:53.885 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos-eth0-1._http._tcp.local.'].
+2023-08-28 16:40:53.885 | INFO     | __main__:run:239 - Runner on 192.168.3.1, serving ['blueos-usb0-1._http._tcp.local.'].
+2023-08-28 16:40:53.887 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wlan0-1._http._tcp.local.'].
+2023-08-28 16:40:53.890 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-uap0-1._http._tcp.local.'].
+2023-08-28 16:40:53.890 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos._mavlink._udp.local.', 'blueos._http._tcp.local.'].
+2023-08-28 16:40:53.891 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wifi._http._tcp.local.'].
+2023-08-28 16:40:53.892 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-hostspot._http._tcp.local.'].
+2023-08-28 16:41:03.895 | DEBUG    | commonwealth.settings.manager:load:115 - Found possible candidates for settings source: [PosixPath('/root/.config/beacon/settings-4.json'), PosixPath('/root/.config/beacon/settings-3.json'), PosixPath('/root/.config/beacon/settings-1.json')]
+2023-08-28 16:41:03.896 | DEBUG    | commonwealth.settings.manager:load:117 - Checking /root/.config/beacon/settings-4.json for settings
+2023-08-28 16:41:03.897 | DEBUG    | commonwealth.settings.settings:load:63 - Loading settings from file: /root/.config/beacon/settings-4.json
+2023-08-28 16:41:03.899 | DEBUG    | commonwealth.settings.manager:load:120 - Using /root/.config/beacon/settings-4.json as settings source
+2023-08-28 16:41:03.902 | INFO     | __main__:create_default_runners:186 - Created runner blueos-eth0-1 for 192.168.2.2
+2023-08-28 16:41:03.904 | INFO     | __main__:create_default_runners:186 - Created runner blueos-usb0-1 for 192.168.3.1
+2023-08-28 16:41:03.906 | INFO     | __main__:create_default_runners:186 - Created runner blueos-wlan0-1 for 192.168.86.32
+2023-08-28 16:41:03.908 | INFO     | __main__:create_default_runners:186 - Created runner blueos-uap0-1 for 192.168.42.1
+2023-08-28 16:41:03.911 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:41:03.913 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:41:03.917 | INFO     | __main__:create_user_runners:211 - Created runner for interface wlan0, broadcasting on 192.168.86.32
+2023-08-28 16:41:03.919 | INFO     | __main__:create_user_runners:211 - Created runner for interface uap0, broadcasting on 192.168.42.1
+2023-08-28 16:41:03.920 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos-eth0-1._http._tcp.local.'].
+2023-08-28 16:41:03.921 | INFO     | __main__:run:239 - Runner on 192.168.3.1, serving ['blueos-usb0-1._http._tcp.local.'].
+2023-08-28 16:41:03.922 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wlan0-1._http._tcp.local.'].
+2023-08-28 16:41:03.923 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-uap0-1._http._tcp.local.'].
+2023-08-28 16:41:03.924 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos._mavlink._udp.local.', 'blueos._http._tcp.local.'].
+2023-08-28 16:41:03.924 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wifi._http._tcp.local.'].
+2023-08-28 16:41:03.925 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-hostspot._http._tcp.local.'].
+2023-08-28 16:41:13.928 | DEBUG    | commonwealth.settings.manager:load:115 - Found possible candidates for settings source: [PosixPath('/root/.config/beacon/settings-4.json'), PosixPath('/root/.config/beacon/settings-3.json'), PosixPath('/root/.config/beacon/settings-1.json')]
+2023-08-28 16:41:13.929 | DEBUG    | commonwealth.settings.manager:load:117 - Checking /root/.config/beacon/settings-4.json for settings
+2023-08-28 16:41:13.932 | DEBUG    | commonwealth.settings.settings:load:63 - Loading settings from file: /root/.config/beacon/settings-4.json
+2023-08-28 16:41:13.936 | DEBUG    | commonwealth.settings.manager:load:120 - Using /root/.config/beacon/settings-4.json as settings source
+2023-08-28 16:41:13.942 | INFO     | __main__:create_default_runners:186 - Created runner blueos-eth0-1 for 192.168.2.2
+2023-08-28 16:41:13.946 | INFO     | __main__:create_default_runners:186 - Created runner blueos-usb0-1 for 192.168.3.1
+2023-08-28 16:41:13.949 | INFO     | __main__:create_default_runners:186 - Created runner blueos-wlan0-1 for 192.168.86.32
+2023-08-28 16:41:13.953 | INFO     | __main__:create_default_runners:186 - Created runner blueos-uap0-1 for 192.168.42.1
+2023-08-28 16:41:13.959 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:41:13.961 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:41:13.971 | INFO     | __main__:create_user_runners:211 - Created runner for interface wlan0, broadcasting on 192.168.86.32
+2023-08-28 16:41:13.976 | INFO     | __main__:create_user_runners:211 - Created runner for interface uap0, broadcasting on 192.168.42.1
+2023-08-28 16:41:13.979 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos-eth0-1._http._tcp.local.'].
+2023-08-28 16:41:13.981 | INFO     | __main__:run:239 - Runner on 192.168.3.1, serving ['blueos-usb0-1._http._tcp.local.'].
+2023-08-28 16:41:13.983 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wlan0-1._http._tcp.local.'].
+2023-08-28 16:41:13.984 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-uap0-1._http._tcp.local.'].
+2023-08-28 16:41:13.985 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos._mavlink._udp.local.', 'blueos._http._tcp.local.'].
+2023-08-28 16:41:13.986 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wifi._http._tcp.local.'].
+2023-08-28 16:41:13.986 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-hostspot._http._tcp.local.'].
+2023-08-28 16:41:23.989 | DEBUG    | commonwealth.settings.manager:load:115 - Found possible candidates for settings source: [PosixPath('/root/.config/beacon/settings-4.json'), PosixPath('/root/.config/beacon/settings-3.json'), PosixPath('/root/.config/beacon/settings-1.json')]
+2023-08-28 16:41:23.991 | DEBUG    | commonwealth.settings.manager:load:117 - Checking /root/.config/beacon/settings-4.json for settings
+2023-08-28 16:41:23.992 | DEBUG    | commonwealth.settings.settings:load:63 - Loading settings from file: /root/.config/beacon/settings-4.json
+2023-08-28 16:41:23.996 | DEBUG    | commonwealth.settings.manager:load:120 - Using /root/.config/beacon/settings-4.json as settings source
+2023-08-28 16:41:23.999 | INFO     | __main__:create_default_runners:186 - Created runner blueos-eth0-1 for 192.168.2.2
+2023-08-28 16:41:24.002 | INFO     | __main__:create_default_runners:186 - Created runner blueos-usb0-1 for 192.168.3.1
+2023-08-28 16:41:24.003 | INFO     | __main__:create_default_runners:186 - Created runner blueos-wlan0-1 for 192.168.86.32
+2023-08-28 16:41:24.005 | INFO     | __main__:create_default_runners:186 - Created runner blueos-uap0-1 for 192.168.42.1
+2023-08-28 16:41:24.008 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:41:24.009 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:41:24.011 | INFO     | __main__:create_user_runners:211 - Created runner for interface wlan0, broadcasting on 192.168.86.32
+2023-08-28 16:41:24.012 | INFO     | __main__:create_user_runners:211 - Created runner for interface uap0, broadcasting on 192.168.42.1
+2023-08-28 16:41:24.013 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos-eth0-1._http._tcp.local.'].
+2023-08-28 16:41:24.014 | INFO     | __main__:run:239 - Runner on 192.168.3.1, serving ['blueos-usb0-1._http._tcp.local.'].
+2023-08-28 16:41:24.015 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wlan0-1._http._tcp.local.'].
+2023-08-28 16:41:24.015 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-uap0-1._http._tcp.local.'].
+2023-08-28 16:41:24.016 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos._mavlink._udp.local.', 'blueos._http._tcp.local.'].
+2023-08-28 16:41:24.017 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wifi._http._tcp.local.'].
+2023-08-28 16:41:24.017 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-hostspot._http._tcp.local.'].
+2023-08-28 16:41:34.025 | DEBUG    | commonwealth.settings.manager:load:115 - Found possible candidates for settings source: [PosixPath('/root/.config/beacon/settings-4.json'), PosixPath('/root/.config/beacon/settings-3.json'), PosixPath('/root/.config/beacon/settings-1.json')]
+2023-08-28 16:41:34.028 | DEBUG    | commonwealth.settings.manager:load:117 - Checking /root/.config/beacon/settings-4.json for settings
+2023-08-28 16:41:34.032 | DEBUG    | commonwealth.settings.settings:load:63 - Loading settings from file: /root/.config/beacon/settings-4.json
+2023-08-28 16:41:34.039 | DEBUG    | commonwealth.settings.manager:load:120 - Using /root/.config/beacon/settings-4.json as settings source
+2023-08-28 16:41:34.045 | INFO     | __main__:create_default_runners:186 - Created runner blueos-eth0-1 for 192.168.2.2
+2023-08-28 16:41:34.050 | INFO     | __main__:create_default_runners:186 - Created runner blueos-usb0-1 for 192.168.3.1
+2023-08-28 16:41:34.056 | INFO     | __main__:create_default_runners:186 - Created runner blueos-wlan0-1 for 192.168.86.32
+2023-08-28 16:41:34.059 | INFO     | __main__:create_default_runners:186 - Created runner blueos-uap0-1 for 192.168.42.1
+2023-08-28 16:41:34.063 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:41:34.064 | INFO     | __main__:create_user_runners:211 - Created runner for interface eth0, broadcasting on 192.168.2.2
+2023-08-28 16:41:34.068 | INFO     | __main__:create_user_runners:211 - Created runner for interface wlan0, broadcasting on 192.168.86.32
+2023-08-28 16:41:34.070 | INFO     | __main__:create_user_runners:211 - Created runner for interface uap0, broadcasting on 192.168.42.1
+2023-08-28 16:41:34.072 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos-eth0-1._http._tcp.local.'].
+2023-08-28 16:41:34.073 | INFO     | __main__:run:239 - Runner on 192.168.3.1, serving ['blueos-usb0-1._http._tcp.local.'].
+2023-08-28 16:41:34.074 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wlan0-1._http._tcp.local.'].
+2023-08-28 16:41:34.080 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-uap0-1._http._tcp.local.'].
+2023-08-28 16:41:34.081 | INFO     | __main__:run:239 - Runner on 192.168.2.2, serving ['blueos._mavlink._udp.local.', 'blueos._http._tcp.local.'].
+2023-08-28 16:41:34.082 | INFO     | __main__:run:239 - Runner on 192.168.86.32, serving ['blueos-wifi._http._tcp.local.'].
+2023-08-28 16:41:34.083 | INFO     | __main__:run:239 - Runner on 192.168.42.1, serving ['blueos-hostspot._http._tcp.local.'].

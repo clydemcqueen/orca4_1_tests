@@ -1,0 +1,24 @@
+2023-08-28 16:14:26.158 | INFO     | __main__:<module>:36 - Starting NMEA Injector.
+2023-08-28 16:14:26.159 | DEBUG    | commonwealth.settings.manager:__init__:33 - Starting nmea-injector settings with SettingsV1, configuration path: None
+2023-08-28 16:14:26.161 | DEBUG    | commonwealth.settings.manager:load:115 - Found possible candidates for settings source: [PosixPath('/root/.config/nmea-injector/settings-1.json')]
+2023-08-28 16:14:26.162 | DEBUG    | commonwealth.settings.manager:load:117 - Checking /root/.config/nmea-injector/settings-1.json for settings
+2023-08-28 16:14:26.163 | DEBUG    | commonwealth.settings.settings:load:63 - Loading settings from file: /root/.config/nmea-injector/settings-1.json
+2023-08-28 16:14:26.164 | DEBUG    | commonwealth.settings.manager:load:120 - Using /root/.config/nmea-injector/settings-1.json as settings source
+2023-08-28 16:14:26.194 | DEBUG    | asyncio.selector_events:__init__:54 - Using selector: EpollSelector
+2023-08-28 16:14:26.197 | DEBUG    | commonwealth.settings.manager:load:115 - Found possible candidates for settings source: [PosixPath('/root/.config/nmea-injector/settings-1.json')]
+2023-08-28 16:14:26.198 | DEBUG    | commonwealth.settings.manager:load:117 - Checking /root/.config/nmea-injector/settings-1.json for settings
+2023-08-28 16:14:26.199 | DEBUG    | commonwealth.settings.settings:load:63 - Loading settings from file: /root/.config/nmea-injector/settings-1.json
+2023-08-28 16:14:26.206 | DEBUG    | commonwealth.settings.manager:load:120 - Using /root/.config/nmea-injector/settings-1.json as settings source
+2023-08-28 16:14:26.310 | INFO     | uvicorn.server:serve:64 - Started server process [209]
+2023-08-28 16:14:26.312 | INFO     | uvicorn.lifespan.on:startup:26 - Waiting for application startup.
+2023-08-28 16:14:26.315 | INFO     | uvicorn.lifespan.on:startup:38 - Application startup complete.
+2023-08-28 16:14:26.317 | INFO     | uvicorn.server:_log_started_message:199 - Uvicorn running on http://0.0.0.0:2748 (Press CTRL+C to quit)
+2023-08-28 16:14:33.511 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:44788 - "GET / HTTP/1.1" 200
+2023-08-28 16:14:33.522 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:44790 - "GET /register_service HTTP/1.1" 404
+2023-08-28 16:14:33.530 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:44792 - "GET /docs HTTP/1.1" 200
+2023-08-28 16:14:33.541 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:44794 - "GET /docs.json HTTP/1.1" 404
+2023-08-28 16:14:33.576 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:44798 - "GET /openapi.json HTTP/1.1" 200
+2023-08-28 16:14:33.583 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:44806 - "GET /v1.0/docs HTTP/1.1" 200
+2023-08-28 16:14:33.619 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:44808 - "GET /v1.0/openapi.json HTTP/1.1" 200
+2023-08-28 16:14:33.626 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:44816 - "GET / HTTP/1.1" 200
+2023-08-28 16:14:33.640 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:44818 - "GET /swagger.json HTTP/1.1" 404

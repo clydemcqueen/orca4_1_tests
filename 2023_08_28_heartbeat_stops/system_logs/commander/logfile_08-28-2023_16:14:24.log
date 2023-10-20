@@ -1,0 +1,2 @@
+2023-08-28 16:41:31.850 | DEBUG    | __main__:shutdown:92 - reboot: CompletedProcess(args=['sshpass', 'ssh', '-i', '/root/.config/.ssh/id_rsa', '-o', 'StrictHostKeyChecking=no', 'pi@localhost', '(sleep 5; sudo reboot)&'], returncode=0, stdout='', stderr='Connection to localhost closed by remote host.\n')
+2023-08-28 16:41:31.861 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:52112 - "POST /v1.0/shutdown?shutdown_type=reboot&i_know_what_i_am_doing=true HTTP/1.0" 200

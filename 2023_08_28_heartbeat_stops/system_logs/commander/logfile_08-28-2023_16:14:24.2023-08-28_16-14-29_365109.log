@@ -1,0 +1,21 @@
+2023-08-28 16:14:24.238 | INFO     | __main__:<module>:34 - Starting Commander!
+2023-08-28 16:14:24.418 | INFO     | __main__:setup_ssh:231 - SSH setup done
+2023-08-28 16:14:26.007 | DEBUG    | asyncio.selector_events:__init__:54 - Using selector: EpollSelector
+2023-08-28 16:14:26.141 | INFO     | uvicorn.server:serve:64 - Started server process [197]
+2023-08-28 16:14:26.143 | INFO     | uvicorn.lifespan.on:startup:26 - Waiting for application startup.
+2023-08-28 16:14:26.147 | INFO     | uvicorn.lifespan.on:startup:38 - Application startup complete.
+2023-08-28 16:14:26.150 | INFO     | uvicorn.server:_log_started_message:199 - Uvicorn running on http://0.0.0.0:9100 (Press CTRL+C to quit)
+2023-08-28 16:14:26.332 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:34238 - "GET / HTTP/1.1" 200
+2023-08-28 16:14:26.342 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:34242 - "GET /register_service HTTP/1.1" 404
+2023-08-28 16:14:26.362 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:34246 - "GET /docs HTTP/1.1" 200
+2023-08-28 16:14:26.375 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:34250 - "GET /docs.json HTTP/1.1" 404
+2023-08-28 16:14:26.402 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:34254 - "GET /openapi.json HTTP/1.1" 200
+2023-08-28 16:14:26.423 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:34258 - "GET /v1.0/docs HTTP/1.1" 200
+2023-08-28 16:14:26.517 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:34264 - "GET /v1.0/openapi.json HTTP/1.1" 200
+2023-08-28 16:14:26.525 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:34268 - "GET / HTTP/1.1" 200
+2023-08-28 16:14:26.532 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:34270 - "GET /swagger.json HTTP/1.1" 404
+2023-08-28 16:14:28.526 | DEBUG    | __main__:command_host:58 - Running command: uname -a
+2023-08-28 16:14:29.143 | DEBUG    | __main__:command_host:60 - Output: CompletedProcess(args=['sshpass', 'ssh', '-i', '/root/.config/.ssh/id_rsa', '-o', 'StrictHostKeyChecking=no', 'pi@localhost', 'uname -a'], returncode=0, stdout='Linux blueos 5.10.92-v7l+ #1514 SMP Mon Jan 17 17:38:03 GMT 2022 armv7l GNU/Linux\n', stderr='')
+2023-08-28 16:14:29.151 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:34398 - "POST /v1.0/command/host?command=uname+-a&i_know_what_i_am_doing=true HTTP/1.0" 200
+2023-08-28 16:14:29.373 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:34406 - "GET /v1.0/services/check_log_folder_size HTTP/1.0" 200
+2023-08-28 16:14:29.377 | INFO     | uvicorn.protocols.http.h11_impl:send:461 - 127.0.0.1:34440 - "POST /v1.0/set_time?unix_time_seconds=1693239268&i_know_what_i_am_doing=true HTTP/1.0" 200
