@@ -16,3 +16,6 @@
 
 # Do not save zip files (there are a bunch from ardupilot-manager)
 *.zip
+
+# Do not save txt files
+*.txt
